@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Local config" pattern="file:src/main/config/local/*" />
+</component>

@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="WebFront" pattern="file:*.jsp||file:*.js" />
+</component>

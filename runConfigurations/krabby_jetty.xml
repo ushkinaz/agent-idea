@@ -1,0 +1,71 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="krabby:jetty" type="MavenRunConfiguration" factoryName="Maven">
+    <MavenSettings>
+      <option name="myGeneralSettings">
+        <MavenGeneralSettings>
+          <option name="checksumPolicy" value="FAIL" />
+          <option name="failureBehavior" value="FAST" />
+          <option name="localRepository" value="" />
+          <option name="mavenHome" value="" />
+          <option name="nonRecursive" value="false" />
+          <option name="outputLevel" value="INFO" />
+          <option name="pluginUpdatePolicy" value="DEFAULT" />
+          <option name="printErrorStackTraces" value="false" />
+          <option name="snapshotUpdatePolicy" value="ALWAYS_UPDATE" />
+          <option name="usePluginRegistry" value="false" />
+          <option name="userSettingsFile" value="" />
+          <option name="workOffline" value="false" />
+        </MavenGeneralSettings>
+      </option>
+      <option name="myRunnerSettings" />
+      <option name="myRunnerParameters">
+        <MavenRunnerParameters>
+          <option name="profiles">
+            <set />
+          </option>
+          <option name="goals">
+            <list>
+              <option value="clean" />
+              <option value="package" />
+              <option value="jetty:run" />
+            </list>
+          </option>
+          <option name="profilesMap">
+            <map />
+          </option>
+          <option name="workingDirPath" value="$PROJECT_DIR$/krabby" />
+        </MavenRunnerParameters>
+      </option>
+    </MavenSettings>
+    <RunnerSettings RunnerId="Debug">
+      <option name="DEBUG_PORT" value="" />
+      <option name="TRANSPORT" value="0" />
+      <option name="LOCAL" value="true" />
+    </RunnerSettings>
+    <RunnerSettings RunnerId="JProfiler">
+      <option name="WINDOW" value="false" />
+      <option name="JVMPI" value="false" />
+      <option name="INTERPRETED" value="false" />
+    </RunnerSettings>
+    <RunnerSettings RunnerId="JRebel Debug">
+      <option name="bootstrapPath" />
+      <option name="debugPort" value="" />
+      <option name="jrebelArgs" />
+      <option name="loggingEnabled" value="false" />
+      <option name="transport" value="0" />
+      <option name="useBootstrapDefaults" value="true" />
+      <option name="DEBUG_PORT" value="" />
+      <option name="TRANSPORT" value="0" />
+      <option name="LOCAL" value="true" />
+    </RunnerSettings>
+    <RunnerSettings RunnerId="Profile ">
+      <option name="myExternalizedOptions" />
+    </RunnerSettings>
+    <RunnerSettings RunnerId="Run" />
+    <ConfigurationWrapper RunnerId="Debug" />
+    <ConfigurationWrapper RunnerId="JRebel Debug" />
+    <ConfigurationWrapper RunnerId="Profile " />
+    <ConfigurationWrapper RunnerId="Run" />
+    <method />
+  </configuration>
+</component>

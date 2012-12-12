@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LanguageInjectionConfiguration">
+    <injection language="Oracle" injector-id="java">
+      <display-name>BaseReportDescriptorQuery.BaseReportDescriptorQuery (ru.agent.reports.impl.query)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("BaseReportDescriptorQuery").withParameters("javax.sql.DataSource", "java.lang.String").definedInClass("ru.agent.reports.impl.query.BaseReportDescriptorQuery"))]]></place>
+    </injection>
+    <injection language="PostgreSQL" injector-id="java">
+      <display-name>BaseReportRequestQuery.BaseReportRequestQuery (ru.agent.reports.impl.query)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("BaseReportRequestQuery").withParameters("javax.sql.DataSource", "java.lang.String").definedInClass("ru.agent.reports.impl.query.BaseReportRequestQuery"))]]></place>
+    </injection>
+    <injection language="Oracle" injector-id="java">
+      <display-name>MessageFormat.format (java.text)</display-name>
+      <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("format").withParameters("java.lang.String", "java.lang.Object...").definedInClass("java.text.MessageFormat"))]]></place>
+    </injection>
+    <injection language="VTL" injector-id="xml">
+      <display-name>body</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("body")).withNamespace(string().equalTo("http://www.w3.org/1999/html"))]]></place>
+    </injection>
+    <injection language="Oracle" injector-id="xml">
+      <display-name>queryString</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("queryString")).withNamespace(string().equalTo("http://jasperreports.sourceforge.net/jasperreports"))]]></place>
+    </injection>
+  </component>
+</project>
+
