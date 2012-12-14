@@ -48,7 +48,9 @@
           <element id="archive" name="psyduck.api.jar">
             <element id="module-output" name="psyduck.api" />
           </element>
-          <element id="library" level="project" name="Maven: ru.agent.utils:amq.utils:3.14-SNAPSHOT" />
+          <element id="archive" name="amq.utils.jar">
+            <element id="module-output" name="amq.utils" />
+          </element>
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-pool:5.5.1" />
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-core:5.5.1" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1" />
@@ -66,7 +68,9 @@
           <element id="archive" name="psyduck.service.jar">
             <element id="module-output" name="psyduck.service" />
           </element>
-          <element id="library" level="project" name="Maven: ru.agent.aspect:hibernate:3.14-SNAPSHOT" />
+          <element id="archive" name="hibernate.jar">
+            <element id="module-output" name="hibernate" />
+          </element>
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:3.6.9.Final" />
           <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-commons-annotations:3.2.0.Final" />

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/actions.history/actions.history.iml" filepath="$PROJECT_DIR$/actions.history/actions.history.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/aeroexpress/aeroexpress.api.iml" filepath="$PROJECT_DIR$/aeroexpress/aeroexpress.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/airbookingservice/airbookingservice.api.iml" filepath="$PROJECT_DIR$/airbookingservice/airbookingservice.api.iml" group="libs/api" />
+      <module fileurl="file://$PROJECT_DIR$/amq.utils/amq.utils.iml" filepath="$PROJECT_DIR$/amq.utils/amq.utils.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/app.aggregator/app.aggregator.iml" filepath="$PROJECT_DIR$/app.aggregator/app.aggregator.iml" group="supplemental" />
       <module fileurl="file://$PROJECT_DIR$/cartrawler.service/cartrawler.service.iml" filepath="$PROJECT_DIR$/cartrawler.service/cartrawler.service.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/classifiers/classifiers.iml" filepath="$PROJECT_DIR$/classifiers/classifiers.iml" group="libs" />
@@ -17,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/commons/commons.iml" filepath="$PROJECT_DIR$/commons/commons.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/corporate.pom/corporate.pom.iml" filepath="$PROJECT_DIR$/corporate.pom/corporate.pom.iml" group="supplemental" />
       <module fileurl="file://$PROJECT_DIR$/sirena.crypto/crypto.iml" filepath="$PROJECT_DIR$/sirena.crypto/crypto.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/cxf.client/cxf.client.iml" filepath="$PROJECT_DIR$/cxf.client/cxf.client.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/cxf.utils/cxf.utils.iml" filepath="$PROJECT_DIR$/cxf.utils/cxf.utils.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/dao/dao.iml" filepath="$PROJECT_DIR$/dao/dao.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/domain.layer/domain.iml" filepath="$PROJECT_DIR$/domain.layer/domain.iml" group="libs" />
@@ -26,8 +28,11 @@
       <module fileurl="file://$PROJECT_DIR$/flightstats.stubs/flightstats.stubs.iml" filepath="$PROJECT_DIR$/flightstats.stubs/flightstats.stubs.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/gamayun/gamayun.iml" filepath="$PROJECT_DIR$/gamayun/gamayun.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/heartbeat/heartbeat.iml" filepath="$PROJECT_DIR$/heartbeat/heartbeat.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate/hibernate.iml" filepath="$PROJECT_DIR$/hibernate/hibernate.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/insurance.api/insurance.api.iml" filepath="$PROJECT_DIR$/insurance.api/insurance.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/insurance.service/insurance.service.iml" filepath="$PROJECT_DIR$/insurance.service/insurance.service.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/jasper/jasper.iml" filepath="$PROJECT_DIR$/jasper/jasper.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc.utils/jdbc.utils.iml" filepath="$PROJECT_DIR$/jdbc.utils/jdbc.utils.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/krabby/krabby.iml" filepath="$PROJECT_DIR$/krabby/krabby.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/log.analyser/log.analyser.iml" filepath="$PROJECT_DIR$/log.analyser/log.analyser.iml" group="application/utils" />
       <module fileurl="file://$PROJECT_DIR$/operation.service/operation.service.iml" filepath="$PROJECT_DIR$/operation.service/operation.service.iml" group="libs" />

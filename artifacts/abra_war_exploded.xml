@@ -8,7 +8,9 @@
           <element id="module-output" name="abra" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: ru.agent.aspect:cxf.client:3.14-SNAPSHOT" />
+          <element id="archive" name="cxf.client.jar">
+            <element id="module-output" name="cxf.client" />
+          </element>
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-frontend-jaxws:2.3.9" />
           <element id="library" level="project" name="Maven: xml-resolver:xml-resolver:1.2" />
           <element id="library" level="project" name="Maven: asm:asm:3.3.1" />
@@ -91,7 +93,9 @@
           <element id="archive" name="services.jar">
             <element id="module-output" name="services" />
           </element>
-          <element id="library" level="project" name="Maven: ru.agent.aspect:hibernate:3.14-SNAPSHOT" />
+          <element id="archive" name="hibernate.jar">
+            <element id="module-output" name="hibernate" />
+          </element>
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:3.6.9.Final" />
           <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-commons-annotations:3.2.0.Final" />
@@ -99,7 +103,9 @@
           <element id="library" level="project" name="Maven: javax.transaction:jta:1.1" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-ehcache:3.6.9.Final" />
           <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-core:2.5.1" />
-          <element id="library" level="project" name="Maven: ru.agent.aspect:jasper:3.14-SNAPSHOT" />
+          <element id="archive" name="jasper.jar">
+            <element id="module-output" name="jasper" />
+          </element>
           <element id="library" level="project" name="Maven: ru.agent.fonts:anonymous:1.0" />
           <element id="library" level="project" name="Maven: net.sf.jasperreports:jasperreports:4.1.1.1" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
@@ -144,7 +150,7 @@
           <element id="archive" name="airbookingservice.api.jar">
             <element id="module-output" name="airbookingservice.api" />
           </element>
-          <element id="archive" name="parent.pom.jar">
+          <element id="archive" name="cxf.utils.jar">
             <element id="module-output" name="cxf.utils" />
           </element>
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.1" />
@@ -163,7 +169,9 @@
           <element id="archive" name="psyduck.api.jar">
             <element id="module-output" name="psyduck.api" />
           </element>
-          <element id="library" level="project" name="Maven: ru.agent.utils:amq.utils:3.14-SNAPSHOT" />
+          <element id="archive" name="amq.utils.jar">
+            <element id="module-output" name="amq.utils" />
+          </element>
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-pool:5.5.1" />
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-core:5.5.1" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1" />

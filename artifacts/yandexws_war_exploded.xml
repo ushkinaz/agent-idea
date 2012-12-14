@@ -51,7 +51,9 @@
           <element id="archive" name="domain.jar">
             <element id="module-output" name="domain" />
           </element>
-          <element id="library" level="project" name="Maven: ru.agent.aspect:hibernate:3.14-SNAPSHOT" />
+          <element id="archive" name="hibernate.jar">
+            <element id="module-output" name="hibernate" />
+          </element>
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:3.6.9.Final" />
           <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-commons-annotations:3.2.0.Final" />
@@ -65,8 +67,10 @@
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: cglib:cglib-nodep:2.2.2" />
           <element id="library" level="project" name="Maven: javassist:javassist:3.8.0.GA" />
-          <element id="archive" name="parent.pom.jar">
+          <element id="archive" name="engine.jar">
             <element id="module-output" name="engine" />
+          </element>
+          <element id="archive" name="comminucate.jar">
             <element id="module-output" name="comminucate" />
           </element>
           <element id="archive" name="crypto.jar">
