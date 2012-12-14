@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: ru.agent:airbookingservice.api:3.15-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ru/agent/airbookingservice.api/3.15-SNAPSHOT/airbookingservice.api-3.15-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/ru/agent/airbookingservice.api/3.15-SNAPSHOT/airbookingservice.api-3.15-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/ru/agent/airbookingservice.api/3.15-SNAPSHOT/airbookingservice.api-3.15-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

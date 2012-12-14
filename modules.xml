@@ -8,7 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/aeroexpress/aeroexpress.api.iml" filepath="$PROJECT_DIR$/aeroexpress/aeroexpress.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/air-api/air-api.iml" filepath="$PROJECT_DIR$/air-api/air-api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/air-beans/air-beans.iml" filepath="$PROJECT_DIR$/air-beans/air-beans.iml" group="libs/bean" />
-      <module fileurl="file://$PROJECT_DIR$/airbookingservice/airbookingservice.api.iml" filepath="$PROJECT_DIR$/airbookingservice/airbookingservice.api.iml" group="libs/api" />
+      <module fileurl="file://$PROJECT_DIR$/air-booking-ext/air-booking-ext.iml" filepath="$PROJECT_DIR$/air-booking-ext/air-booking-ext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/air-boundary/air-boundary.iml" filepath="$PROJECT_DIR$/air-boundary/air-boundary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app.aggregator/app.aggregator.iml" filepath="$PROJECT_DIR$/app.aggregator/app.aggregator.iml" group="supplemental" />
       <module fileurl="file://$PROJECT_DIR$/base-aspect/base-aspect.iml" filepath="$PROJECT_DIR$/base-aspect/base-aspect.iml" group="aspect" />
       <module fileurl="file://$PROJECT_DIR$/base-test-aspect/base-test-aspect.iml" filepath="$PROJECT_DIR$/base-test-aspect/base-test-aspect.iml" group="aspect" />
@@ -22,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/corporate.pom/corporate.pom.iml" filepath="$PROJECT_DIR$/corporate.pom/corporate.pom.iml" group="supplemental" />
       <module fileurl="file://$PROJECT_DIR$/cxf-aspect/cxf-aspect.iml" filepath="$PROJECT_DIR$/cxf-aspect/cxf-aspect.iml" group="aspect" />
       <module fileurl="file://$PROJECT_DIR$/dictionary-beans/dictionary-beans.iml" filepath="$PROJECT_DIR$/dictionary-beans/dictionary-beans.iml" group="libs/bean" />
+      <module fileurl="file://$PROJECT_DIR$/dictionary-controls/dictionary-controls.iml" filepath="$PROJECT_DIR$/dictionary-controls/dictionary-controls.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain.layer/domain.iml" filepath="$PROJECT_DIR$/domain.layer/domain.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/ehcache.utils/ehcache.utils.iml" filepath="$PROJECT_DIR$/ehcache.utils/ehcache.utils.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/flightstats.service/flightstats.service.iml" filepath="$PROJECT_DIR$/flightstats.service/flightstats.service.iml" group="libs" />
@@ -45,6 +47,7 @@
       <module fileurl="file://$PROJECT_DIR$/presentation.api/presentation.api.iml" filepath="$PROJECT_DIR$/presentation.api/presentation.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/presentation.transformers/presentation.transformers.iml" filepath="$PROJECT_DIR$/presentation.transformers/presentation.transformers.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/presentation.utils/presentation.utils.iml" filepath="$PROJECT_DIR$/presentation.utils/presentation.utils.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/profile-beans/profile-beans.iml" filepath="$PROJECT_DIR$/profile-beans/profile-beans.iml" />
       <module fileurl="file://$PROJECT_DIR$/psyduck/psyduck.iml" filepath="$PROJECT_DIR$/psyduck/psyduck.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/psyduck.api/psyduck.api.iml" filepath="$PROJECT_DIR$/psyduck.api/psyduck.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/psyduck.service/psyduck.service.iml" filepath="$PROJECT_DIR$/psyduck.service/psyduck.service.iml" group="libs" />

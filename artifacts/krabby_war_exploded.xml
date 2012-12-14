@@ -191,9 +191,7 @@
           <element id="archive" name="domain.jar">
             <element id="module-output" name="domain" />
           </element>
-          <element id="archive" name="airbookingservice.api.jar">
-            <element id="module-output" name="airbookingservice.api" />
-          </element>
+          <element id="library" level="project" name="Maven: ru.agent:airbookingservice.api:3.15-SNAPSHOT" />
           <element id="archive" name="paysys.api.jar">
             <element id="module-output" name="paysys.api" />
           </element>

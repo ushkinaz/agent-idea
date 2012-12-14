@@ -167,6 +167,14 @@
       <directory url="file://$PROJECT_DIR$/air-api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/kadabra/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/kadabra/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/air-booking-ext/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/air-booking-ext/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/air-boundary/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/air-boundary/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/profile-beans/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/profile-beans/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/dictionary-controls/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/dictionary-controls/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
@@ -197,7 +205,8 @@
         <module name="aeroexpress.api" />
         <module name="air-api" />
         <module name="air-beans" />
-        <module name="airbookingservice.api" />
+        <module name="air-booking-ext" />
+        <module name="air-boundary" />
         <module name="base-aspect" />
         <module name="base-test-aspect" />
         <module name="beans" />
@@ -209,6 +218,7 @@
         <module name="commons" />
         <module name="cxf-aspect" />
         <module name="dictionary-beans" />
+        <module name="dictionary-controls" />
         <module name="domain" />
         <module name="ehcache.utils" />
         <module name="flightstats.service" />
@@ -231,6 +241,7 @@
         <module name="presentation.api" />
         <module name="presentation.transformers" />
         <module name="presentation.utils" />
+        <module name="profile-beans" />
         <module name="psyduck" />
         <module name="psyduck.api" />
         <module name="psyduck.service" />
@@ -270,6 +281,8 @@
       <module name="aeroexpress.api" target="1.7" />
       <module name="air-api" target="1.7" />
       <module name="air-beans" target="1.7" />
+      <module name="air-booking-ext" target="1.7" />
+      <module name="air-boundary" target="1.7" />
       <module name="airbookingservice.api" target="1.7" />
       <module name="app.aggregator" target="1.7" />
       <module name="base-aspect" target="1.7" />
@@ -285,6 +298,7 @@
       <module name="corporate.pom" target="1.7" />
       <module name="cxf-aspect" target="1.7" />
       <module name="dictionary-beans" target="1.7" />
+      <module name="dictionary-controls" target="1.7" />
       <module name="domain" target="1.7" />
       <module name="ehcache.utils" target="1.7" />
       <module name="flightstats.service" target="1.7" />
@@ -311,6 +325,7 @@
       <module name="presentation.api" target="1.7" />
       <module name="presentation.transformers" target="1.7" />
       <module name="presentation.utils" target="1.7" />
+      <module name="profile-beans" target="1.7" />
       <module name="psyduck" target="1.7" />
       <module name="psyduck.api" target="1.7" />
       <module name="psyduck.service" target="1.7" />
