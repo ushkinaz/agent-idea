@@ -203,39 +203,45 @@
         <module name="abra.api" />
         <module name="actions.history" />
         <module name="aeroexpress.api" />
-        <module name="airbookingservice.api" />
-        <module name="amq.utils" />
+        <module name="air-api" />
+        <module name="air-beans" />
+        <module name="air-booking-ext" />
+        <module name="air-boundary" />
+        <module name="base-aspect" />
+        <module name="base-test-aspect" />
+        <module name="beans" />
         <module name="cartrawler.service" />
         <module name="classifiers" />
-        <module name="comminucate" />
         <module name="common.enums" />
         <module name="common.logger" />
         <module name="common.war" />
         <module name="commons" />
-        <module name="crypto" />
-        <module name="cxf.client" />
-        <module name="cxf.utils" />
-        <module name="dao" />
+        <module name="cxf-aspect" />
+        <module name="dictionary-beans" />
+        <module name="dictionary-controls" />
         <module name="domain" />
         <module name="ehcache.utils" />
-        <module name="engine" />
         <module name="flightstats.service" />
         <module name="flightstats.stubs" />
         <module name="gamayun" />
         <module name="heartbeat" />
-        <module name="hibernate" />
         <module name="insurance.api" />
         <module name="insurance.service" />
-        <module name="jasper" />
-        <module name="jdbc.utils" />
+        <module name="jasper-aspect" />
+        <module name="jms-aspect" />
+        <module name="kadabra" />
         <module name="krabby" />
         <module name="log.analyser" />
         <module name="meta-aspect" />
+        <module name="offer-beans" />
         <module name="operation.service" />
+        <module name="orm-hibernate-aspect" />
+        <module name="orm-spring-jdbc-aspect" />
         <module name="paysys.api" />
         <module name="presentation.api" />
         <module name="presentation.transformers" />
         <module name="presentation.utils" />
+        <module name="profile-beans" />
         <module name="psyduck" />
         <module name="psyduck.api" />
         <module name="psyduck.service" />
@@ -248,6 +254,7 @@
         <module name="reports.api" />
         <module name="reports.service" />
         <module name="reusable.utils" />
+        <module name="saiku" />
         <module name="services" />
         <module name="simurgh" />
         <module name="sirena.agency.api" />
@@ -257,13 +264,11 @@
         <module name="squirtle" />
         <module name="swinub" />
         <module name="swinub.api" />
-        <module name="test.utils" />
         <module name="timetable" />
         <module name="ufs.api" />
         <module name="utils" />
         <module name="watchdog" />
         <module name="watchdog.api" />
-        <module name="yandexws" />
         <module name="zubat" />
         <module name="zubat.sender" />
         <module name="zubat.sender.pack" />
@@ -276,6 +281,8 @@
       <module name="aeroexpress.api" target="1.7" />
       <module name="air-api" target="1.7" />
       <module name="air-beans" target="1.7" />
+      <module name="air-booking-ext" target="1.7" />
+      <module name="air-boundary" target="1.7" />
       <module name="airbookingservice.api" target="1.7" />
       <module name="app.aggregator" target="1.7" />
       <module name="base-aspect" target="1.7" />
@@ -291,6 +298,7 @@
       <module name="corporate.pom" target="1.7" />
       <module name="cxf-aspect" target="1.7" />
       <module name="dictionary-beans" target="1.7" />
+      <module name="dictionary-controls" target="1.7" />
       <module name="domain" target="1.7" />
       <module name="ehcache.utils" target="1.7" />
       <module name="flightstats.service" target="1.7" />
@@ -317,6 +325,7 @@
       <module name="presentation.api" target="1.7" />
       <module name="presentation.transformers" target="1.7" />
       <module name="presentation.utils" target="1.7" />
+      <module name="profile-beans" target="1.7" />
       <module name="psyduck" target="1.7" />
       <module name="psyduck.api" target="1.7" />
       <module name="psyduck.service" target="1.7" />
