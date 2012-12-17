@@ -43,6 +43,11 @@
       <option name="TRANSPORT" value="0" />
       <option name="LOCAL" value="true" />
     </RunnerSettings>
+    <RunnerSettings RunnerId="JProfiler">
+      <option name="WINDOW" value="false" />
+      <option name="JVMPI" value="false" />
+      <option name="INTERPRETED" value="false" />
+    </RunnerSettings>
     <RunnerSettings RunnerId="Profile ">
       <option name="myExternalizedOptions" value="&#10;use-64-bit=false&#10;additional-options2=onexit\=snapshot&#10;" />
     </RunnerSettings>
