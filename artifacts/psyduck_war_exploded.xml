@@ -43,6 +43,9 @@
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.8.0" />
+          <element id="archive" name="app-aspect.jar">
+            <element id="module-output" name="app-aspect" />
+          </element>
           <element id="archive" name="jms-aspect.jar">
             <element id="module-output" name="jms-aspect" />
           </element>
@@ -86,13 +89,6 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.1.3.RELEASE" />
-          <element id="archive" name="common.logger.jar">
-            <element id="module-output" name="common.logger" />
-          </element>
-          <element id="archive" name="heartbeat.jar">
-            <element id="module-output" name="heartbeat" />
-          </element>
-          <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
         </element>
       </element>
     </root>

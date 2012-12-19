@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="numel:war">
+    <output-path>$PROJECT_DIR$/numel/target</output-path>
+    <root id="archive" name="numel.war">
+      <element id="artifact" artifact-name="numel:war exploded" />
+    </root>
+  </artifact>
+</component>

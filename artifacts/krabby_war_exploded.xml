@@ -43,6 +43,12 @@
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.8.0" />
+          <element id="archive" name="app-aspect.jar">
+            <element id="module-output" name="app-aspect" />
+          </element>
+          <element id="archive" name="app-web-aspect.jar">
+            <element id="module-output" name="app-web-aspect" />
+          </element>
           <element id="archive" name="orm-hibernate-aspect.jar">
             <element id="module-output" name="orm-hibernate-aspect" />
           </element>
@@ -201,9 +207,7 @@
           <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.2" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
-          <element id="archive" name="aeroexpress.api.jar">
-            <element id="module-output" name="aeroexpress.api" />
-          </element>
+          <element id="library" level="project" name="Maven: ru.agent.services:aeroexpress.api:3.15-SNAPSHOT" />
           <element id="archive" name="psyduck.api.jar">
             <element id="module-output" name="psyduck.api" />
           </element>
@@ -291,13 +295,6 @@
           <element id="archive" name="sirena.agency.api.jar">
             <element id="module-output" name="sirena.agency.api" />
           </element>
-          <element id="archive" name="common.logger.jar">
-            <element id="module-output" name="common.logger" />
-          </element>
-          <element id="archive" name="heartbeat.jar">
-            <element id="module-output" name="heartbeat" />
-          </element>
-          <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
         </element>
       </element>
     </root>
