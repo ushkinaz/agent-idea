@@ -8,8 +8,15 @@
           <element id="module-output" name="krabby" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="base-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="base-aspect" />
+            <element id="module-output" name="orm-hibernate-aspect" />
+            <element id="module-output" name="presentation.transformers" />
+            <element id="module-output" name="reference" />
+            <element id="module-output" name="paysys.api" />
+            <element id="module-output" name="rbtaxi.ext.api" />
+            <element id="module-output" name="ehcache.utils" />
+            <element id="module-output" name="zubat.sender.pack" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
@@ -43,8 +50,11 @@
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.8.0" />
-          <element id="archive" name="orm-hibernate-aspect.jar">
-            <element id="module-output" name="orm-hibernate-aspect" />
+          <element id="archive" name="app-aspect.jar">
+            <element id="module-output" name="app-aspect" />
+          </element>
+          <element id="archive" name="app-web-aspect.jar">
+            <element id="module-output" name="app-web-aspect" />
           </element>
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:3.6.9.Final" />
           <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
@@ -176,28 +186,16 @@
           <element id="archive" name="actions.history.jar">
             <element id="module-output" name="actions.history" />
           </element>
-          <element id="archive" name="presentation.transformers.jar">
-            <element id="module-output" name="presentation.transformers" />
-          </element>
           <element id="archive" name="services.jar">
             <element id="module-output" name="services" />
           </element>
           <element id="archive" name="classifiers.jar">
             <element id="module-output" name="classifiers" />
           </element>
-          <element id="archive" name="reference.jar">
-            <element id="module-output" name="reference" />
-          </element>
           <element id="archive" name="domain.jar">
             <element id="module-output" name="domain" />
           </element>
           <element id="library" level="project" name="Maven: ru.agent:airbookingservice.api:3.15-SNAPSHOT" />
-          <element id="archive" name="paysys.api.jar">
-            <element id="module-output" name="paysys.api" />
-          </element>
-          <element id="archive" name="rbtaxi.ext.api.jar">
-            <element id="module-output" name="rbtaxi.ext.api" />
-          </element>
           <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.2" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
@@ -254,9 +252,6 @@
           <element id="archive" name="spzd.api.jar">
             <element id="module-output" name="spzd.api" />
           </element>
-          <element id="archive" name="ehcache.utils.jar">
-            <element id="module-output" name="ehcache.utils" />
-          </element>
           <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-jmsreplication:0.4" />
           <element id="archive" name="operation.service.jar">
             <element id="module-output" name="operation.service" />
@@ -266,9 +261,6 @@
           </element>
           <element id="archive" name="swinub.api.jar">
             <element id="module-output" name="swinub.api" />
-          </element>
-          <element id="archive" name="zubat.sender.pack.jar">
-            <element id="module-output" name="zubat.sender.pack" />
           </element>
           <element id="archive" name="zubat.sender.jar">
             <element id="module-output" name="zubat.sender" />
@@ -291,13 +283,6 @@
           <element id="archive" name="sirena.agency.api.jar">
             <element id="module-output" name="sirena.agency.api" />
           </element>
-          <element id="archive" name="common.logger.jar">
-            <element id="module-output" name="common.logger" />
-          </element>
-          <element id="archive" name="heartbeat.jar">
-            <element id="module-output" name="heartbeat" />
-          </element>
-          <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
         </element>
       </element>
     </root>
