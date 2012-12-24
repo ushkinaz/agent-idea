@@ -32,6 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/flightstats.service/flightstats.service.iml" filepath="$PROJECT_DIR$/flightstats.service/flightstats.service.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/flightstats.stubs/flightstats.stubs.iml" filepath="$PROJECT_DIR$/flightstats.stubs/flightstats.stubs.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/gamayun/gamayun.iml" filepath="$PROJECT_DIR$/gamayun/gamayun.iml" group="application" />
+      <module fileurl="file://$PROJECT_DIR$/goose-engine/goose-engine.iml" filepath="$PROJECT_DIR$/goose-engine/goose-engine.iml" />
       <module fileurl="file://$PROJECT_DIR$/heartbeat/heartbeat.iml" filepath="$PROJECT_DIR$/heartbeat/heartbeat.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/insurance.api/insurance.api.iml" filepath="$PROJECT_DIR$/insurance.api/insurance.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/insurance.service/insurance.service.iml" filepath="$PROJECT_DIR$/insurance.service/insurance.service.iml" group="libs" />

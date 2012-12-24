@@ -527,6 +527,12 @@
         <option value="$PROJECT_DIR$/load-test/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/common.logger/pom.xml" />
+        <option value="$PROJECT_DIR$/heartbeat/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="PomSorter">
     <option name="defaultSortMode" value="ALPHABETIC" />

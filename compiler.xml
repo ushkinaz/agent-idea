@@ -241,6 +241,7 @@
         <module name="flightstats.service" />
         <module name="flightstats.stubs" />
         <module name="gamayun" />
+        <module name="goose-engine" />
         <module name="heartbeat" />
         <module name="insurance.api" />
         <module name="insurance.service" />
@@ -327,6 +328,7 @@
       <module name="flightstats.service" target="1.7" />
       <module name="flightstats.stubs" target="1.7" />
       <module name="gamayun" target="1.7" />
+      <module name="goose-engine" target="1.7" />
       <module name="heartbeat" target="1.7" />
       <module name="insurance.api" target="1.7" />
       <module name="insurance.service" target="1.7" />
