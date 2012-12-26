@@ -43,7 +43,7 @@
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.8.0" />
-          <element id="archive" name="base-test-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="base-test-aspect" />
           </element>
           <element id="library" level="project" name="Maven: org.testng:testng:6.8" />

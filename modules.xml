@@ -25,7 +25,9 @@
       <module fileurl="file://$PROJECT_DIR$/commons/commons.iml" filepath="$PROJECT_DIR$/commons/commons.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/corporate.pom/corporate.pom.iml" filepath="$PROJECT_DIR$/corporate.pom/corporate.pom.iml" group="supplemental" />
       <module fileurl="file://$PROJECT_DIR$/cxf-aspect/cxf-aspect.iml" filepath="$PROJECT_DIR$/cxf-aspect/cxf-aspect.iml" group="aspect" />
+      <module fileurl="file://$PROJECT_DIR$/dictionary-api/dictionary-api.iml" filepath="$PROJECT_DIR$/dictionary-api/dictionary-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dictionary-beans/dictionary-beans.iml" filepath="$PROJECT_DIR$/dictionary-beans/dictionary-beans.iml" group="libs/bean" />
+      <module fileurl="file://$PROJECT_DIR$/dictionary-boundary/dictionary-boundary.iml" filepath="$PROJECT_DIR$/dictionary-boundary/dictionary-boundary.iml" />
       <module fileurl="file://$PROJECT_DIR$/dictionary-controls/dictionary-controls.iml" filepath="$PROJECT_DIR$/dictionary-controls/dictionary-controls.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain.layer/domain.iml" filepath="$PROJECT_DIR$/domain.layer/domain.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/ehcache.utils/ehcache.utils.iml" filepath="$PROJECT_DIR$/ehcache.utils/ehcache.utils.iml" group="libs" />

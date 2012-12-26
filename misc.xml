@@ -529,6 +529,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/../3rdParty/spring-shell/samples/helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/common.logger/pom.xml" />
         <option value="$PROJECT_DIR$/heartbeat/pom.xml" />
       </set>

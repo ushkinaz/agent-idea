@@ -234,7 +234,9 @@
         <module name="common.war" />
         <module name="commons" />
         <module name="cxf-aspect" />
+        <module name="dictionary-api" />
         <module name="dictionary-beans" />
+        <module name="dictionary-boundary" />
         <module name="dictionary-controls" />
         <module name="domain" />
         <module name="ehcache.utils" />
@@ -321,7 +323,9 @@
       <module name="commons" target="1.7" />
       <module name="corporate.pom" target="1.7" />
       <module name="cxf-aspect" target="1.7" />
+      <module name="dictionary-api" target="1.7" />
       <module name="dictionary-beans" target="1.7" />
+      <module name="dictionary-boundary" target="1.7" />
       <module name="dictionary-controls" target="1.7" />
       <module name="domain" target="1.7" />
       <module name="ehcache.utils" target="1.7" />
@@ -330,6 +334,7 @@
       <module name="gamayun" target="1.7" />
       <module name="goose-engine" target="1.7" />
       <module name="heartbeat" target="1.7" />
+      <module name="helloworld" target="1.5" />
       <module name="insurance.api" target="1.7" />
       <module name="insurance.service" target="1.7" />
       <module name="jasper" target="1.7" />
