@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/actions.history/actions.history.iml" filepath="$PROJECT_DIR$/actions.history/actions.history.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/aeroexpress/aeroexpress.api.iml" filepath="$PROJECT_DIR$/aeroexpress/aeroexpress.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/agg-engine/agg-engine.iml" filepath="$PROJECT_DIR$/agg-engine/agg-engine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aggregation/aggregation.iml" filepath="$PROJECT_DIR$/aggregation/aggregation.iml" />
       <module fileurl="file://$PROJECT_DIR$/air-api/air-api.iml" filepath="$PROJECT_DIR$/air-api/air-api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/air-beans/air-beans.iml" filepath="$PROJECT_DIR$/air-beans/air-beans.iml" group="libs/bean" />
       <module fileurl="file://$PROJECT_DIR$/air-booking-ext/air-booking-ext.iml" filepath="$PROJECT_DIR$/air-booking-ext/air-booking-ext.iml" />
@@ -42,19 +43,23 @@
       <module fileurl="file://$PROJECT_DIR$/jms-aspect/jms-aspect.iml" filepath="$PROJECT_DIR$/jms-aspect/jms-aspect.iml" group="aspect" />
       <module fileurl="file://$PROJECT_DIR$/kadabra/kadabra.iml" filepath="$PROJECT_DIR$/kadabra/kadabra.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/krabby/krabby.iml" filepath="$PROJECT_DIR$/krabby/krabby.iml" group="application" />
-      <module fileurl="file://$PROJECT_DIR$/log.analyser/log.analyser.iml" filepath="$PROJECT_DIR$/log.analyser/log.analyser.iml" group="application/utils" />
       <module fileurl="file://$PROJECT_DIR$/numel/numel.iml" filepath="$PROJECT_DIR$/numel/numel.iml" />
-      <module fileurl="file://$PROJECT_DIR$/offer-beans/offer-beans.iml" filepath="$PROJECT_DIR$/offer-beans/offer-beans.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/offer-beans/offer-beans.iml" filepath="$PROJECT_DIR$/offer-beans/offer-beans.iml" group="libs/bean" />
       <module fileurl="file://$PROJECT_DIR$/operation.service/operation.service.iml" filepath="$PROJECT_DIR$/operation.service/operation.service.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/orm-hibernate-aspect/orm-hibernate-aspect.iml" filepath="$PROJECT_DIR$/orm-hibernate-aspect/orm-hibernate-aspect.iml" group="aspect" />
       <module fileurl="file://$PROJECT_DIR$/orm-spring-jdbc-aspect/orm-spring-jdbc-aspect.iml" filepath="$PROJECT_DIR$/orm-spring-jdbc-aspect/orm-spring-jdbc-aspect.iml" group="aspect" />
       <module fileurl="file://$PROJECT_DIR$/parent.pom/parent.pom.iml" filepath="$PROJECT_DIR$/parent.pom/parent.pom.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/parent.war.pom/parent.war.pom.iml" filepath="$PROJECT_DIR$/parent.war.pom/parent.war.pom.iml" group="supplemental" />
       <module fileurl="file://$PROJECT_DIR$/paysys/paysys.api.iml" filepath="$PROJECT_DIR$/paysys/paysys.api.iml" group="libs/api" />
+      <module fileurl="file://$PROJECT_DIR$/person-api/person-api.iml" filepath="$PROJECT_DIR$/person-api/person-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/person-beans/person-beans.iml" filepath="$PROJECT_DIR$/person-beans/person-beans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/person-boundary/person-boundary.iml" filepath="$PROJECT_DIR$/person-boundary/person-boundary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/presentation/presentation.iml" filepath="$PROJECT_DIR$/presentation/presentation.iml" />
       <module fileurl="file://$PROJECT_DIR$/presentation.api/presentation.api.iml" filepath="$PROJECT_DIR$/presentation.api/presentation.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/presentation.transformers/presentation.transformers.iml" filepath="$PROJECT_DIR$/presentation.transformers/presentation.transformers.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/presentation.utils/presentation.utils.iml" filepath="$PROJECT_DIR$/presentation.utils/presentation.utils.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/profile-beans/profile-beans.iml" filepath="$PROJECT_DIR$/profile-beans/profile-beans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ps-beans/ps-beans.iml" filepath="$PROJECT_DIR$/ps-beans/ps-beans.iml" />
       <module fileurl="file://$PROJECT_DIR$/psyduck/psyduck.iml" filepath="$PROJECT_DIR$/psyduck/psyduck.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/psyduck.api/psyduck.api.iml" filepath="$PROJECT_DIR$/psyduck.api/psyduck.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/psyduck.service/psyduck.service.iml" filepath="$PROJECT_DIR$/psyduck.service/psyduck.service.iml" group="libs" />
@@ -66,7 +71,7 @@
       <module fileurl="file://$PROJECT_DIR$/reports/reports.iml" filepath="$PROJECT_DIR$/reports/reports.iml" group="supplemental" />
       <module fileurl="file://$PROJECT_DIR$/reports.api/reports.api.iml" filepath="$PROJECT_DIR$/reports.api/reports.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/reports.service/reports.service.iml" filepath="$PROJECT_DIR$/reports.service/reports.service.iml" group="libs" />
-      <module fileurl="file://$PROJECT_DIR$/reusable.utils/reusable.utils.iml" filepath="$PROJECT_DIR$/reusable.utils/reusable.utils.iml" group="application/utils" />
+      <module fileurl="file://$PROJECT_DIR$/rules/rules.iml" filepath="$PROJECT_DIR$/rules/rules.iml" />
       <module fileurl="file://$PROJECT_DIR$/saiku/saiku.iml" filepath="$PROJECT_DIR$/saiku/saiku.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/services/services.iml" filepath="$PROJECT_DIR$/services/services.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/simurgh/simurgh.iml" filepath="$PROJECT_DIR$/simurgh/simurgh.iml" group="application" />
@@ -74,7 +79,6 @@
       <module fileurl="file://$PROJECT_DIR$/sirena.agency.service/sirena.agency.service.iml" filepath="$PROJECT_DIR$/sirena.agency.service/sirena.agency.service.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/spring.security.utils/spring-security-utils.iml" filepath="$PROJECT_DIR$/spring.security.utils/spring-security-utils.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/spzd.api/spzd.api.iml" filepath="$PROJECT_DIR$/spzd.api/spzd.api.iml" group="libs/api" />
-      <module fileurl="file://$PROJECT_DIR$/squirtle/squirtle.iml" filepath="$PROJECT_DIR$/squirtle/squirtle.iml" group="application/utils" />
       <module fileurl="file://$PROJECT_DIR$/storage-api/storage-api.iml" filepath="$PROJECT_DIR$/storage-api/storage-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/storage-boundary/storage-boundary.iml" filepath="$PROJECT_DIR$/storage-boundary/storage-boundary.iml" />
       <module fileurl="file://$PROJECT_DIR$/swinub/swinub.iml" filepath="$PROJECT_DIR$/swinub/swinub.iml" group="application" />
@@ -82,7 +86,6 @@
       <module fileurl="file://$PROJECT_DIR$/flights.timetable/timetable.iml" filepath="$PROJECT_DIR$/flights.timetable/timetable.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/ufs.api/ufs.api.iml" filepath="$PROJECT_DIR$/ufs.api/ufs.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/update_scripts/update_scripts.iml" filepath="$PROJECT_DIR$/update_scripts/update_scripts.iml" group="supplemental" />
-      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" group="application/utils" />
       <module fileurl="file://$PROJECT_DIR$/watchdog/watchdog.iml" filepath="$PROJECT_DIR$/watchdog/watchdog.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/watchdog.api/watchdog.api.iml" filepath="$PROJECT_DIR$/watchdog.api/watchdog.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/zubat/zubat.iml" filepath="$PROJECT_DIR$/zubat/zubat.iml" group="application" />

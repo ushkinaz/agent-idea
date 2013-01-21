@@ -149,15 +149,17 @@
           <element id="archive" name="common.enums.jar">
             <element id="module-output" name="common.enums" />
           </element>
-          <element id="archive" name="commons.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="commons" />
+            <element id="module-output" name="classifiers" />
+            <element id="module-output" name="air-booking-ext" />
+            <element id="module-output" name="railway.service" />
+            <element id="module-output" name="spzd.api" />
+            <element id="module-output" name="zubat.sender.pack" />
           </element>
           <element id="library" level="project" name="Maven: javax.measure:jsr-275:0.9.4" />
           <element id="archive" name="domain.jar">
             <element id="module-output" name="domain" />
-          </element>
-          <element id="archive" name="classifiers.jar">
-            <element id="module-output" name="classifiers" />
           </element>
           <element id="archive" name="reference.jar">
             <element id="module-output" name="reference" />
@@ -168,9 +170,6 @@
           <element id="library" level="project" name="Maven: jdom:jdom:1.0" />
           <element id="archive" name="services.jar">
             <element id="module-output" name="services" />
-          </element>
-          <element id="archive" name="air-booking-ext.jar">
-            <element id="module-output" name="air-booking-ext" />
           </element>
           <element id="archive" name="paysys.api.jar">
             <element id="module-output" name="paysys.api" />
@@ -215,17 +214,8 @@
           <element id="archive" name="watchdog.api.jar">
             <element id="module-output" name="watchdog.api" />
           </element>
-          <element id="archive" name="railway.service.jar">
-            <element id="module-output" name="railway.service" />
-          </element>
           <element id="archive" name="ufs.api.jar">
             <element id="module-output" name="ufs.api" />
-          </element>
-          <element id="archive" name="spzd.api.jar">
-            <element id="module-output" name="spzd.api" />
-          </element>
-          <element id="archive" name="zubat.sender.pack.jar">
-            <element id="module-output" name="zubat.sender.pack" />
           </element>
           <element id="archive" name="zubat.sender.jar">
             <element id="module-output" name="zubat.sender" />

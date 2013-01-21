@@ -250,9 +250,8 @@
           <content-type name="JavaScript" enabled="true" />
           <content-type name="JSP" enabled="true" />
           <content-type name="JSPx" enabled="true" />
-          <content-type name="Groovy" enabled="true" />
+          <content-type name="VTL" enabled="true" />
           <content-type name="YAML" enabled="true" />
-          <content-type name="Bash" enabled="true" />
         </content-types>
       </qualified-text-editor>
       <record-navigation>
@@ -445,9 +444,6 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file url="file://$PROJECT_DIR$/saiku/overlays" />
-    <file url="file://$PROJECT_DIR$/saiku/overlays" />
-    <file url="file://$PROJECT_DIR$/saiku/overlays" />
-    <file url="file://$PROJECT_DIR$/saiku/overlays" />
     <file type="web" url="file://$PROJECT_DIR$/abra" />
     <file type="web" url="file://$PROJECT_DIR$/common.war" />
     <file type="web" url="file://$PROJECT_DIR$/gamayun" />
@@ -461,7 +457,6 @@
     <file type="web" url="file://$PROJECT_DIR$/watchdog" />
     <file type="web" url="file://$PROJECT_DIR$/yandex.ws" />
     <file type="web" url="file://$PROJECT_DIR$/zubat" />
-    <type id="JRUBY" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -483,7 +478,6 @@
         <option value="$PROJECT_DIR$/operation.service/pom.xml" />
         <option value="$PROJECT_DIR$/common.logger/pom.xml" />
         <option value="$PROJECT_DIR$/paysys/pom.xml" />
-        <option value="$PROJECT_DIR$/log.analyser/pom.xml" />
         <option value="$PROJECT_DIR$/domain.layer/pom.xml" />
         <option value="$PROJECT_DIR$/presentation.transformers/pom.xml" />
         <option value="$PROJECT_DIR$/mail.console/pom.xml" />
@@ -492,7 +486,6 @@
         <option value="$PROJECT_DIR$/commons/pom.xml" />
         <option value="$PROJECT_DIR$/test.utils/pom.xml" />
         <option value="$PROJECT_DIR$/rebate.service/pom.xml" />
-        <option value="$PROJECT_DIR$/utils/pom.xml" />
         <option value="$PROJECT_DIR$/dao/pom.xml" />
         <option value="$PROJECT_DIR$/common.enums/pom.xml" />
         <option value="$PROJECT_DIR$/watchdog/pom.xml" />
@@ -519,20 +512,11 @@
         <option value="$PROJECT_DIR$/ufs.api/pom.xml" />
         <option value="$PROJECT_DIR$/zubat.sender.pack/pom.xml" />
         <option value="$PROJECT_DIR$/flights.timetable/pom.xml" />
-        <option value="$PROJECT_DIR$/squirtle/pom.xml" />
         <option value="$PROJECT_DIR$/sirena.communicate/pom.xml" />
         <option value="$PROJECT_DIR$/reports/pom.xml" />
         <option value="$PROJECT_DIR$/update_scripts/pom.xml" />
-        <option value="$PROJECT_DIR$/reusable.utils/pom.xml" />
         <option value="$PROJECT_DIR$/load-test/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/../3rdParty/spring-shell/samples/helloworld/pom.xml" />
-        <option value="$PROJECT_DIR$/common.logger/pom.xml" />
-        <option value="$PROJECT_DIR$/heartbeat/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="PomSorter">
