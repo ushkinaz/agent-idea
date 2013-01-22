@@ -8,7 +8,7 @@
           <element id="module-output" name="kadabra" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="base-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="base-aspect" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
@@ -122,7 +122,7 @@
           <element id="archive" name="dictionary-beans.jar">
             <element id="module-output" name="dictionary-beans" />
           </element>
-          <element id="archive" name="corporate.pom.jar">
+          <element id="archive" name="dictionary-controls.jar">
             <element id="module-output" name="dictionary-controls" />
           </element>
           <element id="archive" name="domain.jar">
