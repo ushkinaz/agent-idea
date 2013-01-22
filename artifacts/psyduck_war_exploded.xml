@@ -8,17 +8,15 @@
           <element id="module-output" name="psyduck" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="base-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="base-aspect" />
+            <element id="module-output" name="common.war" />
           </element>
           <element id="archive" name="app-aspect.jar">
             <element id="module-output" name="app-aspect" />
           </element>
           <element id="archive" name="jms-aspect.jar">
             <element id="module-output" name="jms-aspect" />
-          </element>
-          <element id="archive" name="common.war.jar">
-            <element id="module-output" name="common.war" />
           </element>
           <element id="archive" name="psyduck.api.jar">
             <element id="module-output" name="psyduck.api" />

@@ -8,8 +8,13 @@
           <element id="module-output" name="watchdog" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="base-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="base-aspect" />
+            <element id="module-output" name="common.war" />
+            <element id="module-output" name="flightstats.service" />
+            <element id="module-output" name="watchdog.api" />
+            <element id="module-output" name="zubat.sender.pack" />
+            <element id="module-output" name="rate.calculator.api" />
           </element>
           <element id="archive" name="app-aspect.jar">
             <element id="module-output" name="app-aspect" />
@@ -26,32 +31,17 @@
           <element id="archive" name="jasper-aspect.jar">
             <element id="module-output" name="jasper-aspect" />
           </element>
-          <element id="archive" name="common.war.jar">
-            <element id="module-output" name="common.war" />
-          </element>
-          <element id="archive" name="flightstats.service.jar">
-            <element id="module-output" name="flightstats.service" />
-          </element>
           <element id="archive" name="services.jar">
             <element id="module-output" name="services" />
           </element>
           <element id="archive" name="operation.service.jar">
             <element id="module-output" name="operation.service" />
           </element>
-          <element id="archive" name="watchdog.api.jar">
-            <element id="module-output" name="watchdog.api" />
-          </element>
           <element id="archive" name="railway.service.jar">
             <element id="module-output" name="railway.service" />
           </element>
-          <element id="archive" name="zubat.sender.pack.jar">
-            <element id="module-output" name="zubat.sender.pack" />
-          </element>
           <element id="archive" name="commons.jar">
             <element id="module-output" name="commons" />
-          </element>
-          <element id="archive" name="rate.calculator.api.jar">
-            <element id="module-output" name="rate.calculator.api" />
           </element>
           <element id="archive" name="cartrawler.service.jar">
             <element id="module-output" name="cartrawler.service" />

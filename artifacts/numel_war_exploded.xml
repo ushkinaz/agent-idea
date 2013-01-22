@@ -8,14 +8,12 @@
           <element id="module-output" name="numel" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="base-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="base-aspect" />
+            <element id="module-output" name="storage-boundary" />
           </element>
           <element id="archive" name="base-test-aspect.jar">
             <element id="module-output" name="base-test-aspect" />
-          </element>
-          <element id="archive" name="storage-boundary.jar">
-            <element id="module-output" name="storage-boundary" />
           </element>
         </element>
       </element>
