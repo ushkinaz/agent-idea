@@ -281,11 +281,11 @@
         <module name="reports.service" />
         <module name="rules" />
         <module name="saiku" />
+        <module name="security-aspect" />
         <module name="services" />
         <module name="simurgh" />
         <module name="sirena.agency.api" />
         <module name="sirena.agency.service" />
-        <module name="spring-security-utils" />
         <module name="spzd.api" />
         <module name="storage-api" />
         <module name="storage-boundary" />
@@ -380,6 +380,7 @@
       <module name="reusable.utils" target="1.7" />
       <module name="rules" target="1.7" />
       <module name="saiku" target="1.7" />
+      <module name="security-aspect" target="1.7" />
       <module name="services" target="1.7" />
       <module name="simurgh" target="1.7" />
       <module name="sirena.agency.api" target="1.7" />
