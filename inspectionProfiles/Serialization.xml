@@ -1689,6 +1689,7 @@
     <inspection_tool class="RubyClassVariableUsageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RubyConstantNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RubyControlFlowConversionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="RubyConvertAllHashesInFileInspections" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="RubyDeadCode" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RubyDefParenthesesInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="RubyDeprecatedSyntaxInspection" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1699,6 +1700,7 @@
     <inspection_tool class="RubyForLoopInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RubyGlobalVariableNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RubyHashKeysTypesInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="RubyIfCanBeCaseInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RubyInstanceMethodNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RubyInstanceVariableNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RubyInstanceVariableToStringInspection" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1724,6 +1726,7 @@
     <inspection_tool class="RubyUnnecessaryReturnValue" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RubyUnnecessarySemicolon" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RubyUnusedLocalVariable" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="RubyVersionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RubyWrongHash" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="RuntimeExec" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RuntimeExecWithNonConstantString" enabled="false" level="WARNING" enabled_by_default="false" />

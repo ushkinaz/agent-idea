@@ -78,6 +78,7 @@
       <module fileurl="file://$PROJECT_DIR$/simurgh/simurgh.iml" filepath="$PROJECT_DIR$/simurgh/simurgh.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/sirena.agency.api/sirena.agency.api.iml" filepath="$PROJECT_DIR$/sirena.agency.api/sirena.agency.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/sirena.agency.service/sirena.agency.service.iml" filepath="$PROJECT_DIR$/sirena.agency.service/sirena.agency.service.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/spring.security.utils/spring-security-utils.iml" filepath="$PROJECT_DIR$/spring.security.utils/spring-security-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/spzd.api/spzd.api.iml" filepath="$PROJECT_DIR$/spzd.api/spzd.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/storage-api/storage-api.iml" filepath="$PROJECT_DIR$/storage-api/storage-api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/storage-boundary/storage-boundary.iml" filepath="$PROJECT_DIR$/storage-boundary/storage-boundary.iml" group="libs" />
@@ -85,7 +86,6 @@
       <module fileurl="file://$PROJECT_DIR$/swinub.api/swinub.api.iml" filepath="$PROJECT_DIR$/swinub.api/swinub.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/flights.timetable/timetable.iml" filepath="$PROJECT_DIR$/flights.timetable/timetable.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/ufs.api/ufs.api.iml" filepath="$PROJECT_DIR$/ufs.api/ufs.api.iml" group="libs/api" />
-      <module fileurl="file://$PROJECT_DIR$/update_scripts/update_scripts.iml" filepath="$PROJECT_DIR$/update_scripts/update_scripts.iml" group="supplemental" />
       <module fileurl="file://$PROJECT_DIR$/watchdog/watchdog.iml" filepath="$PROJECT_DIR$/watchdog/watchdog.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/watchdog.api/watchdog.api.iml" filepath="$PROJECT_DIR$/watchdog.api/watchdog.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/zubat/zubat.iml" filepath="$PROJECT_DIR$/zubat/zubat.iml" group="application" />
