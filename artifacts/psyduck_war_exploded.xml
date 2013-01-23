@@ -8,7 +8,7 @@
           <element id="module-output" name="psyduck" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="corporate.pom.jar">
+          <element id="archive" name="base-aspect.jar">
             <element id="module-output" name="base-aspect" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />

@@ -8,7 +8,7 @@
           <element id="module-output" name="kadabra" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="corporate.pom.jar">
+          <element id="archive" name="base-aspect.jar">
             <element id="module-output" name="base-aspect" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
@@ -111,9 +111,7 @@
           <element id="archive" name="common.war.jar">
             <element id="module-output" name="common.war" />
           </element>
-          <element id="archive" name="presentation.jar">
-            <element id="module-output" name="presentation" />
-          </element>
+          <element id="library" level="project" name="Maven: ru.agent:presentation:3.15-SNAPSHOT" />
           <element id="archive" name="dictionary-boundary.jar">
             <element id="module-output" name="dictionary-boundary" />
           </element>
@@ -132,7 +130,7 @@
           <element id="archive" name="common.enums.jar">
             <element id="module-output" name="common.enums" />
           </element>
-          <element id="archive" name="person-boundary.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="person-boundary" />
           </element>
           <element id="archive" name="person-api.jar">

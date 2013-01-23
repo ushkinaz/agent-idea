@@ -8,7 +8,7 @@
           <element id="module-output" name="numel" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="corporate.pom.jar">
+          <element id="archive" name="base-aspect.jar">
             <element id="module-output" name="base-aspect" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
@@ -78,9 +78,7 @@
           <element id="archive" name="person-beans.jar">
             <element id="module-output" name="person-beans" />
           </element>
-          <element id="archive" name="ps-beans.jar">
-            <element id="module-output" name="ps-beans" />
-          </element>
+          <element id="library" level="project" name="Maven: ru.agent:ps-beans:3.15-SNAPSHOT" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-core:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-runtime:1.0.7" />
