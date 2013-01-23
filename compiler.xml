@@ -286,7 +286,6 @@
         <module name="simurgh" />
         <module name="sirena.agency.api" />
         <module name="sirena.agency.service" />
-        <module name="spring-security-utils" />
         <module name="spzd.api" />
         <module name="storage-api" />
         <module name="storage-boundary" />

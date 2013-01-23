@@ -73,12 +73,11 @@
       <module fileurl="file://$PROJECT_DIR$/reports.service/reports.service.iml" filepath="$PROJECT_DIR$/reports.service/reports.service.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/rules/rules.iml" filepath="$PROJECT_DIR$/rules/rules.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/saiku/saiku.iml" filepath="$PROJECT_DIR$/saiku/saiku.iml" group="application" />
-      <module fileurl="file://$PROJECT_DIR$/security-aspect/security-aspect.iml" filepath="$PROJECT_DIR$/security-aspect/security-aspect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-aspect/security-aspect.iml" filepath="$PROJECT_DIR$/security-aspect/security-aspect.iml" group="aspect" />
       <module fileurl="file://$PROJECT_DIR$/services/services.iml" filepath="$PROJECT_DIR$/services/services.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/simurgh/simurgh.iml" filepath="$PROJECT_DIR$/simurgh/simurgh.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/sirena.agency.api/sirena.agency.api.iml" filepath="$PROJECT_DIR$/sirena.agency.api/sirena.agency.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/sirena.agency.service/sirena.agency.service.iml" filepath="$PROJECT_DIR$/sirena.agency.service/sirena.agency.service.iml" group="libs" />
-      <module fileurl="file://$PROJECT_DIR$/spring.security.utils/spring-security-utils.iml" filepath="$PROJECT_DIR$/spring.security.utils/spring-security-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/spzd.api/spzd.api.iml" filepath="$PROJECT_DIR$/spzd.api/spzd.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/storage-api/storage-api.iml" filepath="$PROJECT_DIR$/storage-api/storage-api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/storage-boundary/storage-boundary.iml" filepath="$PROJECT_DIR$/storage-boundary/storage-boundary.iml" group="libs" />
