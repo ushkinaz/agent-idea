@@ -517,6 +517,7 @@
         <option value="$PROJECT_DIR$/reports/pom.xml" />
         <option value="$PROJECT_DIR$/update_scripts/pom.xml" />
         <option value="$PROJECT_DIR$/load-test/pom.xml" />
+        <option value="$PROJECT_DIR$/utils/pom.xml" />
       </list>
     </option>
   </component>

@@ -85,6 +85,7 @@
       <module fileurl="file://$PROJECT_DIR$/swinub.api/swinub.api.iml" filepath="$PROJECT_DIR$/swinub.api/swinub.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/flights.timetable/timetable.iml" filepath="$PROJECT_DIR$/flights.timetable/timetable.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/ufs.api/ufs.api.iml" filepath="$PROJECT_DIR$/ufs.api/ufs.api.iml" group="libs/api" />
+      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/watchdog/watchdog.iml" filepath="$PROJECT_DIR$/watchdog/watchdog.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/watchdog.api/watchdog.api.iml" filepath="$PROJECT_DIR$/watchdog.api/watchdog.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/zubat/zubat.iml" filepath="$PROJECT_DIR$/zubat/zubat.iml" group="application" />

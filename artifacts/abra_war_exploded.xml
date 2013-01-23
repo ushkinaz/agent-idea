@@ -8,8 +8,11 @@
           <element id="module-output" name="abra" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="base-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="base-aspect" />
+            <element id="module-output" name="jasper-aspect" />
+            <element id="module-output" name="operation.service" />
+            <element id="module-output" name="flightstats.stubs" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
@@ -133,9 +136,6 @@
           <element id="library" level="project" name="Maven: org.jasypt:jasypt:1.9.0" />
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-pool:5.7.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:1.0.1" />
-          <element id="archive" name="jasper-aspect.jar">
-            <element id="module-output" name="jasper-aspect" />
-          </element>
           <element id="library" level="project" name="Maven: ru.agent.fonts:anonymous:1.0" />
           <element id="library" level="project" name="Maven: net.sf.jasperreports:jasperreports:4.1.1.1" />
           <element id="library" level="project" name="Maven: commons-digester:commons-digester:1.7" />
@@ -222,9 +222,6 @@
           <element id="archive" name="abra.api.jar">
             <element id="module-output" name="abra.api" />
           </element>
-          <element id="archive" name="operation.service.jar">
-            <element id="module-output" name="operation.service" />
-          </element>
           <element id="archive" name="watchdog.api.jar">
             <element id="module-output" name="watchdog.api" />
           </element>
@@ -242,9 +239,6 @@
           </element>
           <element id="archive" name="flightstats.service.jar">
             <element id="module-output" name="flightstats.service" />
-          </element>
-          <element id="archive" name="flightstats.stubs.jar">
-            <element id="module-output" name="flightstats.stubs" />
           </element>
           <element id="library" level="project" name="Maven: net.java.dev.rome:rome:1.0.0" />
           <element id="library" level="project" name="Maven: jdom:jdom:1.0" />
