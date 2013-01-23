@@ -78,7 +78,9 @@
           <element id="archive" name="person-beans.jar">
             <element id="module-output" name="person-beans" />
           </element>
-          <element id="library" level="project" name="Maven: ru.agent:ps-beans:3.15-SNAPSHOT" />
+          <element id="archive" name="ps-beans.jar">
+            <element id="module-output" name="ps-beans" />
+          </element>
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-core:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-runtime:1.0.7" />

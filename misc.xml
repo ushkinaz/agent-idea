@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.ConnectionManager">
     <connections>
-      <connection driver-library="$MAVEN_REPOSITORY$/com/oracle/ojdbc5/11.1.0.6.0/ojdbc5-11.1.0.6.0.jar" driver="oracle.jdbc.driver.OracleDriver" url="jdbc:oracle:thin:@oracle.dev.agent.ru:1521/odev" active="true" os-authentication="false" id="0c75fea7-7030-4dbc-b4ac-fbcef409d5cf" name="BODev" description="Master" database-type="ORACLE" user="bodev" password="devbo">
+      <connection driver-library="$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar" driver="oracle.jdbc.OracleDriver" url="jdbc:oracle:thin:@oracle.dev.agent.ru:1521/odev" active="true" os-authentication="false" id="0c75fea7-7030-4dbc-b4ac-fbcef409d5cf" name="BODev" description="Master" database-type="ORACLE" user="bodev" password="devbo">
         <details>
           <charset value="UTF-8" />
           <auto-commit value="false" />
@@ -42,11 +42,11 @@
           </object-name-filters>
         </object-filters>
       </connection>
-      <connection driver-library="$MAVEN_REPOSITORY$/com/oracle/ojdbc5/11.1.0.6.0/ojdbc5-11.1.0.6.0.jar" driver="oracle.jdbc.driver.OracleDriver" url="jdbc:oracle:thin:@oracle.dev.agent.ru:1521/odev" active="true" os-authentication="false" id="d544f4d7-f2c2-458f-ab7b-df505d19f028" name="BOTest" description="Stable" database-type="ORACLE" user="botest" password="testbo">
+      <connection driver-library="$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar" driver="oracle.jdbc.OracleDriver" url="jdbc:oracle:thin:@oracle.dev.agent.ru:1521/odev" active="true" os-authentication="false" id="d544f4d7-f2c2-458f-ab7b-df505d19f028" name="BOTest" description="Stable" database-type="ORACLE" user="botest" password="testbo">
         <details>
           <charset value="UTF-8" />
           <auto-commit value="false" />
-          <environment-type value="Development" />
+          <environment-type value="Test" />
         </details>
         <object-filters>
           <object-type-filter use-master-settings="true">

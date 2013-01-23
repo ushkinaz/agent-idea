@@ -208,7 +208,7 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
-      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+      <profile default="false" name="Maven default annotation processors profile" enabled="false">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -311,14 +311,12 @@
       <module name="air-beans" target="1.7" />
       <module name="air-booking-ext" target="1.7" />
       <module name="air-boundary" target="1.7" />
-      <module name="airbookingservice.api" target="1.7" />
       <module name="app-aspect" target="1.7" />
       <module name="app-web-aspect" target="1.7" />
       <module name="app.aggregator" target="1.7" />
       <module name="base-aspect" target="1.7" />
       <module name="base-test-aspect" target="1.7" />
       <module name="beans" target="1.7" />
-      <module name="beldum" target="1.7" />
       <module name="cartrawler.service" target="1.7" />
       <module name="classifiers" target="1.7" />
       <module name="common.enums" target="1.7" />
@@ -338,17 +336,12 @@
       <module name="gamayun" target="1.7" />
       <module name="goose-engine" target="1.7" />
       <module name="heartbeat" target="1.7" />
-      <module name="helloworld" target="1.5" />
       <module name="insurance.api" target="1.7" />
       <module name="insurance.service" target="1.7" />
-      <module name="jasper" target="1.7" />
       <module name="jasper-aspect" target="1.7" />
       <module name="jms-aspect" target="1.7" />
       <module name="kadabra" target="1.7" />
       <module name="krabby" target="1.7" />
-      <module name="log.analyser" target="1.7" />
-      <module name="meta-aggregator" target="1.7" />
-      <module name="meta-aspect" target="1.7" />
       <module name="numel" target="1.7" />
       <module name="offer-beans" target="1.7" />
       <module name="operation.service" target="1.7" />
@@ -377,7 +370,6 @@
       <module name="reports" target="1.7" />
       <module name="reports.api" target="1.7" />
       <module name="reports.service" target="1.7" />
-      <module name="reusable.utils" target="1.7" />
       <module name="rules" target="1.7" />
       <module name="saiku" target="1.7" />
       <module name="security-aspect" target="1.7" />
@@ -385,16 +377,13 @@
       <module name="simurgh" target="1.7" />
       <module name="sirena.agency.api" target="1.7" />
       <module name="sirena.agency.service" target="1.7" />
-      <module name="spring-security-utils" target="1.7" />
       <module name="spzd.api" target="1.7" />
-      <module name="squirtle" target="1.7" />
       <module name="storage-api" target="1.7" />
       <module name="storage-boundary" target="1.7" />
       <module name="swinub" target="1.7" />
       <module name="swinub.api" target="1.7" />
       <module name="timetable" target="1.7" />
       <module name="ufs.api" target="1.7" />
-      <module name="utils" target="1.7" />
       <module name="watchdog" target="1.7" />
       <module name="watchdog.api" target="1.7" />
       <module name="zubat" target="1.7" />
