@@ -117,20 +117,18 @@
           <element id="library" level="project" name="Maven: org.opensaml:xmltooling:1.3.2-1" />
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-frontend-jaxrs:2.7.0" />
           <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0-m10" />
-          <element id="archive" name="common.war.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="common.war" />
-          </element>
-          <element id="archive" name="abra.api.jar">
             <element id="module-output" name="abra.api" />
+            <element id="module-output" name="services" />
+            <element id="module-output" name="psyduck.api" />
+            <element id="module-output" name="swinub.api" />
           </element>
           <element id="archive" name="common.enums.jar">
             <element id="module-output" name="common.enums" />
           </element>
           <element id="archive" name="domain.jar">
             <element id="module-output" name="domain" />
-          </element>
-          <element id="archive" name="services.jar">
-            <element id="module-output" name="services" />
           </element>
           <element id="archive" name="commons.jar">
             <element id="module-output" name="commons" />
@@ -158,9 +156,6 @@
           <element id="archive" name="aeroexpress.api.jar">
             <element id="module-output" name="aeroexpress.api" />
           </element>
-          <element id="archive" name="psyduck.api.jar">
-            <element id="module-output" name="psyduck.api" />
-          </element>
           <element id="library" level="project" name="Maven: net.sf.barcode4j:barcode4j:2.0" />
           <element id="library" level="project" name="Maven: avalon-framework:avalon-framework-impl:4.2.0" />
           <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.3.04" />
@@ -168,7 +163,6 @@
             <element id="module-output" name="timetable" />
           </element>
           <element id="library" level="project" name="Maven: jtidy:jtidy:4aug2000r7-dev" />
-          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.6.12" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.11" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.11" />
@@ -188,9 +182,6 @@
           </element>
           <element id="archive" name="watchdog.api.jar">
             <element id="module-output" name="watchdog.api" />
-          </element>
-          <element id="archive" name="swinub.api.jar">
-            <element id="module-output" name="swinub.api" />
           </element>
           <element id="archive" name="railway.service.jar">
             <element id="module-output" name="railway.service" />
