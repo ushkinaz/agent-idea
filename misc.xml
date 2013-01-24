@@ -458,6 +458,7 @@
     <file type="web" url="file://$PROJECT_DIR$/watchdog" />
     <file type="web" url="file://$PROJECT_DIR$/yandex.ws" />
     <file type="web" url="file://$PROJECT_DIR$/zubat" />
+    <type id="JRUBY" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
