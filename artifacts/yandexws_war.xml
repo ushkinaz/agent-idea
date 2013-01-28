@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="yandexws:war">
     <output-path>$PROJECT_DIR$/yandex.ws/target</output-path>
-    <root id="archive" name="yandexws.war">
+    <root id="archive" name="parent.pom.war">
       <element id="artifact" artifact-name="yandexws:war exploded" />
     </root>
   </artifact>
