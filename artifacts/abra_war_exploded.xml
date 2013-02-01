@@ -44,6 +44,7 @@
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.8.0" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
           <element id="archive" name="app-aspect.jar">
             <element id="module-output" name="app-aspect" />
           </element>
@@ -78,7 +79,7 @@
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-policy:2.7.0" />
           <element id="library" level="project" name="Maven: org.apache.neethi:neethi:3.0.2" />
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-security:2.7.0" />
-          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-core:2.6.2" />
+          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-core:2.6.3" />
           <element id="library" level="project" name="Maven: org.apache.ws.security:wss4j:1.6.8" />
           <element id="library" level="project" name="Maven: org.apache.santuario:xmlsec:1.5.3" />
           <element id="library" level="project" name="Maven: org.opensaml:opensaml:2.5.1-1" />
@@ -156,10 +157,6 @@
           <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:1.0" />
           <element id="library" level="project" name="Maven: org.codehaus.groovy:groovy-all:2.0.5" />
-          <element id="archive" name="common.war.jar">
-            <element id="module-output" name="common.war" />
-          </element>
-          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.12" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.1.0.Final" />
           <element id="library" level="project" name="Maven: javax.validation:validation-api:1.0.0.GA" />

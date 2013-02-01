@@ -44,6 +44,7 @@
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.8.0" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
           <element id="archive" name="app-aspect.jar">
             <element id="module-output" name="app-aspect" />
           </element>
@@ -78,7 +79,7 @@
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-policy:2.7.0" />
           <element id="library" level="project" name="Maven: org.apache.neethi:neethi:3.0.2" />
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-security:2.7.0" />
-          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-core:2.5.1" />
+          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-core:2.6.3" />
           <element id="library" level="project" name="Maven: org.apache.ws.security:wss4j:1.6.8" />
           <element id="library" level="project" name="Maven: org.apache.santuario:xmlsec:1.5.3" />
           <element id="library" level="project" name="Maven: org.opensaml:opensaml:2.5.1-1" />
@@ -108,9 +109,15 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.1.3.RELEASE" />
-          <element id="archive" name="common.war.jar">
-            <element id="module-output" name="common.war" />
+          <element id="archive" name="security-oauth2-aspect.jar">
+            <element id="module-output" name="security-oauth2-aspect" />
           </element>
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.1.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:3.1.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.1.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:3.1.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:3.1.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security.oauth:spring-security-oauth2:1.0.0.RELEASE" />
           <element id="archive" name="presentation.jar">
             <element id="module-output" name="presentation" />
           </element>
@@ -144,7 +151,61 @@
           <element id="library" level="project" name="Maven: ma.glasnost.orika:orika-core:1.4.0" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.16.1-GA" />
           <element id="library" level="project" name="Maven: com.thoughtworks.paranamer:paranamer:2.3" />
+          <element id="archive" name="aggregation.jar">
+            <element id="module-output" name="aggregation" />
+          </element>
+          <element id="archive" name="offer-beans.jar">
+            <element id="module-output" name="offer-beans" />
+          </element>
+          <element id="archive" name="beans.jar">
+            <element id="module-output" name="beans" />
+          </element>
+          <element id="archive" name="air-beans.jar">
+            <element id="module-output" name="air-beans" />
+          </element>
+          <element id="archive" name="ps-beans.jar">
+            <element id="module-output" name="ps-beans" />
+          </element>
+          <element id="archive" name="air-api.jar">
+            <element id="module-output" name="air-api" />
+          </element>
+          <element id="archive" name="profile-beans.jar">
+            <element id="module-output" name="profile-beans" />
+          </element>
+          <element id="archive" name="rules.jar">
+            <element id="module-output" name="rules" />
+          </element>
+          <element id="archive" name="storage-api.jar">
+            <element id="module-output" name="storage-api" />
+          </element>
+          <element id="archive" name="identity.jar">
+            <element id="module-output" name="identity" />
+          </element>
+          <element id="archive" name="security-api.jar">
+            <element id="module-output" name="security-api" />
+          </element>
+          <element id="archive" name="security-beans.jar">
+            <element id="module-output" name="security-beans" />
+          </element>
+          <element id="archive" name="profile-api.jar">
+            <element id="module-output" name="profile-api" />
+          </element>
           <element id="library" level="project" name="Maven: org.modelmapper:modelmapper:0.5.4" />
+          <element id="archive" name="security-oauth2-service.jar">
+            <element id="module-output" name="security-oauth2-service" />
+          </element>
+          <element id="archive" name="security-boundary.jar">
+            <element id="module-output" name="security-boundary" />
+          </element>
+          <element id="archive" name="air-boundary.jar">
+            <element id="module-output" name="air-boundary" />
+          </element>
+          <element id="archive" name="air-booking-ext.jar">
+            <element id="module-output" name="air-booking-ext" />
+          </element>
+          <element id="archive" name="profile-boundary.jar">
+            <element id="module-output" name="profile-boundary" />
+          </element>
         </element>
       </element>
     </root>
