@@ -217,6 +217,7 @@
         <module name="abra.api" />
         <module name="actions.history" />
         <module name="aeroexpress.api" />
+        <module name="agg-engine" />
         <module name="aggregation" />
         <module name="air-api" />
         <module name="air-beans" />
@@ -248,7 +249,6 @@
         <module name="jms-aspect" />
         <module name="kadabra" />
         <module name="krabby" />
-        <module name="log.analyser" />
         <module name="meta-aspect" />
         <module name="numel" />
         <module name="offer-beans" />
@@ -279,7 +279,6 @@
         <module name="reports" />
         <module name="reports.api" />
         <module name="reports.service" />
-        <module name="reusable.utils" />
         <module name="rules" />
         <module name="saiku" />
         <module name="security-api" />
@@ -293,14 +292,12 @@
         <module name="sirena.agency.api" />
         <module name="sirena.agency.service" />
         <module name="spzd.api" />
-        <module name="squirtle" />
         <module name="storage-api" />
         <module name="storage-boundary" />
         <module name="swinub" />
         <module name="swinub.api" />
         <module name="timetable" />
         <module name="ufs.api" />
-        <module name="utils" />
         <module name="watchdog" />
         <module name="watchdog.api" />
         <module name="zubat" />
