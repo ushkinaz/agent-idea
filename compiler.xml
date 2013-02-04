@@ -217,7 +217,6 @@
         <module name="abra.api" />
         <module name="actions.history" />
         <module name="aeroexpress.api" />
-        <module name="agg-engine" />
         <module name="aggregation" />
         <module name="air-api" />
         <module name="air-beans" />
