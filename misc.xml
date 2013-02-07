@@ -446,6 +446,8 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file url="file://$PROJECT_DIR$/saiku/overlays" />
+    <file url="file://$PROJECT_DIR$/saiku/overlays" />
+    <file url="file://$PROJECT_DIR$/saiku/overlays" />
     <file type="web" url="file://$PROJECT_DIR$/abra" />
     <file type="web" url="file://$PROJECT_DIR$/common.war" />
     <file type="web" url="file://$PROJECT_DIR$/gamayun" />
@@ -499,7 +501,6 @@
         <option value="$PROJECT_DIR$/insurance.service/pom.xml" />
         <option value="$PROJECT_DIR$/psyduck/pom.xml" />
         <option value="$PROJECT_DIR$/gamayun/pom.xml" />
-        <option value="$PROJECT_DIR$/aeroexpress/pom.xml" />
         <option value="$PROJECT_DIR$/ehcache.utils/pom.xml" />
         <option value="$PROJECT_DIR$/flightstats.stubs/pom.xml" />
         <option value="$PROJECT_DIR$/zubat.sender/pom.xml" />
@@ -520,6 +521,11 @@
         <option value="$PROJECT_DIR$/update_scripts/pom.xml" />
         <option value="$PROJECT_DIR$/load-test/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/aeroexpress/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="PomSorter">

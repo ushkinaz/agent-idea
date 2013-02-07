@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/abra/abra.iml" filepath="$PROJECT_DIR$/abra/abra.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/abra.api/abra.api.iml" filepath="$PROJECT_DIR$/abra.api/abra.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/actions.history/actions.history.iml" filepath="$PROJECT_DIR$/actions.history/actions.history.iml" group="libs" />
-      <module fileurl="file://$PROJECT_DIR$/aeroexpress/aeroexpress.api.iml" filepath="$PROJECT_DIR$/aeroexpress/aeroexpress.api.iml" group="libs/api" />
+      <module fileurl="file://$PROJECT_DIR$/agg-engine/agg-engine.iml" filepath="$PROJECT_DIR$/agg-engine/agg-engine.iml" />
       <module fileurl="file://$PROJECT_DIR$/aggregation/aggregation.iml" filepath="$PROJECT_DIR$/aggregation/aggregation.iml" />
       <module fileurl="file://$PROJECT_DIR$/air-api/air-api.iml" filepath="$PROJECT_DIR$/air-api/air-api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/air-beans/air-beans.iml" filepath="$PROJECT_DIR$/air-beans/air-beans.iml" group="libs/beans" />
@@ -70,7 +70,6 @@
       <module fileurl="file://$PROJECT_DIR$/reports/reports.iml" filepath="$PROJECT_DIR$/reports/reports.iml" group="supplemental" />
       <module fileurl="file://$PROJECT_DIR$/reports.api/reports.api.iml" filepath="$PROJECT_DIR$/reports.api/reports.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/reports.service/reports.service.iml" filepath="$PROJECT_DIR$/reports.service/reports.service.iml" group="libs" />
-      <module fileurl="file://$PROJECT_DIR$/rules/rules.iml" filepath="$PROJECT_DIR$/rules/rules.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/saiku/saiku.iml" filepath="$PROJECT_DIR$/saiku/saiku.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/security-api/security-api.iml" filepath="$PROJECT_DIR$/security-api/security-api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/security-aspect/security-aspect.iml" filepath="$PROJECT_DIR$/security-aspect/security-aspect.iml" group="supplemental/aspect" />
