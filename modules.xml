@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/abra/abra.iml" filepath="$PROJECT_DIR$/abra/abra.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/abra.api/abra.api.iml" filepath="$PROJECT_DIR$/abra.api/abra.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/actions.history/actions.history.iml" filepath="$PROJECT_DIR$/actions.history/actions.history.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/aeroexpress/aeroexpress.api.iml" filepath="$PROJECT_DIR$/aeroexpress/aeroexpress.api.iml" />
       <module fileurl="file://$PROJECT_DIR$/agg-engine/agg-engine.iml" filepath="$PROJECT_DIR$/agg-engine/agg-engine.iml" />
       <module fileurl="file://$PROJECT_DIR$/aggregation/aggregation.iml" filepath="$PROJECT_DIR$/aggregation/aggregation.iml" />
       <module fileurl="file://$PROJECT_DIR$/air-api/air-api.iml" filepath="$PROJECT_DIR$/air-api/air-api.iml" group="libs/api" />

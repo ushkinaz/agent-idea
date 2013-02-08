@@ -214,6 +214,7 @@
         <module name="abra" />
         <module name="abra.api" />
         <module name="actions.history" />
+        <module name="aeroexpress.api" />
         <module name="agg-engine" />
         <module name="aggregation" />
         <module name="air-api" />
@@ -305,6 +306,7 @@
       <module name="abra" target="1.7" />
       <module name="abra.api" target="1.7" />
       <module name="actions.history" target="1.7" />
+      <module name="aeroexpress.api" target="1.7" />
       <module name="agg-engine" target="1.7" />
       <module name="aggregation" target="1.7" />
       <module name="air-api" target="1.7" />
