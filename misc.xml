@@ -444,6 +444,11 @@
       <item index="4" class="java.lang.String" itemvalue="org.unitils.spring.annotation.SpringBeanByType" />
     </list>
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file url="file://$PROJECT_DIR$/saiku/overlays" />
     <file url="file://$PROJECT_DIR$/saiku/overlays" />
