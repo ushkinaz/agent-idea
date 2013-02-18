@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/abra.api/abra.api.iml" filepath="$PROJECT_DIR$/abra.api/abra.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/actions.history/actions.history.iml" filepath="$PROJECT_DIR$/actions.history/actions.history.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/aeroexpress/aeroexpress.api.iml" filepath="$PROJECT_DIR$/aeroexpress/aeroexpress.api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/agg-engine/agg-engine.iml" filepath="$PROJECT_DIR$/agg-engine/agg-engine.iml" />
       <module fileurl="file://$PROJECT_DIR$/aggregation/aggregation.iml" filepath="$PROJECT_DIR$/aggregation/aggregation.iml" />
       <module fileurl="file://$PROJECT_DIR$/air-api/air-api.iml" filepath="$PROJECT_DIR$/air-api/air-api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/air-beans/air-beans.iml" filepath="$PROJECT_DIR$/air-beans/air-beans.iml" group="libs/beans" />
@@ -31,6 +30,7 @@
       <module fileurl="file://$PROJECT_DIR$/domain.layer/domain.iml" filepath="$PROJECT_DIR$/domain.layer/domain.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/flightstats.service/flightstats.service.iml" filepath="$PROJECT_DIR$/flightstats.service/flightstats.service.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/flightstats.stubs/flightstats.stubs.iml" filepath="$PROJECT_DIR$/flightstats.stubs/flightstats.stubs.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/flow/flow.iml" filepath="$PROJECT_DIR$/flow/flow.iml" />
       <module fileurl="file://$PROJECT_DIR$/gamayun/gamayun.iml" filepath="$PROJECT_DIR$/gamayun/gamayun.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/goose-engine/goose-engine.iml" filepath="$PROJECT_DIR$/goose-engine/goose-engine.iml" />
       <module fileurl="file://$PROJECT_DIR$/identity/identity.iml" filepath="$PROJECT_DIR$/identity/identity.iml" group="libs" />
@@ -89,6 +89,7 @@
       <module fileurl="file://$PROJECT_DIR$/swinub.api/swinub.api.iml" filepath="$PROJECT_DIR$/swinub.api/swinub.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/flights.timetable/timetable.iml" filepath="$PROJECT_DIR$/flights.timetable/timetable.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/ufs.api/ufs.api.iml" filepath="$PROJECT_DIR$/ufs.api/ufs.api.iml" group="libs/api" />
+      <module fileurl="file://$PROJECT_DIR$/validation-aspect/validation-aspect.iml" filepath="$PROJECT_DIR$/validation-aspect/validation-aspect.iml" />
       <module fileurl="file://$PROJECT_DIR$/watchdog/watchdog.iml" filepath="$PROJECT_DIR$/watchdog/watchdog.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/watchdog.api/watchdog.api.iml" filepath="$PROJECT_DIR$/watchdog.api/watchdog.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/zubat/zubat.iml" filepath="$PROJECT_DIR$/zubat/zubat.iml" group="application" />

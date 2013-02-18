@@ -109,6 +109,11 @@
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-addr:2.7.0" />
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-policy:2.7.0" />
           <element id="library" level="project" name="Maven: org.apache.neethi:neethi:3.0.2" />
+          <element id="library" level="project" name="Maven: org.codehaus.jettison:jettison:1.2" />
+          <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-jaxrs:1.9.11" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.11" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.11" />
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-security:2.7.0" />
           <element id="library" level="project" name="Maven: org.apache.ws.security:wss4j:1.6.8" />
           <element id="library" level="project" name="Maven: org.apache.santuario:xmlsec:1.5.3" />
@@ -137,7 +142,6 @@
           <element id="library" level="project" name="Maven: org.apache.poi:poi:3.6" />
           <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml-schemas:3.6" />
           <element id="library" level="project" name="Maven: org.apache.xmlbeans:xmlbeans:2.3.0" />
-          <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:1.0" />
           <element id="library" level="project" name="Maven: org.codehaus.groovy:groovy-all:2.0.5" />
           <element id="archive" name="flightstats.service.jar">
@@ -162,7 +166,7 @@
           <element id="archive" name="reference.jar">
             <element id="module-output" name="reference" />
           </element>
-          <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.3.1.Final" />
           <element id="library" level="project" name="Maven: javax.validation:validation-api:1.0.0.GA" />
           <element id="library" level="project" name="Maven: net.java.dev.rome:rome:1.0.0" />
           <element id="library" level="project" name="Maven: jdom:jdom:1.0" />
@@ -194,8 +198,6 @@
           </element>
           <element id="library" level="project" name="Maven: jtidy:jtidy:4aug2000r7-dev" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.6.12" />
-          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.11" />
-          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.11" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-core:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-runtime:1.0.7" />
