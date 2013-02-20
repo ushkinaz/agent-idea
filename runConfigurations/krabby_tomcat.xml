@@ -42,6 +42,11 @@
       <option name="TRANSPORT" value="0" />
       <option name="LOCAL" value="true" />
     </RunnerSettings>
+    <RunnerSettings RunnerId="JProfiler">
+      <option name="WINDOW" value="false" />
+      <option name="JVMPI" value="false" />
+      <option name="INTERPRETED" value="false" />
+    </RunnerSettings>
     <ConfigurationWrapper RunnerId="Debug" />
     <method />
   </configuration>

@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Make krabby" type="MavenRunConfiguration" factoryName="Maven" folderName="make">
+  <configuration default="false" name="kadabra:jetty" type="MavenRunConfiguration" factoryName="Maven" singleton="true">
     <MavenSettings>
       <option name="myGeneralSettings">
         <MavenGeneralSettings>
@@ -9,12 +9,12 @@
           <option name="mavenHome" value="" />
           <option name="nonRecursive" value="false" />
           <option name="outputLevel" value="INFO" />
-          <option name="pluginUpdatePolicy" value="UPDATE" />
+          <option name="pluginUpdatePolicy" value="DEFAULT" />
           <option name="printErrorStackTraces" value="false" />
           <option name="snapshotUpdatePolicy" value="ALWAYS_UPDATE" />
           <option name="usePluginRegistry" value="false" />
           <option name="userSettingsFile" value="" />
-          <option name="workOffline" value="true" />
+          <option name="workOffline" value="false" />
         </MavenGeneralSettings>
       </option>
       <option name="myRunnerSettings" />
@@ -26,16 +26,14 @@
           <option name="goals">
             <list>
               <option value="clean" />
-              <option value="install" />
-              <option value="-am" />
-              <option value="-pl" />
-              <option value=":krabby" />
+              <option value="package" />
+              <option value="jetty:run" />
             </list>
           </option>
           <option name="profilesMap">
             <map />
           </option>
-          <option name="workingDirPath" value="$PROJECT_DIR$/app.aggregator" />
+          <option name="workingDirPath" value="$PROJECT_DIR$/kadabra" />
         </MavenRunnerParameters>
       </option>
     </MavenSettings>
@@ -46,6 +44,8 @@
     </RunnerSettings>
     <RunnerSettings RunnerId="Run" />
     <ConfigurationWrapper RunnerId="Run" />
-    <method />
+    <method>
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Make kadabra" run_configuration_type="MavenRunConfiguration" />
+    </method>
   </configuration>
 </component>

@@ -1,0 +1,42 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="agg-engine [test]" type="MavenRunConfiguration" factoryName="Maven">
+    <MavenSettings>
+      <option name="myGeneralSettings" />
+      <option name="myRunnerSettings">
+        <MavenRunnerSettings>
+          <option name="jreName" value="#USE_PROJECT_JDK" />
+          <option name="mavenProperties">
+            <map />
+          </option>
+          <option name="runMavenInBackground" value="true" />
+          <option name="skipTests" value="false" />
+          <option name="vmOptions" value="-Dtest=InvocationsManagerTest" />
+        </MavenRunnerSettings>
+      </option>
+      <option name="myRunnerParameters">
+        <MavenRunnerParameters>
+          <option name="profiles">
+            <set />
+          </option>
+          <option name="goals">
+            <list>
+              <option value="test" />
+            </list>
+          </option>
+          <option name="profilesMap">
+            <map />
+          </option>
+          <option name="workingDirPath" value="$PROJECT_DIR$/agg-engine" />
+        </MavenRunnerParameters>
+      </option>
+    </MavenSettings>
+    <RunnerSettings RunnerId="JProfiler">
+      <option name="WINDOW" value="false" />
+      <option name="JVMPI" value="false" />
+      <option name="INTERPRETED" value="false" />
+    </RunnerSettings>
+    <RunnerSettings RunnerId="Run" />
+    <ConfigurationWrapper RunnerId="Run" />
+    <method />
+  </configuration>
+</component>

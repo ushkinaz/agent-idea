@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Make krabby" type="MavenRunConfiguration" factoryName="Maven" folderName="make">
+  <configuration default="false" name="Make kadabra" type="MavenRunConfiguration" factoryName="Maven" folderName="make">
     <MavenSettings>
       <option name="myGeneralSettings">
         <MavenGeneralSettings>
@@ -29,7 +29,7 @@
               <option value="install" />
               <option value="-am" />
               <option value="-pl" />
-              <option value=":krabby" />
+              <option value=":kadabra" />
             </list>
           </option>
           <option name="profilesMap">

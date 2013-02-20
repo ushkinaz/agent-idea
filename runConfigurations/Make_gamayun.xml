@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Make gamayun" type="MavenRunConfiguration" factoryName="Maven">
+  <configuration default="false" name="Make gamayun" type="MavenRunConfiguration" factoryName="Maven" folderName="make">
     <MavenSettings>
       <option name="myGeneralSettings">
         <MavenGeneralSettings>
@@ -39,6 +39,11 @@
         </MavenRunnerParameters>
       </option>
     </MavenSettings>
+    <RunnerSettings RunnerId="JProfiler">
+      <option name="WINDOW" value="false" />
+      <option name="JVMPI" value="false" />
+      <option name="INTERPRETED" value="false" />
+    </RunnerSettings>
     <RunnerSettings RunnerId="Run" />
     <ConfigurationWrapper RunnerId="Run" />
     <method />
