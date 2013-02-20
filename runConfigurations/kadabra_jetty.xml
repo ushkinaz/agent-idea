@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="kadabra:jetty" type="MavenRunConfiguration" factoryName="Maven" singleton="true">
+  <configuration default="false" name="kadabra:jetty" type="MavenRunConfiguration" factoryName="Maven" folderName="server" singleton="true">
     <MavenSettings>
       <option name="myGeneralSettings">
         <MavenGeneralSettings>
