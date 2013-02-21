@@ -197,7 +197,7 @@
           <element id="archive" name="profile-api.jar">
             <element id="module-output" name="profile-api" />
           </element>
-          <element id="archive" name="flow.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="flow" />
           </element>
           <element id="archive" name="security-oauth2-service.jar">
