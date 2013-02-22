@@ -32,7 +32,6 @@
       <module fileurl="file://$PROJECT_DIR$/flightstats.stubs/flightstats.stubs.iml" filepath="$PROJECT_DIR$/flightstats.stubs/flightstats.stubs.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/flow/flow.iml" filepath="$PROJECT_DIR$/flow/flow.iml" />
       <module fileurl="file://$PROJECT_DIR$/gamayun/gamayun.iml" filepath="$PROJECT_DIR$/gamayun/gamayun.iml" group="application" />
-      <module fileurl="file://$PROJECT_DIR$/goose-engine/goose-engine.iml" filepath="$PROJECT_DIR$/goose-engine/goose-engine.iml" />
       <module fileurl="file://$PROJECT_DIR$/identity/identity.iml" filepath="$PROJECT_DIR$/identity/identity.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/insurance.api/insurance.api.iml" filepath="$PROJECT_DIR$/insurance.api/insurance.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/insurance.service/insurance.service.iml" filepath="$PROJECT_DIR$/insurance.service/insurance.service.iml" group="libs" />
@@ -43,7 +42,6 @@
       <module fileurl="file://$PROJECT_DIR$/numel/numel.iml" filepath="$PROJECT_DIR$/numel/numel.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/offer-beans/offer-beans.iml" filepath="$PROJECT_DIR$/offer-beans/offer-beans.iml" group="libs/beans" />
       <module fileurl="file://$PROJECT_DIR$/operation.service/operation.service.iml" filepath="$PROJECT_DIR$/operation.service/operation.service.iml" group="libs" />
-      <module fileurl="file://$PROJECT_DIR$/orm-hibernate-aspect/orm-hibernate-aspect.iml" filepath="$PROJECT_DIR$/orm-hibernate-aspect/orm-hibernate-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/orm-hibernate4-aspect/orm-hibernate4-aspect.iml" filepath="$PROJECT_DIR$/orm-hibernate4-aspect/orm-hibernate4-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/orm-spring-jdbc-aspect/orm-spring-jdbc-aspect.iml" filepath="$PROJECT_DIR$/orm-spring-jdbc-aspect/orm-spring-jdbc-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/parent.pom/parent.pom.iml" filepath="$PROJECT_DIR$/parent.pom/parent.pom.iml" group="libs" />

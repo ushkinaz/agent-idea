@@ -60,7 +60,7 @@
           <element id="archive" name="storage-boundary.jar">
             <element id="module-output" name="storage-boundary" />
           </element>
-          <element id="archive" name="storage-api.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="storage-api" />
           </element>
           <element id="archive" name="beans.jar">

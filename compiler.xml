@@ -239,7 +239,6 @@
         <module name="flightstats.stubs" />
         <module name="flow" />
         <module name="gamayun" />
-        <module name="goose-engine" />
         <module name="identity" />
         <module name="insurance.api" />
         <module name="insurance.service" />
@@ -251,7 +250,6 @@
         <module name="numel" />
         <module name="offer-beans" />
         <module name="operation.service" />
-        <module name="orm-hibernate-aspect" />
         <module name="orm-hibernate4-aspect" />
         <module name="orm-spring-jdbc-aspect" />
         <module name="paysys.api" />

@@ -8,30 +8,8 @@
           <element id="module-output" name="kadabra" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="corporate.pom.jar">
+          <element id="archive" name="base-aspect.jar">
             <element id="module-output" name="base-aspect" />
-            <element id="module-output" name="app-aspect" />
-            <element id="module-output" name="app-web-aspect" />
-            <element id="module-output" name="cxf-aspect" />
-            <element id="module-output" name="security-oauth2-aspect" />
-            <element id="module-output" name="presentation" />
-            <element id="module-output" name="dictionary-boundary" />
-            <element id="module-output" name="dictionary-api" />
-            <element id="module-output" name="dictionary-controls" />
-            <element id="module-output" name="domain" />
-            <element id="module-output" name="common.enums" />
-            <element id="module-output" name="person-boundary" />
-            <element id="module-output" name="person-beans" />
-            <element id="module-output" name="aggregation" />
-            <element id="module-output" name="beans" />
-            <element id="module-output" name="air-beans" />
-            <element id="module-output" name="storage-api" />
-            <element id="module-output" name="profile-api" />
-            <element id="module-output" name="flow" />
-            <element id="module-output" name="security-oauth2-service" />
-            <element id="module-output" name="security-boundary" />
-            <element id="module-output" name="air-booking-ext" />
-            <element id="module-output" name="profile-boundary" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
@@ -66,8 +44,18 @@
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.8.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
+          <element id="archive" name="app-aspect.jar">
+            <element id="module-output" name="app-aspect" />
+          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
+          <element id="archive" name="corporate.pom.jar">
+            <element id="module-output" name="app-web-aspect" />
+            <element id="module-output" name="cxf-aspect" />
+            <element id="module-output" name="presentation" />
+            <element id="module-output" name="storage-api" />
+            <element id="module-output" name="air-booking-ext" />
+          </element>
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-tools-common:2.7.0" />
           <element id="library" level="project" name="Maven: org.apache.velocity:velocity:1.7" />
           <element id="library" level="project" name="Maven: wsdl4j:wsdl4j:1.6.2" />
@@ -123,6 +111,9 @@
           <element id="library" level="project" name="Maven: cglib:cglib-nodep:2.2.2" />
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.1.RELEASE" />
+          <element id="archive" name="security-oauth2-aspect.jar">
+            <element id="module-output" name="security-oauth2-aspect" />
+          </element>
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:3.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.1.3.RELEASE" />
@@ -137,16 +128,46 @@
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.12" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.3.1.Final" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator-annotation-processor:4.3.1.Final" />
+          <element id="archive" name="dictionary-boundary.jar">
+            <element id="module-output" name="dictionary-boundary" />
+          </element>
+          <element id="archive" name="dictionary-api.jar">
+            <element id="module-output" name="dictionary-api" />
+          </element>
           <element id="archive" name="dictionary-beans.jar">
             <element id="module-output" name="dictionary-beans" />
+          </element>
+          <element id="archive" name="dictionary-controls.jar">
+            <element id="module-output" name="dictionary-controls" />
+          </element>
+          <element id="archive" name="domain.jar">
+            <element id="module-output" name="domain" />
+          </element>
+          <element id="archive" name="common.enums.jar">
+            <element id="module-output" name="common.enums" />
+          </element>
+          <element id="archive" name="person-boundary.jar">
+            <element id="module-output" name="person-boundary" />
           </element>
           <element id="archive" name="person-api.jar">
             <element id="module-output" name="person-api" />
           </element>
+          <element id="archive" name="person-beans.jar">
+            <element id="module-output" name="person-beans" />
+          </element>
           <element id="library" level="project" name="Maven: ma.glasnost.orika:orika-core:1.4.0" />
           <element id="library" level="project" name="Maven: com.thoughtworks.paranamer:paranamer:2.3" />
+          <element id="archive" name="aggregation.jar">
+            <element id="module-output" name="aggregation" />
+          </element>
           <element id="archive" name="offer-beans.jar">
             <element id="module-output" name="offer-beans" />
+          </element>
+          <element id="archive" name="beans.jar">
+            <element id="module-output" name="beans" />
+          </element>
+          <element id="archive" name="air-beans.jar">
+            <element id="module-output" name="air-beans" />
           </element>
           <element id="archive" name="ps-beans.jar">
             <element id="module-output" name="ps-beans" />
@@ -166,8 +187,23 @@
           <element id="archive" name="security-beans.jar">
             <element id="module-output" name="security-beans" />
           </element>
+          <element id="archive" name="profile-api.jar">
+            <element id="module-output" name="profile-api" />
+          </element>
+          <element id="archive" name="flow.jar">
+            <element id="module-output" name="flow" />
+          </element>
+          <element id="archive" name="security-oauth2-service.jar">
+            <element id="module-output" name="security-oauth2-service" />
+          </element>
+          <element id="archive" name="security-boundary.jar">
+            <element id="module-output" name="security-boundary" />
+          </element>
           <element id="archive" name="air-boundary.jar">
             <element id="module-output" name="air-boundary" />
+          </element>
+          <element id="archive" name="profile-boundary.jar">
+            <element id="module-output" name="profile-boundary" />
           </element>
           <element id="library" level="project" name="Maven: org.modelmapper:modelmapper:0.5.4" />
         </element>
