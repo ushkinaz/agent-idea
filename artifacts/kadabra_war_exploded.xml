@@ -49,12 +49,11 @@
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
-          <element id="archive" name="corporate.pom.jar">
+          <element id="archive" name="app-web-aspect.jar">
             <element id="module-output" name="app-web-aspect" />
+          </element>
+          <element id="archive" name="cxf-aspect.jar">
             <element id="module-output" name="cxf-aspect" />
-            <element id="module-output" name="presentation" />
-            <element id="module-output" name="storage-api" />
-            <element id="module-output" name="air-booking-ext" />
           </element>
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-tools-common:2.7.0" />
           <element id="library" level="project" name="Maven: org.apache.velocity:velocity:1.7" />
@@ -111,6 +110,7 @@
           <element id="library" level="project" name="Maven: cglib:cglib-nodep:2.2.2" />
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.1.RELEASE" />
           <element id="archive" name="security-oauth2-aspect.jar">
             <element id="module-output" name="security-oauth2-aspect" />
           </element>
@@ -128,6 +128,9 @@
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.12" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.3.1.Final" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator-annotation-processor:4.3.1.Final" />
+          <element id="archive" name="presentation.jar">
+            <element id="module-output" name="presentation" />
+          </element>
           <element id="archive" name="dictionary-boundary.jar">
             <element id="module-output" name="dictionary-boundary" />
           </element>
@@ -178,6 +181,9 @@
           <element id="archive" name="profile-beans.jar">
             <element id="module-output" name="profile-beans" />
           </element>
+          <element id="archive" name="storage-api.jar">
+            <element id="module-output" name="storage-api" />
+          </element>
           <element id="archive" name="identity.jar">
             <element id="module-output" name="identity" />
           </element>
@@ -201,6 +207,9 @@
           </element>
           <element id="archive" name="air-boundary.jar">
             <element id="module-output" name="air-boundary" />
+          </element>
+          <element id="archive" name="air-booking-ext.jar">
+            <element id="module-output" name="air-booking-ext" />
           </element>
           <element id="archive" name="profile-boundary.jar">
             <element id="module-output" name="profile-boundary" />

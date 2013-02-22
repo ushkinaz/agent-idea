@@ -82,6 +82,7 @@
           <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-core:2.6.3" />
           <element id="library" level="project" name="Maven: cglib:cglib-nodep:2.2.2" />
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.2.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.1.RELEASE" />
           <element id="archive" name="zubat.sender.jar">
             <element id="module-output" name="zubat.sender" />
           </element>
