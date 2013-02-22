@@ -69,6 +69,7 @@
       <module fileurl="file://$PROJECT_DIR$/reports/reports.iml" filepath="$PROJECT_DIR$/reports/reports.iml" group="supplemental" />
       <module fileurl="file://$PROJECT_DIR$/reports.api/reports.api.iml" filepath="$PROJECT_DIR$/reports.api/reports.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/reports.service/reports.service.iml" filepath="$PROJECT_DIR$/reports.service/reports.service.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/reusable.utils/reusable.utils.iml" filepath="$PROJECT_DIR$/reusable.utils/reusable.utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/saiku/saiku.iml" filepath="$PROJECT_DIR$/saiku/saiku.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/security-api/security-api.iml" filepath="$PROJECT_DIR$/security-api/security-api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/security-aspect/security-aspect.iml" filepath="$PROJECT_DIR$/security-aspect/security-aspect.iml" group="supplemental/aspect" />

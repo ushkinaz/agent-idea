@@ -275,6 +275,7 @@
         <module name="reports" />
         <module name="reports.api" />
         <module name="reports.service" />
+        <module name="reusable.utils" />
         <module name="saiku" />
         <module name="security-api" />
         <module name="security-aspect" />
@@ -373,6 +374,7 @@
       <module name="reports" target="1.7" />
       <module name="reports.api" target="1.7" />
       <module name="reports.service" target="1.7" />
+      <module name="reusable.utils" target="1.7" />
       <module name="saiku" target="1.7" />
       <module name="security-api" target="1.7" />
       <module name="security-aspect" target="1.7" />
