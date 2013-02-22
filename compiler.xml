@@ -293,6 +293,7 @@
         <module name="swinub.api" />
         <module name="timetable" />
         <module name="ufs.api" />
+        <module name="utils" />
         <module name="validation-aspect" />
         <module name="watchdog" />
         <module name="watchdog.api" />
@@ -390,6 +391,7 @@
       <module name="swinub.api" target="1.7" />
       <module name="timetable" target="1.7" />
       <module name="ufs.api" target="1.7" />
+      <module name="utils" target="1.7" />
       <module name="validation-aspect" target="1.7" />
       <module name="watchdog" target="1.7" />
       <module name="watchdog.api" target="1.7" />
