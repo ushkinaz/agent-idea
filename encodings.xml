@@ -35,7 +35,6 @@
     <file url="file://$PROJECT_DIR$/flightstats.stubs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flow" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gamayun" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/goose-engine" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/heartbeat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/identity" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/insurance.api" charset="UTF-8" />
@@ -48,7 +47,6 @@
     <file url="file://$PROJECT_DIR$/numel" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/offer-beans" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/operation.service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/orm-hibernate-aspect" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/orm-hibernate4-aspect" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/orm-spring-jdbc-aspect" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent.pom" charset="UTF-8" />
@@ -85,6 +83,7 @@
     <file url="file://$PROJECT_DIR$/security-boundary" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-oauth2-aspect" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-oauth2-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-presentation" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/simurgh" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sirena.agency.api" charset="UTF-8" />

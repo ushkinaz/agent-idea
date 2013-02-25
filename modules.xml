@@ -77,6 +77,7 @@
       <module fileurl="file://$PROJECT_DIR$/security-boundary/security-boundary.iml" filepath="$PROJECT_DIR$/security-boundary/security-boundary.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/security-oauth2-aspect/security-oauth2-aspect.iml" filepath="$PROJECT_DIR$/security-oauth2-aspect/security-oauth2-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/security-oauth2-service/security-oauth2-service.iml" filepath="$PROJECT_DIR$/security-oauth2-service/security-oauth2-service.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/security-presentation/security-presentation.iml" filepath="$PROJECT_DIR$/security-presentation/security-presentation.iml" />
       <module fileurl="file://$PROJECT_DIR$/services/services.iml" filepath="$PROJECT_DIR$/services/services.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/simurgh/simurgh.iml" filepath="$PROJECT_DIR$/simurgh/simurgh.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/sirena.agency.api/sirena.agency.api.iml" filepath="$PROJECT_DIR$/sirena.agency.api/sirena.agency.api.iml" group="libs/api" />

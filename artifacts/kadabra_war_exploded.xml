@@ -26,7 +26,8 @@
           <element id="library" level="project" name="Maven: com.oracle:ojdbc6:11.2.0.3" />
           <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
           <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
-          <element id="library" level="project" name="Maven: org.opensymphony.quartz:quartz-all:1.6.1" />
+          <element id="library" level="project" name="Maven: org.quartz-scheduler:quartz:2.1.6" />
+          <element id="library" level="project" name="Maven: c3p0:c3p0:0.9.1.1" />
           <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:2.0.1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
@@ -196,8 +197,11 @@
           <element id="archive" name="profile-api.jar">
             <element id="module-output" name="profile-api" />
           </element>
-          <element id="archive" name="flow.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="flow" />
+          </element>
+          <element id="archive" name="security-presentation.jar">
+            <element id="module-output" name="security-presentation" />
           </element>
           <element id="archive" name="security-oauth2-service.jar">
             <element id="module-output" name="security-oauth2-service" />

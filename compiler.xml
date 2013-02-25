@@ -283,6 +283,7 @@
         <module name="security-boundary" />
         <module name="security-oauth2-aspect" />
         <module name="security-oauth2-service" />
+        <module name="security-presentation" />
         <module name="services" />
         <module name="simurgh" />
         <module name="sirena.agency.api" />
@@ -382,6 +383,7 @@
       <module name="security-boundary" target="1.7" />
       <module name="security-oauth2-aspect" target="1.7" />
       <module name="security-oauth2-service" target="1.7" />
+      <module name="security-presentation" target="1.7" />
       <module name="services" target="1.7" />
       <module name="simurgh" target="1.7" />
       <module name="sirena.agency.api" target="1.7" />
