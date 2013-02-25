@@ -49,6 +49,9 @@
     <file url="file://$PROJECT_DIR$/operation.service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/orm-hibernate4-aspect" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/orm-spring-jdbc-aspect" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pack-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pack-beans" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pack-boundary" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent.pom" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent.war.pom" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/paysys" charset="UTF-8" />

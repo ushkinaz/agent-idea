@@ -252,6 +252,9 @@
         <module name="operation.service" />
         <module name="orm-hibernate4-aspect" />
         <module name="orm-spring-jdbc-aspect" />
+        <module name="pack-api" />
+        <module name="pack-beans" />
+        <module name="pack-boundary" />
         <module name="paysys.api" />
         <module name="person-api" />
         <module name="person-beans" />
@@ -350,6 +353,9 @@
       <module name="orm-hibernate-aspect" target="1.7" />
       <module name="orm-hibernate4-aspect" target="1.7" />
       <module name="orm-spring-jdbc-aspect" target="1.7" />
+      <module name="pack-api" target="1.7" />
+      <module name="pack-beans" target="1.7" />
+      <module name="pack-boundary" target="1.7" />
       <module name="parent.pom" target="1.7" />
       <module name="parent.war.pom" target="1.7" />
       <module name="paysys.api" target="1.7" />

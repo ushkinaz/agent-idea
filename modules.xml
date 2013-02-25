@@ -44,6 +44,9 @@
       <module fileurl="file://$PROJECT_DIR$/operation.service/operation.service.iml" filepath="$PROJECT_DIR$/operation.service/operation.service.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/orm-hibernate4-aspect/orm-hibernate4-aspect.iml" filepath="$PROJECT_DIR$/orm-hibernate4-aspect/orm-hibernate4-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/orm-spring-jdbc-aspect/orm-spring-jdbc-aspect.iml" filepath="$PROJECT_DIR$/orm-spring-jdbc-aspect/orm-spring-jdbc-aspect.iml" group="supplemental/aspect" />
+      <module fileurl="file://$PROJECT_DIR$/pack-api/pack-api.iml" filepath="$PROJECT_DIR$/pack-api/pack-api.iml" group="libs/api" />
+      <module fileurl="file://$PROJECT_DIR$/pack-beans/pack-beans.iml" filepath="$PROJECT_DIR$/pack-beans/pack-beans.iml" group="libs/beans" />
+      <module fileurl="file://$PROJECT_DIR$/pack-boundary/pack-boundary.iml" filepath="$PROJECT_DIR$/pack-boundary/pack-boundary.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/parent.pom/parent.pom.iml" filepath="$PROJECT_DIR$/parent.pom/parent.pom.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/parent.war.pom/parent.war.pom.iml" filepath="$PROJECT_DIR$/parent.war.pom/parent.war.pom.iml" group="supplemental" />
       <module fileurl="file://$PROJECT_DIR$/paysys/paysys.api.iml" filepath="$PROJECT_DIR$/paysys/paysys.api.iml" group="libs/api" />
