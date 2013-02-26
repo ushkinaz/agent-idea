@@ -45,8 +45,10 @@
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.8.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
-          <element id="archive" name="app-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="app-aspect" />
+            <element id="module-output" name="presentation.transformers" />
+            <element id="module-output" name="insurance.api" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
@@ -238,14 +240,8 @@
           </element>
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-lgpl:1.9.11" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-lgpl:1.9.11" />
-          <element id="archive" name="presentation.transformers.jar">
-            <element id="module-output" name="presentation.transformers" />
-          </element>
           <element id="archive" name="insurance.service.jar">
             <element id="module-output" name="insurance.service" />
-          </element>
-          <element id="archive" name="insurance.api.jar">
-            <element id="module-output" name="insurance.api" />
           </element>
           <element id="archive" name="rate.calculator.api.jar">
             <element id="module-output" name="rate.calculator.api" />

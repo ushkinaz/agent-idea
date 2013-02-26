@@ -45,8 +45,12 @@
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.8.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
-          <element id="archive" name="app-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="app-aspect" />
+            <element id="module-output" name="orm-spring-jdbc-aspect" />
+            <element id="module-output" name="operation.service" />
+            <element id="module-output" name="ufs.api" />
+            <element id="module-output" name="spzd.api" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
@@ -66,9 +70,6 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.1.RELEASE" />
-          <element id="archive" name="orm-spring-jdbc-aspect.jar">
-            <element id="module-output" name="orm-spring-jdbc-aspect" />
-          </element>
           <element id="archive" name="jms-aspect.jar">
             <element id="module-output" name="jms-aspect" />
           </element>
@@ -184,9 +185,6 @@
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-compiler:1.0.7" />
           <element id="library" level="project" name="Maven: jaxen:jaxen:1.1.4" />
           <element id="library" level="project" name="Maven: com.ibm.icu:icu4j:50.1" />
-          <element id="archive" name="operation.service.jar">
-            <element id="module-output" name="operation.service" />
-          </element>
           <element id="archive" name="watchdog.api.jar">
             <element id="module-output" name="watchdog.api" />
           </element>
@@ -195,12 +193,6 @@
           </element>
           <element id="archive" name="railway.service.jar">
             <element id="module-output" name="railway.service" />
-          </element>
-          <element id="archive" name="ufs.api.jar">
-            <element id="module-output" name="ufs.api" />
-          </element>
-          <element id="archive" name="spzd.api.jar">
-            <element id="module-output" name="spzd.api" />
           </element>
           <element id="archive" name="rate.calculator.service.jar">
             <element id="module-output" name="rate.calculator.service" />

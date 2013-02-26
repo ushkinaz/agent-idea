@@ -38,6 +38,7 @@
       <module fileurl="file://$PROJECT_DIR$/jasper-aspect/jasper-aspect.iml" filepath="$PROJECT_DIR$/jasper-aspect/jasper-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/jms-aspect/jms-aspect.iml" filepath="$PROJECT_DIR$/jms-aspect/jms-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/kadabra/kadabra.iml" filepath="$PROJECT_DIR$/kadabra/kadabra.iml" group="application" />
+      <module fileurl="file://$PROJECT_DIR$/kadabra-test/kadabra-test.iml" filepath="$PROJECT_DIR$/kadabra-test/kadabra-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/krabby/krabby.iml" filepath="$PROJECT_DIR$/krabby/krabby.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/numel/numel.iml" filepath="$PROJECT_DIR$/numel/numel.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/offer-beans/offer-beans.iml" filepath="$PROJECT_DIR$/offer-beans/offer-beans.iml" group="libs/beans" />
@@ -92,6 +93,7 @@
       <module fileurl="file://$PROJECT_DIR$/swinub.api/swinub.api.iml" filepath="$PROJECT_DIR$/swinub.api/swinub.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/flights.timetable/timetable.iml" filepath="$PROJECT_DIR$/flights.timetable/timetable.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/ufs.api/ufs.api.iml" filepath="$PROJECT_DIR$/ufs.api/ufs.api.iml" group="libs/api" />
+      <module fileurl="file://$PROJECT_DIR$/update_scripts/update_scripts.iml" filepath="$PROJECT_DIR$/update_scripts/update_scripts.iml" group="supplemental" />
       <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/validation-aspect/validation-aspect.iml" filepath="$PROJECT_DIR$/validation-aspect/validation-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/watchdog/watchdog.iml" filepath="$PROJECT_DIR$/watchdog/watchdog.iml" group="application" />

@@ -200,6 +200,9 @@
           <element id="archive" name="flow.jar">
             <element id="module-output" name="flow" />
           </element>
+          <element id="archive" name="pack-api.jar">
+            <element id="module-output" name="pack-api" />
+          </element>
           <element id="archive" name="security-presentation.jar">
             <element id="module-output" name="security-presentation" />
           </element>

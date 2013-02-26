@@ -245,6 +245,7 @@
         <module name="jasper-aspect" />
         <module name="jms-aspect" />
         <module name="kadabra" />
+        <module name="kadabra-test" />
         <module name="krabby" />
         <module name="meta-aspect" />
         <module name="numel" />
@@ -346,6 +347,7 @@
       <module name="jasper-aspect" target="1.7" />
       <module name="jms-aspect" target="1.7" />
       <module name="kadabra" target="1.7" />
+      <module name="kadabra-test" target="1.7" />
       <module name="krabby" target="1.7" />
       <module name="numel" target="1.7" />
       <module name="offer-beans" target="1.7" />

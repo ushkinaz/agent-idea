@@ -73,11 +73,11 @@
           <element id="archive" name="dictionary-beans.jar">
             <element id="module-output" name="dictionary-beans" />
           </element>
-          <element id="archive" name="air-beans.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="air-beans" />
-          </element>
-          <element id="archive" name="person-beans.jar">
             <element id="module-output" name="person-beans" />
+            <element id="module-output" name="orm-spring-jdbc-aspect" />
+            <element id="module-output" name="app-aspect" />
           </element>
           <element id="archive" name="ps-beans.jar">
             <element id="module-output" name="ps-beans" />
@@ -96,14 +96,8 @@
           <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
           <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
           <element id="library" level="project" name="Maven: javax.measure:jsr-275:0.9.4" />
-          <element id="archive" name="orm-spring-jdbc-aspect.jar">
-            <element id="module-output" name="orm-spring-jdbc-aspect" />
-          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.1.RELEASE" />
-          <element id="archive" name="app-aspect.jar">
-            <element id="module-output" name="app-aspect" />
-          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
         </element>

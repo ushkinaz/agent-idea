@@ -151,8 +151,8 @@
       <exported-key name="AEX_SHR_TO_AG_USER" table="AEX_STATE_HISTORY_RECORDS" schema="BODEV" catalog="" columns="AGGREGATED_USER_ID" />
       <exported-key name="GDS_SHR_TO_AGUSER" table="GDS_STATE_HISTORY_RECORDS" schema="BODEV" catalog="" columns="AGGREGATED_USER_ID" />
       <exported-key name="INS_SHR_TO_AG_USER" table="INS_STATE_HISTORY_RECORDS" schema="BODEV" catalog="" columns="AGGREGATED_USER_ID" />
-      <exported-key name="WORK_INFO_TO_LOCK_OPER" table="INT_WORK_ORDER_INFO" schema="BODEV" catalog="" columns="LOCK_OPERATOR_ID" />
       <exported-key name="WORK_INFO_TO_CURR_OPER" table="INT_WORK_ORDER_INFO" schema="BODEV" catalog="" columns="CURRENT_OPERATOR_ID" />
+      <exported-key name="WORK_INFO_TO_LOCK_OPER" table="INT_WORK_ORDER_INFO" schema="BODEV" catalog="" columns="LOCK_OPERATOR_ID" />
       <exported-key name="FK_JOURNAL_USERS" table="JOURNAL" schema="BODEV" catalog="" columns="USER_ID" />
       <exported-key name="ORDER_USER_NOTES_TO_USER" table="ORDER_USER_NOTES" schema="BODEV" catalog="" columns="USER_ID" />
       <exported-key name="FK_PASSENGERS_REF_AGUSER" table="PASSENGERS" schema="BODEV" catalog="" columns="AGGREGATED_USER_ID" />
@@ -164,8 +164,8 @@
       <exported-key name="ST_HISTORY_REC_TO_AGUSER" table="STATE_HISTORY_RECORDS" schema="BODEV" catalog="" columns="AGGREGATED_USER_ID" />
       <exported-key name="TAXI_SHR_TO_AG_USER" table="TAXI_STATE_HISTORY_RECORDS" schema="BODEV" catalog="" columns="AGGREGATED_USER_ID" />
       <exported-key name="TP_SHR_TO_AG_USER" table="TP_STATE_HISTORY_RECORDS" schema="BODEV" catalog="" columns="AGGREGATED_USER_ID" />
-      <exported-key name="TRIP_PACK_TO_CURR_OPER" table="TRIP_PACKS" schema="BODEV" catalog="" columns="CURRENT_OPERATOR_ID" />
       <exported-key name="TRIP_PACK_TO_LOCK_OPER" table="TRIP_PACKS" schema="BODEV" catalog="" columns="LOCK_OPERATOR_ID" />
+      <exported-key name="TRIP_PACK_TO_CURR_OPER" table="TRIP_PACKS" schema="BODEV" catalog="" columns="CURRENT_OPERATOR_ID" />
       <exported-key name="EMAILS_TO_USER_FK" table="USER_EMAILS" schema="BODEV" catalog="" columns="USER_ID" />
       <exported-key name="USER_NOTIFICATION_USER_FK" table="USER_NOTIFICATIONS" schema="BODEV" catalog="" columns="USER_ID" />
       <exported-key name="FK_UPRESENTS_TO_USER" table="USER_PRESENTS" schema="BODEV" catalog="" columns="USER_ID" />
@@ -291,14 +291,14 @@
       <exported-key name="A_AINFO_TO_AP_FK" table="AIRPORTS_AINFO" schema="BODEV" catalog="" columns="AIRPORT_ID" />
       <exported-key name="ACTOAIR_TO_AIRPORT" table="AIRPORT_AIRCOMPANIES" schema="BODEV" catalog="" columns="AIRPORT_ID" />
       <exported-key name="FK_CRL_TO_AIRPORTS" table="CAR_RENTAL_LOCATIONS" schema="BODEV" catalog="" columns="AIRPORT_ID" />
-      <exported-key name="FHR_TO_AAIRP" table="FLIGHT_HISTORY_RECORDS" schema="BODEV" catalog="" columns="ARR_AIRPORT_ID" />
       <exported-key name="FHR_TO_DAIRP" table="FLIGHT_HISTORY_RECORDS" schema="BODEV" catalog="" columns="DEP_AIRPORT_ID" />
+      <exported-key name="FHR_TO_AAIRP" table="FLIGHT_HISTORY_RECORDS" schema="BODEV" catalog="" columns="ARR_AIRPORT_ID" />
       <exported-key name="PRICED_FLIGHT_TO_AAIRP" table="PRICED_FLIGHTS" schema="BODEV" catalog="" columns="ARR_AIRPORT_ID" />
       <exported-key name="PRICED_FLIGHT_TO_DAIRP" table="PRICED_FLIGHTS" schema="BODEV" catalog="" columns="DEP_AIRPORT_ID" />
       <exported-key name="RF_FLIGHT_TO_DAIRPORT" table="REFUND_FLIGHTS" schema="BODEV" catalog="" columns="DEP_AIRPORT_ID" />
       <exported-key name="RF_FLIGHT_TO_ARAIRPORT" table="REFUND_FLIGHTS" schema="BODEV" catalog="" columns="AR_AIRPORT_Y_ID" />
-      <exported-key name="RF_SEGMENT_TO_DAIRPORT" table="REFUND_SEGMENTS" schema="BODEV" catalog="" columns="DEP_AIRPORT_ID" />
       <exported-key name="RF_SEGMENT_TO_ARAIRPORT" table="REFUND_SEGMENTS" schema="BODEV" catalog="" columns="AR_AIRPORT_Y_ID" />
+      <exported-key name="RF_SEGMENT_TO_DAIRPORT" table="REFUND_SEGMENTS" schema="BODEV" catalog="" columns="DEP_AIRPORT_ID" />
       <exported-key name="R_SEGMENT_TO_DAIRP" table="ROUTE_SEGMENTS" schema="BODEV" catalog="" columns="DEP_AIRPORT_ID" />
       <exported-key name="R_SEGMENT_TO_AAIRP" table="ROUTE_SEGMENTS" schema="BODEV" catalog="" columns="ARR_AIRPORT_ID" />
       <exported-key name="RSHR_TO_AAIRP" table="ROUTE_SEGMENT_HISTORY_RECORDS" schema="BODEV" catalog="" columns="ARR_AIRPORT_ID" />
@@ -472,16 +472,16 @@
       <exported-key name="COUNTRY_TO_CITY_CAPITAL" table="COUNTRIES" schema="BODEV" catalog="" columns="CAPITAL_ID" />
       <exported-key name="FHR_TO_ACITY" table="FLIGHT_HISTORY_RECORDS" schema="BODEV" catalog="" columns="ARR_CITY_ID" />
       <exported-key name="FHR_TO_DCITY" table="FLIGHT_HISTORY_RECORDS" schema="BODEV" catalog="" columns="DEP_CITY_ID" />
-      <exported-key name="PRICED_FLIGHT_TO_ACITY" table="PRICED_FLIGHTS" schema="BODEV" catalog="" columns="ARR_CITY_ID" />
       <exported-key name="PRICED_FLIGHT_TO_DCITY" table="PRICED_FLIGHTS" schema="BODEV" catalog="" columns="DEP_CITY_ID" />
-      <exported-key name="RF_FLIGHT_TO_DCITY" table="REFUND_FLIGHTS" schema="BODEV" catalog="" columns="DEP_CITY_ID" />
+      <exported-key name="PRICED_FLIGHT_TO_ACITY" table="PRICED_FLIGHTS" schema="BODEV" catalog="" columns="ARR_CITY_ID" />
       <exported-key name="RF_FLIGHT_TO_ARCITY" table="REFUND_FLIGHTS" schema="BODEV" catalog="" columns="AR_CITY_ID" />
-      <exported-key name="RF_SEGMENT_TO_ARCITY" table="REFUND_SEGMENTS" schema="BODEV" catalog="" columns="AR_CITY_ID" />
+      <exported-key name="RF_FLIGHT_TO_DCITY" table="REFUND_FLIGHTS" schema="BODEV" catalog="" columns="DEP_CITY_ID" />
       <exported-key name="RF_SEGMENT_TO_DCITY" table="REFUND_SEGMENTS" schema="BODEV" catalog="" columns="DEP_CITY_ID" />
+      <exported-key name="RF_SEGMENT_TO_ARCITY" table="REFUND_SEGMENTS" schema="BODEV" catalog="" columns="AR_CITY_ID" />
       <exported-key name="R_SEGMENT_TO_DCITY" table="ROUTE_SEGMENTS" schema="BODEV" catalog="" columns="DEP_CITY_ID" />
       <exported-key name="R_SEGMENT_TO_ACITY" table="ROUTE_SEGMENTS" schema="BODEV" catalog="" columns="ARR_CITY_ID" />
-      <exported-key name="RSHR_TO_DCITY" table="ROUTE_SEGMENT_HISTORY_RECORDS" schema="BODEV" catalog="" columns="DEP_CITY_ID" />
       <exported-key name="RSHR_TO_ACITY" table="ROUTE_SEGMENT_HISTORY_RECORDS" schema="BODEV" catalog="" columns="ARR_CITY_ID" />
+      <exported-key name="RSHR_TO_DCITY" table="ROUTE_SEGMENT_HISTORY_RECORDS" schema="BODEV" catalog="" columns="DEP_CITY_ID" />
       <index name="CITIES_RB_CODE" unique="true" columns="CODE" />
       <index name="CITIES_RB_CODE_IATA" unique="true" columns="CODE_IATA" />
       <index name="CITIES_RB_CODE_ICAO" unique="true" columns="CODE_ICAO" />
@@ -798,6 +798,7 @@
       <column name="GDS_EMAIL" sqlType="VARCHAR2" length="300" precision="0" nullable="true" jdbcType="12" />
       <column name="GDS_PHONE" sqlType="VARCHAR2" length="300" precision="0" nullable="true" jdbcType="12" />
       <column name="TP_ID" sqlType="NUMBER" length="19" precision="0" nullable="true" jdbcType="3" />
+      <column name="LATIN_REGISTRATION" sqlType="NUMBER" length="1" precision="0" nullable="true" jdbcType="3" />
       <primary-key name="SYS_C0018406" columns="ID" />
       <foreign-key name="TRIP_ORDER_TO_OP_AC" columns="VALIDATING_AC_ID" ref-table="AIRCOMPANIES" ref-schema="BODEV" ref-catalog="" ref-columns="AIRCOMPANY_ID" update-rule="0" delete-rule="1" deferrability="2" />
       <foreign-key name="FTO_TO_BOOK_PROFILE" columns="BOOKING_PROFILE_ID" ref-table="BOOKING_PROFILES" ref-schema="BODEV" ref-catalog="" ref-columns="ID" update-rule="0" delete-rule="1" deferrability="2" />
@@ -1017,6 +1018,7 @@
       <column name="NAME_EN" sqlType="VARCHAR2" length="500" precision="0" nullable="true" jdbcType="12" />
       <column name="CODE_SABRE" sqlType="VARCHAR2" length="4" precision="0" nullable="true" jdbcType="12" />
       <primary-key name="SYS_C0018448" columns="ID" />
+      <exported-key name="PRICED_FLIGHT_TO_MEAL_PLAN" table="PRICED_FLIGHTS" schema="BODEV" catalog="" columns="MEAL_PLAN_ID" />
     </table>
     <table name="MEAL_PLAN_ID_SEQ" schema="BODEV" catalog="" type="SEQUENCE" />
     <table name="MV_ORDER_DIRECTION_VIEW" schema="BODEV" catalog="" type="TABLE">
@@ -1388,13 +1390,15 @@
       <column name="OPERATING_AC_ID" sqlType="NUMBER" length="19" precision="0" nullable="true" jdbcType="3" />
       <column name="AIRCRAFT_TYPE_ID" sqlType="NUMBER" length="19" precision="0" nullable="true" jdbcType="3" />
       <column name="AIRCOMPANY_CONFIRMATION_CODE" sqlType="VARCHAR2" length="255" precision="0" nullable="true" jdbcType="12" />
+      <column name="MEAL_PLAN_ID" sqlType="NUMBER" length="19" precision="0" nullable="true" jdbcType="3" />
       <primary-key name="SYS_C0018331" columns="ID" />
-      <foreign-key name="PRICED_FLIGHT_TO_MAR_AC" columns="MARKETING_AC_ID" ref-table="AIRCOMPANIES" ref-schema="BODEV" ref-catalog="" ref-columns="AIRCOMPANY_ID" update-rule="0" delete-rule="1" deferrability="2" />
       <foreign-key name="PRICED_FLIGHT_TO_OP_AC" columns="OPERATING_AC_ID" ref-table="AIRCOMPANIES" ref-schema="BODEV" ref-catalog="" ref-columns="AIRCOMPANY_ID" update-rule="0" delete-rule="1" deferrability="2" />
+      <foreign-key name="PRICED_FLIGHT_TO_MAR_AC" columns="MARKETING_AC_ID" ref-table="AIRCOMPANIES" ref-schema="BODEV" ref-catalog="" ref-columns="AIRCOMPANY_ID" update-rule="0" delete-rule="1" deferrability="2" />
       <foreign-key name="PRICED_FLIGHT_TO_DAIRP" columns="DEP_AIRPORT_ID" ref-table="AIRPORTS" ref-schema="BODEV" ref-catalog="" ref-columns="AIRPORT_ID" update-rule="0" delete-rule="1" deferrability="2" />
       <foreign-key name="PRICED_FLIGHT_TO_AAIRP" columns="ARR_AIRPORT_ID" ref-table="AIRPORTS" ref-schema="BODEV" ref-catalog="" ref-columns="AIRPORT_ID" update-rule="0" delete-rule="1" deferrability="2" />
       <foreign-key name="PRICED_FLIGHT_TO_ACITY" columns="ARR_CITY_ID" ref-table="CITIES" ref-schema="BODEV" ref-catalog="" ref-columns="CITY_ID" update-rule="0" delete-rule="1" deferrability="2" />
       <foreign-key name="PRICED_FLIGHT_TO_DCITY" columns="DEP_CITY_ID" ref-table="CITIES" ref-schema="BODEV" ref-catalog="" ref-columns="CITY_ID" update-rule="0" delete-rule="1" deferrability="2" />
+      <foreign-key name="PRICED_FLIGHT_TO_MEAL_PLAN" columns="MEAL_PLAN_ID" ref-table="MEAL_PLANS" ref-schema="BODEV" ref-catalog="" ref-columns="ID" update-rule="0" delete-rule="1" deferrability="2" />
       <foreign-key name="PRICED_FLIGHT_TO_VEHICLE" columns="AIRCRAFT_TYPE_ID" ref-table="VEHICLES" ref-schema="BODEV" ref-catalog="" ref-columns="VEHICLE_ID" update-rule="0" delete-rule="1" deferrability="2" />
       <exported-key name="FL_WITH_FARES_TO_PRICED_FLIGHT" table="FLIGHT_WITH_FARES" schema="BODEV" catalog="" columns="FLIGHT_ID" />
       <index name="PRICED_FLIHGT_DEPDAT_IDX" unique="true" columns="DEPARTURE_DATE_TIME" />
@@ -1612,8 +1616,8 @@
       <column name="OBJ_VERSION" sqlType="NUMBER" length="10" precision="0" nullable="true" jdbcType="3" />
       <primary-key name="SYS_C0018437" columns="ID" />
       <foreign-key name="RW_TO_RW_STATION_FK" columns="RAILWAY_ID" ref-table="RAILWAYS" ref-schema="BODEV" ref-catalog="" ref-columns="ID" update-rule="0" delete-rule="1" deferrability="2" />
-      <exported-key name="RW_ORDER_TO_ARR_RW_STATION_FK" table="RAILWAY_ORDERS" schema="BODEV" catalog="" columns="ARRIVAL_STATION_ID" />
       <exported-key name="RW_ORDER_TO_DEP_RW_STATION_FK" table="RAILWAY_ORDERS" schema="BODEV" catalog="" columns="DEPARTURE_STATION_ID" />
+      <exported-key name="RW_ORDER_TO_ARR_RW_STATION_FK" table="RAILWAY_ORDERS" schema="BODEV" catalog="" columns="ARRIVAL_STATION_ID" />
       <exported-key name="RW_STATION_TO_CODE_FK" table="RAILWAY_STATION_CODES" schema="BODEV" catalog="" columns="RAILWAY_STATION_ID" />
       <exported-key name="TROUTE_STATION_FK" table="RAILWAY_TRAIN_ROUTE" schema="BODEV" catalog="" columns="RAILWAY_STATION_ID" />
       <exported-key name="RW_TRS_TO_STATION_ID" table="RAILWAY_TRAIN_ROUTE_STATIONS" schema="BODEV" catalog="" columns="STATION_ID" />
@@ -2232,6 +2236,7 @@
       <column name="IP_ADDRESS" sqlType="VARCHAR2" length="255" precision="0" nullable="true" jdbcType="12" />
       <column name="SEARCH_RESULT" sqlType="NUMBER" length="10" precision="0" nullable="true" jdbcType="3" />
       <column name="FACT_GDS_TYPE" sqlType="NUMBER" length="19" precision="0" nullable="true" jdbcType="3" />
+      <column name="ESTIMATED_GDS_TYPE" sqlType="NUMBER" length="19" precision="0" nullable="true" jdbcType="3" />
       <primary-key name="SITE_SEARCH_STATS_PK" columns="ENTRY_ID" />
       <foreign-key name="STATS_TO_AC_ID" columns="AIRCOMPANY_ID" ref-table="AIRCOMPANIES" ref-schema="BODEV" ref-catalog="" ref-columns="AIRCOMPANY_ID" update-rule="0" delete-rule="1" deferrability="2" />
       <foreign-key name="STATS_TO_SU" columns="SERVICE_USER_ID" ref-table="SERVICE_USER" ref-schema="BODEV" ref-catalog="" ref-columns="ID" update-rule="0" delete-rule="1" deferrability="2" />
