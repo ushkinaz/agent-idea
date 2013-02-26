@@ -12,7 +12,11 @@
           <setting name="custom-gradle-executor" />
           <setting name="current-directory" value="$PROJECT_DIR$" />
           <setting name="log-level" value="LIFECYCLE" />
+          <setting name="stack-trace-level" value="INTERNAL_EXCEPTIONS" />
         </setting>
+      </setting>
+      <setting name="main_panel">
+        <setting name="current-tab" value="Task Tree" />
       </setting>
     </setting>
   </component>

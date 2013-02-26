@@ -6,7 +6,7 @@
         <details>
           <charset value="UTF-8" />
           <auto-commit value="false" />
-          <environment-type value="Development" />
+          <environment-type value="default" />
         </details>
         <object-filters>
           <object-type-filter use-master-settings="true">

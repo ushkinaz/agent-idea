@@ -200,6 +200,10 @@
           <element id="archive" name="flow.jar">
             <element id="module-output" name="flow" />
           </element>
+          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-core:1.0.7" />
+          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.7" />
+          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-runtime:1.0.7" />
+          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-collectionschema:1.0.7" />
           <element id="archive" name="pack-api.jar">
             <element id="module-output" name="pack-api" />
           </element>
