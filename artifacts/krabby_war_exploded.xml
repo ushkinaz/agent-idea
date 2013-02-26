@@ -45,14 +45,8 @@
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.8.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
-          <element id="archive" name="corporate.pom.jar">
+          <element id="archive" name="app-aspect.jar">
             <element id="module-output" name="app-aspect" />
-            <element id="module-output" name="orm-spring-jdbc-aspect" />
-            <element id="module-output" name="actions.history" />
-            <element id="module-output" name="presentation.transformers" />
-            <element id="module-output" name="insurance.api" />
-            <element id="module-output" name="spzd.api" />
-            <element id="module-output" name="sirena.agency.api" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
@@ -126,6 +120,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.1.RELEASE" />
+          <element id="archive" name="orm-spring-jdbc-aspect.jar">
+            <element id="module-output" name="orm-spring-jdbc-aspect" />
+          </element>
           <element id="archive" name="jms-aspect.jar">
             <element id="module-output" name="jms-aspect" />
           </element>
@@ -197,6 +194,12 @@
           <element id="archive" name="presentation.utils.jar">
             <element id="module-output" name="presentation.utils" />
           </element>
+          <element id="archive" name="actions.history.jar">
+            <element id="module-output" name="actions.history" />
+          </element>
+          <element id="archive" name="presentation.transformers.jar">
+            <element id="module-output" name="presentation.transformers" />
+          </element>
           <element id="archive" name="services.jar">
             <element id="module-output" name="services" />
           </element>
@@ -246,6 +249,9 @@
           <element id="archive" name="insurance.service.jar">
             <element id="module-output" name="insurance.service" />
           </element>
+          <element id="archive" name="insurance.api.jar">
+            <element id="module-output" name="insurance.api" />
+          </element>
           <element id="archive" name="flightstats.service.jar">
             <element id="module-output" name="flightstats.service" />
           </element>
@@ -260,6 +266,9 @@
           </element>
           <element id="archive" name="ufs.api.jar">
             <element id="module-output" name="ufs.api" />
+          </element>
+          <element id="archive" name="spzd.api.jar">
+            <element id="module-output" name="spzd.api" />
           </element>
           <element id="archive" name="operation.service.jar">
             <element id="module-output" name="operation.service" />
@@ -286,6 +295,9 @@
           <element id="library" level="project" name="Maven: org.tuckey:urlrewritefilter:3.2.0" />
           <element id="library" level="project" name="Maven: joda-time:joda-time-jsptags:1.1.1" />
           <element id="library" level="project" name="Maven: net.tanesha.recaptcha4j:recaptcha4j:0.0.7" />
+          <element id="archive" name="sirena.agency.api.jar">
+            <element id="module-output" name="sirena.agency.api" />
+          </element>
         </element>
       </element>
     </root>
