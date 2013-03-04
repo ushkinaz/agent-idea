@@ -245,7 +245,6 @@
         <module name="jasper-aspect" />
         <module name="jms-aspect" />
         <module name="kadabra" />
-        <module name="kadabra-test" />
         <module name="krabby" />
         <module name="meta-aspect" />
         <module name="numel" />
@@ -287,7 +286,6 @@
         <module name="security-boundary" />
         <module name="security-oauth2-aspect" />
         <module name="security-oauth2-service" />
-        <module name="security-presentation" />
         <module name="services" />
         <module name="simurgh" />
         <module name="sirena.agency.api" />

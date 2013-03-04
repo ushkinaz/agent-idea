@@ -161,20 +161,32 @@
           </element>
           <element id="library" level="project" name="Maven: ma.glasnost.orika:orika-core:1.4.0" />
           <element id="library" level="project" name="Maven: com.thoughtworks.paranamer:paranamer:2.3" />
-          <element id="archive" name="aggregation.jar">
-            <element id="module-output" name="aggregation" />
+          <element id="archive" name="pack-boundary.jar">
+            <element id="module-output" name="pack-boundary" />
           </element>
-          <element id="archive" name="offer-beans.jar">
-            <element id="module-output" name="offer-beans" />
+          <element id="archive" name="pack-api.jar">
+            <element id="module-output" name="pack-api" />
           </element>
-          <element id="archive" name="beans.jar">
-            <element id="module-output" name="beans" />
+          <element id="archive" name="pack-beans.jar">
+            <element id="module-output" name="pack-beans" />
           </element>
           <element id="archive" name="air-beans.jar">
             <element id="module-output" name="air-beans" />
           </element>
+          <element id="archive" name="beans.jar">
+            <element id="module-output" name="beans" />
+          </element>
           <element id="archive" name="ps-beans.jar">
             <element id="module-output" name="ps-beans" />
+          </element>
+          <element id="archive" name="offer-beans.jar">
+            <element id="module-output" name="offer-beans" />
+          </element>
+          <element id="archive" name="security-beans.jar">
+            <element id="module-output" name="security-beans" />
+          </element>
+          <element id="archive" name="aggregation.jar">
+            <element id="module-output" name="aggregation" />
           </element>
           <element id="archive" name="air-api.jar">
             <element id="module-output" name="air-api" />
@@ -191,9 +203,6 @@
           <element id="archive" name="security-api.jar">
             <element id="module-output" name="security-api" />
           </element>
-          <element id="archive" name="security-beans.jar">
-            <element id="module-output" name="security-beans" />
-          </element>
           <element id="archive" name="profile-api.jar">
             <element id="module-output" name="profile-api" />
           </element>
@@ -204,12 +213,7 @@
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-runtime:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-collectionschema:1.0.7" />
-          <element id="archive" name="pack-api.jar">
-            <element id="module-output" name="pack-api" />
-          </element>
-          <element id="archive" name="security-presentation.jar">
-            <element id="module-output" name="security-presentation" />
-          </element>
+          <element id="library" level="project" name="Maven: postgresql:postgresql:9.1-901.jdbc4" />
           <element id="archive" name="security-oauth2-service.jar">
             <element id="module-output" name="security-oauth2-service" />
           </element>

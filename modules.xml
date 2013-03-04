@@ -38,7 +38,6 @@
       <module fileurl="file://$PROJECT_DIR$/jasper-aspect/jasper-aspect.iml" filepath="$PROJECT_DIR$/jasper-aspect/jasper-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/jms-aspect/jms-aspect.iml" filepath="$PROJECT_DIR$/jms-aspect/jms-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/kadabra/kadabra.iml" filepath="$PROJECT_DIR$/kadabra/kadabra.iml" group="application" />
-      <module fileurl="file://$PROJECT_DIR$/kadabra-test/kadabra-test.iml" filepath="$PROJECT_DIR$/kadabra-test/kadabra-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/krabby/krabby.iml" filepath="$PROJECT_DIR$/krabby/krabby.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/numel/numel.iml" filepath="$PROJECT_DIR$/numel/numel.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/offer-beans/offer-beans.iml" filepath="$PROJECT_DIR$/offer-beans/offer-beans.iml" group="libs/beans" />
@@ -81,7 +80,6 @@
       <module fileurl="file://$PROJECT_DIR$/security-boundary/security-boundary.iml" filepath="$PROJECT_DIR$/security-boundary/security-boundary.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/security-oauth2-aspect/security-oauth2-aspect.iml" filepath="$PROJECT_DIR$/security-oauth2-aspect/security-oauth2-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/security-oauth2-service/security-oauth2-service.iml" filepath="$PROJECT_DIR$/security-oauth2-service/security-oauth2-service.iml" group="libs" />
-      <module fileurl="file://$PROJECT_DIR$/security-presentation/security-presentation.iml" filepath="$PROJECT_DIR$/security-presentation/security-presentation.iml" />
       <module fileurl="file://$PROJECT_DIR$/services/services.iml" filepath="$PROJECT_DIR$/services/services.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/simurgh/simurgh.iml" filepath="$PROJECT_DIR$/simurgh/simurgh.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/sirena.agency.api/sirena.agency.api.iml" filepath="$PROJECT_DIR$/sirena.agency.api/sirena.agency.api.iml" group="libs/api" />
