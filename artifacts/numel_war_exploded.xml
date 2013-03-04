@@ -37,7 +37,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-context:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.2.1.RELEASE" />
-          <element id="library" level="project" name="Maven: com.google.guava:guava:13.0.1" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:14.0" />
           <element id="library" level="project" name="Maven: net.sf.dozer:dozer:5.4.0" />
           <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.3" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
@@ -64,32 +64,24 @@
           <element id="archive" name="storage-api.jar">
             <element id="module-output" name="storage-api" />
           </element>
-          <element id="archive" name="beans.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="beans" />
-          </element>
-          <element id="archive" name="offer-beans.jar">
             <element id="module-output" name="offer-beans" />
+            <element id="module-output" name="air-beans" />
+            <element id="module-output" name="ps-beans" />
+            <element id="module-output" name="commons" />
           </element>
           <element id="archive" name="dictionary-beans.jar">
             <element id="module-output" name="dictionary-beans" />
           </element>
-          <element id="archive" name="air-beans.jar">
-            <element id="module-output" name="air-beans" />
-          </element>
           <element id="archive" name="person-beans.jar">
             <element id="module-output" name="person-beans" />
-          </element>
-          <element id="archive" name="ps-beans.jar">
-            <element id="module-output" name="ps-beans" />
           </element>
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-core:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-runtime:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-collectionschema:1.0.7" />
           <element id="library" level="project" name="Maven: postgresql:postgresql:9.1-901.jdbc4" />
-          <element id="archive" name="commons.jar">
-            <element id="module-output" name="commons" />
-          </element>
           <element id="archive" name="common.enums.jar">
             <element id="module-output" name="common.enums" />
           </element>

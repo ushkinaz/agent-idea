@@ -37,7 +37,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-context:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.2.1.RELEASE" />
-          <element id="library" level="project" name="Maven: com.google.guava:guava:13.0.1" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:14.0" />
           <element id="library" level="project" name="Maven: net.sf.dozer:dozer:5.4.0" />
           <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.3" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
@@ -153,8 +153,14 @@
           <element id="archive" name="person-boundary.jar">
             <element id="module-output" name="person-boundary" />
           </element>
-          <element id="archive" name="person-api.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="person-api" />
+            <element id="module-output" name="air-beans" />
+            <element id="module-output" name="beans" />
+            <element id="module-output" name="ps-beans" />
+            <element id="module-output" name="offer-beans" />
+            <element id="module-output" name="security-boundary" />
+            <element id="module-output" name="profile-boundary" />
           </element>
           <element id="archive" name="person-beans.jar">
             <element id="module-output" name="person-beans" />
@@ -169,18 +175,6 @@
           </element>
           <element id="archive" name="pack-beans.jar">
             <element id="module-output" name="pack-beans" />
-          </element>
-          <element id="archive" name="air-beans.jar">
-            <element id="module-output" name="air-beans" />
-          </element>
-          <element id="archive" name="beans.jar">
-            <element id="module-output" name="beans" />
-          </element>
-          <element id="archive" name="ps-beans.jar">
-            <element id="module-output" name="ps-beans" />
-          </element>
-          <element id="archive" name="offer-beans.jar">
-            <element id="module-output" name="offer-beans" />
           </element>
           <element id="archive" name="security-beans.jar">
             <element id="module-output" name="security-beans" />
@@ -217,17 +211,11 @@
           <element id="archive" name="security-oauth2-service.jar">
             <element id="module-output" name="security-oauth2-service" />
           </element>
-          <element id="archive" name="security-boundary.jar">
-            <element id="module-output" name="security-boundary" />
-          </element>
           <element id="archive" name="air-boundary.jar">
             <element id="module-output" name="air-boundary" />
           </element>
           <element id="archive" name="air-booking-ext.jar">
             <element id="module-output" name="air-booking-ext" />
-          </element>
-          <element id="archive" name="profile-boundary.jar">
-            <element id="module-output" name="profile-boundary" />
           </element>
           <element id="library" level="project" name="Maven: org.modelmapper:modelmapper:0.5.4" />
         </element>
