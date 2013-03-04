@@ -8,8 +8,11 @@
           <element id="module-output" name="psyduck" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="base-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="base-aspect" />
+            <element id="module-output" name="app-aspect" />
+            <element id="module-output" name="orm-hibernate4-aspect" />
+            <element id="module-output" name="psyduck.api" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
@@ -45,14 +48,8 @@
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.8.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
-          <element id="archive" name="app-aspect.jar">
-            <element id="module-output" name="app-aspect" />
-          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
-          <element id="archive" name="orm-hibernate4-aspect.jar">
-            <element id="module-output" name="orm-hibernate4-aspect" />
-          </element>
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:4.1.9.Final" />
           <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.1.0.GA" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.16.1-GA" />
@@ -84,9 +81,6 @@
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-pool:5.7.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:1.0.1" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.1" />
-          <element id="archive" name="psyduck.api.jar">
-            <element id="module-output" name="psyduck.api" />
-          </element>
           <element id="archive" name="psyduck.service.jar">
             <element id="module-output" name="psyduck.service" />
           </element>

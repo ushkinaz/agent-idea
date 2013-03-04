@@ -153,14 +153,8 @@
           <element id="archive" name="person-boundary.jar">
             <element id="module-output" name="person-boundary" />
           </element>
-          <element id="archive" name="corporate.pom.jar">
+          <element id="archive" name="person-api.jar">
             <element id="module-output" name="person-api" />
-            <element id="module-output" name="air-beans" />
-            <element id="module-output" name="beans" />
-            <element id="module-output" name="ps-beans" />
-            <element id="module-output" name="offer-beans" />
-            <element id="module-output" name="security-boundary" />
-            <element id="module-output" name="profile-boundary" />
           </element>
           <element id="archive" name="person-beans.jar">
             <element id="module-output" name="person-beans" />
@@ -175,6 +169,18 @@
           </element>
           <element id="archive" name="pack-beans.jar">
             <element id="module-output" name="pack-beans" />
+          </element>
+          <element id="archive" name="air-beans.jar">
+            <element id="module-output" name="air-beans" />
+          </element>
+          <element id="archive" name="beans.jar">
+            <element id="module-output" name="beans" />
+          </element>
+          <element id="archive" name="ps-beans.jar">
+            <element id="module-output" name="ps-beans" />
+          </element>
+          <element id="archive" name="offer-beans.jar">
+            <element id="module-output" name="offer-beans" />
           </element>
           <element id="archive" name="security-beans.jar">
             <element id="module-output" name="security-beans" />
@@ -211,11 +217,17 @@
           <element id="archive" name="security-oauth2-service.jar">
             <element id="module-output" name="security-oauth2-service" />
           </element>
+          <element id="archive" name="security-boundary.jar">
+            <element id="module-output" name="security-boundary" />
+          </element>
           <element id="archive" name="air-boundary.jar">
             <element id="module-output" name="air-boundary" />
           </element>
           <element id="archive" name="air-booking-ext.jar">
             <element id="module-output" name="air-booking-ext" />
+          </element>
+          <element id="archive" name="profile-boundary.jar">
+            <element id="module-output" name="profile-boundary" />
           </element>
           <element id="library" level="project" name="Maven: org.modelmapper:modelmapper:0.5.4" />
         </element>

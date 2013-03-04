@@ -137,15 +137,8 @@
           <element id="library" level="project" name="Maven: org.jasypt:jasypt:1.9.0" />
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-pool:5.7.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:1.0.1" />
-          <element id="archive" name="corporate.pom.jar">
+          <element id="archive" name="jasper-aspect.jar">
             <element id="module-output" name="jasper-aspect" />
-            <element id="module-output" name="services" />
-            <element id="module-output" name="commons" />
-            <element id="module-output" name="rbtaxi.ext.api" />
-            <element id="module-output" name="aeroexpress.api" />
-            <element id="module-output" name="ufs.api" />
-            <element id="module-output" name="spzd.api" />
-            <element id="module-output" name="flightstats.stubs" />
           </element>
           <element id="library" level="project" name="Maven: ru.agent.fonts:anonymous:1.0" />
           <element id="library" level="project" name="Maven: net.sf.jasperreports:jasperreports:4.1.1.1" />
@@ -170,6 +163,12 @@
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.3.1.Final" />
           <element id="library" level="project" name="Maven: javax.validation:validation-api:1.0.0.GA" />
           <element id="library" level="project" name="Maven: xerces:xercesImpl:2.9.1" />
+          <element id="archive" name="services.jar">
+            <element id="module-output" name="services" />
+          </element>
+          <element id="archive" name="commons.jar">
+            <element id="module-output" name="commons" />
+          </element>
           <element id="archive" name="common.enums.jar">
             <element id="module-output" name="common.enums" />
           </element>
@@ -189,9 +188,15 @@
           <element id="archive" name="paysys.api.jar">
             <element id="module-output" name="paysys.api" />
           </element>
+          <element id="archive" name="rbtaxi.ext.api.jar">
+            <element id="module-output" name="rbtaxi.ext.api" />
+          </element>
           <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.2" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
+          <element id="archive" name="aeroexpress.api.jar">
+            <element id="module-output" name="aeroexpress.api" />
+          </element>
           <element id="archive" name="psyduck.api.jar">
             <element id="module-output" name="psyduck.api" />
           </element>
@@ -228,8 +233,17 @@
           <element id="archive" name="railway.service.jar">
             <element id="module-output" name="railway.service" />
           </element>
+          <element id="archive" name="ufs.api.jar">
+            <element id="module-output" name="ufs.api" />
+          </element>
+          <element id="archive" name="spzd.api.jar">
+            <element id="module-output" name="spzd.api" />
+          </element>
           <element id="archive" name="flightstats.service.jar">
             <element id="module-output" name="flightstats.service" />
+          </element>
+          <element id="archive" name="flightstats.stubs.jar">
+            <element id="module-output" name="flightstats.stubs" />
           </element>
           <element id="library" level="project" name="Maven: net.java.dev.rome:rome:1.0.0" />
           <element id="library" level="project" name="Maven: jdom:jdom:1.0" />

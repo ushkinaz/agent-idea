@@ -31,7 +31,9 @@
             </list>
           </option>
           <option name="profilesMap">
-            <map />
+            <map>
+              <entry key="dev" value="true" />
+            </map>
           </option>
           <option name="workingDirPath" value="$PROJECT_DIR$/kadabra" />
         </MavenRunnerParameters>
