@@ -112,6 +112,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.1.RELEASE" />
+          <element id="archive" name="orm-spring-jdbc-aspect.jar">
+            <element id="module-output" name="orm-spring-jdbc-aspect" />
+          </element>
           <element id="archive" name="security-oauth2-aspect.jar">
             <element id="module-output" name="security-oauth2-aspect" />
           </element>
