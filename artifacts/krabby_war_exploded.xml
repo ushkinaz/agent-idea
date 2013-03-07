@@ -93,8 +93,6 @@
           <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0-m10" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:3.2.1.RELEASE" />
-          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-lgpl:1.9.11" />
-          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-lgpl:1.9.11" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-xc:1.9.11" />
           <element id="archive" name="security-aspect.jar">
             <element id="module-output" name="security-aspect" />
@@ -221,7 +219,7 @@
             <element id="module-output" name="rbtaxi.ext.api" />
           </element>
           <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
-          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.2" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.3" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
           <element id="archive" name="aeroexpress.api.jar">
             <element id="module-output" name="aeroexpress.api" />

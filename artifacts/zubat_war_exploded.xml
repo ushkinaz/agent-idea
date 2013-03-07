@@ -111,9 +111,9 @@
           <element id="archive" name="presentation.utils.jar">
             <element id="module-output" name="presentation.utils" />
           </element>
-          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-lgpl:1.9.11" />
-          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-lgpl:1.9.11" />
-          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.2" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.11" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.11" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.3" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
           <element id="library" level="project" name="Maven: jdom:jdom:1.0" />
         </element>
