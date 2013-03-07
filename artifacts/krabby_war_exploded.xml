@@ -8,8 +8,20 @@
           <element id="module-output" name="krabby" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="base-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="base-aspect" />
+            <element id="module-output" name="cxf-aspect" />
+            <element id="module-output" name="jms-aspect" />
+            <element id="module-output" name="common.enums" />
+            <element id="module-output" name="presentation.utils" />
+            <element id="module-output" name="actions.history" />
+            <element id="module-output" name="reference" />
+            <element id="module-output" name="domain" />
+            <element id="module-output" name="timetable" />
+            <element id="module-output" name="flightstats.service" />
+            <element id="module-output" name="spzd.api" />
+            <element id="module-output" name="zubat.sender.pack" />
+            <element id="module-output" name="sirena.agency.api" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
@@ -20,6 +32,7 @@
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.2" />
           <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.2" />
           <element id="library" level="project" name="Maven: gelf4j:gelf4j:1.4" />
+          <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1" />
           <element id="library" level="project" name="Maven: joda-time:joda-time:2.1" />
           <element id="library" level="project" name="Maven: com.oracle:ojdbc6:11.2.0.3" />
           <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
@@ -50,9 +63,6 @@
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
           <element id="archive" name="app-web-aspect.jar">
             <element id="module-output" name="app-web-aspect" />
-          </element>
-          <element id="archive" name="cxf-aspect.jar">
-            <element id="module-output" name="cxf-aspect" />
           </element>
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-tools-common:2.7.0" />
           <element id="library" level="project" name="Maven: org.apache.velocity:velocity:1.7" />
@@ -121,9 +131,6 @@
           <element id="archive" name="orm-spring-jdbc-aspect.jar">
             <element id="module-output" name="orm-spring-jdbc-aspect" />
           </element>
-          <element id="archive" name="jms-aspect.jar">
-            <element id="module-output" name="jms-aspect" />
-          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-jms:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-core:5.7.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1" />
@@ -182,18 +189,9 @@
           <element id="archive" name="commons.jar">
             <element id="module-output" name="commons" />
           </element>
-          <element id="archive" name="common.enums.jar">
-            <element id="module-output" name="common.enums" />
-          </element>
           <element id="library" level="project" name="Maven: javax.measure:jsr-275:0.9.4" />
           <element id="archive" name="presentation.api.jar">
             <element id="module-output" name="presentation.api" />
-          </element>
-          <element id="archive" name="presentation.utils.jar">
-            <element id="module-output" name="presentation.utils" />
-          </element>
-          <element id="archive" name="actions.history.jar">
-            <element id="module-output" name="actions.history" />
           </element>
           <element id="archive" name="presentation.transformers.jar">
             <element id="module-output" name="presentation.transformers" />
@@ -203,12 +201,6 @@
           </element>
           <element id="archive" name="classifiers.jar">
             <element id="module-output" name="classifiers" />
-          </element>
-          <element id="archive" name="reference.jar">
-            <element id="module-output" name="reference" />
-          </element>
-          <element id="archive" name="domain.jar">
-            <element id="module-output" name="domain" />
           </element>
           <element id="archive" name="air-booking-ext.jar">
             <element id="module-output" name="air-booking-ext" />
@@ -230,9 +222,6 @@
           </element>
           <element id="library" level="project" name="Maven: net.sf.barcode4j:barcode4j:2.0" />
           <element id="library" level="project" name="Maven: avalon-framework:avalon-framework-impl:4.2.0" />
-          <element id="archive" name="timetable.jar">
-            <element id="module-output" name="timetable" />
-          </element>
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.6.12" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-core:1.0.7" />
@@ -250,9 +239,6 @@
           <element id="archive" name="insurance.api.jar">
             <element id="module-output" name="insurance.api" />
           </element>
-          <element id="archive" name="flightstats.service.jar">
-            <element id="module-output" name="flightstats.service" />
-          </element>
           <element id="archive" name="flightstats.stubs.jar">
             <element id="module-output" name="flightstats.stubs" />
           </element>
@@ -265,9 +251,6 @@
           <element id="archive" name="ufs.api.jar">
             <element id="module-output" name="ufs.api" />
           </element>
-          <element id="archive" name="spzd.api.jar">
-            <element id="module-output" name="spzd.api" />
-          </element>
           <element id="archive" name="operation.service.jar">
             <element id="module-output" name="operation.service" />
           </element>
@@ -276,9 +259,6 @@
           </element>
           <element id="archive" name="swinub.api.jar">
             <element id="module-output" name="swinub.api" />
-          </element>
-          <element id="archive" name="zubat.sender.pack.jar">
-            <element id="module-output" name="zubat.sender.pack" />
           </element>
           <element id="archive" name="zubat.sender.jar">
             <element id="module-output" name="zubat.sender" />
@@ -293,9 +273,6 @@
           <element id="library" level="project" name="Maven: org.tuckey:urlrewritefilter:3.2.0" />
           <element id="library" level="project" name="Maven: joda-time:joda-time-jsptags:1.1.1" />
           <element id="library" level="project" name="Maven: net.tanesha.recaptcha4j:recaptcha4j:0.0.7" />
-          <element id="archive" name="sirena.agency.api.jar">
-            <element id="module-output" name="sirena.agency.api" />
-          </element>
         </element>
       </element>
     </root>
