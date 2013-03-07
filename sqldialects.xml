@@ -3,6 +3,7 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/flow/src/test/resources" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/update_scripts/4_0/postgres/001_flow.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/update_scripts/4_0/postgres/010_offer.sql" dialect="PostgreSQL" />
     <file url="PROJECT" dialect="Oracle" />
   </component>
 </project>
