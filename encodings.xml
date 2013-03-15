@@ -20,7 +20,6 @@
     <file url="file://$PROJECT_DIR$/classifiers" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common.enums" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common.logger" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/common.war" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commons" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/corporate.pom" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cxf-aspect" charset="UTF-8" />
@@ -56,6 +55,7 @@
     <file url="file://$PROJECT_DIR$/parent.pom" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent.war.pom" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/paysys" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pdf-generator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person-beans" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person-boundary" charset="UTF-8" />
@@ -79,7 +79,6 @@
     <file url="file://$PROJECT_DIR$/reports.api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reports.service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reusable.utils" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rules" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/saiku" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-aspect" charset="UTF-8" />
