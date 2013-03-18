@@ -214,7 +214,8 @@
         <module name="abra" />
         <module name="abra.api" />
         <module name="actions.history" />
-        <module name="aeroexpress.api" />
+        <module name="aex-ext" />
+        <module name="agency-ext" />
         <module name="aggregation" />
         <module name="air-api" />
         <module name="air-beans" />
@@ -240,7 +241,7 @@
         <module name="flow" />
         <module name="gamayun" />
         <module name="identity" />
-        <module name="insurance.api" />
+        <module name="insurance-alpha-ext" />
         <module name="insurance.service" />
         <module name="jasper-aspect" />
         <module name="jms-aspect" />
@@ -255,7 +256,6 @@
         <module name="pack-api" />
         <module name="pack-beans" />
         <module name="pack-boundary" />
-        <module name="paysys.api" />
         <module name="person-api" />
         <module name="person-beans" />
         <module name="person-boundary" />
@@ -267,13 +267,15 @@
         <module name="profile-beans" />
         <module name="profile-boundary" />
         <module name="ps-beans" />
+        <module name="ps-ext" />
         <module name="psyduck" />
         <module name="psyduck.api" />
         <module name="psyduck.service" />
+        <module name="railway-spzd-ext" />
+        <module name="railway-ufs-ext" />
         <module name="railway.service" />
         <module name="rate.calculator.api" />
         <module name="rate.calculator.service" />
-        <module name="rbtaxi.ext.api" />
         <module name="reference" />
         <module name="reports" />
         <module name="reports.api" />
@@ -288,15 +290,13 @@
         <module name="security-oauth2-service" />
         <module name="services" />
         <module name="simurgh" />
-        <module name="sirena.agency.api" />
         <module name="sirena.agency.service" />
-        <module name="spzd.api" />
         <module name="storage-api" />
         <module name="storage-boundary" />
         <module name="swinub" />
         <module name="swinub.api" />
+        <module name="taxi-rb-ext" />
         <module name="timetable" />
-        <module name="ufs.api" />
         <module name="utils" />
         <module name="validation-aspect" />
         <module name="watchdog" />
@@ -311,6 +311,8 @@
       <module name="abra.api" target="1.7" />
       <module name="actions.history" target="1.7" />
       <module name="aeroexpress.api" target="1.7" />
+      <module name="aex-ext" target="1.7" />
+      <module name="agency-ext" target="1.7" />
       <module name="agg-engine" target="1.7" />
       <module name="aggregation" target="1.7" />
       <module name="air-api" target="1.7" />
@@ -340,6 +342,7 @@
       <module name="gamayun" target="1.7" />
       <module name="goose-engine" target="1.7" />
       <module name="identity" target="1.7" />
+      <module name="insurance-alpha-ext" target="1.7" />
       <module name="insurance.api" target="1.7" />
       <module name="insurance.service" target="1.7" />
       <module name="jasper-aspect" target="1.7" />
@@ -370,9 +373,12 @@
       <module name="profile-beans" target="1.7" />
       <module name="profile-boundary" target="1.7" />
       <module name="ps-beans" target="1.7" />
+      <module name="ps-ext" target="1.7" />
       <module name="psyduck" target="1.7" />
       <module name="psyduck.api" target="1.7" />
       <module name="psyduck.service" target="1.7" />
+      <module name="railway-spzd-ext" target="1.7" />
+      <module name="railway-ufs-ext" target="1.7" />
       <module name="railway.service" target="1.7" />
       <module name="rate.calculator.api" target="1.7" />
       <module name="rate.calculator.service" target="1.7" />
@@ -399,6 +405,7 @@
       <module name="storage-boundary" target="1.7" />
       <module name="swinub" target="1.7" />
       <module name="swinub.api" target="1.7" />
+      <module name="taxi-rb-ext" target="1.7" />
       <module name="timetable" target="1.7" />
       <module name="ufs.api" target="1.7" />
       <module name="utils" target="1.7" />

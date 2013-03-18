@@ -149,17 +149,17 @@
           <element id="archive" name="air-booking-ext.jar">
             <element id="module-output" name="air-booking-ext" />
           </element>
-          <element id="archive" name="paysys.api.jar">
-            <element id="module-output" name="paysys.api" />
+          <element id="archive" name="ps-ext.jar">
+            <element id="module-output" name="ps-ext" />
           </element>
-          <element id="archive" name="rbtaxi.ext.api.jar">
-            <element id="module-output" name="rbtaxi.ext.api" />
+          <element id="archive" name="taxi-rb-ext.jar">
+            <element id="module-output" name="taxi-rb-ext" />
           </element>
           <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.3" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
-          <element id="archive" name="aeroexpress.api.jar">
-            <element id="module-output" name="aeroexpress.api" />
+          <element id="archive" name="aex-ext.jar">
+            <element id="module-output" name="aex-ext" />
           </element>
           <element id="archive" name="psyduck.api.jar">
             <element id="module-output" name="psyduck.api" />
@@ -195,11 +195,11 @@
           <element id="archive" name="railway.service.jar">
             <element id="module-output" name="railway.service" />
           </element>
-          <element id="archive" name="ufs.api.jar">
-            <element id="module-output" name="ufs.api" />
+          <element id="archive" name="railway-ufs-ext.jar">
+            <element id="module-output" name="railway-ufs-ext" />
           </element>
-          <element id="archive" name="spzd.api.jar">
-            <element id="module-output" name="spzd.api" />
+          <element id="archive" name="railway-spzd-ext.jar">
+            <element id="module-output" name="railway-spzd-ext" />
           </element>
           <element id="archive" name="rate.calculator.service.jar">
             <element id="module-output" name="rate.calculator.service" />
