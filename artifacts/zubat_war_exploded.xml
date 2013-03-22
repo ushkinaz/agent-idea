@@ -8,8 +8,14 @@
           <element id="module-output" name="zubat" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="base-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="base-aspect" />
+            <element id="module-output" name="app-aspect" />
+            <element id="module-output" name="jms-aspect" />
+            <element id="module-output" name="orm-hibernate4-aspect" />
+            <element id="module-output" name="common.enums" />
+            <element id="module-output" name="presentation.api" />
+            <element id="module-output" name="presentation.utils" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
@@ -44,14 +50,8 @@
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.15.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.7" />
-          <element id="archive" name="app-aspect.jar">
-            <element id="module-output" name="app-aspect" />
-          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
-          <element id="archive" name="jms-aspect.jar">
-            <element id="module-output" name="jms-aspect" />
-          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-jms:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-core:5.7.0" />
@@ -68,9 +68,6 @@
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-pool:5.7.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:1.0.1" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.1" />
-          <element id="archive" name="orm-hibernate4-aspect.jar">
-            <element id="module-output" name="orm-hibernate4-aspect" />
-          </element>
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:4.1.9.Final" />
           <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.1.0.GA" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.16.1-GA" />
@@ -101,16 +98,7 @@
           <element id="archive" name="commons.jar">
             <element id="module-output" name="commons" />
           </element>
-          <element id="archive" name="common.enums.jar">
-            <element id="module-output" name="common.enums" />
-          </element>
           <element id="library" level="project" name="Maven: javax.measure:jsr-275:0.9.4" />
-          <element id="archive" name="presentation.api.jar">
-            <element id="module-output" name="presentation.api" />
-          </element>
-          <element id="archive" name="presentation.utils.jar">
-            <element id="module-output" name="presentation.utils" />
-          </element>
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.11" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.11" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.3" />

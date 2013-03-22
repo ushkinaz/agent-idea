@@ -69,7 +69,9 @@
     <file url="file://$PROJECT_DIR$/profile-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/profile-beans" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/profile-boundary" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ps-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ps-beans" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ps-boundary" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ps-ext" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/psyduck" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/psyduck.api" charset="UTF-8" />
@@ -85,6 +87,7 @@
     <file url="file://$PROJECT_DIR$/reports.api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reports.service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reusable.utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rules" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/saiku" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-aspect" charset="UTF-8" />
