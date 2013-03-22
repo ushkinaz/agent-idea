@@ -1,5 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" compressed="false" hash="167538332" />
+  <component name="DataSourceManagerImpl" format="xml" hash="167538332">
+    <data-source source="LOCAL" name="bo.DEV" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="732afe26-ad6f-4008-b30c-21e52275e383">
+      <extra-name-characters>$#</extra-name-characters>
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <jdbc-driver>oracle.jdbc.driver.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@oracle.dev.agent.ru:1521/odev</jdbc-url>
+      <user-name>bodev</user-name>
+      <user-password>dfcedfcfdfdcdfc8dfc5</user-password>
+      <schema-pattern>*.BODEV</schema-pattern>
+      <default-schemas>*.BODEV</default-schemas>
+      <default-dialect>Oracle</default-dialect>
+      <libraries>
+        <library>
+          <url>jar://$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar!/</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="bo.STB" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="0c25fa80-8208-4fbe-93e2-2a544591f0ed">
+      <extra-name-characters>$#</extra-name-characters>
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>oracle.jdbc.driver.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@oracle.dev.agent.ru:1521/odev</jdbc-url>
+      <user-name>botest</user-name>
+      <user-password>dfdedfcfdfd9dfdedfc8dfc5</user-password>
+      <schema-pattern>*.BOTEST</schema-pattern>
+      <default-schemas>*.BODEV *.BOTEST</default-schemas>
+      <default-dialect>Oracle</default-dialect>
+      <libraries>
+        <library>
+          <url>jar://$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar!/</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="HSQL" product="HSQL Database Engine" version="2.2.9" jdbc-version="4.0" driver-name="HSQL Database Engine Driver" driver-version="2.2.9" uuid="63d4c332-8223-4775-944c-05ec8b3d62e2">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:/tmp/flow;shutdown=true</jdbc-url>
+      <user-name>sa</user-name>
+      <schema-pattern>*</schema-pattern>
+      <default-schemas>PUBLIC.PUBLIC</default-schemas>
+      <default-dialect>Oracle</default-dialect>
+      <libraries>
+        <library>
+          <url>jar://$MAVEN_REPOSITORY$/org/hsqldb/hsqldb/2.2.9/hsqldb-2.2.9.jar!/</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="FlowDB@postgre" product="PostgreSQL" version="9.2.1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.0 JDBC4 (build 801)" uuid="456ae106-7425-4020-b1ee-54bd4d60506e">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://postgresql.dev.agent.ru/flow_dev</jdbc-url>
+      <user-name>flowdev</user-name>
+      <user-password>dfcedfcfdfdcdfccdfc6dfc5dfdd</user-password>
+      <schema-pattern>flow_dev.public</schema-pattern>
+      <default-schemas>flow_dev.public</default-schemas>
+      <libraries>
+        <library>
+          <url>jar://$MAVEN_REPOSITORY$/postgresql/postgresql/9.1-901.jdbc4/postgresql-9.1-901.jdbc4.jar!/</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Offer@DEV" product="PostgreSQL" version="9.2.1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.0 JDBC4 (build 801)" uuid="14b79a72-ef16-4952-bf01-53311161125a">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://postgresql.dev.agent.ru:5432/offerdev</jdbc-url>
+      <user-name>offerdev</user-name>
+      <user-password>dfcedfcfdfdcdfc5dfccdfccdfcfdfd8</user-password>
+      <schema-pattern>offerdev.public</schema-pattern>
+      <default-schemas>offerdev.public</default-schemas>
+      <libraries>
+        <library>
+          <url>jar://$MAVEN_REPOSITORY$/postgresql/postgresql/9.1-901.jdbc4/postgresql-9.1-901.jdbc4.jar!/</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
 </project>
 

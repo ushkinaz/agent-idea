@@ -26,6 +26,7 @@
           <option name="profilesMap">
             <map />
           </option>
+          <option name="resolveToWorkspace" value="false" />
           <option name="workingDirPath" value="$PROJECT_DIR$/agg-engine" />
         </MavenRunnerParameters>
       </option>

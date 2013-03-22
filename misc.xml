@@ -536,6 +536,8 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/pdf-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/ps-api/pom.xml" />
+        <option value="$PROJECT_DIR$/ps-boundary/pom.xml" />
       </set>
     </option>
   </component>
