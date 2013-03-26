@@ -39,7 +39,7 @@
             <list>
               <option value="clean" />
               <option value="package" />
-              <option value="jetty:run" />
+              <option value="jetty:run-war" />
             </list>
           </option>
           <option name="profilesMap">
