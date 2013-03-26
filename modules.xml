@@ -93,7 +93,7 @@
       <module fileurl="file://$PROJECT_DIR$/taxi-rb-ext/taxi-rb-ext.iml" filepath="$PROJECT_DIR$/taxi-rb-ext/taxi-rb-ext.iml" group="libs/ext" />
       <module fileurl="file://$PROJECT_DIR$/flights.timetable/timetable.iml" filepath="$PROJECT_DIR$/flights.timetable/timetable.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/update_scripts/update_scripts.iml" filepath="$PROJECT_DIR$/update_scripts/update_scripts.iml" group="supplemental" />
-      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/validation-aspect/validation-aspect.iml" filepath="$PROJECT_DIR$/validation-aspect/validation-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/watchdog/watchdog.iml" filepath="$PROJECT_DIR$/watchdog/watchdog.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/watchdog.api/watchdog.api.iml" filepath="$PROJECT_DIR$/watchdog.api/watchdog.api.iml" group="libs/api" />
