@@ -302,7 +302,6 @@
         <module name="validation-aspect" />
         <module name="watchdog" />
         <module name="watchdog.api" />
-        <module name="zubat" />
         <module name="zubat.sender" />
         <module name="zubat.sender.pack" />
       </profile>

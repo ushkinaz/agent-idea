@@ -97,7 +97,6 @@
       <module fileurl="file://$PROJECT_DIR$/validation-aspect/validation-aspect.iml" filepath="$PROJECT_DIR$/validation-aspect/validation-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/watchdog/watchdog.iml" filepath="$PROJECT_DIR$/watchdog/watchdog.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/watchdog.api/watchdog.api.iml" filepath="$PROJECT_DIR$/watchdog.api/watchdog.api.iml" group="libs/api" />
-      <module fileurl="file://$PROJECT_DIR$/zubat/zubat.iml" filepath="$PROJECT_DIR$/zubat/zubat.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/zubat.sender/zubat.sender.iml" filepath="$PROJECT_DIR$/zubat.sender/zubat.sender.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/zubat.sender.pack/zubat.sender.pack.iml" filepath="$PROJECT_DIR$/zubat.sender.pack/zubat.sender.pack.iml" group="libs" />
     </modules>
