@@ -14,7 +14,7 @@
           <option name="printErrorStackTraces" value="false" />
           <option name="usePluginRegistry" value="false" />
           <option name="userSettingsFile" value="" />
-          <option name="workOffline" value="true" />
+          <option name="workOffline" value="false" />
         </MavenGeneralSettings>
       </option>
       <option name="myRunnerSettings" />
@@ -40,12 +40,18 @@
         </MavenRunnerParameters>
       </option>
     </MavenSettings>
+    <RunnerSettings RunnerId="Debug">
+      <option name="DEBUG_PORT" value="" />
+      <option name="TRANSPORT" value="0" />
+      <option name="LOCAL" value="true" />
+    </RunnerSettings>
     <RunnerSettings RunnerId="JProfiler">
       <option name="WINDOW" value="false" />
       <option name="JVMPI" value="false" />
       <option name="INTERPRETED" value="false" />
     </RunnerSettings>
     <RunnerSettings RunnerId="Run" />
+    <ConfigurationWrapper RunnerId="Debug" />
     <ConfigurationWrapper RunnerId="Run" />
     <method />
   </configuration>
