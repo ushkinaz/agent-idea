@@ -45,14 +45,18 @@
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.15.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.7" />
-          <element id="archive" name="app-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="app-aspect" />
+            <element id="module-output" name="app-web-aspect" />
+            <element id="module-output" name="common.enums" />
+            <element id="module-output" name="services" />
+            <element id="module-output" name="air-booking-ext" />
+            <element id="module-output" name="taxi-rb-ext" />
+            <element id="module-output" name="presentation.utils" />
+            <element id="module-output" name="reports.api" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
-          <element id="archive" name="app-web-aspect.jar">
-            <element id="module-output" name="app-web-aspect" />
-          </element>
           <element id="archive" name="cxf-aspect.jar">
             <element id="module-output" name="cxf-aspect" />
           </element>
@@ -156,13 +160,7 @@
           <element id="archive" name="commons.jar">
             <element id="module-output" name="commons" />
           </element>
-          <element id="archive" name="common.enums.jar">
-            <element id="module-output" name="common.enums" />
-          </element>
           <element id="library" level="project" name="Maven: javax.measure:jsr-275:0.9.4" />
-          <element id="archive" name="services.jar">
-            <element id="module-output" name="services" />
-          </element>
           <element id="archive" name="classifiers.jar">
             <element id="module-output" name="classifiers" />
           </element>
@@ -172,14 +170,8 @@
           <element id="archive" name="domain.jar">
             <element id="module-output" name="domain" />
           </element>
-          <element id="archive" name="air-booking-ext.jar">
-            <element id="module-output" name="air-booking-ext" />
-          </element>
           <element id="archive" name="ps-ext.jar">
             <element id="module-output" name="ps-ext" />
-          </element>
-          <element id="archive" name="taxi-rb-ext.jar">
-            <element id="module-output" name="taxi-rb-ext" />
           </element>
           <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.3" />
@@ -211,9 +203,6 @@
           <element id="archive" name="watchdog.api.jar">
             <element id="module-output" name="watchdog.api" />
           </element>
-          <element id="archive" name="presentation.utils.jar">
-            <element id="module-output" name="presentation.utils" />
-          </element>
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.12" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: opensymphony:sitemesh:2.4.2" />
@@ -221,9 +210,6 @@
           <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-web:2.0.4" />
           <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2.2" />
           <element id="library" level="project" name="Maven: org.apache.xmlbeans:xmlbeans:2.4.0" />
-          <element id="archive" name="reports.api.jar">
-            <element id="module-output" name="reports.api" />
-          </element>
           <element id="archive" name="reports.service.jar">
             <element id="module-output" name="reports.service" />
           </element>
