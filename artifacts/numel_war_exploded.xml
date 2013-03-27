@@ -12,8 +12,8 @@
             <element id="module-output" name="base-aspect" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:0.9.29" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:0.9.29" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.0.11" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.0.11" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.4" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-ext:1.7.4" />
           <element id="library" level="project" name="Maven: ch.qos.cal10n:cal10n-api:0.7.4" />
@@ -45,8 +45,12 @@
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.15.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.7" />
-          <element id="archive" name="base-test-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="base-test-aspect" />
+            <element id="module-output" name="dictionary-beans" />
+            <element id="module-output" name="air-beans" />
+            <element id="module-output" name="person-beans" />
+            <element id="module-output" name="app-aspect" />
           </element>
           <element id="library" level="project" name="Maven: org.testng:testng:6.8" />
           <element id="library" level="project" name="Maven: org.beanshell:bsh:2.0b4" />
@@ -61,17 +65,17 @@
           <element id="archive" name="storage-boundary.jar">
             <element id="module-output" name="storage-boundary" />
           </element>
-          <element id="archive" name="corporate.pom.jar">
+          <element id="archive" name="storage-api.jar">
             <element id="module-output" name="storage-api" />
+          </element>
+          <element id="archive" name="beans.jar">
             <element id="module-output" name="beans" />
-            <element id="module-output" name="dictionary-beans" />
-            <element id="module-output" name="air-beans" />
-            <element id="module-output" name="person-beans" />
-            <element id="module-output" name="ps-beans" />
-            <element id="module-output" name="common.enums" />
           </element>
           <element id="archive" name="offer-beans.jar">
             <element id="module-output" name="offer-beans" />
+          </element>
+          <element id="archive" name="ps-beans.jar">
+            <element id="module-output" name="ps-beans" />
           </element>
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-core:1.0.7" />
@@ -81,6 +85,9 @@
           <element id="archive" name="commons.jar">
             <element id="module-output" name="commons" />
           </element>
+          <element id="archive" name="common.enums.jar">
+            <element id="module-output" name="common.enums" />
+          </element>
           <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
           <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
           <element id="library" level="project" name="Maven: javax.measure:jsr-275:0.9.4" />
@@ -89,9 +96,6 @@
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.1.RELEASE" />
-          <element id="archive" name="app-aspect.jar">
-            <element id="module-output" name="app-aspect" />
-          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
         </element>
