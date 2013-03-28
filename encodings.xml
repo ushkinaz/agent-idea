@@ -35,6 +35,7 @@
     <file url="file://$PROJECT_DIR$/log.analyser" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/operation.service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent.pom" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent.utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent.war.pom" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/paysys" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/presentation.api" charset="UTF-8" />

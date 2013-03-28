@@ -37,6 +37,7 @@
       <module fileurl="file://$PROJECT_DIR$/log.analyser/log.analyser.iml" filepath="$PROJECT_DIR$/log.analyser/log.analyser.iml" group="application/utils" />
       <module fileurl="file://$PROJECT_DIR$/operation.service/operation.service.iml" filepath="$PROJECT_DIR$/operation.service/operation.service.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/parent.pom/parent.pom.iml" filepath="$PROJECT_DIR$/parent.pom/parent.pom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent.utils/parent.utils.iml" filepath="$PROJECT_DIR$/parent.utils/parent.utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent.war.pom/parent.war.pom.iml" filepath="$PROJECT_DIR$/parent.war.pom/parent.war.pom.iml" group="supplemental" />
       <module fileurl="file://$PROJECT_DIR$/paysys/paysys.api.iml" filepath="$PROJECT_DIR$/paysys/paysys.api.iml" />
       <module fileurl="file://$PROJECT_DIR$/presentation.api/presentation.api.iml" filepath="$PROJECT_DIR$/presentation.api/presentation.api.iml" group="libs/api" />
