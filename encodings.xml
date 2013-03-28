@@ -5,19 +5,9 @@
     <file url="file://$PROJECT_DIR$/abra.api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/actions.history" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aeroexpress" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/agg-engine" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/air-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/air-beans" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/air-booking-ext" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/air-boundary" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/airbookingservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/amq.utils" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app-aspect" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app-web-aspect" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app.aggregator" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base-aspect" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/base-test-aspect" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/beans" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cartrawler.service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/classifiers" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common.enums" charset="UTF-8" />
@@ -25,12 +15,9 @@
     <file url="file://$PROJECT_DIR$/common.war" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commons" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/corporate.pom" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cxf-aspect" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cxf.client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cxf.utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dao" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dictionary-beans" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dictionary-controls" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/domain.layer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ehcache.utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/engine" charset="UTF-8" />
@@ -43,24 +30,16 @@
     <file url="file://$PROJECT_DIR$/insurance.api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/insurance.service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jasper" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jasper-aspect" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jdbc.utils" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jms-aspect" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/kadabra" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/krabby" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/log.analyser" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/numel" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/offer-beans" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/operation.service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/orm-hibernate-aspect" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/orm-spring-jdbc-aspect" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent.pom" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent.war.pom" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/paysys" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/presentation.api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/presentation.transformers" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/presentation.utils" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/profile-beans" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/psyduck" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/psyduck.api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/psyduck.service" charset="UTF-8" />
@@ -73,7 +52,6 @@
     <file url="file://$PROJECT_DIR$/reports.api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reports.service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reusable.utils" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/saiku" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/simurgh" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sirena.agency.api" charset="UTF-8" />
@@ -83,8 +61,6 @@
     <file url="file://$PROJECT_DIR$/spring.security.utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spzd.api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/squirtle" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/storage-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/storage-boundary" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swinub" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swinub.api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test.utils" charset="UTF-8" />
