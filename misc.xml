@@ -533,14 +533,6 @@
         <option value="$PROJECT_DIR$/reusable.utils/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/pdf-generator/pom.xml" />
-        <option value="$PROJECT_DIR$/ps-api/pom.xml" />
-        <option value="$PROJECT_DIR$/ps-boundary/pom.xml" />
-        <option value="$PROJECT_DIR$/zubat/pom.xml" />
-      </set>
-    </option>
   </component>
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="javax.annotation.Nullable" />

@@ -221,6 +221,7 @@
         <module name="air-beans" />
         <module name="air-booking-ext" />
         <module name="air-boundary" />
+        <module name="airbookingservice.api" />
         <module name="app-aspect" />
         <module name="app-web-aspect" />
         <module name="base-aspect" />
@@ -228,20 +229,29 @@
         <module name="beans" />
         <module name="cartrawler.service" />
         <module name="classifiers" />
+        <module name="comminucate" />
         <module name="common.enums" />
+        <module name="common.logger" />
+        <module name="common.war" />
         <module name="commons" />
+        <module name="crypto" />
         <module name="cxf-aspect" />
+        <module name="cxf.utils" />
+        <module name="dao" />
         <module name="dictionary-api" />
         <module name="dictionary-beans" />
         <module name="dictionary-boundary" />
         <module name="dictionary-controls" />
         <module name="domain" />
+        <module name="ehcache.utils" />
+        <module name="engine" />
         <module name="flightstats.service" />
         <module name="flightstats.stubs" />
         <module name="flow" />
         <module name="gamayun" />
         <module name="identity" />
         <module name="insurance-alpha-ext" />
+        <module name="insurance.api" />
         <module name="insurance.service" />
         <module name="jasper-aspect" />
         <module name="jms-aspect" />
@@ -256,6 +266,8 @@
         <module name="pack-api" />
         <module name="pack-beans" />
         <module name="pack-boundary" />
+        <module name="paysys.api" />
+        <module name="pdf-generator" />
         <module name="person-api" />
         <module name="person-beans" />
         <module name="person-boundary" />
@@ -266,7 +278,9 @@
         <module name="profile-api" />
         <module name="profile-beans" />
         <module name="profile-boundary" />
+        <module name="ps-api" />
         <module name="ps-beans" />
+        <module name="ps-boundary" />
         <module name="ps-ext" />
         <module name="psyduck" />
         <module name="psyduck.api" />
@@ -291,17 +305,23 @@
         <module name="security-oauth2-service" />
         <module name="services" />
         <module name="simurgh" />
+        <module name="sirena.agency.api" />
         <module name="sirena.agency.service" />
+        <module name="spring-security-utils" />
         <module name="storage-api" />
         <module name="storage-boundary" />
         <module name="swinub" />
         <module name="swinub.api" />
         <module name="taxi-rb-ext" />
+        <module name="test.utils" />
         <module name="timetable" />
+        <module name="ufs.api" />
         <module name="utils" />
         <module name="validation-aspect" />
         <module name="watchdog" />
         <module name="watchdog.api" />
+        <module name="yandexws" />
+        <module name="zubat" />
         <module name="zubat.sender" />
         <module name="zubat.sender.pack" />
       </profile>
@@ -362,6 +382,7 @@
       <module name="parent.pom" target="1.7" />
       <module name="parent.war.pom" target="1.7" />
       <module name="paysys.api" target="1.7" />
+      <module name="pdf-generator" target="1.7" />
       <module name="person-api" target="1.7" />
       <module name="person-beans" target="1.7" />
       <module name="person-boundary" target="1.7" />
@@ -372,7 +393,9 @@
       <module name="profile-api" target="1.7" />
       <module name="profile-beans" target="1.7" />
       <module name="profile-boundary" target="1.7" />
+      <module name="ps-api" target="1.7" />
       <module name="ps-beans" target="1.7" />
+      <module name="ps-boundary" target="1.7" />
       <module name="ps-ext" target="1.7" />
       <module name="psyduck" target="1.7" />
       <module name="psyduck.api" target="1.7" />
