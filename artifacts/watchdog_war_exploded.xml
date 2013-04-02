@@ -45,8 +45,17 @@
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.15.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.7" />
-          <element id="archive" name="app-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="app-aspect" />
+            <element id="module-output" name="jms-aspect" />
+            <element id="module-output" name="common.enums" />
+            <element id="module-output" name="classifiers" />
+            <element id="module-output" name="aex-ext" />
+            <element id="module-output" name="operation.service" />
+            <element id="module-output" name="watchdog.api" />
+            <element id="module-output" name="railway-ufs-ext" />
+            <element id="module-output" name="presentation.api" />
+            <element id="module-output" name="presentation.utils" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
@@ -66,9 +75,6 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.1.RELEASE" />
-          <element id="archive" name="jms-aspect.jar">
-            <element id="module-output" name="jms-aspect" />
-          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-jms:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-core:5.7.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1" />
@@ -151,9 +157,6 @@
           <element id="archive" name="flightstats.stubs.jar">
             <element id="module-output" name="flightstats.stubs" />
           </element>
-          <element id="archive" name="common.enums.jar">
-            <element id="module-output" name="common.enums" />
-          </element>
           <element id="archive" name="commons.jar">
             <element id="module-output" name="commons" />
           </element>
@@ -162,9 +165,6 @@
           <element id="library" level="project" name="Maven: io.netty:netty:3.6.3.Final" />
           <element id="archive" name="domain.jar">
             <element id="module-output" name="domain" />
-          </element>
-          <element id="archive" name="classifiers.jar">
-            <element id="module-output" name="classifiers" />
           </element>
           <element id="archive" name="reference.jar">
             <element id="module-output" name="reference" />
@@ -188,9 +188,6 @@
           <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.3" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
-          <element id="archive" name="aex-ext.jar">
-            <element id="module-output" name="aex-ext" />
-          </element>
           <element id="archive" name="psyduck.api.jar">
             <element id="module-output" name="psyduck.api" />
           </element>
@@ -212,17 +209,8 @@
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-compiler:1.0.7" />
           <element id="library" level="project" name="Maven: jaxen:jaxen:1.1.4" />
           <element id="library" level="project" name="Maven: com.ibm.icu:icu4j:50.1" />
-          <element id="archive" name="operation.service.jar">
-            <element id="module-output" name="operation.service" />
-          </element>
-          <element id="archive" name="watchdog.api.jar">
-            <element id="module-output" name="watchdog.api" />
-          </element>
           <element id="archive" name="railway.service.jar">
             <element id="module-output" name="railway.service" />
-          </element>
-          <element id="archive" name="railway-ufs-ext.jar">
-            <element id="module-output" name="railway-ufs-ext" />
           </element>
           <element id="archive" name="railway-spzd-ext.jar">
             <element id="module-output" name="railway-spzd-ext" />
@@ -232,12 +220,6 @@
           </element>
           <element id="archive" name="zubat.sender.jar">
             <element id="module-output" name="zubat.sender" />
-          </element>
-          <element id="archive" name="presentation.api.jar">
-            <element id="module-output" name="presentation.api" />
-          </element>
-          <element id="archive" name="presentation.utils.jar">
-            <element id="module-output" name="presentation.utils" />
           </element>
           <element id="archive" name="presentation.transformers.jar">
             <element id="module-output" name="presentation.transformers" />
@@ -256,7 +238,7 @@
             <element id="module-output" name="cartrawler.service" />
           </element>
           <element id="library" level="project" name="Maven: org.w3c:tidy:1.0" />
-          <element id="library" level="project" name="Maven: xerces:xercesImpl:2.11.1" />
+          <element id="library" level="project" name="Maven: xerces:xercesImpl:2.11.0" />
           <element id="library" level="project" name="Maven: xalan:xalan:2.7.1" />
           <element id="library" level="project" name="Maven: xalan:serializer:2.7.1" />
         </element>
