@@ -54,21 +54,8 @@
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.15.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.7" />
-          <element id="archive" name="corporate.pom.jar">
+          <element id="archive" name="app-aspect.jar">
             <element id="module-output" name="app-aspect" />
-            <element id="module-output" name="orm-spring-jdbc-aspect" />
-            <element id="module-output" name="jms-aspect" />
-            <element id="module-output" name="common.enums" />
-            <element id="module-output" name="presentation.api" />
-            <element id="module-output" name="presentation.utils" />
-            <element id="module-output" name="actions.history" />
-            <element id="module-output" name="classifiers" />
-            <element id="module-output" name="aex-ext" />
-            <element id="module-output" name="railway-ufs-ext" />
-            <element id="module-output" name="operation.service" />
-            <element id="module-output" name="watchdog.api" />
-            <element id="module-output" name="dictionary-beans" />
-            <element id="module-output" name="dictionary-controls" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
@@ -135,6 +122,12 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.1.RELEASE" />
+          <element id="archive" name="orm-spring-jdbc-aspect.jar">
+            <element id="module-output" name="orm-spring-jdbc-aspect" />
+          </element>
+          <element id="archive" name="jms-aspect.jar">
+            <element id="module-output" name="jms-aspect" />
+          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-jms:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-core:5.7.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1" />
@@ -194,15 +187,30 @@
           <element id="archive" name="commons.jar">
             <element id="module-output" name="commons" />
           </element>
+          <element id="archive" name="common.enums.jar">
+            <element id="module-output" name="common.enums" />
+          </element>
           <element id="library" level="project" name="Maven: javax.measure:jsr-275:0.9.4" />
           <element id="library" level="project" name="Maven: com.ning:async-http-client:1.7.12" />
           <element id="library" level="project" name="Maven: io.netty:netty:3.6.3.Final" />
           <element id="library" level="project" name="Maven: junit:junit:4.10" />
+          <element id="archive" name="presentation.api.jar">
+            <element id="module-output" name="presentation.api" />
+          </element>
+          <element id="archive" name="presentation.utils.jar">
+            <element id="module-output" name="presentation.utils" />
+          </element>
+          <element id="archive" name="actions.history.jar">
+            <element id="module-output" name="actions.history" />
+          </element>
           <element id="archive" name="presentation.transformers.jar">
             <element id="module-output" name="presentation.transformers" />
           </element>
           <element id="archive" name="services.jar">
             <element id="module-output" name="services" />
+          </element>
+          <element id="archive" name="classifiers.jar">
+            <element id="module-output" name="classifiers" />
           </element>
           <element id="archive" name="reference.jar">
             <element id="module-output" name="reference" />
@@ -222,6 +230,9 @@
           <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.3" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
+          <element id="archive" name="aex-ext.jar">
+            <element id="module-output" name="aex-ext" />
+          </element>
           <element id="archive" name="psyduck.api.jar">
             <element id="module-output" name="psyduck.api" />
           </element>
@@ -259,8 +270,17 @@
           <element id="archive" name="railway.service.jar">
             <element id="module-output" name="railway.service" />
           </element>
+          <element id="archive" name="railway-ufs-ext.jar">
+            <element id="module-output" name="railway-ufs-ext" />
+          </element>
           <element id="archive" name="railway-spzd-ext.jar">
             <element id="module-output" name="railway-spzd-ext" />
+          </element>
+          <element id="archive" name="operation.service.jar">
+            <element id="module-output" name="operation.service" />
+          </element>
+          <element id="archive" name="watchdog.api.jar">
+            <element id="module-output" name="watchdog.api" />
           </element>
           <element id="archive" name="swinub.api.jar">
             <element id="module-output" name="swinub.api" />
@@ -289,6 +309,12 @@
           </element>
           <element id="archive" name="dictionary-api.jar">
             <element id="module-output" name="dictionary-api" />
+          </element>
+          <element id="archive" name="dictionary-beans.jar">
+            <element id="module-output" name="dictionary-beans" />
+          </element>
+          <element id="archive" name="dictionary-controls.jar">
+            <element id="module-output" name="dictionary-controls" />
           </element>
         </element>
       </element>

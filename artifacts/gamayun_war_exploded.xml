@@ -51,10 +51,8 @@
             <element id="module-output" name="orm-spring-jdbc-aspect" />
             <element id="module-output" name="common.enums" />
             <element id="module-output" name="classifiers" />
-            <element id="module-output" name="aex-ext" />
             <element id="module-output" name="watchdog.api" />
             <element id="module-output" name="presentation.utils" />
-            <element id="module-output" name="reports.api" />
             <element id="module-output" name="operation.service" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.1.RELEASE" />
@@ -192,6 +190,9 @@
           <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.3" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
+          <element id="archive" name="aex-ext.jar">
+            <element id="module-output" name="aex-ext" />
+          </element>
           <element id="archive" name="psyduck.api.jar">
             <element id="module-output" name="psyduck.api" />
           </element>
@@ -219,6 +220,9 @@
           <element id="library" level="project" name="Maven: struts-menu:struts-menu:2.4.3" />
           <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-web:2.0.4" />
           <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2.2" />
+          <element id="archive" name="reports.api.jar">
+            <element id="module-output" name="reports.api" />
+          </element>
           <element id="archive" name="reports.service.jar">
             <element id="module-output" name="reports.service" />
           </element>
