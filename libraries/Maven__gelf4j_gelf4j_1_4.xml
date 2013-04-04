@@ -8,7 +8,6 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/gelf4j/gelf4j/1.4/gelf4j-1.4-sources.jar!/" />
-      <root url="file://$PROJECT_DIR$/../3rdParty/real-gelf4j/src/main/java" />
     </SOURCES>
   </library>
 </component>

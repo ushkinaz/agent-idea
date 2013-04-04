@@ -43,17 +43,10 @@
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
-          <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.15.0" />
+          <element id="library" level="project" name="Maven: com.newrelic.agent.java:newrelic-api:2.16.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.7" />
-          <element id="archive" name="corporate.pom.jar">
+          <element id="archive" name="app-aspect.jar">
             <element id="module-output" name="app-aspect" />
-            <element id="module-output" name="jms-aspect" />
-            <element id="module-output" name="orm-spring-jdbc-aspect" />
-            <element id="module-output" name="common.enums" />
-            <element id="module-output" name="classifiers" />
-            <element id="module-output" name="watchdog.api" />
-            <element id="module-output" name="presentation.utils" />
-            <element id="module-output" name="operation.service" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
@@ -125,6 +118,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.1.RELEASE" />
+          <element id="archive" name="jms-aspect.jar">
+            <element id="module-output" name="jms-aspect" />
+          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-jms:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-core:5.7.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1" />
@@ -139,6 +135,9 @@
           <element id="library" level="project" name="Maven: org.jasypt:jasypt:1.9.0" />
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-pool:5.7.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:1.0.1" />
+          <element id="archive" name="orm-spring-jdbc-aspect.jar">
+            <element id="module-output" name="orm-spring-jdbc-aspect" />
+          </element>
           <element id="archive" name="jasper-aspect.jar">
             <element id="module-output" name="jasper-aspect" />
           </element>
@@ -165,12 +164,18 @@
           <element id="archive" name="commons.jar">
             <element id="module-output" name="commons" />
           </element>
+          <element id="archive" name="common.enums.jar">
+            <element id="module-output" name="common.enums" />
+          </element>
           <element id="library" level="project" name="Maven: javax.measure:jsr-275:0.9.4" />
           <element id="library" level="project" name="Maven: com.ning:async-http-client:1.7.12" />
           <element id="library" level="project" name="Maven: io.netty:netty:3.6.3.Final" />
           <element id="library" level="project" name="Maven: junit:junit:4.10" />
           <element id="archive" name="services.jar">
             <element id="module-output" name="services" />
+          </element>
+          <element id="archive" name="classifiers.jar">
+            <element id="module-output" name="classifiers" />
           </element>
           <element id="archive" name="reference.jar">
             <element id="module-output" name="reference" />
@@ -214,6 +219,12 @@
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-compiler:1.0.7" />
           <element id="library" level="project" name="Maven: jaxen:jaxen:1.1.4" />
           <element id="library" level="project" name="Maven: com.ibm.icu:icu4j:50.1" />
+          <element id="archive" name="watchdog.api.jar">
+            <element id="module-output" name="watchdog.api" />
+          </element>
+          <element id="archive" name="presentation.utils.jar">
+            <element id="module-output" name="presentation.utils" />
+          </element>
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.12" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: opensymphony:sitemesh:2.4.2" />
@@ -228,6 +239,9 @@
           </element>
           <element id="archive" name="reports.jar">
             <element id="module-output" name="reports" />
+          </element>
+          <element id="archive" name="operation.service.jar">
+            <element id="module-output" name="operation.service" />
           </element>
         </element>
       </element>
