@@ -48,7 +48,7 @@
           <element id="archive" name="base-test-aspect.jar">
             <element id="module-output" name="base-test-aspect" />
           </element>
-          <element id="library" level="project" name="Maven: org.testng:testng:6.8" />
+          <element id="library" level="project" name="Maven: org.testng:testng:6.8.1" />
           <element id="library" level="project" name="Maven: org.beanshell:bsh:2.0b4" />
           <element id="library" level="project" name="Maven: com.beust:jcommander:1.27" />
           <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.6" />

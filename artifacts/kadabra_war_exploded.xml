@@ -161,8 +161,9 @@
           <element id="archive" name="person-beans.jar">
             <element id="module-output" name="person-beans" />
           </element>
-          <element id="library" level="project" name="Maven: ma.glasnost.orika:orika-core:1.4.0" />
+          <element id="library" level="project" name="Maven: ma.glasnost.orika:orika-core:1.4.1" />
           <element id="library" level="project" name="Maven: com.thoughtworks.paranamer:paranamer:2.3" />
+          <element id="library" level="project" name="Maven: com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:1.2_jdk5" />
           <element id="archive" name="pack-boundary.jar">
             <element id="module-output" name="pack-boundary" />
           </element>
