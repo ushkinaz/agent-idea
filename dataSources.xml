@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="167538332">
+  <component name="DataSourceManagerImpl" format="xml" hash="2345674315">
     <data-source source="LOCAL" name="bo.DEV" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="732afe26-ad6f-4008-b30c-21e52275e383">
       <extra-name-characters>$#</extra-name-characters>
       <identifier-quote-string>&quot;</identifier-quote-string>
