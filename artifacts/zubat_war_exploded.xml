@@ -8,8 +8,12 @@
           <element id="module-output" name="zubat" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="base-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="base-aspect" />
+            <element id="module-output" name="app-aspect" />
+            <element id="module-output" name="zubat.sender" />
+            <element id="module-output" name="common.enums" />
+            <element id="module-output" name="presentation.api" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.0.11" />
@@ -45,9 +49,6 @@
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.15.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.7" />
-          <element id="archive" name="app-aspect.jar">
-            <element id="module-output" name="app-aspect" />
-          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
           <element id="archive" name="jms-aspect.jar">
@@ -55,12 +56,18 @@
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-jms:3.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.apache.activemq:activemq-core:5.8.0" />
-          <element id="library" level="project" name="Maven: org.apache.activemq:activemq-pool:5.8.0" />
-          <element id="library" level="project" name="Maven: org.apache.activemq:activemq-client:5.8.0" />
+          <element id="library" level="project" name="Maven: org.apache.activemq:activemq-core:5.7.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1" />
+          <element id="library" level="project" name="Maven: org.apache.activemq:kahadb:5.7.0" />
+          <element id="library" level="project" name="Maven: org.apache.activemq.protobuf:activemq-protobuf:1.1" />
+          <element id="library" level="project" name="Maven: org.fusesource.mqtt-client:mqtt-client:1.3" />
+          <element id="library" level="project" name="Maven: org.fusesource.hawtdispatch:hawtdispatch-transport:1.11" />
+          <element id="library" level="project" name="Maven: org.fusesource.hawtdispatch:hawtdispatch:1.11" />
           <element id="library" level="project" name="Maven: org.fusesource.hawtbuf:hawtbuf:1.9" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:1.0.1" />
+          <element id="library" level="project" name="Maven: commons-net:commons-net:3.1" />
+          <element id="library" level="project" name="Maven: org.jasypt:jasypt:1.9.0" />
+          <element id="library" level="project" name="Maven: org.apache.activemq:activemq-pool:5.7.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:1.0.1" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
           <element id="archive" name="orm-hibernate4-aspect.jar">
@@ -79,9 +86,6 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
-          <element id="archive" name="zubat.sender.jar">
-            <element id="module-output" name="zubat.sender" />
-          </element>
           <element id="library" level="project" name="Maven: javax.mail:mail:1.4" />
           <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
           <element id="library" level="project" name="Maven: org.apache.velocity:velocity:1.7" />
@@ -97,16 +101,10 @@
           <element id="archive" name="commons.jar">
             <element id="module-output" name="commons" />
           </element>
-          <element id="archive" name="common.enums.jar">
-            <element id="module-output" name="common.enums" />
-          </element>
           <element id="library" level="project" name="Maven: javax.measure:jsr-275:0.9.4" />
           <element id="library" level="project" name="Maven: com.ning:async-http-client:1.7.12" />
           <element id="library" level="project" name="Maven: io.netty:netty:3.6.3.Final" />
           <element id="library" level="project" name="Maven: junit:junit:4.10" />
-          <element id="archive" name="presentation.api.jar">
-            <element id="module-output" name="presentation.api" />
-          </element>
           <element id="archive" name="presentation.utils.jar">
             <element id="module-output" name="presentation.utils" />
           </element>
