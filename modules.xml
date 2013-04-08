@@ -38,6 +38,7 @@
       <module fileurl="file://$PROJECT_DIR$/domain.layer/domain.iml" filepath="$PROJECT_DIR$/domain.layer/domain.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/ehcache.utils/ehcache.utils.iml" filepath="$PROJECT_DIR$/ehcache.utils/ehcache.utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/engine/engine.iml" filepath="$PROJECT_DIR$/engine/engine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/finance-beans/finance-beans.iml" filepath="$PROJECT_DIR$/finance-beans/finance-beans.iml" />
       <module fileurl="file://$PROJECT_DIR$/flightstats.service/flightstats.service.iml" filepath="$PROJECT_DIR$/flightstats.service/flightstats.service.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/flightstats.stubs/flightstats.stubs.iml" filepath="$PROJECT_DIR$/flightstats.stubs/flightstats.stubs.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/flow/flow.iml" filepath="$PROJECT_DIR$/flow/flow.iml" />

@@ -43,7 +43,7 @@
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
-          <element id="library" level="project" name="Maven: com.newrelic.agent.java:newrelic-api:2.16.0" />
+          <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.15.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.7" />
           <element id="archive" name="base-test-aspect.jar">
             <element id="module-output" name="base-test-aspect" />
@@ -79,8 +79,8 @@
           <element id="archive" name="person-beans.jar">
             <element id="module-output" name="person-beans" />
           </element>
-          <element id="archive" name="ps-beans.jar">
-            <element id="module-output" name="ps-beans" />
+          <element id="archive" name="finance-beans.jar">
+            <element id="module-output" name="finance-beans" />
           </element>
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-core:1.0.7" />

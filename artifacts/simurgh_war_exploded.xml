@@ -8,23 +8,8 @@
           <element id="module-output" name="simurgh" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="corporate.pom.jar">
+          <element id="archive" name="base-aspect.jar">
             <element id="module-output" name="base-aspect" />
-            <element id="module-output" name="app-web-aspect" />
-            <element id="module-output" name="orm-hibernate4-aspect" />
-            <element id="module-output" name="security-aspect" />
-            <element id="module-output" name="services" />
-            <element id="module-output" name="common.enums" />
-            <element id="module-output" name="classifiers" />
-            <element id="module-output" name="reference" />
-            <element id="module-output" name="domain" />
-            <element id="module-output" name="air-booking-ext" />
-            <element id="module-output" name="ps-ext" />
-            <element id="module-output" name="taxi-rb-ext" />
-            <element id="module-output" name="insurance-alpha-ext" />
-            <element id="module-output" name="operation.service" />
-            <element id="module-output" name="watchdog.api" />
-            <element id="module-output" name="railway-spzd-ext" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.0.11" />
@@ -58,13 +43,16 @@
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
-          <element id="library" level="project" name="Maven: com.newrelic.agent.java:newrelic-api:2.16.0" />
+          <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.15.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.7" />
           <element id="archive" name="app-aspect.jar">
             <element id="module-output" name="app-aspect" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
+          <element id="archive" name="app-web-aspect.jar">
+            <element id="module-output" name="app-web-aspect" />
+          </element>
           <element id="archive" name="cxf-aspect.jar">
             <element id="module-output" name="cxf-aspect" />
           </element>
@@ -107,6 +95,9 @@
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:3.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-xc:1.9.11" />
+          <element id="archive" name="orm-hibernate4-aspect.jar">
+            <element id="module-output" name="orm-hibernate4-aspect" />
+          </element>
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:4.2.0.Final" />
           <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.1.0.GA" />
           <element id="library" level="project" name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.0.Final" />
@@ -136,18 +127,45 @@
           <element id="library" level="project" name="Maven: org.jasypt:jasypt:1.9.0" />
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-pool:5.7.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:1.0.1" />
+          <element id="archive" name="security-aspect.jar">
+            <element id="module-output" name="security-aspect" />
+          </element>
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:3.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:3.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:3.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
+          <element id="archive" name="services.jar">
+            <element id="module-output" name="services" />
+          </element>
           <element id="archive" name="commons.jar">
             <element id="module-output" name="commons" />
+          </element>
+          <element id="archive" name="common.enums.jar">
+            <element id="module-output" name="common.enums" />
           </element>
           <element id="library" level="project" name="Maven: javax.measure:jsr-275:0.9.4" />
           <element id="library" level="project" name="Maven: com.ning:async-http-client:1.7.12" />
           <element id="library" level="project" name="Maven: io.netty:netty:3.6.3.Final" />
+          <element id="archive" name="classifiers.jar">
+            <element id="module-output" name="classifiers" />
+          </element>
+          <element id="archive" name="reference.jar">
+            <element id="module-output" name="reference" />
+          </element>
+          <element id="archive" name="domain.jar">
+            <element id="module-output" name="domain" />
+          </element>
+          <element id="archive" name="air-booking-ext.jar">
+            <element id="module-output" name="air-booking-ext" />
+          </element>
+          <element id="archive" name="ps-ext.jar">
+            <element id="module-output" name="ps-ext" />
+          </element>
+          <element id="archive" name="taxi-rb-ext.jar">
+            <element id="module-output" name="taxi-rb-ext" />
+          </element>
           <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.3" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
@@ -179,12 +197,24 @@
           <element id="archive" name="insurance.service.jar">
             <element id="module-output" name="insurance.service" />
           </element>
+          <element id="archive" name="insurance-alpha-ext.jar">
+            <element id="module-output" name="insurance-alpha-ext" />
+          </element>
+          <element id="archive" name="operation.service.jar">
+            <element id="module-output" name="operation.service" />
+          </element>
+          <element id="archive" name="watchdog.api.jar">
+            <element id="module-output" name="watchdog.api" />
+          </element>
           <element id="library" level="project" name="Maven: junit:junit:4.10" />
           <element id="archive" name="railway.service.jar">
             <element id="module-output" name="railway.service" />
           </element>
           <element id="archive" name="railway-ufs-ext.jar">
             <element id="module-output" name="railway-ufs-ext" />
+          </element>
+          <element id="archive" name="railway-spzd-ext.jar">
+            <element id="module-output" name="railway-spzd-ext" />
           </element>
         </element>
       </element>

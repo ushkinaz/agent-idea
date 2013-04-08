@@ -245,6 +245,7 @@
         <module name="domain" />
         <module name="ehcache.utils" />
         <module name="engine" />
+        <module name="finance-beans" />
         <module name="flightstats.service" />
         <module name="flightstats.stubs" />
         <module name="flow" />
@@ -356,6 +357,7 @@
       <module name="dictionary-boundary" target="1.7" />
       <module name="dictionary-controls" target="1.7" />
       <module name="domain" target="1.7" />
+      <module name="finance-beans" target="1.7" />
       <module name="flightstats.service" target="1.7" />
       <module name="flightstats.stubs" target="1.7" />
       <module name="flow" target="1.7" />
