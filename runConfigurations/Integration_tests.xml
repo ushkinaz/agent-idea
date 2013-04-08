@@ -31,7 +31,7 @@
           </option>
           <option name="profilesMap">
             <map>
-              <entry key="local" value="true" />
+              <entry key="dev" value="true" />
               <entry key="integration" value="true" />
             </map>
           </option>
