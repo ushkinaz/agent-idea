@@ -4250,8 +4250,8 @@
       <exported-key name="FHR_TO_OP_AC" table="FLIGHT_HISTORY_RECORDS" schema="BOTEST" catalog="" columns="OPERATING_AC_ID"/>
       <exported-key name="FHR_TO_MAR_AC" table="FLIGHT_HISTORY_RECORDS" schema="BOTEST" catalog="" columns="MARKETING_AC_ID"/>
       <exported-key name="TRIP_ORDER_TO_OP_AC" table="FLIGHT_TRIP_ORDERS" schema="BOTEST" catalog="" columns="VALIDATING_AC_ID"/>
-      <exported-key name="PRICED_FLIGHT_TO_MAR_AC" table="PRICED_FLIGHTS" schema="BOTEST" catalog="" columns="MARKETING_AC_ID"/>
       <exported-key name="PRICED_FLIGHT_TO_OP_AC" table="PRICED_FLIGHTS" schema="BOTEST" catalog="" columns="OPERATING_AC_ID"/>
+      <exported-key name="PRICED_FLIGHT_TO_MAR_AC" table="PRICED_FLIGHTS" schema="BOTEST" catalog="" columns="MARKETING_AC_ID"/>
       <exported-key name="RF_TO_MAR_AC" table="REFUND_FLIGHTS" schema="BOTEST" catalog="" columns="MARKETING_AC_ID"/>
       <exported-key name="SEARCH_RQ_ADD_TO_AC_RB" table="SEARCH_RQ_ADDITIONAL" schema="BOTEST" catalog="" columns="AIRCOMPANY"/>
       <exported-key name="FK_SEGMENT_TO_AIRCOMPANY_RB" table="SEARCH_RQ_SEGMENT" schema="BOTEST" catalog="" columns="AIRCOMPANY_ID"/>
@@ -4318,12 +4318,12 @@
       <exported-key name="PRICED_FLIGHT_TO_DAIRP" table="PRICED_FLIGHTS" schema="BOTEST" catalog="" columns="DEP_AIRPORT_ID"/>
       <exported-key name="RF_FLIGHT_TO_DAIRPORT" table="REFUND_FLIGHTS" schema="BOTEST" catalog="" columns="DEP_AIRPORT_ID"/>
       <exported-key name="RF_FLIGHT_TO_ARAIRPORT" table="REFUND_FLIGHTS" schema="BOTEST" catalog="" columns="AR_AIRPORT_Y_ID"/>
-      <exported-key name="RF_SEGMENT_TO_ARAIRPORT" table="REFUND_SEGMENTS" schema="BOTEST" catalog="" columns="AR_AIRPORT_Y_ID"/>
       <exported-key name="RF_SEGMENT_TO_DAIRPORT" table="REFUND_SEGMENTS" schema="BOTEST" catalog="" columns="DEP_AIRPORT_ID"/>
+      <exported-key name="RF_SEGMENT_TO_ARAIRPORT" table="REFUND_SEGMENTS" schema="BOTEST" catalog="" columns="AR_AIRPORT_Y_ID"/>
       <exported-key name="R_SEGMENT_TO_DAIRP" table="ROUTE_SEGMENTS" schema="BOTEST" catalog="" columns="DEP_AIRPORT_ID"/>
       <exported-key name="R_SEGMENT_TO_AAIRP" table="ROUTE_SEGMENTS" schema="BOTEST" catalog="" columns="ARR_AIRPORT_ID"/>
-      <exported-key name="RSHR_TO_DAIRP" table="ROUTE_SEGMENT_HISTORY_RECORDS" schema="BOTEST" catalog="" columns="DEP_AIRPORT_ID"/>
       <exported-key name="RSHR_TO_AAIRP" table="ROUTE_SEGMENT_HISTORY_RECORDS" schema="BOTEST" catalog="" columns="ARR_AIRPORT_ID"/>
+      <exported-key name="RSHR_TO_DAIRP" table="ROUTE_SEGMENT_HISTORY_RECORDS" schema="BOTEST" catalog="" columns="DEP_AIRPORT_ID"/>
       <index name="SYS_C0013339" unique="true" columns="AIRPORT_AINFO_ID"/>
       <index name="AIRPORTS_RB_CODE" unique="true" columns="CODE"/>
       <index name="AIRPORTS_RB_CODE_IATA" unique="true" columns="CODE_IATA"/>
@@ -4475,12 +4475,12 @@
       <exported-key name="PRICED_FLIGHT_TO_DCITY" table="PRICED_FLIGHTS" schema="BOTEST" catalog="" columns="DEP_CITY_ID"/>
       <exported-key name="RF_FLIGHT_TO_ARCITY" table="REFUND_FLIGHTS" schema="BOTEST" catalog="" columns="AR_CITY_ID"/>
       <exported-key name="RF_FLIGHT_TO_DCITY" table="REFUND_FLIGHTS" schema="BOTEST" catalog="" columns="DEP_CITY_ID"/>
-      <exported-key name="RF_SEGMENT_TO_DCITY" table="REFUND_SEGMENTS" schema="BOTEST" catalog="" columns="DEP_CITY_ID"/>
       <exported-key name="RF_SEGMENT_TO_ARCITY" table="REFUND_SEGMENTS" schema="BOTEST" catalog="" columns="AR_CITY_ID"/>
+      <exported-key name="RF_SEGMENT_TO_DCITY" table="REFUND_SEGMENTS" schema="BOTEST" catalog="" columns="DEP_CITY_ID"/>
       <exported-key name="R_SEGMENT_TO_DCITY" table="ROUTE_SEGMENTS" schema="BOTEST" catalog="" columns="DEP_CITY_ID"/>
       <exported-key name="R_SEGMENT_TO_ACITY" table="ROUTE_SEGMENTS" schema="BOTEST" catalog="" columns="ARR_CITY_ID"/>
-      <exported-key name="RSHR_TO_DCITY" table="ROUTE_SEGMENT_HISTORY_RECORDS" schema="BOTEST" catalog="" columns="DEP_CITY_ID"/>
       <exported-key name="RSHR_TO_ACITY" table="ROUTE_SEGMENT_HISTORY_RECORDS" schema="BOTEST" catalog="" columns="ARR_CITY_ID"/>
+      <exported-key name="RSHR_TO_DCITY" table="ROUTE_SEGMENT_HISTORY_RECORDS" schema="BOTEST" catalog="" columns="DEP_CITY_ID"/>
       <exported-key name="FK_DSEGMENT_TO_CITY_RB" table="SEARCH_RQ_SEGMENT" schema="BOTEST" catalog="" columns="DEP_CITY_ID"/>
       <exported-key name="FK_ASEGMENT_TO_CITY_RB" table="SEARCH_RQ_SEGMENT" schema="BOTEST" catalog="" columns="ARR_CITY_ID"/>
       <index name="CITIES_RB_CODE" unique="true" columns="CODE"/>
@@ -5123,8 +5123,8 @@
       <column name="TOTAL_COST" sqlType="NUMBER" length="19" precision="2" nullable="true" jdbcType="3"/>
       <column name="RECALCULATED" sqlType="NUMBER" length="1" precision="0" nullable="true" jdbcType="3"/>
       <primary-key name="SYS_C0013297" columns="ID"/>
-      <exported-key name="FLIGHT_ORDER_TO_PRICE_INFO" table="FLIGHT_TRIP_ORDERS" schema="BOTEST" catalog="" columns="PRICE_INFO_ID"/>
       <exported-key name="FLIGHT_ORDER_TO_O_PRICE_INFO" table="FLIGHT_TRIP_ORDERS" schema="BOTEST" catalog="" columns="ORIGINAL_PRICE_INFO_ID"/>
+      <exported-key name="FLIGHT_ORDER_TO_PRICE_INFO" table="FLIGHT_TRIP_ORDERS" schema="BOTEST" catalog="" columns="PRICE_INFO_ID"/>
       <exported-key name="PRICED_CATEGORY_TO_P_INFO_FK" table="PRICED_CATEGORY" schema="BOTEST" catalog="" columns="ORDER_PRICE_INFO_ID"/>
     </table>
     <table name="ORDER_PRICE_INFO_SEQ" schema="BOTEST" catalog="" type="SEQUENCE"/>
@@ -5612,8 +5612,8 @@
       <exported-key name="RW_STATION_TO_CODE_FK" table="RAILWAY_STATION_CODES" schema="BOTEST" catalog="" columns="RAILWAY_STATION_ID"/>
       <exported-key name="TROUTE_STATION_FK" table="RAILWAY_TRAIN_ROUTE" schema="BOTEST" catalog="" columns="RAILWAY_STATION_ID"/>
       <exported-key name="RW_TRS_TO_STATION_ID" table="RAILWAY_TRAIN_ROUTE_STATIONS" schema="BOTEST" catalog="" columns="STATION_ID"/>
-      <exported-key name="ST_TO_ST_ARR_ST_FK" table="SPECIAL_TRAINS" schema="BOTEST" catalog="" columns="ARRIVAL_STATION_ID"/>
       <exported-key name="ST_TO_ST_DEP_ST_FK" table="SPECIAL_TRAINS" schema="BOTEST" catalog="" columns="DEPARTURE_STATION_ID"/>
+      <exported-key name="ST_TO_ST_ARR_ST_FK" table="SPECIAL_TRAINS" schema="BOTEST" catalog="" columns="ARRIVAL_STATION_ID"/>
     </table>
     <table name="RAILWAY_STATIONS_CODE_ID_SEQ" schema="BOTEST" catalog="" type="SEQUENCE"/>
     <table name="RAILWAY_STATIONS_ID_SEQ" schema="BOTEST" catalog="" type="SEQUENCE"/>
@@ -5884,6 +5884,9 @@
       <column name="PASSENGER_COUNT" sqlType="NUMBER" length="0" precision="-127" nullable="true" jdbcType="3"/>
       <column name="FLIGHT_COUNT" sqlType="NUMBER" length="0" precision="-127" nullable="true" jdbcType="3"/>
       <column name="DIRECTION_SEGMENT" sqlType="VARCHAR2" length="4000" precision="0" nullable="true" jdbcType="12"/>
+      <column name="SEGMENT_COUNT" sqlType="NUMBER" length="0" precision="-127" nullable="true" jdbcType="3"/>
+      <column name="ABROAD_TYPE" sqlType="VARCHAR2" length="3" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ROUTE_TYPE" sqlType="VARCHAR2" length="4" precision="0" nullable="true" jdbcType="12"/>
       <column name="FIRST_DEPARTURE_DATE" sqlType="TIMESTAMP(6)" length="11" precision="6" nullable="true" jdbcType="93"/>
     </table>
     <table name="REPORT_ORDER_ISSUER" schema="BOTEST" catalog="" type="VIEW">
@@ -6263,6 +6266,7 @@
       <column name="IP_ADDRESS" sqlType="VARCHAR2" length="255" precision="0" nullable="true" jdbcType="12"/>
       <column name="SEARCH_RESULT" sqlType="NUMBER" length="10" precision="0" nullable="true" jdbcType="3"/>
       <column name="FACT_GDS_TYPE" sqlType="NUMBER" length="19" precision="0" nullable="true" jdbcType="3"/>
+      <column name="ESTIMATED_GDS_TYPE" sqlType="NUMBER" length="19" precision="0" nullable="true" jdbcType="3"/>
       <primary-key name="SITE_SEARCH_STATS_PK" columns="ENTRY_ID"/>
       <foreign-key name="STATS_TO_AC_ID" columns="AIRCOMPANY_ID" ref-table="AIRCOMPANIES" ref-schema="BOTEST" ref-catalog="" ref-columns="AIRCOMPANY_ID" update-rule="0" delete-rule="1" deferrability="2"/>
       <foreign-key name="STATS_TO_SU" columns="SERVICE_USER_ID" ref-table="SERVICE_USER" ref-schema="BOTEST" ref-catalog="" ref-columns="ID" update-rule="0" delete-rule="1" deferrability="2"/>
