@@ -107,7 +107,7 @@
           <element id="archive" name="security-aspect.jar">
             <element id="module-output" name="security-aspect" />
           </element>
-          <element id="archive" name="orm-hibernate4-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="orm-hibernate4-aspect" />
           </element>
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:4.2.0.Final" />
@@ -306,18 +306,6 @@
           <element id="library" level="project" name="Maven: net.tanesha.recaptcha4j:recaptcha4j:0.0.7" />
           <element id="archive" name="agency-ext.jar">
             <element id="module-output" name="agency-ext" />
-          </element>
-          <element id="archive" name="dictionary-boundary.jar">
-            <element id="module-output" name="dictionary-boundary" />
-          </element>
-          <element id="archive" name="dictionary-api.jar">
-            <element id="module-output" name="dictionary-api" />
-          </element>
-          <element id="archive" name="dictionary-beans.jar">
-            <element id="module-output" name="dictionary-beans" />
-          </element>
-          <element id="archive" name="dictionary-controls.jar">
-            <element id="module-output" name="dictionary-controls" />
           </element>
         </element>
       </element>
