@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Epr configs" pattern="file:src/main/config/epr/*" />
+</component>
