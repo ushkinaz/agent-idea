@@ -107,7 +107,7 @@
           <element id="archive" name="security-aspect.jar">
             <element id="module-output" name="security-aspect" />
           </element>
-          <element id="archive" name="corporate.pom.jar">
+          <element id="archive" name="orm-hibernate4-aspect.jar">
             <element id="module-output" name="orm-hibernate4-aspect" />
           </element>
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:4.2.0.Final" />
@@ -122,6 +122,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.jadira.usertype:usertype.core:3.1.0.CR2" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-entitymanager:4.1.7.Final" />
+          <element id="library" level="project" name="Maven: org.jadira.usertype:usertype.spi:3.1.0.CR2" />
           <element id="archive" name="orm-spring-jdbc-aspect.jar">
             <element id="module-output" name="orm-spring-jdbc-aspect" />
           </element>

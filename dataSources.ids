@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source source="LOCAL" name="bo.DEV" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#xa;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="732afe26-ad6f-4008-b30c-21e52275e383">
+  <data-source source="LOCAL" name="bo@dev" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#xa;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="732afe26-ad6f-4008-b30c-21e52275e383">
     <extra-name-characters>$#</extra-name-characters>
     <identifier-quote-string>&quot;</identifier-quote-string>
     <jdbc-driver>oracle.jdbc.driver.OracleDriver</jdbc-driver>
@@ -4031,7 +4031,7 @@
       </prototype>
     </procedure>
   </data-source>
-  <data-source source="LOCAL" name="bo.STB" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#xa;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="0c25fa80-8208-4fbe-93e2-2a544591f0ed">
+  <data-source source="LOCAL" name="bo@stb" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#xa;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="0c25fa80-8208-4fbe-93e2-2a544591f0ed">
     <extra-name-characters>$#</extra-name-characters>
     <identifier-quote-string>&quot;</identifier-quote-string>
     <synchronize>true</synchronize>
@@ -10494,22 +10494,22 @@
       </prototype>
     </procedure>
   </data-source>
-  <data-source source="LOCAL" name="FlowDB@postgre" product="PostgreSQL" version="9.2.1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.0 JDBC4 (build 801)" uuid="456ae106-7425-4020-b1ee-54bd4d60506e">
+  <data-source source="LOCAL" name="FlowDB@postgre" product="PostgreSQL" version="9.2.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.0 JDBC4 (build 801)" uuid="456ae106-7425-4020-b1ee-54bd4d60506e">
     <identifier-quote-string>&quot;</identifier-quote-string>
     <synchronize>true</synchronize>
     <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-    <jdbc-url>jdbc:postgresql://postgresql.dev.agent.ru/flow_dev</jdbc-url>
+    <jdbc-url>jdbc:postgresql://postgresql.dev.agent.ru/flowdev</jdbc-url>
     <user-name>flowdev</user-name>
     <user-password>dfcedfcfdfdcdfccdfc6dfc5dfdd</user-password>
-    <schema-pattern>flow_dev.public</schema-pattern>
-    <default-schemas>flow_dev.public</default-schemas>
+    <schema-pattern>flowdev.public</schema-pattern>
+    <default-schemas>flowdev.public</default-schemas>
     <libraries>
       <library>
         <url>jar://$MAVEN_REPOSITORY$/postgresql/postgresql/9.1-901.jdbc4/postgresql-9.1-901.jdbc4.jar!/</url>
       </library>
     </libraries>
-    <schema name="public" catalog="flow_dev"/>
-    <table name="flow_invocations" schema="public" catalog="flow_dev" type="TABLE">
+    <schema name="public" catalog="flowdev"/>
+    <table name="flow_invocations" schema="public" catalog="flowdev" type="TABLE">
       <column name="flow_invocation_id" sqlType="serial" length="10" precision="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnZmxvd19pbnZvY2F0aW9uc19mbG93X2ludm9jYXRpb25faWRfc2VxJzo6cmVnY2xhc3Mp" autoIncrement="true"/>
       <column name="name" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12"/>
       <column name="GROUP" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12"/>
@@ -10521,6 +10521,7 @@
       <column name="created_at" sqlType="timestamp" length="29" precision="6" nullable="false" jdbcType="93"/>
       <column name="started_at" sqlType="timestamp" length="29" precision="6" nullable="true" jdbcType="93"/>
       <column name="completed_at" sqlType="timestamp" length="29" precision="6" nullable="true" jdbcType="93"/>
+      <column name="updated_at" sqlType="timestamp" length="29" precision="6" nullable="false" jdbcType="93"/>
       <column name="priority" sqlType="int2" length="5" precision="0" nullable="false" jdbcType="5"/>
       <column name="process_class" sqlType="varchar" length="255" precision="0" nullable="false" jdbcType="12"/>
       <column name="process_instance" sqlType="bytea" length="2147483647" precision="0" nullable="false" jdbcType="-2"/>
@@ -10529,12 +10530,9 @@
       <column name="request_recovery" sqlType="bool" length="1" precision="0" nullable="true" jdbcType="-7"/>
       <column name="execution_timeout" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
       <column name="executed_on_host" sqlType="bpchar" length="4" precision="0" nullable="true" jdbcType="1"/>
-      <column name="updated_at" sqlType="timestamp" length="29" precision="6" nullable="false" jdbcType="93"/>
       <primary-key name="flow_invocations_pkey" columns="flow_invocation_id"/>
-      <index name="idx_flow_invocations_guid" unique="false" columns="guid_host,guid_group,guid_key"/>
-      <index name="idx_flow_invocations_status" unique="false" columns="status"/>
     </table>
-    <table name="flow_invocations_flow_invocation_id_seq" schema="public" catalog="flow_dev" type="SEQUENCE">
+    <table name="flow_invocations_flow_invocation_id_seq" schema="public" catalog="flowdev" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" length="2147483647" precision="0" nullable="false" jdbcType="12"/>
       <column name="last_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
       <column name="start_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
@@ -10547,7 +10545,7 @@
       <column name="is_called" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
     </table>
   </data-source>
-  <data-source source="LOCAL" name="Offer@DEV" product="PostgreSQL" version="9.2.1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.0 JDBC4 (build 801)" uuid="14b79a72-ef16-4952-bf01-53311161125a">
+  <data-source source="LOCAL" name="Offer@dev" product="PostgreSQL" version="9.2.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.0 JDBC4 (build 801)" uuid="14b79a72-ef16-4952-bf01-53311161125a">
     <identifier-quote-string>&quot;</identifier-quote-string>
     <synchronize>true</synchronize>
     <jdbc-driver>org.postgresql.Driver</jdbc-driver>
@@ -10563,7 +10561,7 @@
     </libraries>
     <schema name="public" catalog="offerdev"/>
     <table name="offers" schema="public" catalog="offerdev" type="TABLE">
-      <column name="id" sqlType="bigserial" length="19" precision="0" nullable="false" jdbcType="-5" def="bmV4dHZhbCgnb2ZmZXJzX2lkX3NlcSc6OnJlZ2NsYXNzKQ==" autoIncrement="true"/>
+      <column name="id" sqlType="serial" length="10" precision="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnb2ZmZXJzX2lkX3NlcSc6OnJlZ2NsYXNzKQ==" autoIncrement="true"/>
       <column name="code" sqlType="varchar" length="50" precision="0" nullable="true" jdbcType="12"/>
       <column name="binary_body" sqlType="bytea" length="2147483647" precision="0" nullable="true" jdbcType="-2"/>
       <column name="creation_date" sqlType="timestamp" length="29" precision="6" nullable="true" jdbcType="93"/>
@@ -10584,7 +10582,7 @@
       <column name="is_called" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
     </table>
     <table name="searches" schema="public" catalog="offerdev" type="TABLE">
-      <column name="id" sqlType="bigserial" length="19" precision="0" nullable="false" jdbcType="-5" def="bmV4dHZhbCgnc2VhcmNoZXNfaWRfc2VxJzo6cmVnY2xhc3Mp" autoIncrement="true"/>
+      <column name="id" sqlType="serial" length="10" precision="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnc2VhcmNoZXNfaWRfc2VxJzo6cmVnY2xhc3Mp" autoIncrement="true"/>
       <column name="code" sqlType="varchar" length="50" precision="0" nullable="true" jdbcType="12"/>
       <column name="binary_body" sqlType="bytea" length="2147483647" precision="0" nullable="true" jdbcType="-2"/>
       <column name="creation_date" sqlType="timestamp" length="29" precision="6" nullable="true" jdbcType="93"/>
@@ -10603,5 +10601,36 @@
       <column name="is_cycled" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
       <column name="is_called" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
     </table>
+  </data-source>
+  <data-source source="LOCAL" name="psyduck@dev" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#xa;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="7f702f09-9225-4854-a55e-726bd15200c8">
+    <extra-name-characters>$#</extra-name-characters>
+    <identifier-quote-string>&quot;</identifier-quote-string>
+    <synchronize>true</synchronize>
+    <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+    <jdbc-url>jdbc:oracle:thin:@vs-db-10.dev.agent.ru:1521/odev</jdbc-url>
+    <user-name>psyduckdev</user-name>
+    <user-password>dfcedfcfdfdcdfdadfd9dfd3dfcedfdfdfc9dfc1</user-password>
+    <schema-pattern>*.PSYDUCKDEV</schema-pattern>
+    <default-schemas>*.PSYDUCKDEV</default-schemas>
+    <libraries>
+      <library>
+        <url>jar://$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar!/</url>
+      </library>
+    </libraries>
+    <schema name="PSYDUCKDEV" catalog=""/>
+    <table name="LOG_ITEM_TAGS" schema="PSYDUCKDEV" catalog="" type="TABLE">
+      <column name="MESSAGE_ITEM_ID" sqlType="NUMBER" length="19" precision="0" nullable="false" jdbcType="3"/>
+      <column name="TAG" sqlType="VARCHAR2" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <foreign-key name="MESSAGE_ITEM_TAG_FK" columns="MESSAGE_ITEM_ID" ref-table="MESSAGE_ITEMS" ref-schema="PSYDUCKDEV" ref-catalog="" ref-columns="ID" update-rule="0" delete-rule="0" deferrability="2"/>
+    </table>
+    <table name="MESSAGE_ITEMS" schema="PSYDUCKDEV" catalog="" type="TABLE">
+      <column name="ID" sqlType="NUMBER" length="19" precision="0" nullable="false" jdbcType="3"/>
+      <column name="MESSAGE_TYPE" sqlType="NUMBER" length="10" precision="0" nullable="true" jdbcType="3"/>
+      <column name="TEXT" sqlType="CLOB" length="4000" precision="0" nullable="true" jdbcType="2005"/>
+      <column name="CREATE_DATE" sqlType="TIMESTAMP(6)" length="11" precision="6" nullable="true" jdbcType="93"/>
+      <primary-key name="SYS_C0014030" columns="ID"/>
+      <exported-key name="MESSAGE_ITEM_TAG_FK" table="LOG_ITEM_TAGS" schema="PSYDUCKDEV" catalog="" columns="MESSAGE_ITEM_ID"/>
+    </table>
+    <table name="MESSAGE_ITEM_ID_SEQ" schema="PSYDUCKDEV" catalog="" type="SEQUENCE"/>
   </data-source>
 </component>
