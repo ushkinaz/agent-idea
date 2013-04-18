@@ -183,9 +183,6 @@
           <element id="library" level="project" name="Maven: commons-cli:commons-cli:1.0" />
           <element id="library" level="project" name="Maven: org.apache.ant:ant:1.7.1" />
           <element id="library" level="project" name="Maven: org.apache.ant:ant-launcher:1.7.1" />
-          <element id="archive" name="timetable.jar">
-            <element id="module-output" name="timetable" />
-          </element>
           <element id="library" level="project" name="Maven: jtidy:jtidy:4aug2000r7-dev" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.6.12" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.7" />

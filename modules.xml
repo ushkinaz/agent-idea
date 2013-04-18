@@ -28,7 +28,7 @@
       <module fileurl="file://$PROJECT_DIR$/dictionary-beans/dictionary-beans.iml" filepath="$PROJECT_DIR$/dictionary-beans/dictionary-beans.iml" group="libs/beans" />
       <module fileurl="file://$PROJECT_DIR$/dictionary-boundary/dictionary-boundary.iml" filepath="$PROJECT_DIR$/dictionary-boundary/dictionary-boundary.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/dictionary-controls/dictionary-controls.iml" filepath="$PROJECT_DIR$/dictionary-controls/dictionary-controls.iml" group="libs" />
-      <module fileurl="file://$PROJECT_DIR$/domain.layer/domain.iml" filepath="$PROJECT_DIR$/domain.layer/domain.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/finance-beans/finance-beans.iml" filepath="$PROJECT_DIR$/finance-beans/finance-beans.iml" group="libs/beans" />
       <module fileurl="file://$PROJECT_DIR$/flightstats.service/flightstats.service.iml" filepath="$PROJECT_DIR$/flightstats.service/flightstats.service.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/flightstats.stubs/flightstats.stubs.iml" filepath="$PROJECT_DIR$/flightstats.stubs/flightstats.stubs.iml" group="libs" />
