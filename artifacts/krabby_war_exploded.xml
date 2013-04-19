@@ -54,6 +54,7 @@
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic.agent.java:newrelic-api:2.17.2" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.7" />
+          <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
           <element id="archive" name="app-aspect.jar">
             <element id="module-output" name="app-aspect" />
           </element>
@@ -230,7 +231,6 @@
           <element id="archive" name="taxi-rb-ext.jar">
             <element id="module-output" name="taxi-rb-ext" />
           </element>
-          <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.3" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
           <element id="archive" name="aex-ext.jar">
