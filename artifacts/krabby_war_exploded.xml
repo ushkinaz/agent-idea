@@ -216,8 +216,8 @@
           <element id="archive" name="classifiers.jar">
             <element id="module-output" name="classifiers" />
           </element>
-          <element id="archive" name="reference.jar">
-            <element id="module-output" name="reference" />
+          <element id="archive" name="dictionary-legacy-boundary.jar">
+            <element id="module-output" name="dictionary-legacy-boundary" />
           </element>
           <element id="archive" name="domain.jar">
             <element id="module-output" name="domain" />
@@ -261,11 +261,11 @@
           <element id="archive" name="insurance-alpha-ext.jar">
             <element id="module-output" name="insurance-alpha-ext" />
           </element>
-          <element id="archive" name="flightstats.service.jar">
-            <element id="module-output" name="flightstats.service" />
+          <element id="archive" name="timetable-legacy-boundary.jar">
+            <element id="module-output" name="timetable-legacy-boundary" />
           </element>
-          <element id="archive" name="flightstats.stubs.jar">
-            <element id="module-output" name="flightstats.stubs" />
+          <element id="archive" name="timetable-flightstats-ext.jar">
+            <element id="module-output" name="timetable-flightstats-ext" />
           </element>
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.3.1.Final" />
           <element id="library" level="project" name="Maven: javax.validation:validation-api:1.0.0.GA" />
@@ -299,6 +299,7 @@
           <element id="library" level="project" name="Maven: org.eclipse.mylyn.wikitext:mediawiki:1.4.0" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: opensymphony:sitemesh:2.4.2" />
+          <element id="library" level="project" name="Maven: org.mitre.dsmiley.httpproxy:smiley-http-proxy-servlet:1.2" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.12" />
           <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-web:2.0.4" />
           <element id="library" level="project" name="Maven: org.tuckey:urlrewritefilter:3.2.0" />

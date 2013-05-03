@@ -7,11 +7,12 @@
       <module fileurl="file://$PROJECT_DIR$/actions.history/actions.history.iml" filepath="$PROJECT_DIR$/actions.history/actions.history.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/aex-ext/aex-ext.iml" filepath="$PROJECT_DIR$/aex-ext/aex-ext.iml" group="libs/ext" />
       <module fileurl="file://$PROJECT_DIR$/agency-ext/agency-ext.iml" filepath="$PROJECT_DIR$/agency-ext/agency-ext.iml" group="libs/ext" />
-      <module fileurl="file://$PROJECT_DIR$/aggregation/aggregation.iml" filepath="$PROJECT_DIR$/aggregation/aggregation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aggregation/aggregation.iml" filepath="$PROJECT_DIR$/aggregation/aggregation.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/air-api/air-api.iml" filepath="$PROJECT_DIR$/air-api/air-api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/air-beans/air-beans.iml" filepath="$PROJECT_DIR$/air-beans/air-beans.iml" group="libs/beans" />
       <module fileurl="file://$PROJECT_DIR$/air-booking-ext/air-booking-ext.iml" filepath="$PROJECT_DIR$/air-booking-ext/air-booking-ext.iml" group="libs/ext" />
       <module fileurl="file://$PROJECT_DIR$/air-boundary/air-boundary.iml" filepath="$PROJECT_DIR$/air-boundary/air-boundary.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/air-schedule-ext/air-schedule-ext.iml" filepath="$PROJECT_DIR$/air-schedule-ext/air-schedule-ext.iml" group="libs/ext" />
       <module fileurl="file://$PROJECT_DIR$/app-aspect/app-aspect.iml" filepath="$PROJECT_DIR$/app-aspect/app-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/app-web-aspect/app-web-aspect.iml" filepath="$PROJECT_DIR$/app-web-aspect/app-web-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/app.aggregator/app.aggregator.iml" filepath="$PROJECT_DIR$/app.aggregator/app.aggregator.iml" group="supplemental" />
@@ -28,10 +29,9 @@
       <module fileurl="file://$PROJECT_DIR$/dictionary-beans/dictionary-beans.iml" filepath="$PROJECT_DIR$/dictionary-beans/dictionary-beans.iml" group="libs/beans" />
       <module fileurl="file://$PROJECT_DIR$/dictionary-boundary/dictionary-boundary.iml" filepath="$PROJECT_DIR$/dictionary-boundary/dictionary-boundary.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/dictionary-controls/dictionary-controls.iml" filepath="$PROJECT_DIR$/dictionary-controls/dictionary-controls.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/dictionary-legacy-boundary/dictionary-legacy-boundary.iml" filepath="$PROJECT_DIR$/dictionary-legacy-boundary/dictionary-legacy-boundary.iml" group="libs/legacy" />
       <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/finance-beans/finance-beans.iml" filepath="$PROJECT_DIR$/finance-beans/finance-beans.iml" group="libs/beans" />
-      <module fileurl="file://$PROJECT_DIR$/flightstats.service/flightstats.service.iml" filepath="$PROJECT_DIR$/flightstats.service/flightstats.service.iml" group="libs" />
-      <module fileurl="file://$PROJECT_DIR$/flightstats.stubs/flightstats.stubs.iml" filepath="$PROJECT_DIR$/flightstats.stubs/flightstats.stubs.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/flow/flow.iml" filepath="$PROJECT_DIR$/flow/flow.iml" />
       <module fileurl="file://$PROJECT_DIR$/gamayun/gamayun.iml" filepath="$PROJECT_DIR$/gamayun/gamayun.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/identity/identity.iml" filepath="$PROJECT_DIR$/identity/identity.iml" group="libs" />
@@ -74,12 +74,11 @@
       <module fileurl="file://$PROJECT_DIR$/railway.service/railway.service.iml" filepath="$PROJECT_DIR$/railway.service/railway.service.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/rate.calculator.api/rate.calculator.api.iml" filepath="$PROJECT_DIR$/rate.calculator.api/rate.calculator.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/rate.calculator.service/rate.calculator.service.iml" filepath="$PROJECT_DIR$/rate.calculator.service/rate.calculator.service.iml" group="libs" />
-      <module fileurl="file://$PROJECT_DIR$/reference.service/reference.iml" filepath="$PROJECT_DIR$/reference.service/reference.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/reports/reports.iml" filepath="$PROJECT_DIR$/reports/reports.iml" group="supplemental" />
       <module fileurl="file://$PROJECT_DIR$/reports.api/reports.api.iml" filepath="$PROJECT_DIR$/reports.api/reports.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/reports.service/reports.service.iml" filepath="$PROJECT_DIR$/reports.service/reports.service.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/reusable.utils/reusable.utils.iml" filepath="$PROJECT_DIR$/reusable.utils/reusable.utils.iml" group="libs/ext" />
-      <module fileurl="file://$PROJECT_DIR$/rules/rules.iml" filepath="$PROJECT_DIR$/rules/rules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rules/rules.iml" filepath="$PROJECT_DIR$/rules/rules.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/saiku/saiku.iml" filepath="$PROJECT_DIR$/saiku/saiku.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/security-api/security-api.iml" filepath="$PROJECT_DIR$/security-api/security-api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/security-aspect/security-aspect.iml" filepath="$PROJECT_DIR$/security-aspect/security-aspect.iml" group="supplemental/aspect" />
@@ -95,7 +94,9 @@
       <module fileurl="file://$PROJECT_DIR$/swinub/swinub.iml" filepath="$PROJECT_DIR$/swinub/swinub.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/swinub.api/swinub.api.iml" filepath="$PROJECT_DIR$/swinub.api/swinub.api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/taxi-rb-ext/taxi-rb-ext.iml" filepath="$PROJECT_DIR$/taxi-rb-ext/taxi-rb-ext.iml" group="libs/ext" />
-      <module fileurl="file://$PROJECT_DIR$/flights.timetable/timetable.iml" filepath="$PROJECT_DIR$/flights.timetable/timetable.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/timetable-diana-ext/timetable-diana-ext.iml" filepath="$PROJECT_DIR$/timetable-diana-ext/timetable-diana-ext.iml" group="libs/ext" />
+      <module fileurl="file://$PROJECT_DIR$/timetable-flightstats-ext/timetable-flightstats-ext.iml" filepath="$PROJECT_DIR$/timetable-flightstats-ext/timetable-flightstats-ext.iml" group="libs/ext" />
+      <module fileurl="file://$PROJECT_DIR$/timetable-legacy-boundary/timetable-legacy-boundary.iml" filepath="$PROJECT_DIR$/timetable-legacy-boundary/timetable-legacy-boundary.iml" group="libs/legacy" />
       <module fileurl="file://$PROJECT_DIR$/update_scripts/update_scripts.iml" filepath="$PROJECT_DIR$/update_scripts/update_scripts.iml" group="supplemental" />
       <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/validation-aspect/validation-aspect.iml" filepath="$PROJECT_DIR$/validation-aspect/validation-aspect.iml" group="supplemental/aspect" />

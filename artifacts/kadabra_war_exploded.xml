@@ -43,8 +43,9 @@
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
-          <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.15.0" />
+          <element id="library" level="project" name="Maven: com.newrelic.agent.java:newrelic-api:2.17.2" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.7" />
+          <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
           <element id="archive" name="app-aspect.jar">
             <element id="module-output" name="app-aspect" />
           </element>
@@ -110,6 +111,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.jadira.usertype:usertype.core:3.1.0.CR2" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-entitymanager:4.1.7.Final" />
+          <element id="library" level="project" name="Maven: org.jadira.usertype:usertype.spi:3.1.0.CR2" />
           <element id="archive" name="orm-spring-jdbc-aspect.jar">
             <element id="module-output" name="orm-spring-jdbc-aspect" />
           </element>
@@ -217,6 +221,9 @@
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-runtime:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-collectionschema:1.0.7" />
           <element id="library" level="project" name="Maven: postgresql:postgresql:9.1-901.jdbc4" />
+          <element id="archive" name="ps-api.jar">
+            <element id="module-output" name="ps-api" />
+          </element>
           <element id="archive" name="ps-beans.jar">
             <element id="module-output" name="ps-beans" />
           </element>
@@ -235,8 +242,17 @@
           <element id="archive" name="air-booking-ext.jar">
             <element id="module-output" name="air-booking-ext" />
           </element>
+          <element id="archive" name="air-schedule-ext.jar">
+            <element id="module-output" name="air-schedule-ext" />
+          </element>
           <element id="archive" name="profile-boundary.jar">
             <element id="module-output" name="profile-boundary" />
+          </element>
+          <element id="archive" name="ps-boundary.jar">
+            <element id="module-output" name="ps-boundary" />
+          </element>
+          <element id="archive" name="ps-ext.jar">
+            <element id="module-output" name="ps-ext" />
           </element>
           <element id="library" level="project" name="Maven: org.modelmapper:modelmapper:0.5.4" />
         </element>

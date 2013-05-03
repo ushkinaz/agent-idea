@@ -221,6 +221,7 @@
         <module name="air-beans" />
         <module name="air-booking-ext" />
         <module name="air-boundary" />
+        <module name="air-schedule-ext" />
         <module name="app-aspect" />
         <module name="app-web-aspect" />
         <module name="base-aspect" />
@@ -235,10 +236,9 @@
         <module name="dictionary-beans" />
         <module name="dictionary-boundary" />
         <module name="dictionary-controls" />
+        <module name="dictionary-legacy-boundary" />
         <module name="domain" />
         <module name="finance-beans" />
-        <module name="flightstats.service" />
-        <module name="flightstats.stubs" />
         <module name="flow" />
         <module name="gamayun" />
         <module name="identity" />
@@ -280,7 +280,6 @@
         <module name="railway.service" />
         <module name="rate.calculator.api" />
         <module name="rate.calculator.service" />
-        <module name="reference" />
         <module name="reports" />
         <module name="reports.api" />
         <module name="reports.service" />
@@ -301,7 +300,9 @@
         <module name="swinub" />
         <module name="swinub.api" />
         <module name="taxi-rb-ext" />
-        <module name="timetable" />
+        <module name="timetable-diana-ext" />
+        <module name="timetable-flightstats-ext" />
+        <module name="timetable-legacy-boundary" />
         <module name="utils" />
         <module name="validation-aspect" />
         <module name="watchdog" />
@@ -324,6 +325,7 @@
       <module name="air-beans" target="1.7" />
       <module name="air-booking-ext" target="1.7" />
       <module name="air-boundary" target="1.7" />
+      <module name="air-schedule-ext" target="1.7" />
       <module name="app-aspect" target="1.7" />
       <module name="app-web-aspect" target="1.7" />
       <module name="app.aggregator" target="1.7" />
@@ -340,6 +342,7 @@
       <module name="dictionary-beans" target="1.7" />
       <module name="dictionary-boundary" target="1.7" />
       <module name="dictionary-controls" target="1.7" />
+      <module name="dictionary-legacy-boundary" target="1.7" />
       <module name="domain" target="1.7" />
       <module name="finance-beans" target="1.7" />
       <module name="flightstats.service" target="1.7" />
@@ -417,6 +420,9 @@
       <module name="swinub.api" target="1.7" />
       <module name="taxi-rb-ext" target="1.7" />
       <module name="timetable" target="1.7" />
+      <module name="timetable-diana-ext" target="1.7" />
+      <module name="timetable-flightstats-ext" target="1.7" />
+      <module name="timetable-legacy-boundary" target="1.7" />
       <module name="ufs.api" target="1.7" />
       <module name="utils" target="1.7" />
       <module name="validation-aspect" target="1.7" />
