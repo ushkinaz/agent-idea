@@ -12,17 +12,15 @@
             <element id="module-output" name="base-aspect" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.0.11" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:0.9.29" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.0.12" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.0.12" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-ext:1.7.5" />
           <element id="library" level="project" name="Maven: ch.qos.cal10n:cal10n-api:0.7.4" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.5" />
           <element id="library" level="project" name="Maven: org.slf4j:log4j-over-slf4j:1.7.5" />
           <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.5" />
-          <element id="library" level="project" name="Maven: gelf4j:gelf4j:1.5" />
-          <element id="library" level="project" name="Maven: log4j:log4j:1.2.8" />
-          <element id="library" level="project" name="Maven: spice:spice-cli:1.0" />
+          <element id="library" level="project" name="Maven: gelf4j:gelf4j:1.5.1" />
           <element id="library" level="project" name="Maven: joda-time:joda-time:2.2" />
           <element id="library" level="project" name="Maven: com.oracle:ojdbc6:11.2.0.3" />
           <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
@@ -56,6 +54,8 @@
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
+          <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" />
+          <element id="library" level="project" name="Maven: spice:spice-cli:1.0" />
           <element id="archive" name="jms-aspect.jar">
             <element id="module-output" name="jms-aspect" />
           </element>
@@ -114,7 +114,6 @@
           <element id="library" level="project" name="Maven: javax.measure:jsr-275:0.9.4" />
           <element id="library" level="project" name="Maven: com.ning:async-http-client:1.7.12" />
           <element id="library" level="project" name="Maven: io.netty:netty:3.6.3.Final" />
-          <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" />
           <element id="library" level="project" name="Maven: junit:junit:4.10" />
           <element id="archive" name="presentation-api.jar">
             <element id="module-output" name="presentation-api" />
@@ -122,8 +121,8 @@
           <element id="archive" name="presentation.utils.jar">
             <element id="module-output" name="presentation.utils" />
           </element>
-          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.11" />
-          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.11" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.12" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.12" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.3" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
           <element id="library" level="project" name="Maven: jdom:jdom:1.0" />
