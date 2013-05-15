@@ -21,10 +21,12 @@
           <element id="library" level="project" name="Maven: org.slf4j:log4j-over-slf4j:1.7.5" />
           <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.5" />
           <element id="library" level="project" name="Maven: gelf4j:gelf4j:1.5.1" />
+          <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1" />
+          <element id="library" level="project" name="Maven: spice:spice-cli:1.0" />
           <element id="library" level="project" name="Maven: joda-time:joda-time:2.2" />
           <element id="library" level="project" name="Maven: com.oracle:ojdbc6:11.2.0.3" />
           <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
-          <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
+          <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.5" />
           <element id="library" level="project" name="Maven: org.quartz-scheduler:quartz:2.1.7" />
           <element id="library" level="project" name="Maven: c3p0:c3p0:0.9.1.1" />
           <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:2.0.1" />
@@ -54,8 +56,6 @@
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
-          <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1" />
-          <element id="library" level="project" name="Maven: spice:spice-cli:1.0" />
           <element id="archive" name="app-web-aspect.jar">
             <element id="module-output" name="app-web-aspect" />
           </element>
@@ -234,6 +234,12 @@
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-runtime:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-collectionschema:1.0.7" />
           <element id="library" level="project" name="Maven: postgresql:postgresql:9.1-901.jdbc4" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:1.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:2.1.0" />
+          <element id="library" level="project" name="Maven: com.github.spullara.redis:client:0.5" />
+          <element id="library" level="project" name="Maven: com.github.spullara.redis:protocol:0.5" />
+          <element id="library" level="project" name="Maven: com.github.spullara.redis:util:0.5" />
+          <element id="library" level="project" name="Maven: com.github.spullara.cli-parser:cli-parser:1.1" />
           <element id="archive" name="ps-api.jar">
             <element id="module-output" name="ps-api" />
           </element>
