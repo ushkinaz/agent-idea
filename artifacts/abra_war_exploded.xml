@@ -51,8 +51,17 @@
           <element id="library" level="project" name="Maven: com.newrelic.agent.java:newrelic-api:2.18.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.7" />
           <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
-          <element id="archive" name="app-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="app-aspect" />
+            <element id="module-output" name="orm-hibernate4-aspect" />
+            <element id="module-output" name="jms-aspect" />
+            <element id="module-output" name="jasper-aspect" />
+            <element id="module-output" name="common.enums" />
+            <element id="module-output" name="taxi-rb-ext" />
+            <element id="module-output" name="aex-ext" />
+            <element id="module-output" name="psyduck.api" />
+            <element id="module-output" name="railway-ufs-ext" />
+            <element id="module-output" name="railway-spzd-ext" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
@@ -109,9 +118,6 @@
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:3.1.4.RELEASE" />
-          <element id="archive" name="orm-hibernate4-aspect.jar">
-            <element id="module-output" name="orm-hibernate4-aspect" />
-          </element>
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:4.2.0.Final" />
           <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.1.0.CR2" />
           <element id="library" level="project" name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.0.Final" />
@@ -125,9 +131,6 @@
           <element id="library" level="project" name="Maven: org.jadira.usertype:usertype.core:3.1.0.CR2" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-entitymanager:4.1.7.Final" />
           <element id="library" level="project" name="Maven: org.jadira.usertype:usertype.spi:3.1.0.CR2" />
-          <element id="archive" name="jms-aspect.jar">
-            <element id="module-output" name="jms-aspect" />
-          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-jms:3.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-core:5.7.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1" />
@@ -142,9 +145,6 @@
           <element id="library" level="project" name="Maven: org.jasypt:jasypt:1.9.0" />
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-pool:5.7.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:1.0.1" />
-          <element id="archive" name="jasper-aspect.jar">
-            <element id="module-output" name="jasper-aspect" />
-          </element>
           <element id="library" level="project" name="Maven: ru.agent.fonts:anonymous:1.0" />
           <element id="library" level="project" name="Maven: net.sf.jasperreports:jasperreports:4.1.1" />
           <element id="library" level="project" name="Maven: commons-digester:commons-digester:1.7" />
@@ -175,9 +175,6 @@
           <element id="archive" name="commons.jar">
             <element id="module-output" name="commons" />
           </element>
-          <element id="archive" name="common.enums.jar">
-            <element id="module-output" name="common.enums" />
-          </element>
           <element id="library" level="project" name="Maven: javax.measure:jsr-275:0.9.4" />
           <element id="library" level="project" name="Maven: com.ning:async-http-client:1.7.15" />
           <element id="library" level="project" name="Maven: io.netty:netty:3.6.3.Final" />
@@ -196,17 +193,8 @@
           <element id="archive" name="ps-ext.jar">
             <element id="module-output" name="ps-ext" />
           </element>
-          <element id="archive" name="taxi-rb-ext.jar">
-            <element id="module-output" name="taxi-rb-ext" />
-          </element>
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.3" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
-          <element id="archive" name="aex-ext.jar">
-            <element id="module-output" name="aex-ext" />
-          </element>
-          <element id="archive" name="psyduck.api.jar">
-            <element id="module-output" name="psyduck.api" />
-          </element>
           <element id="library" level="project" name="Maven: net.sf.barcode4j:barcode4j:2.1" />
           <element id="library" level="project" name="Maven: avalon-framework:avalon-framework-impl:4.2.0" />
           <element id="library" level="project" name="Maven: commons-cli:commons-cli:1.0" />
@@ -239,12 +227,6 @@
           </element>
           <element id="archive" name="railway-service.jar">
             <element id="module-output" name="railway-service" />
-          </element>
-          <element id="archive" name="railway-ufs-ext.jar">
-            <element id="module-output" name="railway-ufs-ext" />
-          </element>
-          <element id="archive" name="railway-spzd-ext.jar">
-            <element id="module-output" name="railway-spzd-ext" />
           </element>
           <element id="library" level="project" name="Maven: junit:junit:4.10" />
           <element id="archive" name="timetable-legacy-boundary.jar">
