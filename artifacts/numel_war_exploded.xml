@@ -12,8 +12,8 @@
             <element id="module-output" name="base-aspect" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.0.12" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.0.12" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.0.13" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.0.13" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-ext:1.7.5" />
           <element id="library" level="project" name="Maven: ch.qos.cal10n:cal10n-api:0.7.4" />
@@ -38,7 +38,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-context:3.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.2.2.RELEASE" />
-          <element id="library" level="project" name="Maven: ma.glasnost.orika:orika-core:1.4.1" />
+          <element id="library" level="project" name="Maven: ma.glasnost.orika:orika-core:1.4.2" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.16.1-GA" />
           <element id="library" level="project" name="Maven: com.thoughtworks.paranamer:paranamer:2.3" />
           <element id="library" level="project" name="Maven: com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:1.2_jdk5" />
@@ -48,13 +48,13 @@
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
-          <element id="library" level="project" name="Maven: com.newrelic.agent.java:newrelic-api:2.17.2" />
+          <element id="library" level="project" name="Maven: com.newrelic.agent.java:newrelic-api:2.18.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.7" />
           <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
           <element id="archive" name="base-test-aspect.jar">
             <element id="module-output" name="base-test-aspect" />
           </element>
-          <element id="library" level="project" name="Maven: org.testng:testng:6.8.1" />
+          <element id="library" level="project" name="Maven: org.testng:testng:6.8.5" />
           <element id="library" level="project" name="Maven: org.beanshell:bsh:2.0b4" />
           <element id="library" level="project" name="Maven: com.beust:jcommander:1.27" />
           <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.6" />
@@ -102,7 +102,7 @@
           <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
           <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
           <element id="library" level="project" name="Maven: javax.measure:jsr-275:0.9.4" />
-          <element id="library" level="project" name="Maven: com.ning:async-http-client:1.7.12" />
+          <element id="library" level="project" name="Maven: com.ning:async-http-client:1.7.15" />
           <element id="library" level="project" name="Maven: io.netty:netty:3.6.3.Final" />
           <element id="library" level="project" name="Maven: junit:junit:4.10" />
           <element id="archive" name="orm-spring-jdbc-aspect.jar">
