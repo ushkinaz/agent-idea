@@ -129,7 +129,7 @@
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:3.1.4.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.security.oauth:spring-security-oauth2:1.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security.oauth:spring-security-oauth2:1.0.4.RELEASE" />
           <element id="archive" name="validation-aspect.jar">
             <element id="module-output" name="validation-aspect" />
           </element>
@@ -234,7 +234,7 @@
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-runtime:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-collectionschema:1.0.7" />
           <element id="library" level="project" name="Maven: postgresql:postgresql:9.1-901.jdbc4" />
-          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:1.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:1.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: redis.clients:jedis:2.1.0" />
           <element id="library" level="project" name="Maven: com.github.spullara.redis:client:0.5" />
           <element id="library" level="project" name="Maven: com.github.spullara.redis:protocol:0.5" />

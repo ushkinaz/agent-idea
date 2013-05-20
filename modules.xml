@@ -81,7 +81,6 @@
       <module fileurl="file://$PROJECT_DIR$/reports/reports.iml" filepath="$PROJECT_DIR$/reports/reports.iml" group="supplemental" />
       <module fileurl="file://$PROJECT_DIR$/reports-api/reports-api.iml" filepath="$PROJECT_DIR$/reports-api/reports-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/reports-service/reports-service.iml" filepath="$PROJECT_DIR$/reports-service/reports-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/reusable.utils/reusable.utils.iml" filepath="$PROJECT_DIR$/reusable.utils/reusable.utils.iml" group="libs/ext" />
       <module fileurl="file://$PROJECT_DIR$/rules/rules.iml" filepath="$PROJECT_DIR$/rules/rules.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/saiku/saiku.iml" filepath="$PROJECT_DIR$/saiku/saiku.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/security-api/security-api.iml" filepath="$PROJECT_DIR$/security-api/security-api.iml" group="libs/api" />
@@ -102,7 +101,6 @@
       <module fileurl="file://$PROJECT_DIR$/timetable-flightstats-ext/timetable-flightstats-ext.iml" filepath="$PROJECT_DIR$/timetable-flightstats-ext/timetable-flightstats-ext.iml" group="libs/ext" />
       <module fileurl="file://$PROJECT_DIR$/timetable-legacy-boundary/timetable-legacy-boundary.iml" filepath="$PROJECT_DIR$/timetable-legacy-boundary/timetable-legacy-boundary.iml" group="libs/legacy" />
       <module fileurl="file://$PROJECT_DIR$/update_scripts/update_scripts.iml" filepath="$PROJECT_DIR$/update_scripts/update_scripts.iml" group="supplemental" />
-      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/validation-aspect/validation-aspect.iml" filepath="$PROJECT_DIR$/validation-aspect/validation-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/watchdog/watchdog.iml" filepath="$PROJECT_DIR$/watchdog/watchdog.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/watchdog-api/watchdog-api.iml" filepath="$PROJECT_DIR$/watchdog-api/watchdog-api.iml" />
