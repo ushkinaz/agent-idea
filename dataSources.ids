@@ -10633,4 +10633,73 @@
     </table>
     <table name="MESSAGE_ITEM_ID_SEQ" schema="PSYDUCKDEV" catalog="" type="SEQUENCE"/>
   </data-source>
+  <data-source source="LOCAL" name="oauth@dev" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#xa;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="cbaecb81-2dd3-4694-a304-0910bbbd37dc">
+    <extra-name-characters>$#</extra-name-characters>
+    <identifier-quote-string>&quot;</identifier-quote-string>
+    <jdbc-driver>oracle.jdbc.driver.OracleDriver</jdbc-driver>
+    <jdbc-url>jdbc:oracle:thin:@oracle.dev.agent.ru:1521/odev</jdbc-url>
+    <user-name>oauth2dev</user-name>
+    <user-password>dfcedfcfdfdcdfc5dfcbdfdfdfdedfc2df98</user-password>
+    <schema-pattern>*.OAUTH2DEV</schema-pattern>
+    <default-schemas>*.BODEV *.OAUTH2DEV</default-schemas>
+    <default-dialect>Oracle</default-dialect>
+    <libraries>
+      <library>
+        <url>jar://$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar!/</url>
+      </library>
+    </libraries>
+    <schema name="OAUTH2DEV" catalog=""/>
+    <table name="CLIENTDETAILS" schema="OAUTH2DEV" catalog="" type="TABLE">
+      <column name="APPID" sqlType="VARCHAR2" length="256" precision="0" nullable="false" jdbcType="12"/>
+      <column name="RESOURCEIDS" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="APPSECRET" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="SCOPE" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="GRANTTYPES" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="REDIRECTURL" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="AUTHORITIES" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ACCESS_TOKEN_VALIDITY" sqlType="NUMBER" length="0" precision="-127" nullable="true" jdbcType="3"/>
+      <column name="REFRESH_TOKEN_VALIDITY" sqlType="NUMBER" length="0" precision="-127" nullable="true" jdbcType="3"/>
+      <column name="ADDITIONALINFORMATION" sqlType="VARCHAR2" length="4000" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="SYS_C0031067" columns="APPID"/>
+    </table>
+    <table name="OAUTH_ACCESS_TOKEN" schema="OAUTH2DEV" catalog="" type="TABLE">
+      <column name="TOKEN_ID" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="TOKEN" sqlType="BLOB" length="4000" precision="0" nullable="true" jdbcType="2004"/>
+      <column name="AUTHENTICATION_ID" sqlType="VARCHAR2" length="256" precision="0" nullable="false" jdbcType="12"/>
+      <column name="USER_NAME" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="CLIENT_ID" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="AUTHENTICATION" sqlType="BLOB" length="4000" precision="0" nullable="true" jdbcType="2004"/>
+      <column name="REFRESH_TOKEN" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <index name="IDX_OAT_AUTH_ID" unique="true" columns="AUTHENTICATION_ID"/>
+    </table>
+    <table name="OAUTH_CLIENT_DETAILS" schema="OAUTH2DEV" catalog="" type="TABLE">
+      <column name="CLIENT_ID" sqlType="VARCHAR2" length="256" precision="0" nullable="false" jdbcType="12"/>
+      <column name="RESOURCE_IDS" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="CLIENT_SECRET" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="SCOPE" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="AUTHORIZED_GRANT_TYPES" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="WEB_SERVER_REDIRECT_URI" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="AUTHORITIES" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ACCESS_TOKEN_VALIDITY" sqlType="NUMBER" length="0" precision="-127" nullable="true" jdbcType="3"/>
+      <column name="REFRESH_TOKEN_VALIDITY" sqlType="NUMBER" length="0" precision="-127" nullable="true" jdbcType="3"/>
+      <column name="ADDITIONAL_INFORMATION" sqlType="VARCHAR2" length="4000" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="SYS_C0031066" columns="CLIENT_ID"/>
+    </table>
+    <table name="OAUTH_CLIENT_TOKEN" schema="OAUTH2DEV" catalog="" type="TABLE">
+      <column name="TOKEN_ID" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="TOKEN" sqlType="BLOB" length="4000" precision="0" nullable="true" jdbcType="2004"/>
+      <column name="AUTHENTICATION_ID" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="USER_NAME" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="CLIENT_ID" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="OAUTH_CODE" schema="OAUTH2DEV" catalog="" type="TABLE">
+      <column name="CODE" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="AUTHENTICATION" sqlType="BLOB" length="4000" precision="0" nullable="true" jdbcType="2004"/>
+    </table>
+    <table name="OAUTH_REFRESH_TOKEN" schema="OAUTH2DEV" catalog="" type="TABLE">
+      <column name="TOKEN_ID" sqlType="VARCHAR2" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="TOKEN" sqlType="BLOB" length="4000" precision="0" nullable="true" jdbcType="2004"/>
+      <column name="AUTHENTICATION" sqlType="BLOB" length="4000" precision="0" nullable="true" jdbcType="2004"/>
+    </table>
+  </data-source>
 </component>
