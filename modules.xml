@@ -32,7 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/dictionary-legacy-boundary/dictionary-legacy-boundary.iml" filepath="$PROJECT_DIR$/dictionary-legacy-boundary/dictionary-legacy-boundary.iml" group="libs/boundary" />
       <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/finance-beans/finance-beans.iml" filepath="$PROJECT_DIR$/finance-beans/finance-beans.iml" group="libs/beans" />
-      <module fileurl="file://$PROJECT_DIR$/flow/flow.iml" filepath="$PROJECT_DIR$/flow/flow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flow/flow.iml" filepath="$PROJECT_DIR$/flow/flow.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/gamayun/gamayun.iml" filepath="$PROJECT_DIR$/gamayun/gamayun.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/identity/identity.iml" filepath="$PROJECT_DIR$/identity/identity.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/insurance-alpha-ext/insurance-alpha-ext.iml" filepath="$PROJECT_DIR$/insurance-alpha-ext/insurance-alpha-ext.iml" group="libs/ext" />
