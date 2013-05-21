@@ -44,7 +44,7 @@
           </option>
           <option name="profilesMap">
             <map>
-              <entry key="local" value="true" />
+              <entry key="dev" value="true" />
             </map>
           </option>
           <option name="resolveToWorkspace" value="false" />
