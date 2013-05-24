@@ -8,8 +8,14 @@
           <element id="module-output" name="simurgh" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="base-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="base-aspect" />
+            <element id="module-output" name="air-booking-ext" />
+            <element id="module-output" name="ps-ext" />
+            <element id="module-output" name="aex-ext" />
+            <element id="module-output" name="insurance-alpha-ext" />
+            <element id="module-output" name="watchdog-api" />
+            <element id="module-output" name="railway-spzd-ext" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.0.13" />
@@ -164,20 +170,11 @@
           <element id="archive" name="domain.jar">
             <element id="module-output" name="domain" />
           </element>
-          <element id="archive" name="air-booking-ext.jar">
-            <element id="module-output" name="air-booking-ext" />
-          </element>
-          <element id="archive" name="ps-ext.jar">
-            <element id="module-output" name="ps-ext" />
-          </element>
           <element id="archive" name="taxi-rb-ext.jar">
             <element id="module-output" name="taxi-rb-ext" />
           </element>
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.3" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
-          <element id="archive" name="aex-ext.jar">
-            <element id="module-output" name="aex-ext" />
-          </element>
           <element id="archive" name="psyduck-api.jar">
             <element id="module-output" name="psyduck-api" />
           </element>
@@ -203,14 +200,8 @@
           <element id="archive" name="insurance-service.jar">
             <element id="module-output" name="insurance-service" />
           </element>
-          <element id="archive" name="insurance-alpha-ext.jar">
-            <element id="module-output" name="insurance-alpha-ext" />
-          </element>
           <element id="archive" name="operation-service.jar">
             <element id="module-output" name="operation-service" />
-          </element>
-          <element id="archive" name="watchdog-api.jar">
-            <element id="module-output" name="watchdog-api" />
           </element>
           <element id="library" level="project" name="Maven: junit:junit:4.10" />
           <element id="archive" name="railway-service.jar">
@@ -218,9 +209,6 @@
           </element>
           <element id="archive" name="railway-ufs-ext.jar">
             <element id="module-output" name="railway-ufs-ext" />
-          </element>
-          <element id="archive" name="railway-spzd-ext.jar">
-            <element id="module-output" name="railway-spzd-ext" />
           </element>
         </element>
       </element>

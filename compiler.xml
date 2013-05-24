@@ -278,6 +278,7 @@
         <module name="jms-aspect" />
         <module name="kadabra" />
         <module name="krabby" />
+        <module name="log.analyser" />
         <module name="meta-aspect" />
         <module name="numel" />
         <module name="offer-beans" />
@@ -326,6 +327,7 @@
         <module name="reports-service" />
         <module name="reports.api" />
         <module name="reports.service" />
+        <module name="reusable.utils" />
         <module name="rules" />
         <module name="saiku" />
         <module name="security-api" />
@@ -338,6 +340,7 @@
         <module name="simurgh" />
         <module name="sirena-agency-service" />
         <module name="sirena.agency.service" />
+        <module name="squirtle" />
         <module name="storage-api" />
         <module name="storage-boundary" />
         <module name="swinub" />
@@ -347,6 +350,7 @@
         <module name="timetable-diana-ext" />
         <module name="timetable-flightstats-ext" />
         <module name="timetable-legacy-boundary" />
+        <module name="utils" />
         <module name="validation-aspect" />
         <module name="watchdog" />
         <module name="watchdog-api" />
@@ -360,6 +364,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="abra" target="1.7" />
+      <module name="abra-api" target="1.7" />
       <module name="abra.api" target="1.7" />
       <module name="actions.history" target="1.7" />
       <module name="aex-ext" target="1.7" />
@@ -429,11 +434,14 @@
       <module name="ps-boundary" target="1.7" />
       <module name="ps-ext" target="1.7" />
       <module name="psyduck" target="1.7" />
+      <module name="psyduck-api" target="1.7" />
       <module name="psyduck-service" target="1.7" />
       <module name="psyduck.api" target="1.7" />
       <module name="railway-service" target="1.7" />
       <module name="railway-spzd-ext" target="1.7" />
       <module name="railway-ufs-ext" target="1.7" />
+      <module name="rate-calculator-api" target="1.7" />
+      <module name="rate-calculator-service" target="1.7" />
       <module name="rate.calculator.api" target="1.7" />
       <module name="rate.calculator.service" target="1.7" />
       <module name="reports" target="1.7" />
@@ -465,6 +473,8 @@
       <module name="watchdog" target="1.7" />
       <module name="watchdog-api" target="1.7" />
       <module name="zubat" target="1.7" />
+      <module name="zubat-sender" target="1.7" />
+      <module name="zubat-sender-pack" target="1.7" />
       <module name="zubat.sender" target="1.7" />
       <module name="zubat.sender.pack" target="1.7" />
     </bytecodeTargetLevel>

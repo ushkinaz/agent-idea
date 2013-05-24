@@ -8,8 +8,9 @@
           <element id="module-output" name="gamayun" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="base-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="base-aspect" />
+            <element id="module-output" name="watchdog-api" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.0.13" />
@@ -225,9 +226,6 @@
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-compiler:1.0.7" />
           <element id="library" level="project" name="Maven: jaxen:jaxen:1.1.4" />
           <element id="library" level="project" name="Maven: com.ibm.icu:icu4j:51.1" />
-          <element id="archive" name="watchdog-api.jar">
-            <element id="module-output" name="watchdog-api" />
-          </element>
           <element id="archive" name="presentation.utils.jar">
             <element id="module-output" name="presentation.utils" />
           </element>
