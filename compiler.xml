@@ -11,7 +11,7 @@
       <directory url="file://$PROJECT_DIR$/actions.history/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/yandex.ws/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/yandex.ws/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/zubat.sender/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/zubat-sender/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/zubat.sender/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/swinub.api/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/swinub.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
@@ -57,8 +57,8 @@
       <directory url="file://$PROJECT_DIR$/presentation.transformers/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/reports/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/reports/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/zubat.sender.pack/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/zubat.sender.pack/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/zubat-sender-pack/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/zubat-sender-pack/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/reports.service/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/reports.service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/heartbeat/target/generated-sources/annotations" includeSubdirectories="true" />
