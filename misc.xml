@@ -533,6 +533,14 @@
         <option value="$PROJECT_DIR$/load-test/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/log.analyser/pom.xml" />
+        <option value="$PROJECT_DIR$/reusable.utils/pom.xml" />
+        <option value="$PROJECT_DIR$/squirtle/pom.xml" />
+        <option value="$PROJECT_DIR$/utils/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="javax.annotation.Nullable" />
