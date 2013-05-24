@@ -73,8 +73,8 @@
       <directory url="file://$PROJECT_DIR$/common.enums/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/insurance.service/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/insurance.service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/rate.calculator.service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/rate.calculator.service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/rate-calculator-service/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/rate-calculator-service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/psyduck-api/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/psyduck.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/sirena.agency.api/target/generated-sources/annotations" includeSubdirectories="true" />
@@ -129,7 +129,7 @@
       <directory url="file://$PROJECT_DIR$/spring.security.utils/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/cartrawler.service/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/cartrawler.service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/rate.calculator.api/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/rate-calculator-api/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/rate.calculator.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/utils/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/utils/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
@@ -299,6 +299,7 @@
         <module name="ps-boundary" />
         <module name="ps-ext" />
         <module name="psyduck" />
+        <module name="psyduck-api" />
         <module name="psyduck-service" />
         <module name="psyduck.api" />
         <module name="psyduck.service" />
@@ -306,6 +307,8 @@
         <module name="railway-spzd-ext" />
         <module name="railway-ufs-ext" />
         <module name="railway.service" />
+        <module name="rate-calculator-api" />
+        <module name="rate-calculator-service" />
         <module name="rate.calculator.api" />
         <module name="rate.calculator.service" />
         <module name="reports" />
@@ -426,6 +429,7 @@
       <module name="ps-boundary" target="1.7" />
       <module name="ps-ext" target="1.7" />
       <module name="psyduck" target="1.7" />
+      <module name="psyduck-api" target="1.7" />
       <module name="psyduck-service" target="1.7" />
       <module name="psyduck.api" target="1.7" />
       <module name="psyduck.service" target="1.7" />
@@ -433,6 +437,8 @@
       <module name="railway-spzd-ext" target="1.7" />
       <module name="railway-ufs-ext" target="1.7" />
       <module name="railway.service" target="1.7" />
+      <module name="rate-calculator-api" target="1.7" />
+      <module name="rate-calculator-service" target="1.7" />
       <module name="rate.calculator.api" target="1.7" />
       <module name="rate.calculator.service" target="1.7" />
       <module name="rbtaxi.ext.api" target="1.7" />

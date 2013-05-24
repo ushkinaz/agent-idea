@@ -209,11 +209,11 @@
           <element id="archive" name="railway-spzd-ext.jar">
             <element id="module-output" name="railway-spzd-ext" />
           </element>
-          <element id="archive" name="rate.calculator.service.jar">
-            <element id="module-output" name="rate.calculator.service" />
+          <element id="archive" name="rate-calculator-service.jar">
+            <element id="module-output" name="rate-calculator-service" />
           </element>
           <element id="archive" name="rate-calculator-api.jar">
-            <element id="module-output" name="rate.calculator.api" />
+            <element id="module-output" name="rate-calculator-api" />
           </element>
           <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
           <element id="library" level="project" name="Maven: org.springframework.batch:spring-batch-core:2.1.9.RELEASE" />

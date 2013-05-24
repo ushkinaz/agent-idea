@@ -256,7 +256,7 @@
           </element>
           <element id="library" level="project" name="Maven: junit:junit:4.10" />
           <element id="archive" name="rate-calculator-api.jar">
-            <element id="module-output" name="rate.calculator.api" />
+            <element id="module-output" name="rate-calculator-api" />
           </element>
           <element id="archive" name="cartrawler-service.jar">
             <element id="module-output" name="cartrawler-service" />

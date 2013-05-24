@@ -75,8 +75,8 @@
       <module fileurl="file://$PROJECT_DIR$/railway-service/railway-service.iml" filepath="$PROJECT_DIR$/railway-service/railway-service.iml" group="libs/services" />
       <module fileurl="file://$PROJECT_DIR$/railway-spzd-ext/railway-spzd-ext.iml" filepath="$PROJECT_DIR$/railway-spzd-ext/railway-spzd-ext.iml" group="libs/ext" />
       <module fileurl="file://$PROJECT_DIR$/railway-ufs-ext/railway-ufs-ext.iml" filepath="$PROJECT_DIR$/railway-ufs-ext/railway-ufs-ext.iml" group="libs/ext" />
-      <module fileurl="file://$PROJECT_DIR$/rate.calculator.api/rate.calculator.api.iml" filepath="$PROJECT_DIR$/rate.calculator.api/rate.calculator.api.iml" group="libs" />
-      <module fileurl="file://$PROJECT_DIR$/rate.calculator.service/rate.calculator.service.iml" filepath="$PROJECT_DIR$/rate.calculator.service/rate.calculator.service.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/rate-calculator-api/rate-calculator-api.iml" filepath="$PROJECT_DIR$/rate-calculator-api/rate-calculator-api.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/rate-calculator-service/rate-calculator-service.iml" filepath="$PROJECT_DIR$/rate-calculator-service/rate-calculator-service.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/reports/reports.iml" filepath="$PROJECT_DIR$/reports/reports.iml" group="supplemental" />
       <module fileurl="file://$PROJECT_DIR$/reports-api/reports-api.iml" filepath="$PROJECT_DIR$/reports-api/reports-api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/reports-service/reports-service.iml" filepath="$PROJECT_DIR$/reports-service/reports-service.iml" group="libs/services" />

@@ -89,8 +89,8 @@
     <file url="file://$PROJECT_DIR$/railway-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/railway-spzd-ext" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/railway-ufs-ext" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rate.calculator.api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rate.calculator.service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rate-calculator-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rate-calculator-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reference.service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reports" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reports-api" charset="UTF-8" />
