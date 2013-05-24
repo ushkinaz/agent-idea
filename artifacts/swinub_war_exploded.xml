@@ -133,7 +133,7 @@
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-frontend-jaxrs:2.7.5" />
           <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0-m10" />
           <element id="archive" name="abra-api.jar">
-            <element id="module-output" name="abra.api" />
+            <element id="module-output" name="abra-api" />
           </element>
           <element id="archive" name="common.enums.jar">
             <element id="module-output" name="common.enums" />

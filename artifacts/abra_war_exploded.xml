@@ -226,7 +226,7 @@
           <element id="library" level="project" name="Maven: jaxen:jaxen:1.1.4" />
           <element id="library" level="project" name="Maven: com.ibm.icu:icu4j:51.1" />
           <element id="archive" name="abra-api.jar">
-            <element id="module-output" name="abra.api" />
+            <element id="module-output" name="abra-api" />
           </element>
           <element id="archive" name="operation-service.jar">
             <element id="module-output" name="operation-service" />
@@ -255,11 +255,11 @@
           </element>
           <element id="library" level="project" name="Maven: net.java.dev.rome:rome:1.0.0" />
           <element id="library" level="project" name="Maven: jdom:jdom:1.0" />
-          <element id="archive" name="zubat.sender.pack.jar">
-            <element id="module-output" name="zubat.sender.pack" />
+          <element id="archive" name="zubat-sender-pack.jar">
+            <element id="module-output" name="zubat-sender-pack" />
           </element>
-          <element id="archive" name="zubat.sender.jar">
-            <element id="module-output" name="zubat.sender" />
+          <element id="archive" name="zubat-sender.jar">
+            <element id="module-output" name="zubat-sender" />
           </element>
           <element id="archive" name="presentation-api.jar">
             <element id="module-output" name="presentation-api" />

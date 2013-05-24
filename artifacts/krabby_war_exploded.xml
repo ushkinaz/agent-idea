@@ -291,11 +291,11 @@
           <element id="archive" name="swinub-api.jar">
             <element id="module-output" name="swinub-api" />
           </element>
-          <element id="archive" name="zubat.sender.pack.jar">
-            <element id="module-output" name="zubat.sender.pack" />
+          <element id="archive" name="zubat-sender-pack.jar">
+            <element id="module-output" name="zubat-sender-pack" />
           </element>
-          <element id="archive" name="zubat.sender.jar">
-            <element id="module-output" name="zubat.sender" />
+          <element id="archive" name="zubat-sender.jar">
+            <element id="module-output" name="zubat-sender" />
           </element>
           <element id="library" level="project" name="Maven: org.eclipse.mylyn.wikitext:core:1.4.0" />
           <element id="library" level="project" name="Maven: org.eclipse.mylyn.wikitext:confluence:1.4.0" />

@@ -230,6 +230,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="abra" />
+        <module name="abra-api" />
         <module name="abra.api" />
         <module name="actions.history" />
         <module name="aex-ext" />
@@ -342,12 +343,15 @@
         <module name="watchdog-api" />
         <module name="watchdog.api" />
         <module name="zubat" />
+        <module name="zubat-sender" />
+        <module name="zubat-sender-pack" />
         <module name="zubat.sender" />
         <module name="zubat.sender.pack" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="abra" target="1.7" />
+      <module name="abra-api" target="1.7" />
       <module name="abra.api" target="1.7" />
       <module name="actions.history" target="1.7" />
       <module name="aeroexpress.api" target="1.7" />
@@ -481,6 +485,8 @@
       <module name="watchdog-api" target="1.7" />
       <module name="watchdog.api" target="1.7" />
       <module name="zubat" target="1.7" />
+      <module name="zubat-sender" target="1.7" />
+      <module name="zubat-sender-pack" target="1.7" />
       <module name="zubat.sender" target="1.7" />
       <module name="zubat.sender.pack" target="1.7" />
     </bytecodeTargetLevel>
