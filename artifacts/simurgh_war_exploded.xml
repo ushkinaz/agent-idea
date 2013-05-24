@@ -178,8 +178,8 @@
           <element id="archive" name="aex-ext.jar">
             <element id="module-output" name="aex-ext" />
           </element>
-          <element id="archive" name="psyduck.api.jar">
-            <element id="module-output" name="psyduck.api" />
+          <element id="archive" name="psyduck-api.jar">
+            <element id="module-output" name="psyduck-api" />
           </element>
           <element id="library" level="project" name="Maven: net.sf.barcode4j:barcode4j:2.1" />
           <element id="library" level="project" name="Maven: avalon-framework:avalon-framework-impl:4.2.0" />

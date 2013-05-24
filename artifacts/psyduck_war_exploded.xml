@@ -91,8 +91,8 @@
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-pool:5.7.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:1.0.1" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
-          <element id="archive" name="psyduck.api.jar">
-            <element id="module-output" name="psyduck.api" />
+          <element id="archive" name="psyduck-api.jar">
+            <element id="module-output" name="psyduck-api" />
           </element>
           <element id="archive" name="psyduck-service.jar">
             <element id="module-output" name="psyduck-service" />

@@ -197,8 +197,8 @@
           <element id="archive" name="aex-ext.jar">
             <element id="module-output" name="aex-ext" />
           </element>
-          <element id="archive" name="psyduck.api.jar">
-            <element id="module-output" name="psyduck.api" />
+          <element id="archive" name="psyduck-api.jar">
+            <element id="module-output" name="psyduck-api" />
           </element>
           <element id="library" level="project" name="Maven: net.sf.barcode4j:barcode4j:2.1" />
           <element id="library" level="project" name="Maven: avalon-framework:avalon-framework-impl:4.2.0" />
@@ -255,7 +255,7 @@
             <element id="module-output" name="insurance-alpha-ext" />
           </element>
           <element id="library" level="project" name="Maven: junit:junit:4.10" />
-          <element id="archive" name="rate.calculator.api.jar">
+          <element id="archive" name="rate-calculator-api.jar">
             <element id="module-output" name="rate.calculator.api" />
           </element>
           <element id="archive" name="cartrawler-service.jar">
