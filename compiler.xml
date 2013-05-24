@@ -75,7 +75,7 @@
       <directory url="file://$PROJECT_DIR$/insurance.service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/rate.calculator.service/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/rate.calculator.service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/psyduck.api/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/psyduck-api/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/psyduck.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/sirena.agency.api/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/sirena.agency.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
@@ -93,8 +93,8 @@
       <directory url="file://$PROJECT_DIR$/common.logger/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/flightstats.stubs/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/flightstats.stubs/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/abra.api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/abra.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/abra-api/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/abra-api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/reports.api/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/reports.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/swinub/target/generated-sources/annotations" includeSubdirectories="true" />

@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/abra/abra.iml" filepath="$PROJECT_DIR$/abra/abra.iml" group="application" />
-      <module fileurl="file://$PROJECT_DIR$/abra.api/abra.api.iml" filepath="$PROJECT_DIR$/abra.api/abra.api.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/abra-api/abra.api.iml" filepath="$PROJECT_DIR$/abra-api/abra.api.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/actions.history/actions.history.iml" filepath="$PROJECT_DIR$/actions.history/actions.history.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/aex-ext/aex-ext.iml" filepath="$PROJECT_DIR$/aex-ext/aex-ext.iml" group="libs/ext" />
       <module fileurl="file://$PROJECT_DIR$/agency-ext/agency-ext.iml" filepath="$PROJECT_DIR$/agency-ext/agency-ext.iml" group="libs/ext" />
@@ -70,8 +70,8 @@
       <module fileurl="file://$PROJECT_DIR$/ps-boundary/ps-boundary.iml" filepath="$PROJECT_DIR$/ps-boundary/ps-boundary.iml" group="libs/boundary" />
       <module fileurl="file://$PROJECT_DIR$/ps-ext/ps-ext.iml" filepath="$PROJECT_DIR$/ps-ext/ps-ext.iml" group="libs/ext" />
       <module fileurl="file://$PROJECT_DIR$/psyduck/psyduck.iml" filepath="$PROJECT_DIR$/psyduck/psyduck.iml" group="application" />
+      <module fileurl="file://$PROJECT_DIR$/psyduck-api/psyduck-api.iml" filepath="$PROJECT_DIR$/psyduck-api/psyduck-api.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/psyduck-service/psyduck-service.iml" filepath="$PROJECT_DIR$/psyduck-service/psyduck-service.iml" group="libs/services" />
-      <module fileurl="file://$PROJECT_DIR$/psyduck.api/psyduck.api.iml" filepath="$PROJECT_DIR$/psyduck.api/psyduck.api.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/railway-service/railway-service.iml" filepath="$PROJECT_DIR$/railway-service/railway-service.iml" group="libs/services" />
       <module fileurl="file://$PROJECT_DIR$/railway-spzd-ext/railway-spzd-ext.iml" filepath="$PROJECT_DIR$/railway-spzd-ext/railway-spzd-ext.iml" group="libs/ext" />
       <module fileurl="file://$PROJECT_DIR$/railway-ufs-ext/railway-ufs-ext.iml" filepath="$PROJECT_DIR$/railway-ufs-ext/railway-ufs-ext.iml" group="libs/ext" />
