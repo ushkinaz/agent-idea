@@ -205,6 +205,15 @@
       <directory url="file://$PROJECT_DIR$/operation-service/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/cartrawler-service/target/generated-sources/annotations" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/cartrawler-service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/zubat.sender/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/zubat.sender.pack/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/zubat.sender.pack/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/rate.calculator.service/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/rate.calculator.service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/psyduck.api/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/abra.api/target/generated-sources/annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/abra.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/rate.calculator.api/target/generated-sources/annotations" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
@@ -351,13 +360,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="abra" target="1.7" />
-      <module name="abra-api" target="1.7" />
       <module name="abra.api" target="1.7" />
       <module name="actions.history" target="1.7" />
-      <module name="aeroexpress.api" target="1.7" />
       <module name="aex-ext" target="1.7" />
       <module name="agency-ext" target="1.7" />
-      <module name="agg-engine" target="1.7" />
       <module name="aggregation" target="1.7" />
       <module name="air-api" target="1.7" />
       <module name="air-beans" target="1.7" />
@@ -371,7 +377,6 @@
       <module name="base-test-aspect" target="1.7" />
       <module name="beans" target="1.7" />
       <module name="cartrawler-service" target="1.7" />
-      <module name="cartrawler.service" target="1.7" />
       <module name="classifiers" target="1.7" />
       <module name="common.enums" target="1.7" />
       <module name="commons" target="1.7" />
@@ -384,26 +389,19 @@
       <module name="dictionary-legacy-boundary" target="1.7" />
       <module name="domain" target="1.7" />
       <module name="finance-beans" target="1.7" />
-      <module name="flightstats.service" target="1.7" />
-      <module name="flightstats.stubs" target="1.7" />
       <module name="flow" target="1.7" />
       <module name="gamayun" target="1.7" />
-      <module name="goose-engine" target="1.7" />
       <module name="identity" target="1.7" />
       <module name="insurance-alpha-ext" target="1.7" />
       <module name="insurance-service" target="1.7" />
-      <module name="insurance.api" target="1.7" />
-      <module name="insurance.service" target="1.7" />
       <module name="jasper-aspect" target="1.7" />
       <module name="jms-aspect" target="1.7" />
       <module name="kadabra" target="1.7" />
-      <module name="kadabra-test" target="1.7" />
       <module name="krabby" target="1.7" />
+      <module name="log.analyser" target="1.7" />
       <module name="numel" target="1.7" />
       <module name="offer-beans" target="1.7" />
       <module name="operation-service" target="1.7" />
-      <module name="operation.service" target="1.7" />
-      <module name="orm-hibernate-aspect" target="1.7" />
       <module name="orm-hibernate4-aspect" target="1.7" />
       <module name="orm-spring-jdbc-aspect" target="1.7" />
       <module name="pack-api" target="1.7" />
@@ -411,7 +409,6 @@
       <module name="pack-boundary" target="1.7" />
       <module name="parent.pom" target="1.7" />
       <module name="parent.war.pom" target="1.7" />
-      <module name="paysys.api" target="1.7" />
       <module name="pdf-generator" target="1.7" />
       <module name="persistence-api" target="1.7" />
       <module name="persistence-beans" target="1.7" />
@@ -422,7 +419,6 @@
       <module name="person-boundary" target="1.7" />
       <module name="presentation" target="1.7" />
       <module name="presentation-api" target="1.7" />
-      <module name="presentation.api" target="1.7" />
       <module name="presentation.transformers" target="1.7" />
       <module name="presentation.utils" target="1.7" />
       <module name="profile-api" target="1.7" />
@@ -433,25 +429,16 @@
       <module name="ps-boundary" target="1.7" />
       <module name="ps-ext" target="1.7" />
       <module name="psyduck" target="1.7" />
-      <module name="psyduck-api" target="1.7" />
       <module name="psyduck-service" target="1.7" />
       <module name="psyduck.api" target="1.7" />
-      <module name="psyduck.service" target="1.7" />
       <module name="railway-service" target="1.7" />
       <module name="railway-spzd-ext" target="1.7" />
       <module name="railway-ufs-ext" target="1.7" />
-      <module name="railway.service" target="1.7" />
-      <module name="rate-calculator-api" target="1.7" />
-      <module name="rate-calculator-service" target="1.7" />
       <module name="rate.calculator.api" target="1.7" />
       <module name="rate.calculator.service" target="1.7" />
-      <module name="rbtaxi.ext.api" target="1.7" />
-      <module name="reference" target="1.7" />
       <module name="reports" target="1.7" />
       <module name="reports-api" target="1.7" />
       <module name="reports-service" target="1.7" />
-      <module name="reports.api" target="1.7" />
-      <module name="reports.service" target="1.7" />
       <module name="reusable.utils" target="1.7" />
       <module name="rules" target="1.7" />
       <module name="saiku" target="1.7" />
@@ -461,32 +448,23 @@
       <module name="security-boundary" target="1.7" />
       <module name="security-oauth2-aspect" target="1.7" />
       <module name="security-oauth2-service" target="1.7" />
-      <module name="security-presentation" target="1.7" />
       <module name="services" target="1.7" />
       <module name="simurgh" target="1.7" />
       <module name="sirena-agency-service" target="1.7" />
-      <module name="sirena.agency.api" target="1.7" />
-      <module name="sirena.agency.service" target="1.7" />
-      <module name="spzd.api" target="1.7" />
+      <module name="squirtle" target="1.7" />
       <module name="storage-api" target="1.7" />
       <module name="storage-boundary" target="1.7" />
       <module name="swinub" target="1.7" />
       <module name="swinub-api" target="1.7" />
-      <module name="swinub.api" target="1.7" />
       <module name="taxi-rb-ext" target="1.7" />
-      <module name="timetable" target="1.7" />
       <module name="timetable-diana-ext" target="1.7" />
       <module name="timetable-flightstats-ext" target="1.7" />
       <module name="timetable-legacy-boundary" target="1.7" />
-      <module name="ufs.api" target="1.7" />
       <module name="utils" target="1.7" />
       <module name="validation-aspect" target="1.7" />
       <module name="watchdog" target="1.7" />
       <module name="watchdog-api" target="1.7" />
-      <module name="watchdog.api" target="1.7" />
       <module name="zubat" target="1.7" />
-      <module name="zubat-sender" target="1.7" />
-      <module name="zubat-sender-pack" target="1.7" />
       <module name="zubat.sender" target="1.7" />
       <module name="zubat.sender.pack" target="1.7" />
     </bytecodeTargetLevel>
