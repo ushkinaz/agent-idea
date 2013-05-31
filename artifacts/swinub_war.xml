@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="swinub:war">
+    <output-path>$PROJECT_DIR$/swinub/target</output-path>
+    <root id="archive" name="swinub.war">
+      <element id="artifact" artifact-name="swinub:war exploded" />
+    </root>
+  </artifact>
+</component>
