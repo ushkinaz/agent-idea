@@ -230,15 +230,13 @@
           </element>
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-core:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.7" />
+          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-yaml:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-runtime:1.0.7" />
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-collectionschema:1.0.7" />
-          <element id="library" level="project" name="Maven: postgresql:postgresql:9.1-901.jdbc4" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:1.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: redis.clients:jedis:2.1.0" />
-          <element id="library" level="project" name="Maven: com.github.spullara.redis:client:0.6" />
-          <element id="library" level="project" name="Maven: com.github.spullara.redis:protocol:0.6" />
-          <element id="library" level="project" name="Maven: com.github.spullara.redis:util:0.6" />
-          <element id="library" level="project" name="Maven: com.github.spullara.cli-parser:cli-parser:1.1" />
+          <element id="library" level="project" name="Maven: org.reflections:reflections:0.9.9-RC1" />
+          <element id="library" level="project" name="Maven: org.reflections:reflections-spring:0.9.9-RC1" />
           <element id="archive" name="ps-api.jar">
             <element id="module-output" name="ps-api" />
           </element>
