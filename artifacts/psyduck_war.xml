@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="psyduck:war">
-    <output-path>$PROJECT_DIR$/psyduck/target</output-path>
-    <root id="archive" name="psyduck.war">
-      <element id="artifact" artifact-name="psyduck:war exploded" />
-    </root>
-  </artifact>
-</component>
