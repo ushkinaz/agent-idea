@@ -41,7 +41,7 @@
       <module fileurl="file://$PROJECT_DIR$/jms-aspect/jms-aspect.iml" filepath="$PROJECT_DIR$/jms-aspect/jms-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/kadabra/kadabra.iml" filepath="$PROJECT_DIR$/kadabra/kadabra.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/krabby/krabby.iml" filepath="$PROJECT_DIR$/krabby/krabby.iml" group="application" />
-      <module fileurl="file://$PROJECT_DIR$/log.analyser/log.analyser.iml" filepath="$PROJECT_DIR$/log.analyser/log.analyser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/log.analyser/log.analyser.iml" filepath="$PROJECT_DIR$/log.analyser/log.analyser.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/numel/numel.iml" filepath="$PROJECT_DIR$/numel/numel.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/offer-beans/offer-beans.iml" filepath="$PROJECT_DIR$/offer-beans/offer-beans.iml" group="libs/beans" />
       <module fileurl="file://$PROJECT_DIR$/operation-service/operation-service.iml" filepath="$PROJECT_DIR$/operation-service/operation-service.iml" group="libs/services" />
@@ -82,7 +82,7 @@
       <module fileurl="file://$PROJECT_DIR$/reports/reports.iml" filepath="$PROJECT_DIR$/reports/reports.iml" group="supplemental" />
       <module fileurl="file://$PROJECT_DIR$/reports-api/reports-api.iml" filepath="$PROJECT_DIR$/reports-api/reports-api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/reports-service/reports-service.iml" filepath="$PROJECT_DIR$/reports-service/reports-service.iml" group="libs/services" />
-      <module fileurl="file://$PROJECT_DIR$/reusable.utils/reusable.utils.iml" filepath="$PROJECT_DIR$/reusable.utils/reusable.utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reusable.utils/reusable.utils.iml" filepath="$PROJECT_DIR$/reusable.utils/reusable.utils.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/rules/rules.iml" filepath="$PROJECT_DIR$/rules/rules.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/saiku/saiku.iml" filepath="$PROJECT_DIR$/saiku/saiku.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/security-api/security-api.iml" filepath="$PROJECT_DIR$/security-api/security-api.iml" group="libs/api" />
@@ -92,9 +92,10 @@
       <module fileurl="file://$PROJECT_DIR$/security-oauth2-aspect/security-oauth2-aspect.iml" filepath="$PROJECT_DIR$/security-oauth2-aspect/security-oauth2-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/security-oauth2-service/security-oauth2-service.iml" filepath="$PROJECT_DIR$/security-oauth2-service/security-oauth2-service.iml" group="libs/services" />
       <module fileurl="file://$PROJECT_DIR$/services/services.iml" filepath="$PROJECT_DIR$/services/services.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/shell/shell.iml" filepath="$PROJECT_DIR$/shell/shell.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/simurgh/simurgh.iml" filepath="$PROJECT_DIR$/simurgh/simurgh.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/sirena-agency-service/sirena-agency-service.iml" filepath="$PROJECT_DIR$/sirena-agency-service/sirena-agency-service.iml" group="libs/services" />
-      <module fileurl="file://$PROJECT_DIR$/squirtle/squirtle.iml" filepath="$PROJECT_DIR$/squirtle/squirtle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/squirtle/squirtle.iml" filepath="$PROJECT_DIR$/squirtle/squirtle.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/storage-api/storage-api.iml" filepath="$PROJECT_DIR$/storage-api/storage-api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/storage-boundary/storage-boundary.iml" filepath="$PROJECT_DIR$/storage-boundary/storage-boundary.iml" group="libs/boundary" />
       <module fileurl="file://$PROJECT_DIR$/swinub/swinub.iml" filepath="$PROJECT_DIR$/swinub/swinub.iml" group="application" />
@@ -104,7 +105,7 @@
       <module fileurl="file://$PROJECT_DIR$/timetable-flightstats-ext/timetable-flightstats-ext.iml" filepath="$PROJECT_DIR$/timetable-flightstats-ext/timetable-flightstats-ext.iml" group="libs/ext" />
       <module fileurl="file://$PROJECT_DIR$/timetable-legacy-boundary/timetable-legacy-boundary.iml" filepath="$PROJECT_DIR$/timetable-legacy-boundary/timetable-legacy-boundary.iml" group="libs/boundary" />
       <module fileurl="file://$PROJECT_DIR$/update_scripts/update_scripts.iml" filepath="$PROJECT_DIR$/update_scripts/update_scripts.iml" group="supplemental" />
-      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/validation-aspect/validation-aspect.iml" filepath="$PROJECT_DIR$/validation-aspect/validation-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/watchdog/watchdog.iml" filepath="$PROJECT_DIR$/watchdog/watchdog.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/watchdog-api/watchdog-api.iml" filepath="$PROJECT_DIR$/watchdog-api/watchdog-api.iml" group="libs/api" />
