@@ -8,29 +8,8 @@
           <element id="module-output" name="swinub" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="corporate.pom.jar">
+          <element id="archive" name="base-aspect.jar">
             <element id="module-output" name="base-aspect" />
-            <element id="module-output" name="app-aspect" />
-            <element id="module-output" name="orm-hibernate4-aspect" />
-            <element id="module-output" name="orm-spring-jdbc-aspect" />
-            <element id="module-output" name="jms-aspect" />
-            <element id="module-output" name="cxf-aspect" />
-            <element id="module-output" name="common.enums" />
-            <element id="module-output" name="domain" />
-            <element id="module-output" name="services" />
-            <element id="module-output" name="commons" />
-            <element id="module-output" name="classifiers" />
-            <element id="module-output" name="dictionary-legacy-boundary" />
-            <element id="module-output" name="air-booking-ext" />
-            <element id="module-output" name="ps-ext" />
-            <element id="module-output" name="taxi-rb-ext" />
-            <element id="module-output" name="aex-ext" />
-            <element id="module-output" name="operation-service" />
-            <element id="module-output" name="watchdog-api" />
-            <element id="module-output" name="railway-service" />
-            <element id="module-output" name="railway-ufs-ext" />
-            <element id="module-output" name="railway-spzd-ext" />
-            <element id="module-output" name="rate-calculator-service" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.0.13" />
@@ -72,7 +51,13 @@
           <element id="library" level="project" name="Maven: com.newrelic.agent.java:newrelic-api:2.18.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.7" />
           <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.2.RELEASE" />
+          <element id="archive" name="corporate.pom.jar">
+            <element id="module-output" name="app-aspect" />
+            <element id="module-output" name="orm-hibernate4-aspect" />
+            <element id="module-output" name="classifiers" />
+            <element id="module-output" name="operation-service" />
+          </element>
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.3.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:4.2.0.Final" />
           <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.1.0.GA" />
@@ -88,6 +73,12 @@
           <element id="library" level="project" name="Maven: org.jadira.usertype:usertype.core:3.1.0.CR2" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-entitymanager:4.1.7.Final" />
           <element id="library" level="project" name="Maven: org.jadira.usertype:usertype.spi:3.1.0.CR2" />
+          <element id="archive" name="orm-spring-jdbc-aspect.jar">
+            <element id="module-output" name="orm-spring-jdbc-aspect" />
+          </element>
+          <element id="archive" name="jms-aspect.jar">
+            <element id="module-output" name="jms-aspect" />
+          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-jms:3.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-core:5.7.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1" />
@@ -103,6 +94,9 @@
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-pool:5.7.0" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:1.0.1" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
+          <element id="archive" name="cxf-aspect.jar">
+            <element id="module-output" name="cxf-aspect" />
+          </element>
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-tools-common:2.7.5" />
           <element id="library" level="project" name="Maven: org.apache.velocity:velocity:1.7" />
           <element id="library" level="project" name="Maven: wsdl4j:wsdl4j:1.6.3" />
@@ -141,11 +135,38 @@
           <element id="archive" name="abra-api.jar">
             <element id="module-output" name="abra-api" />
           </element>
+          <element id="archive" name="common.enums.jar">
+            <element id="module-output" name="common.enums" />
+          </element>
+          <element id="archive" name="domain.jar">
+            <element id="module-output" name="domain" />
+          </element>
+          <element id="archive" name="services.jar">
+            <element id="module-output" name="services" />
+          </element>
+          <element id="archive" name="commons.jar">
+            <element id="module-output" name="commons" />
+          </element>
           <element id="library" level="project" name="Maven: javax.measure:jsr-275:0.9.4" />
           <element id="library" level="project" name="Maven: com.ning:async-http-client:1.7.15" />
           <element id="library" level="project" name="Maven: io.netty:netty:3.6.3.Final" />
+          <element id="archive" name="dictionary-legacy-boundary.jar">
+            <element id="module-output" name="dictionary-legacy-boundary" />
+          </element>
+          <element id="archive" name="air-booking-ext.jar">
+            <element id="module-output" name="air-booking-ext" />
+          </element>
+          <element id="archive" name="ps-ext.jar">
+            <element id="module-output" name="ps-ext" />
+          </element>
+          <element id="archive" name="taxi-rb-ext.jar">
+            <element id="module-output" name="taxi-rb-ext" />
+          </element>
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.3" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
+          <element id="archive" name="aex-ext.jar">
+            <element id="module-output" name="aex-ext" />
+          </element>
           <element id="archive" name="psyduck-api.jar">
             <element id="module-output" name="psyduck-api" />
           </element>
@@ -167,8 +188,23 @@
           <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-compiler:1.0.7" />
           <element id="library" level="project" name="Maven: jaxen:jaxen:1.1.4" />
           <element id="library" level="project" name="Maven: com.ibm.icu:icu4j:51.1" />
+          <element id="archive" name="watchdog-api.jar">
+            <element id="module-output" name="watchdog-api" />
+          </element>
           <element id="archive" name="swinub-api.jar">
             <element id="module-output" name="swinub-api" />
+          </element>
+          <element id="archive" name="railway-service.jar">
+            <element id="module-output" name="railway-service" />
+          </element>
+          <element id="archive" name="railway-ufs-ext.jar">
+            <element id="module-output" name="railway-ufs-ext" />
+          </element>
+          <element id="archive" name="railway-spzd-ext.jar">
+            <element id="module-output" name="railway-spzd-ext" />
+          </element>
+          <element id="archive" name="rate-calculator-service.jar">
+            <element id="module-output" name="rate-calculator-service" />
           </element>
           <element id="archive" name="rate-calculator-api.jar">
             <element id="module-output" name="rate-calculator-api" />

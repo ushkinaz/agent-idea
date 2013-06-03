@@ -54,9 +54,9 @@
           <element id="archive" name="app-aspect.jar">
             <element id="module-output" name="app-aspect" />
           </element>
-          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.3.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
-          <element id="archive" name="orm-hibernate4-aspect.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="orm-hibernate4-aspect" />
           </element>
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:4.2.0.Final" />
