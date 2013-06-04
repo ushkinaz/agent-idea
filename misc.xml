@@ -506,7 +506,6 @@
         <option value="$PROJECT_DIR$/dao/pom.xml" />
         <option value="$PROJECT_DIR$/common.enums/pom.xml" />
         <option value="$PROJECT_DIR$/watchdog/pom.xml" />
-        <option value="$PROJECT_DIR$/flightstats.service/pom.xml" />
         <option value="$PROJECT_DIR$/engine/pom.xml" />
         <option value="$PROJECT_DIR$/sirena.agency.api/pom.xml" />
         <option value="$PROJECT_DIR$/abra.api/pom.xml" />
