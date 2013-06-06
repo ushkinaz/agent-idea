@@ -32,7 +32,7 @@
           </option>
           <option name="profilesMap">
             <map>
-              <entry key="dev" value="true" />
+              <entry key="local" value="true" />
             </map>
           </option>
           <option name="resolveToWorkspace" value="false" />
