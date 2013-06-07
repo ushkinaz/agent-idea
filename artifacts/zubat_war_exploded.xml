@@ -8,7 +8,7 @@
           <element id="module-output" name="zubat" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="corporate.pom.jar">
+          <element id="archive" name="base-aspect.jar">
             <element id="module-output" name="base-aspect" />
           </element>
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
@@ -53,6 +53,9 @@
           <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
           <element id="archive" name="app-aspect.jar">
             <element id="module-output" name="app-aspect" />
+          </element>
+          <element id="archive" name="infrastructure-service.jar">
+            <element id="module-output" name="infrastructure-service" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.3.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />

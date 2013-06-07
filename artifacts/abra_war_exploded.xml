@@ -54,6 +54,9 @@
           <element id="archive" name="app-aspect.jar">
             <element id="module-output" name="app-aspect" />
           </element>
+          <element id="archive" name="infrastructure-service.jar">
+            <element id="module-output" name="infrastructure-service" />
+          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.3.RELEASE" />
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
           <element id="archive" name="app-web-aspect.jar">
