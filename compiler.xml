@@ -256,8 +256,10 @@
         <module name="base-test-aspect" />
         <module name="beans" />
         <module name="cartrawler-service" />
+        <module name="cartrawler-service (1)" />
         <module name="cartrawler.service" />
         <module name="classifiers" />
+        <module name="clustering-service" />
         <module name="common.enums" />
         <module name="commons" />
         <module name="cxf-aspect" />
@@ -271,6 +273,7 @@
         <module name="flow" />
         <module name="gamayun" />
         <module name="identity" />
+        <module name="infrastructure-service" />
         <module name="insurance-alpha-ext" />
         <module name="insurance-service" />
         <module name="insurance.service" />
@@ -337,6 +340,7 @@
         <module name="security-oauth2-aspect" />
         <module name="security-oauth2-service" />
         <module name="services" />
+        <module name="shell" />
         <module name="simurgh" />
         <module name="sirena-agency-service" />
         <module name="sirena.agency.service" />
@@ -382,7 +386,9 @@
       <module name="base-test-aspect" target="1.7" />
       <module name="beans" target="1.7" />
       <module name="cartrawler-service" target="1.7" />
+      <module name="cartrawler-service (1)" target="1.7" />
       <module name="classifiers" target="1.7" />
+      <module name="clustering-service" target="1.7" />
       <module name="common.enums" target="1.7" />
       <module name="commons" target="1.7" />
       <module name="corporate.pom" target="1.7" />
@@ -397,6 +403,7 @@
       <module name="flow" target="1.7" />
       <module name="gamayun" target="1.7" />
       <module name="identity" target="1.7" />
+      <module name="infrastructure-service" target="1.7" />
       <module name="insurance-alpha-ext" target="1.7" />
       <module name="insurance-service" target="1.7" />
       <module name="jasper-aspect" target="1.7" />
@@ -457,6 +464,7 @@
       <module name="security-oauth2-aspect" target="1.7" />
       <module name="security-oauth2-service" target="1.7" />
       <module name="services" target="1.7" />
+      <module name="shell" target="1.7" />
       <module name="simurgh" target="1.7" />
       <module name="sirena-agency-service" target="1.7" />
       <module name="squirtle" target="1.7" />
