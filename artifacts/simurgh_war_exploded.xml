@@ -38,6 +38,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-context:3.2.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.2.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
           <element id="library" level="project" name="Maven: ma.glasnost.orika:orika-core:1.4.2" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.16.1-GA" />
           <element id="library" level="project" name="Maven: com.thoughtworks.paranamer:paranamer:2.3" />
