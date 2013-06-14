@@ -117,9 +117,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.2.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.3.RELEASE" />
-          <element id="library" level="project" name="Maven: org.jadira.usertype:usertype.core:3.1.0.CR6" />
+          <element id="library" level="project" name="Maven: org.jadira.usertype:usertype.core:3.1.0.CR7" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-entitymanager:4.2.1.Final" />
-          <element id="library" level="project" name="Maven: org.jadira.usertype:usertype.spi:3.1.0.CR6" />
+          <element id="library" level="project" name="Maven: org.jadira.usertype:usertype.spi:3.1.0.CR7" />
           <element id="archive" name="orm-spring-jdbc-aspect.jar">
             <element id="module-output" name="orm-spring-jdbc-aspect" />
           </element>
