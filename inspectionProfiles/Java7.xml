@@ -385,8 +385,8 @@
     <inspection_tool class="MavenModelInspection" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="MavenRedundantGroupId" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="MethodCanBeVariableArityMethod" enabled="true" level="WARNING" enabled_by_default="true">
-      <option name="ignoreByteAndShortArrayParameters" value="false" />
-      <option name="ignoreOverridingMethods" value="false" />
+      <option name="ignoreByteAndShortArrayParameters" value="true" />
+      <option name="ignoreOverridingMethods" value="true" />
     </inspection_tool>
     <inspection_tool class="MethodNameSameAsClassName" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="MimeType" enabled="false" level="ERROR" enabled_by_default="false" />
