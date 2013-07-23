@@ -51,6 +51,8 @@
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: com.newrelic.agent.java:newrelic-api:2.18.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.7" />
+          <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
+          <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.4.01" />
           <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
           <element id="archive" name="app-aspect.jar">
             <element id="module-output" name="app-aspect" />
@@ -119,7 +121,6 @@
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:4.2.0.Final" />
           <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.1.0.CR2" />
           <element id="library" level="project" name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.0.Final" />
-          <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
           <element id="library" level="project" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final" />
           <element id="library" level="project" name="Maven: org.hibernate.common:hibernate-commons-annotations:4.0.1.Final" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-ehcache:4.2.0.Final" />
@@ -152,7 +153,6 @@
           <element id="library" level="project" name="Maven: ru.agent.fonts:anonymous:1.0" />
           <element id="library" level="project" name="Maven: net.sf.jasperreports:jasperreports:4.1.1" />
           <element id="library" level="project" name="Maven: commons-digester:commons-digester:1.7" />
-          <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.4.01" />
           <element id="library" level="project" name="Maven: com.lowagie:itext:2.1.7" />
           <element id="library" level="project" name="Maven: bouncycastle:bcmail-jdk14:138" />
           <element id="library" level="project" name="Maven: bouncycastle:bcprov-jdk14:138" />
@@ -282,6 +282,101 @@
           </element>
           <element id="archive" name="insurance-alpha-ext.jar">
             <element id="module-output" name="insurance-alpha-ext" />
+          </element>
+          <element id="archive" name="aggregation.jar">
+            <element id="module-output" name="aggregation" />
+          </element>
+          <element id="archive" name="offer-beans.jar">
+            <element id="module-output" name="offer-beans" />
+          </element>
+          <element id="archive" name="beans.jar">
+            <element id="module-output" name="beans" />
+          </element>
+          <element id="archive" name="dictionary-beans.jar">
+            <element id="module-output" name="dictionary-beans" />
+          </element>
+          <element id="archive" name="air-beans.jar">
+            <element id="module-output" name="air-beans" />
+          </element>
+          <element id="archive" name="person-beans.jar">
+            <element id="module-output" name="person-beans" />
+          </element>
+          <element id="archive" name="finance-beans.jar">
+            <element id="module-output" name="finance-beans" />
+          </element>
+          <element id="archive" name="air-api.jar">
+            <element id="module-output" name="air-api" />
+          </element>
+          <element id="archive" name="profile-beans.jar">
+            <element id="module-output" name="profile-beans" />
+          </element>
+          <element id="archive" name="dictionary-api.jar">
+            <element id="module-output" name="dictionary-api" />
+          </element>
+          <element id="archive" name="storage-api.jar">
+            <element id="module-output" name="storage-api" />
+          </element>
+          <element id="archive" name="identity.jar">
+            <element id="module-output" name="identity" />
+          </element>
+          <element id="archive" name="security-api.jar">
+            <element id="module-output" name="security-api" />
+          </element>
+          <element id="archive" name="security-beans.jar">
+            <element id="module-output" name="security-beans" />
+          </element>
+          <element id="archive" name="profile-api.jar">
+            <element id="module-output" name="profile-api" />
+          </element>
+          <element id="archive" name="flow.jar">
+            <element id="module-output" name="flow" />
+          </element>
+          <element id="archive" name="validation-aspect.jar">
+            <element id="module-output" name="validation-aspect" />
+          </element>
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator-annotation-processor:4.3.1.Final" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:1.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:2.1.0" />
+          <element id="library" level="project" name="Maven: org.reflections:reflections:0.9.9-RC1" />
+          <element id="library" level="project" name="Maven: org.reflections:reflections-spring:0.9.9-RC1" />
+          <element id="archive" name="pack-api.jar">
+            <element id="module-output" name="pack-api" />
+          </element>
+          <element id="archive" name="pack-beans.jar">
+            <element id="module-output" name="pack-beans" />
+          </element>
+          <element id="archive" name="ps-api.jar">
+            <element id="module-output" name="ps-api" />
+          </element>
+          <element id="archive" name="ps-beans.jar">
+            <element id="module-output" name="ps-beans" />
+          </element>
+          <element id="archive" name="rules.jar">
+            <element id="module-output" name="rules" />
+          </element>
+          <element id="archive" name="profile-boundary.jar">
+            <element id="module-output" name="profile-boundary" />
+          </element>
+          <element id="archive" name="dictionary-boundary.jar">
+            <element id="module-output" name="dictionary-boundary" />
+          </element>
+          <element id="archive" name="dictionary-controls.jar">
+            <element id="module-output" name="dictionary-controls" />
+          </element>
+          <element id="archive" name="security-boundary.jar">
+            <element id="module-output" name="security-boundary" />
+          </element>
+          <element id="archive" name="security-controls.jar">
+            <element id="module-output" name="security-controls" />
+          </element>
+          <element id="archive" name="air-boundary.jar">
+            <element id="module-output" name="air-boundary" />
+          </element>
+          <element id="archive" name="air-schedule-ext.jar">
+            <element id="module-output" name="air-schedule-ext" />
+          </element>
+          <element id="archive" name="pack-boundary.jar">
+            <element id="module-output" name="pack-boundary" />
           </element>
         </element>
       </element>

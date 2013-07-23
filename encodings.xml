@@ -104,6 +104,7 @@
     <file url="file://$PROJECT_DIR$/security-aspect" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-beans" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-boundary" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-controls" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-oauth2-aspect" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-oauth2-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-presentation" charset="UTF-8" />

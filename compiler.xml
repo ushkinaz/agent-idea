@@ -337,6 +337,7 @@
         <module name="security-aspect" />
         <module name="security-beans" />
         <module name="security-boundary" />
+        <module name="security-controls" />
         <module name="security-oauth2-aspect" />
         <module name="security-oauth2-service" />
         <module name="services" />
@@ -461,6 +462,7 @@
       <module name="security-aspect" target="1.7" />
       <module name="security-beans" target="1.7" />
       <module name="security-boundary" target="1.7" />
+      <module name="security-controls" target="1.7" />
       <module name="security-oauth2-aspect" target="1.7" />
       <module name="security-oauth2-service" target="1.7" />
       <module name="services" target="1.7" />
