@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/abra/abra.iml" filepath="$PROJECT_DIR$/abra/abra.iml" group="application" />
-      <module fileurl="file://$PROJECT_DIR$/abra-api/abra-api.iml" filepath="$PROJECT_DIR$/abra-api/abra-api.iml" group="libs/api" />
       <module fileurl="file://$PROJECT_DIR$/actions.history/actions.history.iml" filepath="$PROJECT_DIR$/actions.history/actions.history.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/aex-ext/aex-ext.iml" filepath="$PROJECT_DIR$/aex-ext/aex-ext.iml" group="libs/ext" />
       <module fileurl="file://$PROJECT_DIR$/agency-ext/agency-ext.iml" filepath="$PROJECT_DIR$/agency-ext/agency-ext.iml" group="libs/ext" />
@@ -111,6 +110,11 @@
       <module fileurl="file://$PROJECT_DIR$/validation-aspect/validation-aspect.iml" filepath="$PROJECT_DIR$/validation-aspect/validation-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/watchdog/watchdog.iml" filepath="$PROJECT_DIR$/watchdog/watchdog.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/watchdog-api/watchdog-api.iml" filepath="$PROJECT_DIR$/watchdog-api/watchdog-api.iml" group="libs/api" />
+      <module fileurl="file://$PROJECT_DIR$/ws-presentation/ws-presentation.iml" filepath="$PROJECT_DIR$/ws-presentation/ws-presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ws-presentation-api/ws-presentation-api.iml" filepath="$PROJECT_DIR$/ws-presentation-api/ws-presentation-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ws-presentation-assemblers-legacy/ws-presentation-assemblers-legacy.iml" filepath="$PROJECT_DIR$/ws-presentation-assemblers-legacy/ws-presentation-assemblers-legacy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ws-presentation-beans/ws-presentation-beans.iml" filepath="$PROJECT_DIR$/ws-presentation-beans/ws-presentation-beans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ws-presentation-legacy/ws-presentation-legacy.iml" filepath="$PROJECT_DIR$/ws-presentation-legacy/ws-presentation-legacy.iml" />
       <module fileurl="file://$PROJECT_DIR$/zubat/zubat.iml" filepath="$PROJECT_DIR$/zubat/zubat.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/zubat-sender/zubat-sender.iml" filepath="$PROJECT_DIR$/zubat-sender/zubat-sender.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/zubat-sender-pack/zubat-sender-pack.iml" filepath="$PROJECT_DIR$/zubat-sender-pack/zubat-sender-pack.iml" group="libs" />

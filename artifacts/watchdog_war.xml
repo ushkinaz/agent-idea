@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="watchdog:war">
-    <output-path>$PROJECT_DIR$/watchdog/target</output-path>
-    <root id="archive" name="watchdog.war">
-      <element id="artifact" artifact-name="watchdog:war exploded" />
-    </root>
-  </artifact>
-</component>

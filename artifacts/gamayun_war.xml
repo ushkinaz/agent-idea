@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="gamayun:war">
-    <output-path>$PROJECT_DIR$/gamayun/target</output-path>
-    <root id="archive" name="gamayun.war">
-      <element id="artifact" artifact-name="gamayun:war exploded" />
-    </root>
-  </artifact>
-</component>

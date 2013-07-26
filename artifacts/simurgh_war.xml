@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="simurgh:war">
-    <output-path>$PROJECT_DIR$/simurgh/target</output-path>
-    <root id="archive" name="simurgh.war">
-      <element id="artifact" artifact-name="simurgh:war exploded" />
-    </root>
-  </artifact>
-</component>

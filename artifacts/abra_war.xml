@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="abra:war">
-    <output-path>$PROJECT_DIR$/abra/target</output-path>
-    <root id="archive" name="abra.war">
-      <element id="artifact" artifact-name="abra:war exploded" />
-    </root>
-  </artifact>
-</component>

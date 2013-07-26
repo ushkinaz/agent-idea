@@ -239,7 +239,6 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="abra" />
-        <module name="abra-api" />
         <module name="abra.api" />
         <module name="actions.history" />
         <module name="aex-ext" />
@@ -360,6 +359,11 @@
         <module name="watchdog" />
         <module name="watchdog-api" />
         <module name="watchdog.api" />
+        <module name="ws-presentation" />
+        <module name="ws-presentation-api" />
+        <module name="ws-presentation-assemblers-legacy" />
+        <module name="ws-presentation-beans" />
+        <module name="ws-presentation-legacy" />
         <module name="zubat" />
         <module name="zubat-sender" />
         <module name="zubat-sender-pack" />
@@ -482,6 +486,11 @@
       <module name="validation-aspect" target="1.7" />
       <module name="watchdog" target="1.7" />
       <module name="watchdog-api" target="1.7" />
+      <module name="ws-presentation" target="1.7" />
+      <module name="ws-presentation-api" target="1.7" />
+      <module name="ws-presentation-assemblers-legacy" target="1.7" />
+      <module name="ws-presentation-beans" target="1.7" />
+      <module name="ws-presentation-legacy" target="1.7" />
       <module name="zubat" target="1.7" />
       <module name="zubat-sender" target="1.7" />
       <module name="zubat-sender-pack" target="1.7" />
