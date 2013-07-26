@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zubat:war">
+    <output-path>$PROJECT_DIR$/zubat/target</output-path>
+    <root id="archive" name="zubat.war">
+      <element id="artifact" artifact-name="zubat:war exploded" />
+    </root>
+  </artifact>
+</component>
