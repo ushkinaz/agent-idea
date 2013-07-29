@@ -89,7 +89,7 @@
       <module fileurl="file://$PROJECT_DIR$/security-aspect/security-aspect.iml" filepath="$PROJECT_DIR$/security-aspect/security-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/security-beans/security-beans.iml" filepath="$PROJECT_DIR$/security-beans/security-beans.iml" group="libs/beans" />
       <module fileurl="file://$PROJECT_DIR$/security-boundary/security-boundary.iml" filepath="$PROJECT_DIR$/security-boundary/security-boundary.iml" group="libs/boundary" />
-      <module fileurl="file://$PROJECT_DIR$/security-controls/security-controls.iml" filepath="$PROJECT_DIR$/security-controls/security-controls.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-controls/security-controls.iml" filepath="$PROJECT_DIR$/security-controls/security-controls.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/security-oauth2-aspect/security-oauth2-aspect.iml" filepath="$PROJECT_DIR$/security-oauth2-aspect/security-oauth2-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/security-oauth2-service/security-oauth2-service.iml" filepath="$PROJECT_DIR$/security-oauth2-service/security-oauth2-service.iml" group="libs/services" />
       <module fileurl="file://$PROJECT_DIR$/services/services.iml" filepath="$PROJECT_DIR$/services/services.iml" group="libs" />
@@ -110,11 +110,11 @@
       <module fileurl="file://$PROJECT_DIR$/validation-aspect/validation-aspect.iml" filepath="$PROJECT_DIR$/validation-aspect/validation-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/watchdog/watchdog.iml" filepath="$PROJECT_DIR$/watchdog/watchdog.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/watchdog-api/watchdog-api.iml" filepath="$PROJECT_DIR$/watchdog-api/watchdog-api.iml" group="libs/api" />
-      <module fileurl="file://$PROJECT_DIR$/ws-presentation/ws-presentation.iml" filepath="$PROJECT_DIR$/ws-presentation/ws-presentation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ws-presentation-api/ws-presentation-api.iml" filepath="$PROJECT_DIR$/ws-presentation-api/ws-presentation-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ws-presentation-assemblers-legacy/ws-presentation-assemblers-legacy.iml" filepath="$PROJECT_DIR$/ws-presentation-assemblers-legacy/ws-presentation-assemblers-legacy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ws-presentation-beans/ws-presentation-beans.iml" filepath="$PROJECT_DIR$/ws-presentation-beans/ws-presentation-beans.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ws-presentation-legacy/ws-presentation-legacy.iml" filepath="$PROJECT_DIR$/ws-presentation-legacy/ws-presentation-legacy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ws-presentation/ws-presentation.iml" filepath="$PROJECT_DIR$/ws-presentation/ws-presentation.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/ws-presentation-api/ws-presentation-api.iml" filepath="$PROJECT_DIR$/ws-presentation-api/ws-presentation-api.iml" group="libs/api" />
+      <module fileurl="file://$PROJECT_DIR$/ws-presentation-assemblers-legacy/ws-presentation-assemblers-legacy.iml" filepath="$PROJECT_DIR$/ws-presentation-assemblers-legacy/ws-presentation-assemblers-legacy.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/ws-presentation-beans/ws-presentation-beans.iml" filepath="$PROJECT_DIR$/ws-presentation-beans/ws-presentation-beans.iml" group="libs/beans" />
+      <module fileurl="file://$PROJECT_DIR$/ws-presentation-legacy/ws-presentation-legacy.iml" filepath="$PROJECT_DIR$/ws-presentation-legacy/ws-presentation-legacy.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/zubat/zubat.iml" filepath="$PROJECT_DIR$/zubat/zubat.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/zubat-sender/zubat-sender.iml" filepath="$PROJECT_DIR$/zubat-sender/zubat-sender.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/zubat-sender-pack/zubat-sender-pack.iml" filepath="$PROJECT_DIR$/zubat-sender-pack/zubat-sender-pack.iml" group="libs" />
