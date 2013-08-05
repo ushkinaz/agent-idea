@@ -282,7 +282,7 @@
           <element id="archive" name="swinub-api.jar">
             <element id="module-output" name="swinub-api" />
           </element>
-          <element id="archive" name="zubat-sender-pack.jar">
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="zubat-sender-pack" />
           </element>
           <element id="archive" name="zubat-sender.jar">

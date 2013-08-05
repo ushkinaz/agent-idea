@@ -261,6 +261,12 @@
           <element id="archive" name="rules.jar">
             <element id="module-output" name="rules" />
           </element>
+          <element id="archive" name="dictionary-controls.jar">
+            <element id="module-output" name="dictionary-controls" />
+          </element>
+          <element id="archive" name="domain.jar">
+            <element id="module-output" name="domain" />
+          </element>
           <element id="archive" name="person-api.jar">
             <element id="module-output" name="person-api" />
           </element>
@@ -269,9 +275,6 @@
           </element>
           <element id="archive" name="ws-presentation-assemblers-legacy.jar">
             <element id="module-output" name="ws-presentation-assemblers-legacy" />
-          </element>
-          <element id="archive" name="domain.jar">
-            <element id="module-output" name="domain" />
           </element>
           <element id="archive" name="services.jar">
             <element id="module-output" name="services" />
@@ -373,9 +376,6 @@
           </element>
           <element id="archive" name="air-schedule-ext.jar">
             <element id="module-output" name="air-schedule-ext" />
-          </element>
-          <element id="archive" name="dictionary-controls.jar">
-            <element id="module-output" name="dictionary-controls" />
           </element>
           <element id="archive" name="dictionary-boundary.jar">
             <element id="module-output" name="dictionary-boundary" />

@@ -277,6 +277,7 @@
         <module name="insurance-service" />
         <module name="insurance.service" />
         <module name="jasper-aspect" />
+        <module name="jetty" />
         <module name="jms-aspect" />
         <module name="kadabra" />
         <module name="krabby" />
@@ -412,6 +413,7 @@
       <module name="insurance-alpha-ext" target="1.7" />
       <module name="insurance-service" target="1.7" />
       <module name="jasper-aspect" target="1.7" />
+      <module name="jetty" target="1.7" />
       <module name="jms-aspect" target="1.7" />
       <module name="kadabra" target="1.7" />
       <module name="krabby" target="1.7" />
