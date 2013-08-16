@@ -10494,57 +10494,6 @@
       </prototype>
     </procedure>
   </data-source>
-  <data-source source="LOCAL" name="FlowDB@postgre" product="PostgreSQL" version="9.2.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.0 JDBC4 (build 801)" uuid="456ae106-7425-4020-b1ee-54bd4d60506e">
-    <identifier-quote-string>&quot;</identifier-quote-string>
-    <synchronize>true</synchronize>
-    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-    <jdbc-url>jdbc:postgresql://postgresql.dev.agent.ru/flowdev</jdbc-url>
-    <user-name>flowdev</user-name>
-    <user-password>dfcedfcfdfdcdfccdfc6dfc5dfdd</user-password>
-    <schema-pattern>flowdev.public</schema-pattern>
-    <default-schemas>flowdev.public</default-schemas>
-    <libraries>
-      <library>
-        <url>jar://$MAVEN_REPOSITORY$/postgresql/postgresql/9.1-901.jdbc4/postgresql-9.1-901.jdbc4.jar!/</url>
-      </library>
-    </libraries>
-    <schema name="public" catalog="flowdev"/>
-    <table name="flow_invocations" schema="public" catalog="flowdev" type="TABLE">
-      <column name="flow_invocation_id" sqlType="serial" length="10" precision="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnZmxvd19pbnZvY2F0aW9uc19mbG93X2ludm9jYXRpb25faWRfc2VxJzo6cmVnY2xhc3Mp" autoIncrement="true"/>
-      <column name="name" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="GROUP" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="description" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="guid_host" sqlType="bpchar" length="4" precision="0" nullable="false" jdbcType="1"/>
-      <column name="guid_group" sqlType="bpchar" length="4" precision="0" nullable="false" jdbcType="1"/>
-      <column name="guid_key" sqlType="bpchar" length="36" precision="0" nullable="false" jdbcType="1"/>
-      <column name="status" sqlType="int4" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="created_at" sqlType="timestamp" length="29" precision="6" nullable="false" jdbcType="93"/>
-      <column name="started_at" sqlType="timestamp" length="29" precision="6" nullable="true" jdbcType="93"/>
-      <column name="completed_at" sqlType="timestamp" length="29" precision="6" nullable="true" jdbcType="93"/>
-      <column name="updated_at" sqlType="timestamp" length="29" precision="6" nullable="false" jdbcType="93"/>
-      <column name="priority" sqlType="int2" length="5" precision="0" nullable="false" jdbcType="5"/>
-      <column name="process_class" sqlType="varchar" length="255" precision="0" nullable="false" jdbcType="12"/>
-      <column name="process_instance" sqlType="bytea" length="2147483647" precision="0" nullable="false" jdbcType="-2"/>
-      <column name="exception_class" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="exception_instance" sqlType="bytea" length="2147483647" precision="0" nullable="true" jdbcType="-2"/>
-      <column name="request_recovery" sqlType="bool" length="1" precision="0" nullable="true" jdbcType="-7"/>
-      <column name="execution_timeout" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
-      <column name="executed_on_host" sqlType="bpchar" length="4" precision="0" nullable="true" jdbcType="1"/>
-      <primary-key name="flow_invocations_pkey" columns="flow_invocation_id"/>
-    </table>
-    <table name="flow_invocations_flow_invocation_id_seq" schema="public" catalog="flowdev" type="SEQUENCE">
-      <column name="sequence_name" sqlType="name" length="2147483647" precision="0" nullable="false" jdbcType="12"/>
-      <column name="last_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
-      <column name="start_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
-      <column name="increment_by" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
-      <column name="max_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
-      <column name="min_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
-      <column name="cache_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
-      <column name="log_cnt" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
-      <column name="is_cycled" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
-      <column name="is_called" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
-    </table>
-  </data-source>
   <data-source source="LOCAL" name="Offer@dev" product="PostgreSQL" version="9.2.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.0 JDBC4 (build 801)" uuid="14b79a72-ef16-4952-bf01-53311161125a">
     <identifier-quote-string>&quot;</identifier-quote-string>
     <synchronize>true</synchronize>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2679180075">
+  <component name="DataSourceManagerImpl" format="xml" hash="1810925712">
     <data-source source="LOCAL" name="bo@dev" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="732afe26-ad6f-4008-b30c-21e52275e383">
       <extra-name-characters>$#</extra-name-characters>
       <identifier-quote-string>&quot;</identifier-quote-string>
@@ -46,21 +46,6 @@
       <libraries>
         <library>
           <url>jar://$MAVEN_REPOSITORY$/org/hsqldb/hsqldb/2.2.9/hsqldb-2.2.9.jar!/</url>
-        </library>
-      </libraries>
-    </data-source>
-    <data-source source="LOCAL" name="FlowDB@postgre" product="PostgreSQL" version="9.2.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.0 JDBC4 (build 801)" uuid="456ae106-7425-4020-b1ee-54bd4d60506e">
-      <identifier-quote-string>&quot;</identifier-quote-string>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://postgresql.dev.agent.ru/flowdev</jdbc-url>
-      <user-name>flowdev</user-name>
-      <user-password>dfcedfcfdfdcdfccdfc6dfc5dfdd</user-password>
-      <schema-pattern>flowdev.public</schema-pattern>
-      <default-schemas>flowdev.public</default-schemas>
-      <libraries>
-        <library>
-          <url>jar://$MAVEN_REPOSITORY$/postgresql/postgresql/9.1-901.jdbc4/postgresql-9.1-901.jdbc4.jar!/</url>
         </library>
       </libraries>
     </data-source>
