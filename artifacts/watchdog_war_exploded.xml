@@ -214,15 +214,6 @@
           <element id="library" level="project" name="Maven: org.apache.ant:ant-launcher:1.7.1" />
           <element id="library" level="project" name="Maven: jtidy:jtidy:4aug2000r7-dev" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.7.2" />
-          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.7" />
-          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-core:1.0.7" />
-          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-runtime:1.0.7" />
-          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-collectionschema:1.0.7" />
-          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-json:1.0.7" />
-          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-parser:1.0.7" />
-          <element id="library" level="project" name="Maven: org.antlr:antlr-runtime:3.2" />
-          <element id="library" level="project" name="Maven: org.antlr:stringtemplate:3.2.1" />
-          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-compiler:1.0.7" />
           <element id="library" level="project" name="Maven: jaxen:jaxen:1.1.4" />
           <element id="library" level="project" name="Maven: com.ibm.icu:icu4j:51.1" />
           <element id="archive" name="operation-service.jar">

@@ -70,6 +70,13 @@
           <element id="archive" name="storage-boundary.jar">
             <element id="module-output" name="storage-boundary" />
           </element>
+          <element id="archive" name="serialization-aspect.jar">
+            <element id="module-output" name="serialization-aspect" />
+          </element>
+          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.7" />
+          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-core:1.0.7" />
+          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-runtime:1.0.7" />
+          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-collectionschema:1.0.7" />
           <element id="archive" name="storage-api.jar">
             <element id="module-output" name="storage-api" />
           </element>
@@ -91,10 +98,6 @@
           <element id="archive" name="finance-beans.jar">
             <element id="module-output" name="finance-beans" />
           </element>
-          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.7" />
-          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-core:1.0.7" />
-          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-runtime:1.0.7" />
-          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-collectionschema:1.0.7" />
           <element id="library" level="project" name="Maven: postgresql:postgresql:9.1-901.jdbc4" />
           <element id="archive" name="commons.jar">
             <element id="module-output" name="commons" />

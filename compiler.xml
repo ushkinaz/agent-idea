@@ -340,6 +340,7 @@
         <module name="security-controls" />
         <module name="security-oauth2-aspect" />
         <module name="security-oauth2-service" />
+        <module name="serialization-aspect" />
         <module name="services" />
         <module name="shell" />
         <module name="simurgh" />
@@ -471,6 +472,7 @@
       <module name="security-controls" target="1.7" />
       <module name="security-oauth2-aspect" target="1.7" />
       <module name="security-oauth2-service" target="1.7" />
+      <module name="serialization-aspect" target="1.7" />
       <module name="services" target="1.7" />
       <module name="shell" target="1.7" />
       <module name="simurgh" target="1.7" />

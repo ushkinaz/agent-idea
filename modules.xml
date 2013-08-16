@@ -93,6 +93,7 @@
       <module fileurl="file://$PROJECT_DIR$/security-controls/security-controls.iml" filepath="$PROJECT_DIR$/security-controls/security-controls.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/security-oauth2-aspect/security-oauth2-aspect.iml" filepath="$PROJECT_DIR$/security-oauth2-aspect/security-oauth2-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/security-oauth2-service/security-oauth2-service.iml" filepath="$PROJECT_DIR$/security-oauth2-service/security-oauth2-service.iml" group="libs/services" />
+      <module fileurl="file://$PROJECT_DIR$/serialization-aspect/serialization-aspect.iml" filepath="$PROJECT_DIR$/serialization-aspect/serialization-aspect.iml" />
       <module fileurl="file://$PROJECT_DIR$/services/services.iml" filepath="$PROJECT_DIR$/services/services.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/shell/shell.iml" filepath="$PROJECT_DIR$/shell/shell.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/simurgh/simurgh.iml" filepath="$PROJECT_DIR$/simurgh/simurgh.iml" group="application" />
