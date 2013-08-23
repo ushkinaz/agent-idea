@@ -302,6 +302,7 @@
         <module name="person-boundary" />
         <module name="presentation" />
         <module name="presentation-api" />
+        <module name="presentation-aspect" />
         <module name="presentation.api" />
         <module name="presentation.transformers" />
         <module name="presentation.utils" />
@@ -439,6 +440,7 @@
       <module name="person-boundary" target="1.7" />
       <module name="presentation" target="1.7" />
       <module name="presentation-api" target="1.7" />
+      <module name="presentation-aspect" target="1.7" />
       <module name="presentation.transformers" target="1.7" />
       <module name="presentation.utils" target="1.7" />
       <module name="profile-api" target="1.7" />

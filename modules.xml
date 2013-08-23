@@ -63,6 +63,7 @@
       <module fileurl="file://$PROJECT_DIR$/person-boundary/person-boundary.iml" filepath="$PROJECT_DIR$/person-boundary/person-boundary.iml" group="libs/boundary" />
       <module fileurl="file://$PROJECT_DIR$/presentation/presentation.iml" filepath="$PROJECT_DIR$/presentation/presentation.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/presentation-api/presentation-api.iml" filepath="$PROJECT_DIR$/presentation-api/presentation-api.iml" group="libs/api" />
+      <module fileurl="file://$PROJECT_DIR$/presentation-aspect/presentation-aspect.iml" filepath="$PROJECT_DIR$/presentation-aspect/presentation-aspect.iml" />
       <module fileurl="file://$PROJECT_DIR$/presentation.transformers/presentation.transformers.iml" filepath="$PROJECT_DIR$/presentation.transformers/presentation.transformers.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/presentation.utils/presentation.utils.iml" filepath="$PROJECT_DIR$/presentation.utils/presentation.utils.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/profile-api/profile-api.iml" filepath="$PROJECT_DIR$/profile-api/profile-api.iml" group="libs/api" />

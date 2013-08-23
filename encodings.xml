@@ -73,6 +73,7 @@
     <file url="file://$PROJECT_DIR$/person-boundary" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/presentation" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/presentation-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/presentation-aspect" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/presentation.transformers" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/presentation.utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/profile-api" charset="UTF-8" />
