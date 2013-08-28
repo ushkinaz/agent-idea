@@ -147,8 +147,17 @@
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:3.1.4.RELEASE" />
-          <element id="archive" name="aggregation.jar">
+          <element id="archive" name="serialization-aspect.jar">
+            <element id="module-output" name="serialization-aspect" />
+          </element>
+          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-api:1.0.7" />
+          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-core:1.0.7" />
+          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-runtime:1.0.7" />
+          <element id="library" level="project" name="Maven: com.dyuproject.protostuff:protostuff-collectionschema:1.0.7" />
+          <element id="archive" name="corporate.pom.jar">
             <element id="module-output" name="aggregation" />
+            <element id="module-output" name="flow" />
+            <element id="module-output" name="aex-ext" />
           </element>
           <element id="archive" name="offer-beans.jar">
             <element id="module-output" name="offer-beans" />
@@ -195,9 +204,6 @@
           </element>
           <element id="archive" name="profile-api.jar">
             <element id="module-output" name="profile-api" />
-          </element>
-          <element id="archive" name="flow.jar">
-            <element id="module-output" name="flow" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:1.0.5.RELEASE" />
           <element id="library" level="project" name="Maven: redis.clients:jedis:2.1.0" />
@@ -266,9 +272,6 @@
           </element>
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.3" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
-          <element id="archive" name="aex-ext.jar">
-            <element id="module-output" name="aex-ext" />
-          </element>
           <element id="archive" name="psyduck-api.jar">
             <element id="module-output" name="psyduck-api" />
           </element>
