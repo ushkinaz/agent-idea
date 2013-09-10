@@ -38,7 +38,7 @@
       <module fileurl="file://$PROJECT_DIR$/insurance-alpha-ext/insurance-alpha-ext.iml" filepath="$PROJECT_DIR$/insurance-alpha-ext/insurance-alpha-ext.iml" group="libs/ext" />
       <module fileurl="file://$PROJECT_DIR$/insurance-service/insurance-service.iml" filepath="$PROJECT_DIR$/insurance-service/insurance-service.iml" group="libs/services" />
       <module fileurl="file://$PROJECT_DIR$/jasper-aspect/jasper-aspect.iml" filepath="$PROJECT_DIR$/jasper-aspect/jasper-aspect.iml" group="supplemental/aspect" />
-      <module fileurl="file://$PROJECT_DIR$/jetty/jetty.iml" filepath="$PROJECT_DIR$/jetty/jetty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jetty/jetty.iml" filepath="$PROJECT_DIR$/jetty/jetty.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/jms-aspect/jms-aspect.iml" filepath="$PROJECT_DIR$/jms-aspect/jms-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/kadabra/kadabra.iml" filepath="$PROJECT_DIR$/kadabra/kadabra.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/krabby/krabby.iml" filepath="$PROJECT_DIR$/krabby/krabby.iml" group="application" />
@@ -63,7 +63,7 @@
       <module fileurl="file://$PROJECT_DIR$/person-boundary/person-boundary.iml" filepath="$PROJECT_DIR$/person-boundary/person-boundary.iml" group="libs/boundary" />
       <module fileurl="file://$PROJECT_DIR$/presentation/presentation.iml" filepath="$PROJECT_DIR$/presentation/presentation.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/presentation-api/presentation-api.iml" filepath="$PROJECT_DIR$/presentation-api/presentation-api.iml" group="libs/api" />
-      <module fileurl="file://$PROJECT_DIR$/presentation-aspect/presentation-aspect.iml" filepath="$PROJECT_DIR$/presentation-aspect/presentation-aspect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/presentation-aspect/presentation-aspect.iml" filepath="$PROJECT_DIR$/presentation-aspect/presentation-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/presentation.transformers/presentation.transformers.iml" filepath="$PROJECT_DIR$/presentation.transformers/presentation.transformers.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/presentation.utils/presentation.utils.iml" filepath="$PROJECT_DIR$/presentation.utils/presentation.utils.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/profile-api/profile-api.iml" filepath="$PROJECT_DIR$/profile-api/profile-api.iml" group="libs/api" />
@@ -94,7 +94,7 @@
       <module fileurl="file://$PROJECT_DIR$/security-controls/security-controls.iml" filepath="$PROJECT_DIR$/security-controls/security-controls.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/security-oauth2-aspect/security-oauth2-aspect.iml" filepath="$PROJECT_DIR$/security-oauth2-aspect/security-oauth2-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/security-oauth2-service/security-oauth2-service.iml" filepath="$PROJECT_DIR$/security-oauth2-service/security-oauth2-service.iml" group="libs/services" />
-      <module fileurl="file://$PROJECT_DIR$/serialization-aspect/serialization-aspect.iml" filepath="$PROJECT_DIR$/serialization-aspect/serialization-aspect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serialization-aspect/serialization-aspect.iml" filepath="$PROJECT_DIR$/serialization-aspect/serialization-aspect.iml" group="supplemental/aspect" />
       <module fileurl="file://$PROJECT_DIR$/services/services.iml" filepath="$PROJECT_DIR$/services/services.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/shell/shell.iml" filepath="$PROJECT_DIR$/shell/shell.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/simurgh/simurgh.iml" filepath="$PROJECT_DIR$/simurgh/simurgh.iml" group="application" />
