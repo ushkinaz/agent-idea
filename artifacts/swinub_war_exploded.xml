@@ -175,7 +175,7 @@
           </element>
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.3" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
-          <element id="archive" name="corporate.pom.jar">
+          <element id="archive" name="aex-ext.jar">
             <element id="module-output" name="aex-ext" />
           </element>
           <element id="archive" name="psyduck-api.jar">
