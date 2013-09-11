@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/abra/abra.iml" filepath="$PROJECT_DIR$/abra/abra.iml" group="application" />
       <module fileurl="file://$PROJECT_DIR$/actions.history/actions.history.iml" filepath="$PROJECT_DIR$/actions.history/actions.history.iml" group="libs" />
+      <module fileurl="file://$PROJECT_DIR$/aex-api/aex-api.iml" filepath="$PROJECT_DIR$/aex-api/aex-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aex-beans/aex-beans.iml" filepath="$PROJECT_DIR$/aex-beans/aex-beans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aex-boundary/aex-boundary.iml" filepath="$PROJECT_DIR$/aex-boundary/aex-boundary.iml" />
       <module fileurl="file://$PROJECT_DIR$/aex-ext/aex-ext.iml" filepath="$PROJECT_DIR$/aex-ext/aex-ext.iml" group="libs/ext" />
       <module fileurl="file://$PROJECT_DIR$/agency-ext/agency-ext.iml" filepath="$PROJECT_DIR$/agency-ext/agency-ext.iml" group="libs/ext" />
       <module fileurl="file://$PROJECT_DIR$/aggregation/aggregation.iml" filepath="$PROJECT_DIR$/aggregation/aggregation.iml" group="libs" />
