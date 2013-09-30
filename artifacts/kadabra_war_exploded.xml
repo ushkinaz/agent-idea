@@ -241,6 +241,12 @@
           <element id="archive" name="profile-api.jar">
             <element id="module-output" name="profile-api" />
           </element>
+          <element id="archive" name="aex-api.jar">
+            <element id="module-output" name="aex-api" />
+          </element>
+          <element id="archive" name="aex-beans.jar">
+            <element id="module-output" name="aex-beans" />
+          </element>
           <element id="archive" name="flow.jar">
             <element id="module-output" name="flow" />
           </element>
@@ -271,6 +277,12 @@
           </element>
           <element id="archive" name="air-schedule-ext.jar">
             <element id="module-output" name="air-schedule-ext" />
+          </element>
+          <element id="archive" name="aex-boundary.jar">
+            <element id="module-output" name="aex-boundary" />
+          </element>
+          <element id="archive" name="aex-ext.jar">
+            <element id="module-output" name="aex-ext" />
           </element>
           <element id="archive" name="profile-boundary.jar">
             <element id="module-output" name="profile-boundary" />
