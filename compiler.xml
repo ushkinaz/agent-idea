@@ -241,6 +241,9 @@
         <module name="abra" />
         <module name="abra.api" />
         <module name="actions.history" />
+        <module name="aex-api" />
+        <module name="aex-beans" />
+        <module name="aex-boundary" />
         <module name="aex-ext" />
         <module name="agency-ext" />
         <module name="aggregation" />
@@ -379,6 +382,9 @@
       <module name="abra-api" target="1.7" />
       <module name="abra.api" target="1.7" />
       <module name="actions.history" target="1.7" />
+      <module name="aex-api" target="1.7" />
+      <module name="aex-beans" target="1.7" />
+      <module name="aex-boundary" target="1.7" />
       <module name="aex-ext" target="1.7" />
       <module name="agency-ext" target="1.7" />
       <module name="aggregation" target="1.7" />

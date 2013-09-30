@@ -3,6 +3,9 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/abra" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/actions.history" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aex-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aex-beans" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aex-boundary" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aex-ext" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/agency-ext" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aggregation" charset="UTF-8" />

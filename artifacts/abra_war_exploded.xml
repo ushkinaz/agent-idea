@@ -243,6 +243,12 @@
           <element id="archive" name="profile-api.jar">
             <element id="module-output" name="profile-api" />
           </element>
+          <element id="archive" name="aex-api.jar">
+            <element id="module-output" name="aex-api" />
+          </element>
+          <element id="archive" name="aex-beans.jar">
+            <element id="module-output" name="aex-beans" />
+          </element>
           <element id="archive" name="flow.jar">
             <element id="module-output" name="flow" />
           </element>

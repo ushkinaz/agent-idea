@@ -10,6 +10,7 @@
       <w>graylog</w>
       <w>httpclient</w>
       <w>httpcomponents</w>
+      <w>iata</w>
       <w>invok</w>
       <w>jdbc</w>
       <w>krabby</w>
