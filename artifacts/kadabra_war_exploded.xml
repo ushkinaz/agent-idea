@@ -278,6 +278,12 @@
           <element id="archive" name="air-schedule-ext.jar">
             <element id="module-output" name="air-schedule-ext" />
           </element>
+          <element id="archive" name="aex-boundary.jar">
+            <element id="module-output" name="aex-boundary" />
+          </element>
+          <element id="archive" name="aex-ext.jar">
+            <element id="module-output" name="aex-ext" />
+          </element>
           <element id="archive" name="profile-boundary.jar">
             <element id="module-output" name="profile-boundary" />
           </element>
