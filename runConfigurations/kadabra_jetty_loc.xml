@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="abra:jetty loc" type="MavenRunConfiguration" factoryName="Maven" folderName="server" singleton="true">
+  <configuration default="false" name="kadabra:jetty loc" type="MavenRunConfiguration" factoryName="Maven" folderName="server" singleton="true">
     <MavenSettings>
       <option name="myGeneralSettings">
         <MavenGeneralSettings>
@@ -10,14 +10,26 @@
           <option name="mavenHome" value="" />
           <option name="nonRecursive" value="false" />
           <option name="outputLevel" value="INFO" />
-          <option name="pluginUpdatePolicy" value="UPDATE" />
+          <option name="pluginUpdatePolicy" value="DEFAULT" />
           <option name="printErrorStackTraces" value="false" />
           <option name="usePluginRegistry" value="false" />
           <option name="userSettingsFile" value="" />
-          <option name="workOffline" value="true" />
+          <option name="workOffline" value="false" />
         </MavenGeneralSettings>
       </option>
-      <option name="myRunnerSettings" />
+      <option name="myRunnerSettings">
+        <MavenRunnerSettings>
+          <option name="jreName" value="#USE_PROJECT_JDK" />
+          <option name="mavenProperties">
+            <map>
+              <entry key="catalina.home" value="/var/log/" />
+            </map>
+          </option>
+          <option name="runMavenInBackground" value="true" />
+          <option name="skipTests" value="false" />
+          <option name="vmOptions" value="-DZspring.profiles.active=dev -Djavax.xml.parsers.DocumentBuilderFactory=com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl -Djava.awt.headless=true -Djava.util.logging.StreamHandler.encoding=utf-8 -Dfile.encoding=utf-8 -Xms64M -Xmx2048M -XX:MaxPermSize=256M" />
+        </MavenRunnerSettings>
+      </option>
       <option name="myRunnerParameters">
         <MavenRunnerParameters>
           <option name="profiles">
@@ -27,7 +39,7 @@
             <list>
               <option value="clean" />
               <option value="package" />
-              <option value="jetty:run" />
+              <option value="jetty:run-war" />
             </list>
           </option>
           <option name="profilesMap">
@@ -36,7 +48,7 @@
             </map>
           </option>
           <option name="resolveToWorkspace" value="false" />
-          <option name="workingDirPath" value="$PROJECT_DIR$/abra" />
+          <option name="workingDirPath" value="$PROJECT_DIR$/kadabra" />
         </MavenRunnerParameters>
       </option>
     </MavenSettings>
@@ -45,14 +57,11 @@
       <option name="TRANSPORT" value="0" />
       <option name="LOCAL" value="true" />
     </RunnerSettings>
-    <RunnerSettings RunnerId="JProfiler">
-      <option name="WINDOW" value="false" />
-      <option name="JVMPI" value="false" />
-      <option name="INTERPRETED" value="false" />
-    </RunnerSettings>
     <RunnerSettings RunnerId="Run" />
     <ConfigurationWrapper RunnerId="Debug" />
     <ConfigurationWrapper RunnerId="Run" />
-    <method />
+    <method>
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Make kadabra" run_configuration_type="MavenRunConfiguration" />
+    </method>
   </configuration>
 </component>

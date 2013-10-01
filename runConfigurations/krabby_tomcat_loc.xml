@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="krabby:tomcat loc" type="MavenRunConfiguration" factoryName="Maven" folderName="server">
+  <configuration default="false" name="krabby:tomcat loc" type="MavenRunConfiguration" factoryName="Maven" folderName="server" singleton="true">
     <MavenSettings>
       <option name="myGeneralSettings">
         <MavenGeneralSettings>
