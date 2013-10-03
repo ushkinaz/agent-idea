@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="gamayun:jetty loc" type="MavenRunConfiguration" factoryName="Maven" folderName="server" singleton="true">
+  <configuration default="false" name="gamayun:jetty loc" type="MavenRunConfiguration" factoryName="Maven" folderName="app" singleton="true">
     <MavenSettings>
       <option name="myGeneralSettings" />
       <option name="myRunnerSettings" />
