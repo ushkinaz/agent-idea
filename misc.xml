@@ -114,9 +114,9 @@
     <filter-list connection-id="d544f4d7-f2c2-458f-ab7b-df505d19f028" dataset="BOTEST.REPORT_DESCRIPTORS" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
-    <mapping file-url="file://$PROJECT_DIR$/update_scripts/3_13/oracle/045_report_param_descriptors.sql" connection-id="0c75fea7-7030-4dbc-b4ac-fbcef409d5cf" current-schema="BODEV" />
     <mapping file-url="file://$PROJECT_DIR$/update_scripts/4_0/oracle/020_meal_plan_for_flight.sql" connection-id="0c75fea7-7030-4dbc-b4ac-fbcef409d5cf" current-schema="ROOT" />
     <mapping file-url="file://$PROJECT_DIR$/update_scripts/3_14/oracle/370_report_leading_problems.sql" connection-id="0c75fea7-7030-4dbc-b4ac-fbcef409d5cf" current-schema="BODEV" />
+    <mapping file-url="file://$PROJECT_DIR$/update_scripts/3_13/oracle/045_report_param_descriptors.sql" connection-id="0c75fea7-7030-4dbc-b4ac-fbcef409d5cf" current-schema="BODEV" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <group-history-entries value="false" />
