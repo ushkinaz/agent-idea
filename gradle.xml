@@ -2,8 +2,6 @@
 <project version="4">
   <component name="GradleSettings">
     <option name="gradleHome" value="/opt/gradle/current" />
-    <option name="linkedProjectPath" value="$PROJECT_DIR$/build.gradle" />
-    <option name="preferLocalInstallationToWrapper" value="true" />
   </component>
 </project>
 

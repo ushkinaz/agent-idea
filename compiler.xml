@@ -2,238 +2,22 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Javac" />
-    <excludeFromCompile>
-      <directory url="file://$PROJECT_DIR$/dictionary-beans/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/dictionary-beans/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/meta-aspect/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/meta-aspect/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/actions.history/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/actions.history/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/yandex.ws/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/yandex.ws/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/zubat.sender/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/zubat.sender/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/swinub.api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/swinub.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/amq.utils/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/amq.utils/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/presentation.utils/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/presentation.utils/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/sirena.agency.service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/sirena.agency.service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/insurance.api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/insurance.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/services/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/services/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/hibernate/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/hibernate/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/sirena.communicate/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/sirena.communicate/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/abra/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/abra/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/railway.service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/railway.service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/classifiers/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/classifiers/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/flights.timetable/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/flights.timetable/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/test.utils/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/test.utils/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/paysys/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/paysys/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/reference.service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/reference.service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/ufs.api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/ufs.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/cxf.client/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/cxf.client/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/presentation.api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/presentation.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/engine/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/engine/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/rbtaxi.ext.api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/rbtaxi.ext.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/presentation.transformers/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/presentation.transformers/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/reports/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/reports/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/zubat.sender.pack/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/zubat.sender.pack/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/reports.service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/reports.service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/heartbeat/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/heartbeat/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/cxf.utils/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/cxf.utils/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/commons/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/commons/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/domain.layer/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/domain.layer/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/common.enums/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/common.enums/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/insurance.service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/insurance.service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/rate.calculator.service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/rate.calculator.service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/psyduck.api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/psyduck.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/sirena.agency.api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/sirena.agency.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/ehcache.utils/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/ehcache.utils/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/watchdog/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/watchdog/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/jasper/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/jasper/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/saiku/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/saiku/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/flightstats.service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/flightstats.service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/common.logger/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/common.logger/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/flightstats.stubs/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/flightstats.stubs/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/abra.api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/abra.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/reports.api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/reports.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/swinub/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/swinub/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/sirena.crypto/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/sirena.crypto/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/airbookingservice/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/airbookingservice/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/zubat/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/zubat/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/simurgh/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/simurgh/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/dao/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/dao/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/spzd.api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/spzd.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/jdbc.utils/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/jdbc.utils/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/psyduck/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/psyduck/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/gamayun/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/gamayun/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/psyduck.service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/psyduck.service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/watchdog.api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/watchdog.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/operation.service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/operation.service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/krabby/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/krabby/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/spring.security.utils/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/spring.security.utils/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/cartrawler.service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/cartrawler.service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/rate.calculator.api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/rate.calculator.api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/utils/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/utils/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/jms-aspect/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/jms-aspect/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/orm-hibernate-aspect/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/orm-hibernate-aspect/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/log.analyser/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/log.analyser/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/base-aspect/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/base-aspect/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/cxf-aspect/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/cxf-aspect/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/reusable.utils/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/reusable.utils/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/orm-spring-jdbc-aspect/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/orm-spring-jdbc-aspect/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/squirtle/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/squirtle/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/base-test-aspect/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/base-test-aspect/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/common.war/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/common.war/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/jasper-aspect/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/jasper-aspect/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/offer-beans/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/offer-beans/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/air-beans/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/air-beans/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/beans/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/beans/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/air-api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/air-api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/kadabra/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/kadabra/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/air-booking-ext/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/air-booking-ext/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/air-boundary/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/air-boundary/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/profile-beans/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/profile-beans/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/dictionary-controls/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/dictionary-controls/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/app-aspect/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/app-aspect/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/app-web-aspect/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/app-web-aspect/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/storage-api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/storage-api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/storage-boundary/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/storage-boundary/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/agg-engine/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/agg-engine/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/numel/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/numel/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/goose-engine/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/goose-engine/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/swinub-api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/sirena-agency-service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/railway-service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/railway-service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/presentation-api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/presentation-api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/reports-service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/reports-service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/insurance-service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/insurance-service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/reports-api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/reports-api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/psyduck-service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/psyduck-service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/watchdog-api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/operation-service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/cartrawler-service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/cartrawler-service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/zubat-sender/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/zubat-sender-pack/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/zubat-sender-pack/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/rate-calculator-service/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/rate-calculator-service/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/psyduck-api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/abra-api/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/abra-api/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/rate-calculator-api/target/generated-sources/annotations" includeSubdirectories="true" />
-    </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
-      <entry name="?*.properties" />
-      <entry name="?*.xml" />
-      <entry name="?*.gif" />
-      <entry name="?*.png" />
-      <entry name="?*.jpeg" />
-      <entry name="?*.jpg" />
-      <entry name="?*.html" />
-      <entry name="?*.dtd" />
-      <entry name="?*.tld" />
-      <entry name="?*.ftl" />
-      <entry name="trace.info" />
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
     </wildcardResourcePatterns>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
-      <profile default="false" name="Maven default annotation processors profile" enabled="false">
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -241,273 +25,118 @@
         <module name="abra" />
         <module name="abra.api" />
         <module name="actions.history" />
-        <module name="aex-api" />
-        <module name="aex-beans" />
-        <module name="aex-boundary" />
-        <module name="aex-ext" />
-        <module name="agency-ext" />
-        <module name="aggregation" />
-        <module name="air-api" />
-        <module name="air-beans" />
-        <module name="air-booking-ext" />
-        <module name="air-boundary" />
-        <module name="air-schedule-ext" />
-        <module name="app-aspect" />
-        <module name="app-web-aspect" />
-        <module name="base-aspect" />
-        <module name="base-test-aspect" />
-        <module name="beans" />
-        <module name="cartrawler-service" />
-        <module name="cartrawler-service (1)" />
+        <module name="aeroexpress" />
+        <module name="aeroexpress.api" />
+        <module name="airbookingservice" />
+        <module name="airbookingservice.api" />
+        <module name="amq.utils" />
         <module name="cartrawler.service" />
         <module name="classifiers" />
-        <module name="clustering-service" />
+        <module name="comminucate" />
         <module name="common.enums" />
+        <module name="common.logger" />
+        <module name="common.war" />
+        <module name="common.war (1)" />
         <module name="commons" />
-        <module name="cxf-aspect" />
-        <module name="dictionary-api" />
-        <module name="dictionary-beans" />
-        <module name="dictionary-boundary" />
-        <module name="dictionary-controls" />
-        <module name="dictionary-legacy-boundary" />
+        <module name="crypto" />
+        <module name="cxf.client" />
+        <module name="cxf.utils" />
+        <module name="dao" />
         <module name="domain" />
-        <module name="finance-beans" />
-        <module name="flow" />
+        <module name="domain.layer" />
+        <module name="ehcache.utils" />
+        <module name="engine" />
+        <module name="enums" />
+        <module name="flights.timetable" />
+        <module name="flightstats.service" />
+        <module name="flightstats.stubs" />
         <module name="gamayun" />
-        <module name="identity" />
-        <module name="infrastructure-service" />
-        <module name="insurance-alpha-ext" />
-        <module name="insurance-service" />
+        <module name="heartbeat" />
+        <module name="hibernate" />
+        <module name="insurance.api" />
         <module name="insurance.service" />
-        <module name="jasper-aspect" />
+        <module name="jasper" />
+        <module name="jdbc.utils" />
         <module name="jetty" />
-        <module name="jms-aspect" />
-        <module name="kadabra" />
         <module name="krabby" />
-        <module name="log.analyser" />
-        <module name="meta-aspect" />
-        <module name="numel" />
-        <module name="offer-beans" />
-        <module name="operation-service" />
         <module name="operation.service" />
-        <module name="orm-hibernate4-aspect" />
-        <module name="orm-spring-jdbc-aspect" />
-        <module name="pack-api" />
-        <module name="pack-beans" />
-        <module name="pack-boundary" />
-        <module name="pdf-generator" />
-        <module name="persistence-api" />
-        <module name="persistence-beans" />
-        <module name="persistence-boundary" />
-        <module name="persistence-controls" />
-        <module name="person-api" />
-        <module name="person-beans" />
-        <module name="person-boundary" />
-        <module name="presentation" />
-        <module name="presentation-api" />
-        <module name="presentation-aspect" />
+        <module name="paysys.api" />
         <module name="presentation.api" />
         <module name="presentation.transformers" />
         <module name="presentation.utils" />
-        <module name="profile-api" />
-        <module name="profile-beans" />
-        <module name="profile-boundary" />
-        <module name="ps-api" />
-        <module name="ps-beans" />
-        <module name="ps-boundary" />
-        <module name="ps-ext" />
         <module name="psyduck" />
-        <module name="psyduck-api" />
-        <module name="psyduck-service" />
         <module name="psyduck.api" />
         <module name="psyduck.service" />
-        <module name="railway-service" />
-        <module name="railway-spzd-ext" />
-        <module name="railway-ufs-ext" />
         <module name="railway.service" />
-        <module name="rate-calculator-api" />
-        <module name="rate-calculator-service" />
         <module name="rate.calculator.api" />
         <module name="rate.calculator.service" />
+        <module name="rbtaxi.ext.api" />
+        <module name="reference" />
         <module name="reports" />
-        <module name="reports-api" />
-        <module name="reports-service" />
         <module name="reports.api" />
         <module name="reports.service" />
-        <module name="reusable.utils" />
-        <module name="rules" />
-        <module name="saiku" />
-        <module name="security-api" />
-        <module name="security-aspect" />
-        <module name="security-beans" />
-        <module name="security-boundary" />
-        <module name="security-controls" />
-        <module name="security-oauth2-aspect" />
-        <module name="security-oauth2-service" />
-        <module name="serialization-aspect" />
         <module name="services" />
-        <module name="shell" />
         <module name="simurgh" />
-        <module name="sirena-agency-service" />
+        <module name="sirena.agency.api" />
         <module name="sirena.agency.service" />
-        <module name="squirtle" />
-        <module name="storage-api" />
-        <module name="storage-boundary" />
+        <module name="spring-security-utils" />
+        <module name="spring.security.utils" />
+        <module name="spzd.api" />
         <module name="swinub" />
-        <module name="swinub-api" />
         <module name="swinub.api" />
-        <module name="taxi-rb-ext" />
-        <module name="timetable-diana-ext" />
-        <module name="timetable-flightstats-ext" />
-        <module name="timetable-legacy-boundary" />
-        <module name="utils" />
-        <module name="validation-aspect" />
+        <module name="test.utils" />
+        <module name="timetable" />
+        <module name="ufs.api" />
         <module name="watchdog" />
-        <module name="watchdog-api" />
         <module name="watchdog.api" />
-        <module name="ws-presentation" />
-        <module name="ws-presentation-api" />
-        <module name="ws-presentation-assemblers-legacy" />
-        <module name="ws-presentation-beans" />
-        <module name="ws-presentation-legacy" />
+        <module name="yandex.ws" />
+        <module name="yandexws" />
         <module name="zubat" />
-        <module name="zubat-sender" />
-        <module name="zubat-sender-pack" />
         <module name="zubat.sender" />
         <module name="zubat.sender.pack" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="abra" target="1.7" />
-      <module name="abra-api" target="1.7" />
-      <module name="abra.api" target="1.7" />
-      <module name="actions.history" target="1.7" />
-      <module name="aex-api" target="1.7" />
-      <module name="aex-beans" target="1.7" />
-      <module name="aex-boundary" target="1.7" />
-      <module name="aex-ext" target="1.7" />
-      <module name="agency-ext" target="1.7" />
-      <module name="aggregation" target="1.7" />
-      <module name="air-api" target="1.7" />
-      <module name="air-beans" target="1.7" />
-      <module name="air-booking-ext" target="1.7" />
-      <module name="air-boundary" target="1.7" />
-      <module name="air-schedule-ext" target="1.7" />
-      <module name="app-aspect" target="1.7" />
-      <module name="app-web-aspect" target="1.7" />
-      <module name="app.aggregator" target="1.7" />
-      <module name="base-aspect" target="1.7" />
-      <module name="base-test-aspect" target="1.7" />
-      <module name="beans" target="1.7" />
-      <module name="cartrawler-service" target="1.7" />
-      <module name="cartrawler-service (1)" target="1.7" />
-      <module name="classifiers" target="1.7" />
-      <module name="clustering-service" target="1.7" />
-      <module name="common.enums" target="1.7" />
-      <module name="commons" target="1.7" />
-      <module name="corporate.pom" target="1.7" />
-      <module name="cxf-aspect" target="1.7" />
-      <module name="dictionary-api" target="1.7" />
-      <module name="dictionary-beans" target="1.7" />
-      <module name="dictionary-boundary" target="1.7" />
-      <module name="dictionary-controls" target="1.7" />
-      <module name="dictionary-legacy-boundary" target="1.7" />
-      <module name="domain" target="1.7" />
-      <module name="finance-beans" target="1.7" />
-      <module name="flow" target="1.7" />
-      <module name="gamayun" target="1.7" />
-      <module name="identity" target="1.7" />
-      <module name="infrastructure-service" target="1.7" />
-      <module name="insurance-alpha-ext" target="1.7" />
-      <module name="insurance-service" target="1.7" />
-      <module name="jasper-aspect" target="1.7" />
-      <module name="jetty" target="1.7" />
-      <module name="jms-aspect" target="1.7" />
-      <module name="kadabra" target="1.7" />
-      <module name="krabby" target="1.7" />
-      <module name="log.analyser" target="1.7" />
-      <module name="numel" target="1.7" />
-      <module name="offer-beans" target="1.7" />
-      <module name="operation-service" target="1.7" />
-      <module name="orm-hibernate4-aspect" target="1.7" />
-      <module name="orm-spring-jdbc-aspect" target="1.7" />
-      <module name="pack-api" target="1.7" />
-      <module name="pack-beans" target="1.7" />
-      <module name="pack-boundary" target="1.7" />
-      <module name="parent.pom" target="1.7" />
-      <module name="parent.war.pom" target="1.7" />
-      <module name="pdf-generator" target="1.7" />
-      <module name="persistence-api" target="1.7" />
-      <module name="persistence-beans" target="1.7" />
-      <module name="persistence-boundary" target="1.7" />
-      <module name="persistence-controls" target="1.7" />
-      <module name="person-api" target="1.7" />
-      <module name="person-beans" target="1.7" />
-      <module name="person-boundary" target="1.7" />
-      <module name="presentation" target="1.7" />
-      <module name="presentation-api" target="1.7" />
-      <module name="presentation-aspect" target="1.7" />
-      <module name="presentation.transformers" target="1.7" />
-      <module name="presentation.utils" target="1.7" />
-      <module name="profile-api" target="1.7" />
-      <module name="profile-beans" target="1.7" />
-      <module name="profile-boundary" target="1.7" />
-      <module name="ps-api" target="1.7" />
-      <module name="ps-beans" target="1.7" />
-      <module name="ps-boundary" target="1.7" />
-      <module name="ps-ext" target="1.7" />
-      <module name="psyduck" target="1.7" />
-      <module name="psyduck-api" target="1.7" />
-      <module name="psyduck-service" target="1.7" />
-      <module name="psyduck.api" target="1.7" />
-      <module name="railway-service" target="1.7" />
-      <module name="railway-spzd-ext" target="1.7" />
-      <module name="railway-ufs-ext" target="1.7" />
-      <module name="rate-calculator-api" target="1.7" />
-      <module name="rate-calculator-service" target="1.7" />
-      <module name="rate.calculator.api" target="1.7" />
-      <module name="rate.calculator.service" target="1.7" />
-      <module name="reports" target="1.7" />
-      <module name="reports-api" target="1.7" />
-      <module name="reports-service" target="1.7" />
-      <module name="reusable.utils" target="1.7" />
-      <module name="rules" target="1.7" />
-      <module name="saiku" target="1.7" />
-      <module name="security-api" target="1.7" />
-      <module name="security-aspect" target="1.7" />
-      <module name="security-beans" target="1.7" />
-      <module name="security-boundary" target="1.7" />
-      <module name="security-controls" target="1.7" />
-      <module name="security-oauth2-aspect" target="1.7" />
-      <module name="security-oauth2-service" target="1.7" />
-      <module name="serialization-aspect" target="1.7" />
-      <module name="services" target="1.7" />
-      <module name="shell" target="1.7" />
-      <module name="simurgh" target="1.7" />
-      <module name="sirena-agency-service" target="1.7" />
-      <module name="squirtle" target="1.7" />
-      <module name="storage-api" target="1.7" />
-      <module name="storage-boundary" target="1.7" />
-      <module name="swinub" target="1.7" />
-      <module name="swinub-api" target="1.7" />
-      <module name="taxi-rb-ext" target="1.7" />
-      <module name="timetable-diana-ext" target="1.7" />
-      <module name="timetable-flightstats-ext" target="1.7" />
-      <module name="timetable-legacy-boundary" target="1.7" />
-      <module name="utils" target="1.7" />
-      <module name="validation-aspect" target="1.7" />
-      <module name="watchdog" target="1.7" />
-      <module name="watchdog-api" target="1.7" />
-      <module name="ws-presentation" target="1.7" />
-      <module name="ws-presentation-api" target="1.7" />
-      <module name="ws-presentation-assemblers-legacy" target="1.7" />
-      <module name="ws-presentation-beans" target="1.7" />
-      <module name="ws-presentation-legacy" target="1.7" />
-      <module name="zubat" target="1.7" />
-      <module name="zubat-sender" target="1.7" />
-      <module name="zubat-sender-pack" target="1.7" />
-      <module name="zubat.sender" target="1.7" />
-      <module name="zubat.sender.pack" target="1.7" />
+      <module name="abra" target="1.6" />
+      <module name="aeroexpress.api" target="1.6" />
+      <module name="airbookingservice.api" target="1.6" />
+      <module name="classifiers" target="1.6" />
+      <module name="comminucate" target="1.6" />
+      <module name="commons" target="1.6" />
+      <module name="crypto" target="1.6" />
+      <module name="cxf.utils" target="1.6" />
+      <module name="dao" target="1.6" />
+      <module name="domain" target="1.6" />
+      <module name="ehcache.utils" target="1.6" />
+      <module name="engine" target="1.6" />
+      <module name="enums" target="1.6" />
+      <module name="flightstats.service" target="1.6" />
+      <module name="flightstats.stubs" target="1.6" />
+      <module name="gamayun" target="1.6" />
+      <module name="krabby" target="1.6" />
+      <module name="log.analyser" target="1.6" />
+      <module name="mailer" target="1.6" />
+      <module name="messaging" target="1.6" />
+      <module name="operation.service" target="1.6" />
+      <module name="paysys.api" target="1.6" />
+      <module name="presentation.api" target="1.6" />
+      <module name="presentation.transformers" target="1.6" />
+      <module name="presentation.utils" target="1.6" />
+      <module name="psyduck" target="1.6" />
+      <module name="psyduck.api" target="1.6" />
+      <module name="psyduck.service" target="1.6" />
+      <module name="railway.service" target="1.6" />
+      <module name="rebate.service" target="1.6" />
+      <module name="reference" target="1.6" />
+      <module name="services" target="1.6" />
+      <module name="simurgh" target="1.6" />
+      <module name="sms" target="1.5" />
+      <module name="spring-security-utils" target="1.6" />
+      <module name="timetable" target="1.6" />
+      <module name="ufs.api" target="1.6" />
+      <module name="watchdog" target="1.6" />
+      <module name="watchdog.api" target="1.6" />
+      <module name="yandexws" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

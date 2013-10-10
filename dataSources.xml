@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="781130100">
-    <data-source source="LOCAL" name="bo@dev" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="732afe26-ad6f-4008-b30c-21e52275e383">
+  <component name="DataSourceManagerImpl" format="xml" hash="3800338678">
+    <data-source source="LOCAL" name="jdbc:oracle:thin:@vs-db-10.dev.agent.ru:1521/odev" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="177b2a2d-4df7-404b-a9d5-d7f1c069d05c">
       <extra-name-characters>$#</extra-name-characters>
       <identifier-quote-string>&quot;</identifier-quote-string>
-      <jdbc-driver>oracle.jdbc.driver.OracleDriver</jdbc-driver>
+      <synchronize>true</synchronize>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@vs-db-10.dev.agent.ru:1521/odev</jdbc-url>
+      <user-name>psyduckexp</user-name>
+      <user-password>dfcfdfd2dfdadfdadfd9dfd3dfcedfdfdfc9dfc1</user-password>
+      <schema-pattern>*.PSYDUCKEXP</schema-pattern>
+      <default-schemas>*.PSYDUCKEXP</default-schemas>
+      <libraries>
+        <library>
+          <url>jar://$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar!/</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="BODEV" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="945f3aa8-7aee-4f5c-9d84-d21c37b91668">
+      <extra-name-characters>$#</extra-name-characters>
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@oracle.dev.agent.ru:1521/odev</jdbc-url>
       <user-name>bodev</user-name>
       <user-password>dfcedfcfdfdcdfc8dfc5</user-password>
@@ -17,94 +34,16 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="bo@stb" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="0c25fa80-8208-4fbe-93e2-2a544591f0ed">
+    <data-source source="LOCAL" name="BOSTB" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="c4840fa5-2e4e-43e3-9ed6-6996fd825bda">
       <extra-name-characters>$#</extra-name-characters>
       <identifier-quote-string>&quot;</identifier-quote-string>
       <synchronize>true</synchronize>
-      <jdbc-driver>oracle.jdbc.driver.OracleDriver</jdbc-driver>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@oracle.dev.agent.ru:1521/odev</jdbc-url>
       <user-name>botest</user-name>
       <user-password>dfdedfcfdfd9dfdedfc8dfc5</user-password>
       <schema-pattern>*.BOTEST</schema-pattern>
       <default-schemas>*.BODEV *.BOTEST</default-schemas>
-      <default-dialect>Oracle</default-dialect>
-      <libraries>
-        <library>
-          <url>jar://$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar!/</url>
-        </library>
-      </libraries>
-    </data-source>
-    <data-source source="LOCAL" name="HSQL" product="HSQL Database Engine" version="2.2.9" jdbc-version="4.0" driver-name="HSQL Database Engine Driver" driver-version="2.2.9" uuid="63d4c332-8223-4775-944c-05ec8b3d62e2">
-      <identifier-quote-string>&quot;</identifier-quote-string>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
-      <jdbc-url>jdbc:hsqldb:file:/tmp/flow;shutdown=true</jdbc-url>
-      <user-name>sa</user-name>
-      <schema-pattern>*</schema-pattern>
-      <default-schemas>PUBLIC.PUBLIC</default-schemas>
-      <default-dialect>Oracle</default-dialect>
-      <libraries>
-        <library>
-          <url>jar://$MAVEN_REPOSITORY$/org/hsqldb/hsqldb/2.2.9/hsqldb-2.2.9.jar!/</url>
-        </library>
-      </libraries>
-    </data-source>
-    <data-source source="LOCAL" name="Offer@dev" product="PostgreSQL" version="9.2.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.0 JDBC4 (build 801)" uuid="14b79a72-ef16-4952-bf01-53311161125a">
-      <identifier-quote-string>&quot;</identifier-quote-string>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://postgresql.dev.agent.ru:5432/offerdev</jdbc-url>
-      <user-name>offerdev</user-name>
-      <user-password>dfcedfcfdfdcdfc5dfccdfccdfcfdfd8</user-password>
-      <schema-pattern>offerdev.public</schema-pattern>
-      <default-schemas>offerdev.public</default-schemas>
-      <libraries>
-        <library>
-          <url>jar://$MAVEN_REPOSITORY$/postgresql/postgresql/9.1-901.jdbc4/postgresql-9.1-901.jdbc4.jar!/</url>
-        </library>
-      </libraries>
-    </data-source>
-    <data-source source="LOCAL" name="psyduck@dev" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="7f702f09-9225-4854-a55e-726bd15200c8">
-      <extra-name-characters>$#</extra-name-characters>
-      <identifier-quote-string>&quot;</identifier-quote-string>
-      <synchronize>true</synchronize>
-      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@vs-db-10.dev.agent.ru:1521/odev</jdbc-url>
-      <user-name>psyduckdev</user-name>
-      <user-password>dfcedfcfdfdcdfdadfd9dfd3dfcedfdfdfc9dfc1</user-password>
-      <schema-pattern>*.PSYDUCKDEV</schema-pattern>
-      <default-schemas>*.PSYDUCKDEV</default-schemas>
-      <libraries>
-        <library>
-          <url>jar://$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar!/</url>
-        </library>
-      </libraries>
-    </data-source>
-    <data-source source="LOCAL" name="oauth@dev" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="cbaecb81-2dd3-4694-a304-0910bbbd37dc">
-      <extra-name-characters>$#</extra-name-characters>
-      <identifier-quote-string>&quot;</identifier-quote-string>
-      <jdbc-driver>oracle.jdbc.driver.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@oracle.dev.agent.ru:1521/odev</jdbc-url>
-      <user-name>oauth2dev</user-name>
-      <user-password>dfcedfcfdfdcdfc5dfcbdfdfdfdedfc2df98</user-password>
-      <schema-pattern>*.OAUTH2DEV</schema-pattern>
-      <default-schemas>*.BODEV *.OAUTH2DEV</default-schemas>
-      <default-dialect>Oracle</default-dialect>
-      <libraries>
-        <library>
-          <url>jar://$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar!/</url>
-        </library>
-      </libraries>
-    </data-source>
-    <data-source source="LOCAL" name="bo@exp" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="6c86b8c7-6a62-4989-bc79-3ec90fbb38f9">
-      <extra-name-characters>$#</extra-name-characters>
-      <identifier-quote-string>&quot;</identifier-quote-string>
-      <jdbc-driver>oracle.jdbc.driver.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@oracle.dev.agent.ru:1521/odev</jdbc-url>
-      <user-name>boexp</user-name>
-      <user-password>dfcfdfd2dfdadfc8dfc5</user-password>
-      <schema-pattern>*.BOEXP</schema-pattern>
-      <default-schemas>*.BODEV *.BOEXP</default-schemas>
       <default-dialect>Oracle</default-dialect>
       <libraries>
         <library>

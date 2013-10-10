@@ -1,90 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DBNavigator.Project.ConnectionManager">
-    <connections>
-      <connection driver-library="$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar" driver="oracle.jdbc.OracleDriver" url="jdbc:oracle:thin:@oracle.dev.agent.ru:1521/odev" active="true" os-authentication="false" id="0c75fea7-7030-4dbc-b4ac-fbcef409d5cf" name="BODev" description="Master" database-type="ORACLE" user="bodev" password="devbo">
-        <details>
-          <charset value="UTF-8" />
-          <auto-commit value="false" />
-          <environment-type value="default" />
-          <idle-time-to-disconnect value="30" />
-        </details>
-        <object-filters>
-          <object-type-filter use-master-settings="true">
-            <object-type name="SCHEMA" enabled="true" />
-            <object-type name="USER" enabled="true" />
-            <object-type name="ROLE" enabled="true" />
-            <object-type name="PRIVILEGE" enabled="true" />
-            <object-type name="CHARSET" enabled="true" />
-            <object-type name="TABLE" enabled="true" />
-            <object-type name="VIEW" enabled="true" />
-            <object-type name="MATERIALIZED VIEW" enabled="true" />
-            <object-type name="NESTED TABLE" enabled="true" />
-            <object-type name="COLUMN" enabled="true" />
-            <object-type name="INDEX" enabled="true" />
-            <object-type name="CONSTRAINT" enabled="true" />
-            <object-type name="TRIGGER" enabled="true" />
-            <object-type name="SYNONYM" enabled="true" />
-            <object-type name="SEQUENCE" enabled="true" />
-            <object-type name="PROCEDURE" enabled="true" />
-            <object-type name="FUNCTION" enabled="true" />
-            <object-type name="PACKAGE" enabled="true" />
-            <object-type name="TYPE" enabled="true" />
-            <object-type name="TYPE ATTRIBUTE" enabled="true" />
-            <object-type name="ARGUMENT" enabled="true" />
-            <object-type name="DIMENSION" enabled="true" />
-            <object-type name="CLUSTER" enabled="true" />
-            <object-type name="DBLINK" enabled="true" />
-          </object-type-filter>
-          <object-name-filters>
-            <filter join-type="AND" object-type="schema">
-              <simple-condition operator="EQUAL" text="BODEV" />
-            </filter>
-          </object-name-filters>
-        </object-filters>
-      </connection>
-      <connection driver-library="$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar" driver="oracle.jdbc.OracleDriver" url="jdbc:oracle:thin:@oracle.dev.agent.ru:1521/odev" active="true" os-authentication="false" id="d544f4d7-f2c2-458f-ab7b-df505d19f028" name="BOTest" description="Stable" database-type="ORACLE" user="botest" password="testbo">
-        <details>
-          <charset value="UTF-8" />
-          <auto-commit value="false" />
-          <environment-type value="Test" />
-          <idle-time-to-disconnect value="30" />
-        </details>
-        <object-filters>
-          <object-type-filter use-master-settings="true">
-            <object-type name="SCHEMA" enabled="true" />
-            <object-type name="USER" enabled="true" />
-            <object-type name="ROLE" enabled="true" />
-            <object-type name="PRIVILEGE" enabled="true" />
-            <object-type name="CHARSET" enabled="true" />
-            <object-type name="TABLE" enabled="true" />
-            <object-type name="VIEW" enabled="true" />
-            <object-type name="MATERIALIZED VIEW" enabled="true" />
-            <object-type name="NESTED TABLE" enabled="true" />
-            <object-type name="COLUMN" enabled="true" />
-            <object-type name="INDEX" enabled="true" />
-            <object-type name="CONSTRAINT" enabled="true" />
-            <object-type name="TRIGGER" enabled="true" />
-            <object-type name="SYNONYM" enabled="true" />
-            <object-type name="SEQUENCE" enabled="true" />
-            <object-type name="PROCEDURE" enabled="true" />
-            <object-type name="FUNCTION" enabled="true" />
-            <object-type name="PACKAGE" enabled="true" />
-            <object-type name="TYPE" enabled="true" />
-            <object-type name="TYPE ATTRIBUTE" enabled="true" />
-            <object-type name="ARGUMENT" enabled="true" />
-            <object-type name="DIMENSION" enabled="true" />
-            <object-type name="CLUSTER" enabled="true" />
-            <object-type name="DBLINK" enabled="true" />
-          </object-type-filter>
-          <object-name-filters>
-            <filter join-type="AND" object-type="schema">
-              <simple-condition operator="EQUAL" text="BOTEST" />
-            </filter>
-          </object-name-filters>
-        </object-filters>
-      </connection>
-    </connections>
+    <connections />
   </component>
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
@@ -109,14 +26,8 @@
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
   </component>
-  <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-list connection-id="d544f4d7-f2c2-458f-ab7b-df505d19f028" dataset="BOTEST.AGGREGATED_USER_ROLES" active-filter-id="EMPTY_FILTER" />
-    <filter-list connection-id="d544f4d7-f2c2-458f-ab7b-df505d19f028" dataset="BOTEST.REPORT_DESCRIPTORS" active-filter-id="EMPTY_FILTER" />
-  </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
-    <mapping file-url="file://$PROJECT_DIR$/update_scripts/4_0/oracle/020_meal_plan_for_flight.sql" connection-id="0c75fea7-7030-4dbc-b4ac-fbcef409d5cf" current-schema="ROOT" />
-    <mapping file-url="file://$PROJECT_DIR$/update_scripts/3_14/oracle/370_report_leading_problems.sql" connection-id="0c75fea7-7030-4dbc-b4ac-fbcef409d5cf" current-schema="BODEV" />
-    <mapping file-url="file://$PROJECT_DIR$/update_scripts/3_13/oracle/045_report_param_descriptors.sql" connection-id="0c75fea7-7030-4dbc-b4ac-fbcef409d5cf" current-schema="BODEV" />
+    <mapping file-url="file://$PROJECT_DIR$/update_scripts/3_14/oracle/400_sorted_gdslist.sql" connection-id="virtual-oracle-connection" current-schema="ROOT" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <group-history-entries value="false" />
@@ -156,10 +67,10 @@
       <filters>
         <object-type-filter>
           <object-type name="SCHEMA" enabled="true" />
-          <object-type name="USER" enabled="false" />
-          <object-type name="ROLE" enabled="false" />
-          <object-type name="PRIVILEGE" enabled="false" />
-          <object-type name="CHARSET" enabled="false" />
+          <object-type name="USER" enabled="true" />
+          <object-type name="ROLE" enabled="true" />
+          <object-type name="PRIVILEGE" enabled="true" />
+          <object-type name="CHARSET" enabled="true" />
           <object-type name="TABLE" enabled="true" />
           <object-type name="VIEW" enabled="true" />
           <object-type name="MATERIALIZED VIEW" enabled="true" />
@@ -167,17 +78,17 @@
           <object-type name="COLUMN" enabled="true" />
           <object-type name="INDEX" enabled="true" />
           <object-type name="CONSTRAINT" enabled="true" />
-          <object-type name="TRIGGER" enabled="false" />
-          <object-type name="SYNONYM" enabled="false" />
+          <object-type name="TRIGGER" enabled="true" />
+          <object-type name="SYNONYM" enabled="true" />
           <object-type name="SEQUENCE" enabled="true" />
           <object-type name="PROCEDURE" enabled="true" />
           <object-type name="FUNCTION" enabled="true" />
           <object-type name="PACKAGE" enabled="true" />
           <object-type name="TYPE" enabled="true" />
           <object-type name="TYPE ATTRIBUTE" enabled="true" />
-          <object-type name="ARGUMENT" enabled="false" />
-          <object-type name="DIMENSION" enabled="false" />
-          <object-type name="CLUSTER" enabled="false" />
+          <object-type name="ARGUMENT" enabled="true" />
+          <object-type name="DIMENSION" enabled="true" />
+          <object-type name="CLUSTER" enabled="true" />
           <object-type name="DBLINK" enabled="true" />
         </object-type-filter>
       </filters>
@@ -441,265 +352,33 @@
   </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
-    <list size="11">
-      <item index="0" class="java.lang.String" itemvalue="com.google.common.eventbus.Subscribe" />
-      <item index="1" class="java.lang.String" itemvalue="com.googlecode.commandme.annotations.Action" />
-      <item index="2" class="java.lang.String" itemvalue="com.googlecode.commandme.annotations.Option" />
-      <item index="3" class="java.lang.String" itemvalue="javax.persistence.Version" />
-      <item index="4" class="java.lang.String" itemvalue="org.springframework.beans.factory.annotation.Autowired" />
-      <item index="5" class="java.lang.String" itemvalue="org.springframework.shell.core.annotation.CliCommand" />
-      <item index="6" class="java.lang.String" itemvalue="org.springframework.web.bind.annotation.ExceptionHandler" />
-      <item index="7" class="java.lang.String" itemvalue="org.unitils.spring.annotation.SpringBeanByType" />
-      <item index="8" class="java.lang.String" itemvalue="ru.agent.aggregation.engine.execution.Context" />
-      <item index="9" class="java.lang.String" itemvalue="ru.agent.flow.api.ProcessDefinition" />
-      <item index="10" class="java.lang.String" itemvalue="ru.agent.flow.execution.Context" />
-    </list>
-  </component>
-  <component name="ExportToHTMLSettings">
-    <option name="printScope" value="1" />
-    <option name="OPEN_IN_BROWSER" value="true" />
-    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file url="file://$PROJECT_DIR$/saiku/overlays" />
-    <file url="file://$PROJECT_DIR$/saiku/overlays" />
-    <file url="file://$PROJECT_DIR$/saiku/overlays" />
     <file type="web" url="file://$PROJECT_DIR$/abra" />
-    <file type="web" url="file://$PROJECT_DIR$/common.war" />
     <file type="web" url="file://$PROJECT_DIR$/gamayun" />
-    <file type="web" url="file://$PROJECT_DIR$/kadabra" />
     <file type="web" url="file://$PROJECT_DIR$/krabby" />
-    <file type="web" url="file://$PROJECT_DIR$/numel" />
     <file type="web" url="file://$PROJECT_DIR$/psyduck" />
-    <file type="web" url="file://$PROJECT_DIR$/saiku" />
     <file type="web" url="file://$PROJECT_DIR$/simurgh" />
     <file type="web" url="file://$PROJECT_DIR$/swinub" />
     <file type="web" url="file://$PROJECT_DIR$/watchdog" />
     <file type="web" url="file://$PROJECT_DIR$/yandex.ws" />
     <file type="web" url="file://$PROJECT_DIR$/zubat" />
-    <type id="JRUBY" />
-  </component>
-  <component name="JavadocGenerationManager">
-    <option name="OUTPUT_DIRECTORY" value="/tmp" />
-    <option name="OPTION_SCOPE" value="protected" />
-    <option name="OPTION_HIERARCHY" value="true" />
-    <option name="OPTION_NAVIGATOR" value="true" />
-    <option name="OPTION_INDEX" value="true" />
-    <option name="OPTION_SEPARATE_INDEX" value="true" />
-    <option name="OPTION_DOCUMENT_TAG_USE" value="false" />
-    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false" />
-    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false" />
-    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="true" />
-    <option name="OPTION_DEPRECATED_LIST" value="true" />
-    <option name="OTHER_OPTIONS" />
-    <option name="HEAP_SIZE" />
-    <option name="LOCALE" />
-    <option name="OPEN_IN_BROWSER" value="true" />
-    <option name="OPTION_INCLUDE_LIBS" value="false" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/presentation.api/pom.xml" />
-        <option value="$PROJECT_DIR$/simurgh/pom.xml" />
-        <option value="$PROJECT_DIR$/abra/pom.xml" />
-        <option value="$PROJECT_DIR$/railway.service/pom.xml" />
-        <option value="$PROJECT_DIR$/spring.security.utils/pom.xml" />
-        <option value="$PROJECT_DIR$/yandex.ws/pom.xml" />
-        <option value="$PROJECT_DIR$/reference.service/pom.xml" />
-        <option value="$PROJECT_DIR$/krabby/pom.xml" />
-        <option value="$PROJECT_DIR$/parent.pom/pom.xml" />
-        <option value="$PROJECT_DIR$/parent.war.pom/pom.xml" />
-        <option value="$PROJECT_DIR$/insurance.api/pom.xml" />
-        <option value="$PROJECT_DIR$/watchdog.api/pom.xml" />
-        <option value="$PROJECT_DIR$/airbookingservice/pom.xml" />
-        <option value="$PROJECT_DIR$/classifiers/pom.xml" />
-        <option value="$PROJECT_DIR$/operation.service/pom.xml" />
-        <option value="$PROJECT_DIR$/common.logger/pom.xml" />
-        <option value="$PROJECT_DIR$/paysys/pom.xml" />
-        <option value="$PROJECT_DIR$/domain.layer/pom.xml" />
-        <option value="$PROJECT_DIR$/presentation.transformers/pom.xml" />
-        <option value="$PROJECT_DIR$/mail.console/pom.xml" />
         <option value="$PROJECT_DIR$/app.aggregator/pom.xml" />
-        <option value="$PROJECT_DIR$/services/pom.xml" />
-        <option value="$PROJECT_DIR$/commons/pom.xml" />
-        <option value="$PROJECT_DIR$/test.utils/pom.xml" />
-        <option value="$PROJECT_DIR$/rebate.service/pom.xml" />
-        <option value="$PROJECT_DIR$/dao/pom.xml" />
-        <option value="$PROJECT_DIR$/common.enums/pom.xml" />
-        <option value="$PROJECT_DIR$/watchdog/pom.xml" />
-        <option value="$PROJECT_DIR$/engine/pom.xml" />
-        <option value="$PROJECT_DIR$/sirena.agency.api/pom.xml" />
-        <option value="$PROJECT_DIR$/abra.api/pom.xml" />
-        <option value="$PROJECT_DIR$/insurance.service/pom.xml" />
-        <option value="$PROJECT_DIR$/psyduck/pom.xml" />
-        <option value="$PROJECT_DIR$/gamayun/pom.xml" />
-        <option value="$PROJECT_DIR$/ehcache.utils/pom.xml" />
-        <option value="$PROJECT_DIR$/flightstats.stubs/pom.xml" />
-        <option value="$PROJECT_DIR$/zubat.sender/pom.xml" />
-        <option value="$PROJECT_DIR$/psyduck.service/pom.xml" />
-        <option value="$PROJECT_DIR$/cxf.utils/pom.xml" />
-        <option value="$PROJECT_DIR$/swinub/pom.xml" />
-        <option value="$PROJECT_DIR$/psyduck.api/pom.xml" />
-        <option value="$PROJECT_DIR$/sms/pom.xml" />
-        <option value="$PROJECT_DIR$/zubat/pom.xml" />
-        <option value="$PROJECT_DIR$/swinub.api/pom.xml" />
-        <option value="$PROJECT_DIR$/presentation.utils/pom.xml" />
-        <option value="$PROJECT_DIR$/sirena.crypto/pom.xml" />
-        <option value="$PROJECT_DIR$/ufs.api/pom.xml" />
-        <option value="$PROJECT_DIR$/zubat.sender.pack/pom.xml" />
-        <option value="$PROJECT_DIR$/flights.timetable/pom.xml" />
-        <option value="$PROJECT_DIR$/sirena.communicate/pom.xml" />
-        <option value="$PROJECT_DIR$/reports/pom.xml" />
-        <option value="$PROJECT_DIR$/update_scripts/pom.xml" />
-        <option value="$PROJECT_DIR$/load-test/pom.xml" />
-        <option value="$PROJECT_DIR$/parent.utils/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="NullableNotNullManager">
-    <option name="myDefaultNullable" value="javax.annotation.Nullable" />
-    <option name="myDefaultNotNull" value="javax.annotation.Nonnull" />
-    <option name="myNullables">
-      <value>
-        <list size="3">
-          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
-          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
-          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
-        </list>
-      </value>
-    </option>
-    <option name="myNotNulls">
-      <value>
-        <list size="3">
-          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
-          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
-          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
-        </list>
-      </value>
-    </option>
-  </component>
   <component name="PegdownDocletIdea.ProjectConfiguration">
-    <option name="enabled" value="true" />
+    <option name="enabled" value="false" />
     <option name="renderingOptions">
       <RenderingOptions />
     </option>
   </component>
-  <component name="PomSorter">
-    <option name="defaultSortMode" value="ALPHABETIC" />
-    <option name="order">
-      <list>
-        <TagSortingSetting>
-          <option name="mode" value="FIXED" />
-          <option name="name" value="dependency" />
-          <option name="order">
-            <list>
-              <option value="groupId" />
-              <option value="artifactId" />
-              <option value="version" />
-              <option value="scope" />
-            </list>
-          </option>
-        </TagSortingSetting>
-        <TagSortingSetting>
-          <option name="mode" value="FIXED" />
-          <option name="name" value="project" />
-          <option name="order">
-            <list>
-              <option value="modelVersion" />
-              <option value="parent" />
-              <option value="groupId" />
-              <option value="artifactId" />
-              <option value="version" />
-              <option value="packaging" />
-              <option value="name" />
-              <option value="description" />
-              <option value="url" />
-              <option value="inceptionYear" />
-              <option value="licenses" />
-              <option value="organization" />
-              <option value="properties" />
-              <option value="modules" />
-              <option value="dependencyManagement" />
-              <option value="dependencies" />
-              <option value="build" />
-              <option value="reporting" />
-              <option value="issueManagement" />
-              <option value="ciManagement" />
-              <option value="mailingLists" />
-              <option value="scm" />
-              <option value="prerequisites" />
-              <option value="repositories" />
-              <option value="pluginRepositories" />
-              <option value="distributionManagement" />
-              <option value="profiles" />
-              <option value="developers" />
-              <option value="contributors" />
-            </list>
-          </option>
-        </TagSortingSetting>
-        <TagSortingSetting>
-          <option name="mode" value="FIXED" />
-          <option name="name" value="build" />
-          <option name="order">
-            <list>
-              <option value="finalName" />
-              <option value="resources" />
-              <option value="testResources" />
-              <option value="filters" />
-              <option value="pluginManagement" />
-              <option value="plugins" />
-            </list>
-          </option>
-        </TagSortingSetting>
-        <TagSortingSetting>
-          <option name="mode" value="FIXED" />
-          <option name="name" value="plugin" />
-          <option name="order">
-            <list>
-              <option value="groupId" />
-              <option value="artifactId" />
-              <option value="version" />
-              <option value="scope" />
-            </list>
-          </option>
-        </TagSortingSetting>
-        <TagSortingSetting>
-          <option name="mode" value="FIXED" />
-          <option name="name" value="profile" />
-          <option name="order">
-            <list>
-              <option value="id" />
-            </list>
-          </option>
-        </TagSortingSetting>
-        <TagSortingSetting>
-          <option name="mode" value="FIXED" />
-          <option name="name" value="execution" />
-          <option name="order">
-            <list>
-              <option value="id" />
-              <option value="phase" />
-            </list>
-          </option>
-        </TagSortingSetting>
-      </list>
-    </option>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
   </component>
-  <component name="ProjectKey">
-    <option name="state" value="git@git.dev.agent.ru:agent.git" />
-  </component>
-  <component name="ProjectResources">
-    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK" />
-  <component name="TaskProjectConfiguration">
-    <server type="JIRA" url="https://jira.dev.agent.ru" />
-  </component>
-  <component name="TestDoxConfiguration">
-    <option name="createTestIfMissing" value="true" />
-    <option name="deletePackageOccurrences" value="true" />
-  </component>
-  <component name="WebServicesPlugin" addRequiredLibraries="true" />
 </project>
 
