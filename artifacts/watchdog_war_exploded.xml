@@ -35,13 +35,13 @@
           <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.1" />
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
-          <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.1" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.1" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-ext:1.7.1" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-ext:1.7.5" />
           <element id="library" level="project" name="Maven: ch.qos.cal10n:cal10n-api:0.7.4" />
-          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.1" />
-          <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.1" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.5" />
           <element id="library" level="project" name="Maven: gelf4j:gelf4j:1.1" />
           <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" />
           <element id="library" level="project" name="Maven: spice:spice-cli:1.0" />
@@ -68,11 +68,20 @@
           <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.3" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.15.0" />
-          <element id="archive" name="common.enums.jar">
+          <element id="archive" name="parent.pom.jar">
             <element id="module-output" name="common.enums" />
-          </element>
-          <element id="archive" name="hibernate.jar">
             <element id="module-output" name="hibernate" />
+            <element id="module-output" name="domain.layer" />
+            <element id="module-output" name="reference" />
+            <element id="module-output" name="cxf.client" />
+            <element id="module-output" name="services" />
+            <element id="module-output" name="paysys.api" />
+            <element id="module-output" name="rbtaxi.ext.api" />
+            <element id="module-output" name="amq.utils" />
+            <element id="module-output" name="railway.service" />
+            <element id="module-output" name="zubat.sender.pack" />
+            <element id="module-output" name="zubat.sender" />
+            <element id="module-output" name="presentation.transformers" />
           </element>
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:3.6.9.Final" />
           <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
@@ -90,9 +99,6 @@
           <element id="library" level="project" name="Maven: io.netty:netty:3.6.6.Final" />
           <element id="library" level="project" name="Maven: junit:junit:3.8.2" />
           <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.2.1" />
-          <element id="archive" name="domain.jar">
-            <element id="module-output" name="domain.layer" />
-          </element>
           <element id="library" level="project" name="Maven: cglib:cglib-nodep:2.2.2" />
           <element id="library" level="project" name="Maven: javassist:javassist:3.8.0.GA" />
           <element id="archive" name="dao.jar">
@@ -100,12 +106,6 @@
           </element>
           <element id="archive" name="classifiers.jar">
             <element id="module-output" name="classifiers" />
-          </element>
-          <element id="archive" name="reference.jar">
-            <element id="module-output" name="reference" />
-          </element>
-          <element id="archive" name="cxf.client.jar">
-            <element id="module-output" name="cxf.client" />
           </element>
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-frontend-jaxws:2.3.9" />
           <element id="library" level="project" name="Maven: xml-resolver:xml-resolver:1.2" />
@@ -129,9 +129,6 @@
           <element id="library" level="project" name="Maven: jdom:jdom:1.0" />
           <element id="archive" name="timetable.jar">
             <element id="module-output" name="flights.timetable" />
-          </element>
-          <element id="archive" name="services.jar">
-            <element id="module-output" name="services" />
           </element>
           <element id="archive" name="jasper.jar">
             <element id="module-output" name="jasper" />
@@ -158,12 +155,6 @@
           <element id="archive" name="airbookingservice.api.jar">
             <element id="module-output" name="airbookingservice" />
           </element>
-          <element id="archive" name="paysys.api.jar">
-            <element id="module-output" name="paysys.api" />
-          </element>
-          <element id="archive" name="rbtaxi.ext.api.jar">
-            <element id="module-output" name="rbtaxi.ext.api" />
-          </element>
           <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.2" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
@@ -173,9 +164,6 @@
           </element>
           <element id="archive" name="psyduck.api.jar">
             <element id="module-output" name="psyduck.api" />
-          </element>
-          <element id="archive" name="amq.utils.jar">
-            <element id="module-output" name="amq.utils" />
           </element>
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-pool:5.5.1" />
           <element id="library" level="project" name="Maven: org.apache.activemq:activemq-core:5.5.1" />
@@ -217,20 +205,11 @@
           <element id="archive" name="watchdog.api.jar">
             <element id="module-output" name="watchdog.api" />
           </element>
-          <element id="archive" name="railway.service.jar">
-            <element id="module-output" name="railway.service" />
-          </element>
           <element id="archive" name="ufs.api.jar">
             <element id="module-output" name="ufs.api" />
           </element>
           <element id="archive" name="spzd.api.jar">
             <element id="module-output" name="spzd.api" />
-          </element>
-          <element id="archive" name="zubat.sender.pack.jar">
-            <element id="module-output" name="zubat.sender.pack" />
-          </element>
-          <element id="archive" name="zubat.sender.jar">
-            <element id="module-output" name="zubat.sender" />
           </element>
           <element id="archive" name="presentation.api.jar">
             <element id="module-output" name="presentation.api" />
@@ -240,9 +219,6 @@
           </element>
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-lgpl:1.9.4" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-lgpl:1.9.4" />
-          <element id="archive" name="presentation.transformers.jar">
-            <element id="module-output" name="presentation.transformers" />
-          </element>
           <element id="archive" name="insurance.service.jar">
             <element id="module-output" name="insurance.service" />
           </element>
