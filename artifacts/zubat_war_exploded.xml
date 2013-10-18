@@ -96,8 +96,9 @@
           <element id="archive" name="presentation.api.jar">
             <element id="module-output" name="presentation.api" />
           </element>
-          <element id="archive" name="presentation.utils.jar">
+          <element id="archive" name="parent.pom.jar">
             <element id="module-output" name="presentation.utils" />
+            <element id="module-output" name="heartbeat" />
           </element>
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-lgpl:1.9.4" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-lgpl:1.9.4" />
@@ -107,9 +108,6 @@
           <element id="library" level="project" name="Maven: jdom:jdom:1.0" />
           <element id="archive" name="common.logger.jar">
             <element id="module-output" name="common.logger" />
-          </element>
-          <element id="archive" name="heartbeat.jar">
-            <element id="module-output" name="heartbeat" />
           </element>
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
         </element>

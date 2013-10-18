@@ -80,7 +80,7 @@
           <element id="archive" name="common.logger.jar">
             <element id="module-output" name="common.logger" />
           </element>
-          <element id="archive" name="heartbeat.jar">
+          <element id="archive" name="parent.pom.jar">
             <element id="module-output" name="heartbeat" />
           </element>
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />

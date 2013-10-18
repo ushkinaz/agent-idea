@@ -14,8 +14,11 @@
           <element id="archive" name="flightstats.stubs.jar">
             <element id="module-output" name="flightstats.stubs" />
           </element>
-          <element id="archive" name="cxf.utils.jar">
+          <element id="archive" name="parent.pom.jar">
             <element id="module-output" name="cxf.utils" />
+            <element id="module-output" name="airbookingservice" />
+            <element id="module-output" name="aeroexpress" />
+            <element id="module-output" name="presentation.utils" />
           </element>
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-api:2.3.9" />
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-common-utilities:2.3.9" />
@@ -155,9 +158,6 @@
           <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:1.0" />
           <element id="library" level="project" name="Maven: org.codehaus.groovy:groovy-all:2.0.0" />
-          <element id="archive" name="airbookingservice.api.jar">
-            <element id="module-output" name="airbookingservice" />
-          </element>
           <element id="archive" name="paysys.api.jar">
             <element id="module-output" name="paysys.api" />
           </element>
@@ -168,9 +168,6 @@
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.2" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
-          <element id="archive" name="aeroexpress.api.jar">
-            <element id="module-output" name="aeroexpress" />
-          </element>
           <element id="archive" name="psyduck.api.jar">
             <element id="module-output" name="psyduck.api" />
           </element>
@@ -234,9 +231,6 @@
           </element>
           <element id="archive" name="presentation.api.jar">
             <element id="module-output" name="presentation.api" />
-          </element>
-          <element id="archive" name="presentation.utils.jar">
-            <element id="module-output" name="presentation.utils" />
           </element>
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-lgpl:1.9.4" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-lgpl:1.9.4" />
