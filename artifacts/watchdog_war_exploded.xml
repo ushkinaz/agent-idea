@@ -18,7 +18,11 @@
             <element id="module-output" name="cxf.utils" />
             <element id="module-output" name="airbookingservice" />
             <element id="module-output" name="aeroexpress" />
+            <element id="module-output" name="psyduck.api" />
             <element id="module-output" name="presentation.utils" />
+            <element id="module-output" name="insurance.service" />
+            <element id="module-output" name="spring.security.utils" />
+            <element id="module-output" name="heartbeat" />
           </element>
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-api:2.3.9" />
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-common-utilities:2.3.9" />
@@ -168,9 +172,6 @@
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.2" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
-          <element id="archive" name="psyduck.api.jar">
-            <element id="module-output" name="psyduck.api" />
-          </element>
           <element id="archive" name="amq.utils.jar">
             <element id="module-output" name="amq.utils" />
           </element>
@@ -237,14 +238,8 @@
           <element id="archive" name="presentation.transformers.jar">
             <element id="module-output" name="presentation.transformers" />
           </element>
-          <element id="archive" name="insurance.service.jar">
-            <element id="module-output" name="insurance.service" />
-          </element>
           <element id="archive" name="insurance.api.jar">
             <element id="module-output" name="insurance.api" />
-          </element>
-          <element id="archive" name="spring-security-utils.jar">
-            <element id="module-output" name="spring.security.utils" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.1.2.RELEASE" />
           <element id="archive" name="rate.calculator.api.jar">
@@ -258,9 +253,6 @@
           <element id="library" level="project" name="Maven: org.w3c:tidy:1.0" />
           <element id="archive" name="common.logger.jar">
             <element id="module-output" name="common.logger" />
-          </element>
-          <element id="archive" name="heartbeat.jar">
-            <element id="module-output" name="heartbeat" />
           </element>
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
         </element>

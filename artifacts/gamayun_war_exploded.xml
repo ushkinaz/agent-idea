@@ -142,6 +142,8 @@
             <element id="module-output" name="aeroexpress" />
             <element id="module-output" name="psyduck.api" />
             <element id="module-output" name="presentation.utils" />
+            <element id="module-output" name="reports.api" />
+            <element id="module-output" name="operation.service" />
             <element id="module-output" name="heartbeat" />
           </element>
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.1" />
@@ -217,9 +219,6 @@
           <element id="library" level="project" name="Maven: struts-menu:struts-menu:2.4.3" />
           <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-web:2.0.4" />
           <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2.2" />
-          <element id="archive" name="reports.api.jar">
-            <element id="module-output" name="reports.api" />
-          </element>
           <element id="archive" name="reports.service.jar">
             <element id="module-output" name="reports.service" />
           </element>
@@ -232,9 +231,6 @@
           <element id="library" level="project" name="Maven: bouncycastle:bcmail-jdk14:138" />
           <element id="library" level="project" name="Maven: bouncycastle:bcprov-jdk14:138" />
           <element id="library" level="project" name="Maven: eclipse:jdtcore:3.1.0" />
-          <element id="archive" name="operation.service.jar">
-            <element id="module-output" name="operation.service" />
-          </element>
           <element id="archive" name="common.logger.jar">
             <element id="module-output" name="common.logger" />
           </element>
