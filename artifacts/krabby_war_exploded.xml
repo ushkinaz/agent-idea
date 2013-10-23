@@ -164,7 +164,7 @@
             <element id="module-output" name="dao" />
           </element>
           <element id="archive" name="domain.jar">
-            <element id="module-output" name="domain.layer" />
+            <element id="module-output" name="domain" />
           </element>
           <element id="library" level="project" name="Maven: cglib:cglib-nodep:2.2.2" />
           <element id="library" level="project" name="Maven: javassist:javassist:3.8.0.GA" />
@@ -178,13 +178,16 @@
             <element id="module-output" name="cxf.utils" />
           </element>
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.1" />
+          <element id="archive" name="sirena.agency.api.jar">
+            <element id="module-output" name="sirena.agency.api" />
+          </element>
+          <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
           <element id="archive" name="paysys.api.jar">
             <element id="module-output" name="paysys.api" />
           </element>
           <element id="archive" name="rbtaxi.ext.api.jar">
             <element id="module-output" name="rbtaxi.ext.api" />
           </element>
-          <element id="library" level="project" name="Maven: net.java.dev.stax-utils:stax-utils:20060502" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.2" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.2" />
           <element id="archive" name="aeroexpress.api.jar">
@@ -290,9 +293,6 @@
           <element id="library" level="project" name="Maven: org.tuckey:urlrewritefilter:3.2.0" />
           <element id="library" level="project" name="Maven: joda-time:joda-time-jsptags:1.1.1" />
           <element id="library" level="project" name="Maven: net.tanesha.recaptcha4j:recaptcha4j:0.0.7" />
-          <element id="archive" name="sirena.agency.api.jar">
-            <element id="module-output" name="sirena.agency.api" />
-          </element>
           <element id="archive" name="common.logger.jar">
             <element id="module-output" name="common.logger" />
           </element>

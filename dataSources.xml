@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3800338678">
-    <data-source source="LOCAL" name="jdbc:oracle:thin:@vs-db-10.dev.agent.ru:1521/odev" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="177b2a2d-4df7-404b-a9d5-d7f1c069d05c">
+  <component name="DataSourceManagerImpl" format="xml" hash="2563039182">
+    <data-source source="LOCAL" name="Psyduck" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="177b2a2d-4df7-404b-a9d5-d7f1c069d05c">
       <extra-name-characters>$#</extra-name-characters>
       <identifier-quote-string>&quot;</identifier-quote-string>
       <synchronize>true</synchronize>
@@ -17,24 +17,7 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="BODEV" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="945f3aa8-7aee-4f5c-9d84-d21c37b91668">
-      <extra-name-characters>$#</extra-name-characters>
-      <identifier-quote-string>&quot;</identifier-quote-string>
-      <synchronize>true</synchronize>
-      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@oracle.dev.agent.ru:1521/odev</jdbc-url>
-      <user-name>bodev</user-name>
-      <user-password>dfcedfcfdfdcdfc8dfc5</user-password>
-      <schema-pattern>*.BODEV</schema-pattern>
-      <default-schemas>*.BODEV</default-schemas>
-      <default-dialect>Oracle</default-dialect>
-      <libraries>
-        <library>
-          <url>jar://$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar!/</url>
-        </library>
-      </libraries>
-    </data-source>
-    <data-source source="LOCAL" name="BOSTB" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="c4840fa5-2e4e-43e3-9ed6-6996fd825bda">
+    <data-source source="LOCAL" name="STB" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="c4840fa5-2e4e-43e3-9ed6-6996fd825bda">
       <extra-name-characters>$#</extra-name-characters>
       <identifier-quote-string>&quot;</identifier-quote-string>
       <synchronize>true</synchronize>
@@ -44,6 +27,23 @@
       <user-password>dfdedfcfdfd9dfdedfc8dfc5</user-password>
       <schema-pattern>*.BOTEST</schema-pattern>
       <default-schemas>*.BODEV *.BOTEST</default-schemas>
+      <default-dialect>Oracle</default-dialect>
+      <libraries>
+        <library>
+          <url>jar://$MAVEN_REPOSITORY$/com/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar!/</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="NXT" product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0" uuid="25186861-cbd4-4b30-a3d4-920f35c8e7fe">
+      <extra-name-characters>$#</extra-name-characters>
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@oracle.dev.agent.ru:1521/odev</jdbc-url>
+      <user-name>bonxt</user-name>
+      <user-password>dfc4dfd2dfdedfc8dfc5</user-password>
+      <schema-pattern>*.BONXT</schema-pattern>
+      <default-schemas>*.BODEV *.BONXT *.BOTEST</default-schemas>
       <default-dialect>Oracle</default-dialect>
       <libraries>
         <library>
