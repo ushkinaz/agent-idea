@@ -352,6 +352,11 @@
   </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="org.mockito.InjectMocks" />
+      <item index="1" class="java.lang.String" itemvalue="org.mockito.Mock" />
+      <item index="2" class="java.lang.String" itemvalue="org.mockito.Spy" />
+    </list>
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/abra" />
