@@ -21,7 +21,6 @@
       <module fileurl="file://$PROJECT_DIR$/cxf.utils/cxf.utils.iml" filepath="$PROJECT_DIR$/cxf.utils/cxf.utils.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/dao/dao.iml" filepath="$PROJECT_DIR$/dao/dao.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/domain.layer/domain.iml" filepath="$PROJECT_DIR$/domain.layer/domain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/domain.layer/domain.layer.iml" filepath="$PROJECT_DIR$/domain.layer/domain.layer.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/ehcache.utils/ehcache.utils.iml" filepath="$PROJECT_DIR$/ehcache.utils/ehcache.utils.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/engine/engine.iml" filepath="$PROJECT_DIR$/engine/engine.iml" group="libs" />
       <module fileurl="file://$PROJECT_DIR$/flights.timetable/flights.timetable.iml" filepath="$PROJECT_DIR$/flights.timetable/flights.timetable.iml" group="libs" />
