@@ -41,18 +41,18 @@
           <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
           <element id="library" level="project" name="Maven: org.opensymphony.quartz:quartz-all:1.6.1" />
           <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:2.0.1" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-asm:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-asm:3.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.0.4" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:3.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: com.google.guava:guava:13.0.1" />
           <element id="library" level="project" name="Maven: net.sf.dozer:dozer:5.3.2" />
           <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.6.1" />
@@ -176,14 +176,14 @@
           <element id="library" level="project" name="Maven: commons-net:commons-net:2.0" />
           <element id="library" level="project" name="Maven: org.jasypt:jasypt:1.7" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:1.0.1" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jms:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jms:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: net.sf.barcode4j:barcode4j:2.0" />
           <element id="library" level="project" name="Maven: avalon-framework:avalon-framework-impl:4.2.0" />
           <element id="archive" name="timetable.jar">
             <element id="module-output" name="flights.timetable" />
           </element>
           <element id="library" level="project" name="Maven: jtidy:jtidy:4aug2000r7-dev" />
-          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.6.12" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.4" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.4" />
@@ -211,17 +211,17 @@
           </element>
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-lgpl:1.9.4" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-lgpl:1.9.4" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:3.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.12" />
           <element id="archive" name="ehcache.utils.jar">
             <element id="module-output" name="ehcache.utils" />
           </element>
           <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-jmsreplication:0.4" />
-          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:3.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:3.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: opensymphony:sitemesh:2.4.2" />
           <element id="library" level="project" name="Maven: struts-menu:struts-menu:2.4.3" />

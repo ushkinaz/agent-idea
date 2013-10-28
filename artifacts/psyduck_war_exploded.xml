@@ -8,10 +8,8 @@
           <element id="module-output" name="psyduck" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="parent.pom.jar">
+          <element id="archive" name="psyduck.api.jar">
             <element id="module-output" name="psyduck.api" />
-            <element id="module-output" name="psyduck.service" />
-            <element id="module-output" name="heartbeat" />
           </element>
           <element id="archive" name="amq.utils.jar">
             <element id="module-output" name="amq.utils" />
@@ -27,19 +25,19 @@
           <element id="library" level="project" name="Maven: org.apache.activemq:kahadb:5.5.1" />
           <element id="library" level="project" name="Maven: org.apache.activemq.protobuf:activemq-protobuf:1.1" />
           <element id="library" level="project" name="Maven: org.osgi:org.osgi.core:4.1.0" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:3.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-asm:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-asm:3.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:3.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: commons-net:commons-net:2.0" />
           <element id="library" level="project" name="Maven: org.jasypt:jasypt:1.7" />
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:1.0.1" />
           <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jms:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jms:3.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.1" />
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" />
@@ -55,15 +53,18 @@
           <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
           <element id="library" level="project" name="Maven: org.opensymphony.quartz:quartz-all:1.6.1" />
           <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:2.0.1" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.1.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: com.google.guava:guava:13.0.1" />
           <element id="library" level="project" name="Maven: net.sf.dozer:dozer:5.3.2" />
           <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.3" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.15.0" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
+          <element id="archive" name="psyduck.service.jar">
+            <element id="module-output" name="psyduck.service" />
+          </element>
           <element id="archive" name="hibernate.jar">
             <element id="module-output" name="hibernate" />
           </element>
@@ -75,9 +76,12 @@
           <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-core:2.6.3" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-ehcache:3.6.9.Final" />
           <element id="library" level="project" name="Maven: javassist:javassist:3.8.0.GA" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.1.4.RELEASE" />
           <element id="archive" name="common.logger.jar">
             <element id="module-output" name="common.logger" />
+          </element>
+          <element id="archive" name="heartbeat.jar">
+            <element id="module-output" name="heartbeat" />
           </element>
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
         </element>
