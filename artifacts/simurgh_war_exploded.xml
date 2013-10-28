@@ -71,7 +71,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.1.4.RELEASE" />
-          <element id="library" level="project" name="Maven: com.google.guava:guava:13.0.1" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:15.0" />
           <element id="library" level="project" name="Maven: net.sf.dozer:dozer:5.3.2" />
           <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.3" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
