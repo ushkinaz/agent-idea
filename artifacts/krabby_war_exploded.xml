@@ -80,7 +80,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: com.google.guava:guava:15.0" />
           <element id="library" level="project" name="Maven: net.sf.dozer:dozer:5.3.2" />
-          <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:2.15.0" />
+          <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:3.1" />
           <element id="library" level="project" name="Maven: javax.measure:jsr-275:0.9.4" />
           <element id="library" level="project" name="Maven: com.ning:async-http-client:1.7.17" />
           <element id="library" level="project" name="Maven: io.netty:netty:3.6.6.Final" />
@@ -300,6 +300,7 @@
             <element id="module-output" name="heartbeat" />
           </element>
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
+          <element id="library" level="project" name="Maven: com.newrelic.agent.java:newrelic-api:3.1.0" />
         </element>
       </element>
     </root>
