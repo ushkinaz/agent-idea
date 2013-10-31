@@ -4226,6 +4226,7 @@
       <exported-key name="USER_NOTIFICATION_USER_FK" table="USER_NOTIFICATIONS" schema="BONXT" catalog="" columns="USER_ID"/>
       <exported-key name="FK_UPRESENTS_TO_USER" table="USER_PRESENTS" schema="BONXT" catalog="" columns="USER_ID"/>
       <exported-key name="FK_UTPR_REF_USERS" table="USER_TRIPPACK_REPO" schema="BONXT" catalog="" columns="USER_ID"/>
+      <index name="SIRENA_CASHIER_ID_INDEX" unique="true" columns="SIRENA_CASHIER_ID"/>
       <index name="IDX_AGG_USERS_ACTIVE_LOGIN" unique="true" columns="IS_ACTIVE,SYS_NC00027$"/>
     </table>
     <table name="AGGREGATED_USER_ROLES" schema="BONXT" catalog="" type="TABLE">
