@@ -75,7 +75,7 @@
           <element id="library" level="project" name="Maven: net.sf.dozer:dozer:5.3.2" />
           <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.3" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
-          <element id="library" level="project" name="Maven: com.newrelic:newrelic-api:3.1" />
+          <element id="library" level="project" name="Maven: com.newrelic.agent.java:newrelic-api:3.1.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jms:3.1.4.RELEASE" />
@@ -275,7 +275,6 @@
             <element id="module-output" name="heartbeat" />
           </element>
           <element id="library" level="project" name="Maven: com.googlecode.jsendnsca:jsendnsca:2.0.1" />
-          <element id="library" level="project" name="Maven: com.newrelic.agent.java:newrelic-api:3.1.0" />
         </element>
       </element>
     </root>

@@ -96,10 +96,8 @@
         <module name="zubat.sender.pack" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.6">
       <module name="abra" target="1.6" />
-      <module name="aeroexpress.api" target="1.6" />
-      <module name="airbookingservice.api" target="1.6" />
       <module name="classifiers" target="1.6" />
       <module name="comminucate" target="1.6" />
       <module name="commons" target="1.6" />
@@ -109,14 +107,10 @@
       <module name="domain" target="1.6" />
       <module name="ehcache.utils" target="1.6" />
       <module name="engine" target="1.6" />
-      <module name="enums" target="1.6" />
       <module name="flightstats.service" target="1.6" />
       <module name="flightstats.stubs" target="1.6" />
       <module name="gamayun" target="1.6" />
       <module name="krabby" target="1.6" />
-      <module name="log.analyser" target="1.6" />
-      <module name="mailer" target="1.6" />
-      <module name="messaging" target="1.6" />
       <module name="operation.service" target="1.6" />
       <module name="paysys.api" target="1.6" />
       <module name="presentation.api" target="1.6" />
@@ -126,17 +120,12 @@
       <module name="psyduck.api" target="1.6" />
       <module name="psyduck.service" target="1.6" />
       <module name="railway.service" target="1.6" />
-      <module name="rebate.service" target="1.6" />
       <module name="reference" target="1.6" />
       <module name="services" target="1.6" />
       <module name="simurgh" target="1.6" />
-      <module name="sms" target="1.5" />
-      <module name="spring-security-utils" target="1.6" />
-      <module name="timetable" target="1.6" />
       <module name="ufs.api" target="1.6" />
       <module name="watchdog" target="1.6" />
       <module name="watchdog.api" target="1.6" />
-      <module name="yandexws" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
